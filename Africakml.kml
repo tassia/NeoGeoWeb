@@ -1,0 +1,988 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="Africakml" id="Africakml">
+	<SimpleField name="FIPS" type="string"></SimpleField>
+	<SimpleField name="ISO2" type="string"></SimpleField>
+	<SimpleField name="ISO3" type="string"></SimpleField>
+	<SimpleField name="UN" type="int"></SimpleField>
+	<SimpleField name="AREA" type="int"></SimpleField>
+	<SimpleField name="POP2005" type="int"></SimpleField>
+	<SimpleField name="REGION" type="int"></SimpleField>
+	<SimpleField name="SUBREGION" type="int"></SimpleField>
+	<SimpleField name="LON" type="float"></SimpleField>
+	<SimpleField name="LAT" type="float"></SimpleField>
+</Schema>
+<Folder><name>Africakml</name>
+  <Placemark>
+	<name>Algeria</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<description>HELLO</description><ExtendedData><SchemaData schemaUrl="#Africakml">
+		<SimpleData name="FIPS">AG</SimpleData>
+		<SimpleData name="ISO2">DZ</SimpleData>
+		<SimpleData name="ISO3">DZA</SimpleData>
+		<SimpleData name="UN">12</SimpleData>
+		<SimpleData name="AREA">238174</SimpleData>
+		<SimpleData name="POP2005">32854159</SimpleData>
+		<SimpleData name="REGION">2</SimpleData>
+		<SimpleData name="SUBREGION">15</SimpleData>
+		<SimpleData name="LON">2.632</SimpleData>
+		<SimpleData name="LAT">28.163</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>2.96361,36.802216 4.785832,36.894722 5.328055,36.640274 6.398333,37.086388 8.62203,36.941368 8.183611,36.524162 8.251665,34.64444 7.492499000000123,33.887497 8.34861,32.533333 9.055277,32.099998 9.537113,30.23439 9.303888,30.122498 9.766388,29.427776 9.948332,27.824444 9.871666,26.514164 9.398333,26.153332 10.252222,24.605831 11.558887,24.302498 11.986475,23.522305 7.450807,20.852863 5.812499,19.44611 4.245277,19.146664 3.331944,18.976387 3.233055,19.820274 1.795833,20.308331 1.1675,20.741108 1.169662,21.102543 -4.806111,25.000275 -6.662778,26.129166 -8.66679,27.290459 -8.666668,27.666664 -8.667223,28.709442 -7.123889,29.636944 -5.538334,29.902496 -4.920556,30.508053 -3.626667,30.970554 -3.818334,31.695553 -2.853889,32.088333 -1.180556,32.11055 -1.010278,32.508331 -1.668056,33.261108 -1.747222,34.747215 -2.209445,35.085831 0.95,36.450272 2.96361,36.802216</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>Angola</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Africakml">
+		<SimpleData name="FIPS">AO</SimpleData>
+		<SimpleData name="ISO2">AO</SimpleData>
+		<SimpleData name="ISO3">AGO</SimpleData>
+		<SimpleData name="UN">24</SimpleData>
+		<SimpleData name="AREA">124670</SimpleData>
+		<SimpleData name="POP2005">16095214</SimpleData>
+		<SimpleData name="REGION">2</SimpleData>
+		<SimpleData name="SUBREGION">17</SimpleData>
+		<SimpleData name="LON">17.544</SimpleData>
+		<SimpleData name="LAT">-12.296</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>11.750833511352539,-16.755279541015625 11.693609237670898,-16.535556793212891 11.774999618530273,-16.804725646972656 11.750833511352539,-16.755279541015625</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>13.997499465942383,-5.848611831665039 16.579721450805664,-5.900833129882812 16.941667556762695,-7.198610305786133 17.624166488647461,-8.098056793212891 19.373056411743164,-7.996110916137695 19.538949966430664,-6.996614456176758 20.62974739074707,-6.913881301879883 20.548715591430664,-7.283615112304688 21.782960891723633,-7.280841827392578 21.790555953979492,-9.405555725097656 22.312223434448242,-10.364444732666016 22.253889083862305,-11.209722518920898 23.986207962036133,-10.870460510253906 24.02055549621582,-13.006389617919922 21.998334884643555,-13.004167556762695 22.000150680541992,-16.171661376953125 23.476110458374023,-17.625835418701172 23.284723281860352,-17.662502288818359 20.854166030883789,-18.016391754150391 18.915834426879883,-17.815555572509766 18.451539993286133,-17.389835357666016 13.993219375610352,-17.423946380615234 13.160554885864258,-16.952777862548828 11.752782821655273,-17.254833221435547 11.820833206176758,-16.503055572509766 11.810834884643555,-15.993057250976562 11.731389999389648,-15.846668243408203 12.509721755981445,-13.42527961730957 13.792501449584961,-11.791667938232422 13.773611068725586,-10.684722900390625 12.984445571899414,-9.087501525878906 13.391389846801758,-8.387222290039062 12.245000839233398,-6.098054885864258 13.17888069152832,-5.856328964233398 13.997499465942383,-5.848611831665039</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>13.088888168334961,-4.662500381469727 12.565553665161133,-5.025554656982422 12.526666641235352,-5.724166870117188 12.21455192565918,-5.7685546875 12.026132583618164,-5.014995574951172 12.779047012329102,-4.38899040222168 13.091390609741211,-4.633054733276367 13.088888168334961,-4.662500381469727</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Benin</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Africakml">
+		<SimpleData name="FIPS">BN</SimpleData>
+		<SimpleData name="ISO2">BJ</SimpleData>
+		<SimpleData name="ISO3">BEN</SimpleData>
+		<SimpleData name="UN">204</SimpleData>
+		<SimpleData name="AREA">11062</SimpleData>
+		<SimpleData name="POP2005">8490301</SimpleData>
+		<SimpleData name="REGION">2</SimpleData>
+		<SimpleData name="SUBREGION">11</SimpleData>
+		<SimpleData name="LON">2.469</SimpleData>
+		<SimpleData name="LAT">10.541</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>2.484418,6.340486 1.635404,6.218721 1.398542,9.429901 1.355,9.995277 0.776667,10.376665 0.91797,10.996399 1.435278,11.458887 2.014722,11.422499 2.397925,11.896152 2.378054,12.240274 2.83862,12.396658 3.604459,11.693274 3.855,10.584999 3.095,9.090555 2.789444,9.043888 2.719606,6.365505 2.484418,6.340486</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>Congo</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Africakml">
+		<SimpleData name="FIPS">CF</SimpleData>
+		<SimpleData name="ISO2">CG</SimpleData>
+		<SimpleData name="ISO3">COG</SimpleData>
+		<SimpleData name="UN">178</SimpleData>
+		<SimpleData name="AREA">34150</SimpleData>
+		<SimpleData name="POP2005">3609851</SimpleData>
+		<SimpleData name="REGION">2</SimpleData>
+		<SimpleData name="SUBREGION">17</SimpleData>
+		<SimpleData name="LON">15.986</SimpleData>
+		<SimpleData name="LAT">-0.055</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>12.779047,-4.388991 12.026131,-5.014997 11.140661000000108,-3.925277 11.496944,-3.506945 11.925833,-3.636945 11.574165,-2.333333 12.478054000000128,-2.327222 12.65,-1.8225 13.001507,-2.367672 13.482777000000112,-2.4375 13.76222,-2.088889 14.110832,-2.493056 14.429722000000112,-1.891667 14.51861,-0.609167 13.848331000000144,-0.198611 14.487221,0.913611000000117 14.188889,1.391389 13.186785,1.222476 13.293888,2.163611 14.564999,2.169444 16.072220000000129,1.654166 16.207222,2.220833 16.659721,3.533333 17.475277,3.713055 18.624958,3.479444 18.091942000000131,2.224166 17.714996,-0.537222 16.195831,-2.175834 16.226944,-3.328333 15.890505000000132,-3.943009 14.661388,-4.909445 14.418888000000152,-4.887222 14.400833,-4.2775 13.729443,-4.445834 13.413887000000102,-4.882501 13.091389,-4.633056 12.779047,-4.388991</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>Democratic Republic of the Congo</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Africakml">
+		<SimpleData name="FIPS">CG</SimpleData>
+		<SimpleData name="ISO2">CD</SimpleData>
+		<SimpleData name="ISO3">COD</SimpleData>
+		<SimpleData name="UN">180</SimpleData>
+		<SimpleData name="AREA">226705</SimpleData>
+		<SimpleData name="POP2005">58740547</SimpleData>
+		<SimpleData name="REGION">2</SimpleData>
+		<SimpleData name="SUBREGION">17</SimpleData>
+		<SimpleData name="LON">23.654</SimpleData>
+		<SimpleData name="LAT">-2.876</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>25.891668319702148,5.192499160766602 27.455278396606445,5.016389846801758 28.363054275512695,4.290002822875977 29.643331527709961,4.643613815307617 30.858819961547852,3.49339485168457 30.72972297668457,2.448057174682617 31.302778244018555,2.121389389038086 29.960554122924805,0.825555801391602 29.596944808959961,-1.385833740234375 28.86833381652832,-2.394443511962891 29.024442672729492,-2.744722366333008 29.229898452758789,-3.75096321105957 29.423887252807617,-4.448055267333984 29.55027961730957,-6.295278549194336 30.771242141723633,-8.19224739074707 28.901666641235352,-8.478612899780273 28.372220993041992,-9.260833740234375 28.69972038269043,-10.65333366394043 28.363332748413086,-11.550834655761719 29.031389236450195,-12.383056640625 29.493612289428711,-12.458057403564453 29.805051803588867,-12.155246734619141 29.801389694213867,-13.454168319702148 29.589445114135742,-13.221944808959961 29.015832901000977,-13.39777946472168 28.441946029663086,-12.519723892211914 27.660001754760742,-12.296667098999023 27.199251174926758,-11.567905426025391 26.868612289428711,-11.973611831665039 26.004720687866211,-11.902500152587891 25.359724044799805,-11.641668319702148 25.332223892211914,-11.193334579467773 24.448331832885742,-11.463611602783203 23.986207962036133,-10.870460510253906 22.253889083862305,-11.209722518920898 22.312223434448242,-10.364444732666016 21.790555953979492,-9.405555725097656 21.782960891723633,-7.280841827392578 20.548715591430664,-7.283615112304688 20.62974739074707,-6.913881301879883 19.538949966430664,-6.996614456176758 19.373056411743164,-7.996110916137695 17.624166488647461,-8.098056793212891 16.941667556762695,-7.198610305786133 16.579721450805664,-5.900833129882812 13.997499465942383,-5.848611831665039 13.17888069152832,-5.856328964233398 12.435834884643555,-6.016666412353516 12.21455192565918,-5.7685546875 12.526666641235352,-5.724166870117188 12.565553665161133,-5.025554656982422 13.088888168334961,-4.662500381469727 13.091390609741211,-4.633054733276367 13.413888931274414,-4.882499694824219 13.72944450378418,-4.445833206176758 14.400835037231445,-4.277500152587891 14.418889999389648,-4.887222290039062 14.66139030456543,-4.909444808959961 15.890504837036133,-3.943008422851562 16.226945877075195,-3.328332901000977 16.195833206176758,-2.175832748413086 17.714998245239258,-0.537221908569336 18.091943740844727,2.22416877746582 18.624959945678711,3.47944450378418 18.54194450378418,4.335554122924805 19.421388626098633,5.13416862487793 20.585554122924805,4.410001754760742 22.379167556762695,4.127500534057617 22.895833969116211,4.821111679077148 23.420278549194336,4.59111213684082 24.394166946411133,5.115556716918945 24.734445571899414,4.910833358764648 25.54222297668457,5.381391525268555 25.891668319702148,5.192499160766602</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>12.953054428100586,-5.87611198425293 12.844167709350586,-5.850555419921875 12.737222671508789,-5.943611145019531 12.953054428100586,-5.87611198425293</coordinates></LinearRing></innerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>Burundi</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Africakml">
+		<SimpleData name="FIPS">BY</SimpleData>
+		<SimpleData name="ISO2">BI</SimpleData>
+		<SimpleData name="ISO3">BDI</SimpleData>
+		<SimpleData name="UN">108</SimpleData>
+		<SimpleData name="AREA">2568</SimpleData>
+		<SimpleData name="POP2005">7858791</SimpleData>
+		<SimpleData name="REGION">2</SimpleData>
+		<SimpleData name="SUBREGION">14</SimpleData>
+		<SimpleData name="LON">29.887</SimpleData>
+		<SimpleData name="LAT">-3.356</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>29.229897,-3.750964 29.024441,-2.744722 29.85083,-2.759722 29.952221,-2.309445 30.57333,-2.399167 30.4175,-2.861945 30.843662,-2.978794 30.834999000000181,-3.256945 30.026108000000107,-4.269444 29.423885,-4.448056 29.229897,-3.750964</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>Cameroon</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Africakml">
+		<SimpleData name="FIPS">CM</SimpleData>
+		<SimpleData name="ISO2">CM</SimpleData>
+		<SimpleData name="ISO3">CMR</SimpleData>
+		<SimpleData name="UN">120</SimpleData>
+		<SimpleData name="AREA">46540</SimpleData>
+		<SimpleData name="POP2005">17795149</SimpleData>
+		<SimpleData name="REGION">2</SimpleData>
+		<SimpleData name="SUBREGION">17</SimpleData>
+		<SimpleData name="LON">12.277</SimpleData>
+		<SimpleData name="LAT">5.133</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>9.687222,3.574722 9.62611,3.551111000000105 9.6425,3.578611000000123 9.687222,3.574722</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>14.577221,12.73860900000011 15.042597,12.078888 15.061666,10.789999000000108 15.68185,9.989649 14.194769000000122,9.98175 13.957499000000155,9.638611 15.201944,8.485832 15.499008,7.526609 14.41916700000013,6.035277 14.732777,4.623055 16.103054,2.898333 16.207222,2.220833 16.072220000000129,1.654166 14.564999,2.169444 13.293888,2.163611 12.523611000000102,2.283333 11.339764,2.168611 10.02611,2.168056 9.811764000000153,2.343698 9.7225,3.865278 8.975832000000139,4.09666600000017 8.845833,4.638055000000151 8.504166000000168,4.527778 8.591738000000134,4.810932000000122 8.865276,5.841944 9.795555,6.801666 10.615000000000123,7.06861 11.340277,6.440833 11.864166,7.084722 12.253887000000134,8.408054 12.79694400000011,8.769722 13.80722,11.055832 14.646387,11.575832 14.645277,12.188332000000145 14.174444,12.396666 14.07472,13.0816650000001 14.500875,13.001314 14.577221,12.73860900000011</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Chad</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Africakml">
+		<SimpleData name="FIPS">CD</SimpleData>
+		<SimpleData name="ISO2">TD</SimpleData>
+		<SimpleData name="ISO3">TCD</SimpleData>
+		<SimpleData name="UN">148</SimpleData>
+		<SimpleData name="AREA">125920</SimpleData>
+		<SimpleData name="POP2005">10145609</SimpleData>
+		<SimpleData name="REGION">2</SimpleData>
+		<SimpleData name="SUBREGION">17</SimpleData>
+		<SimpleData name="LON">18.665</SimpleData>
+		<SimpleData name="LAT">15.361</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>14.500875,13.001314 14.07472,13.0816650000001 13.62512,13.718338 13.468887,14.461111 15.489166,16.914165 15.996666,20.353054 15.202499,21.495831 14.997889,23.000591 16.000832,23.450554 24.002747,19.499065 23.999603,15.698709 22.937222000000105,15.561943 22.935833,15.11611 22.384163,14.55416500000014 22.554996000000131,14.125555000000148 22.084442,13.779165 22.294167,13.35861 21.827774,12.797499000000144 22.466942000000131,12.621666 22.866505,10.922447 21.719444,10.639444 21.715553,10.290554 20.371666,9.108332 18.988888,8.964167 19.058792,8.578382 18.588886,8.040277 15.499008,7.526609 15.201944,8.485832 13.957499000000155,9.638611 14.194769000000122,9.98175 15.68185,9.989649 15.061666,10.789999000000108 15.042597,12.078888 14.577221,12.73860900000011 14.500875,13.001314</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>Comoros</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Africakml">
+		<SimpleData name="FIPS">CN</SimpleData>
+		<SimpleData name="ISO2">KM</SimpleData>
+		<SimpleData name="ISO3">COM</SimpleData>
+		<SimpleData name="UN">174</SimpleData>
+		<SimpleData name="AREA">223</SimpleData>
+		<SimpleData name="POP2005">797902</SimpleData>
+		<SimpleData name="REGION">2</SimpleData>
+		<SimpleData name="SUBREGION">14</SimpleData>
+		<SimpleData name="LON">43.337</SimpleData>
+		<SimpleData name="LAT">-11.758</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>43.860550000000131,-12.356112 43.66861,-12.3575 43.622772,-12.258335 43.860550000000131,-12.356112</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>44.487495,-12.093056 44.513611,-12.38028 44.206665,-12.161945 44.487495,-12.093056</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>43.459717000000154,-11.935556 43.219162000000125,-11.761112 43.281387,-11.379723 43.459717000000154,-11.935556</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Central African Republic</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Africakml">
+		<SimpleData name="FIPS">CT</SimpleData>
+		<SimpleData name="ISO2">CF</SimpleData>
+		<SimpleData name="ISO3">CAF</SimpleData>
+		<SimpleData name="UN">140</SimpleData>
+		<SimpleData name="AREA">62298</SimpleData>
+		<SimpleData name="POP2005">4191429</SimpleData>
+		<SimpleData name="REGION">2</SimpleData>
+		<SimpleData name="SUBREGION">17</SimpleData>
+		<SimpleData name="LON">20.483</SimpleData>
+		<SimpleData name="LAT">6.571</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>19.058792,8.578382 18.988888,8.964167 20.371666,9.108332 21.715553,10.290554 21.719444,10.639444 22.866505,10.922447 23.669167,9.866943 23.517776,8.714167 24.201111,8.686943 24.192497000000117,8.30361 25.25333,7.850555 25.206944000000135,7.497499 26.404999,6.646388 26.437496000000124,6.077777 27.142776,5.771944 27.455276,5.016388 25.891666,5.192499 25.542221,5.381389 24.734444,4.910832000000141 24.394165,5.115555 23.420277,4.59111 22.895832,4.821111 22.37916600000014,4.1275 20.585552,4.410000000000139 19.421387,5.134166 18.541943,4.335555 18.624958,3.479444 17.475277,3.713055 16.659721,3.533333 16.207222,2.220833 16.103054,2.898333 14.732777,4.623055 14.41916700000013,6.035277 15.499008,7.526609 18.588886,8.040277 19.058792,8.578382</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>Cape Verde</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Africakml">
+		<SimpleData name="FIPS">CV</SimpleData>
+		<SimpleData name="ISO2">CV</SimpleData>
+		<SimpleData name="ISO3">CPV</SimpleData>
+		<SimpleData name="UN">132</SimpleData>
+		<SimpleData name="AREA">403</SimpleData>
+		<SimpleData name="POP2005">506807</SimpleData>
+		<SimpleData name="REGION">2</SimpleData>
+		<SimpleData name="SUBREGION">11</SimpleData>
+		<SimpleData name="LON">-23.634</SimpleData>
+		<SimpleData name="LAT">15.071</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-24.368336,14.812222 -24.52528,14.92111 -24.381668,15.047499 -24.368336,14.812222</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-23.446667,14.982777000000112 -23.681393,14.935555 -23.76667,15.253054 -23.446667,14.982777000000112</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-22.706112,16.036388 -22.957779,16.089443 -22.79861499999987,16.235275000000129 -22.706112,16.036388</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-24.034168,16.594166 -24.321391999999889,16.482777 -24.432224,16.644165 -24.034168,16.594166</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-24.926113,16.799999000000142 -25.093334,16.83083 -24.933056,16.921387 -24.926113,16.799999000000142</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-25.281390999999871,16.91333 -25.33028,17.096386 -24.974444999999889,17.112778 -25.281390999999871,16.91333</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Djibouti</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Africakml">
+		<SimpleData name="FIPS">DJ</SimpleData>
+		<SimpleData name="ISO2">DJ</SimpleData>
+		<SimpleData name="ISO3">DJI</SimpleData>
+		<SimpleData name="UN">262</SimpleData>
+		<SimpleData name="AREA">2318</SimpleData>
+		<SimpleData name="POP2005">804206</SimpleData>
+		<SimpleData name="REGION">2</SimpleData>
+		<SimpleData name="SUBREGION">14</SimpleData>
+		<SimpleData name="LON">42.516</SimpleData>
+		<SimpleData name="LAT">11.900</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>42.866806,11.585428 43.249222,11.469534 42.944092,11.002438 41.789719,11.008055 41.828606,11.74 42.399719,12.469721 43.121384000000177,12.708332 43.413887,12.056944 42.508606,11.567221 42.866806,11.585428</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>Egypt</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Africakml">
+		<SimpleData name="FIPS">EG</SimpleData>
+		<SimpleData name="ISO2">EG</SimpleData>
+		<SimpleData name="ISO3">EGY</SimpleData>
+		<SimpleData name="UN">818</SimpleData>
+		<SimpleData name="AREA">99545</SimpleData>
+		<SimpleData name="POP2005">72849793</SimpleData>
+		<SimpleData name="REGION">2</SimpleData>
+		<SimpleData name="SUBREGION">15</SimpleData>
+		<SimpleData name="LON">29.872</SimpleData>
+		<SimpleData name="LAT">26.494</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>34.026384353637695,27.498334884643555 34.041940689086914,27.442220687866211 33.917497634887695,27.526388168334961 34.026384353637695,27.498334884643555</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>32.047220230102539,31.143331527709961 32.04277229309082,31.158056259155273 32.049997329711914,31.15333366394043 32.047220230102539,31.143331527709961</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>33.476663589477539,31.13749885559082 33.266664505004883,31.215276718139648 33.400552749633789,31.181665420532227 33.476663589477539,31.13749885559082</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>33.195276260375977,31.232778549194336 33.261384963989258,31.214998245239258 33.101663589477539,31.22722053527832 32.976663589477539,31.168333053588867 33.096109390258789,31.232500076293945 33.195276260375977,31.232778549194336</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>25.316667556762695,31.50111198425293 27.331110000610352,31.374998092651367 29.06944465637207,30.821664810180664 31.027776718139648,31.600557327270508 31.921480178833008,31.529886245727539 32.204996109008789,31.289999008178711 31.899999618530273,31.531110763549805 31.773889541625977,31.271665573120117 32.143068313598633,31.074167251586914 32.210550308227539,31.288057327270508 32.717218399047852,31.032499313354492 33.111665725708008,31.193056106567383 33.149721145629883,31.101667404174805 33.143610000610352,31.058332443237305 33.410554885864258,31.154722213745117 33.532777786254883,31.116945266723633 33.743890762329102,31.133333206176758 34.21666145324707,31.323331832885742 34.267580032348633,31.216543197631836 34.903802871704102,29.48670768737793 34.25444221496582,27.728612899780273 33.242776870727539,28.554445266723633 32.57499885559082,30.005277633666992 32.340829849243164,29.596944808959961 33.55888557434082,27.883054733276367 35.138612747192383,24.517499923706055 35.813051223754883,23.916112899780273 35.483057022094727,23.938333511352539 35.670557022094727,22.96583366394043 36.888467788696289,22.000112533569336 31.453889846801758,21.998334884643555 31.455556869506836,22.232221603393555 31.271112442016602,21.998334884643555 25.001424789428711,21.999696731567383 24.997777938842773,29.24888801574707 24.706666946411133,30.168611526489258 25.151666641235352,31.646944046020508 25.316667556762695,31.50111198425293</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>34.00139045715332,26.707223892211914 33.994722366333008,26.749723434448242 33.960000991821289,26.788331985473633 34.00139045715332,26.707223892211914</coordinates></LinearRing></innerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Equatorial Guinea</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Africakml">
+		<SimpleData name="FIPS">EK</SimpleData>
+		<SimpleData name="ISO2">GQ</SimpleData>
+		<SimpleData name="ISO3">GNQ</SimpleData>
+		<SimpleData name="UN">226</SimpleData>
+		<SimpleData name="AREA">2805</SimpleData>
+		<SimpleData name="POP2005">484098</SimpleData>
+		<SimpleData name="REGION">2</SimpleData>
+		<SimpleData name="SUBREGION">17</SimpleData>
+		<SimpleData name="LON">10.488</SimpleData>
+		<SimpleData name="LAT">1.607</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>5.641388,-1.474722 5.615277,-1.469167 5.633888000000184,-1.420556 5.641388,-1.474722</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>10.02611,2.168056 11.339764,2.168611 11.353888,1.001944 9.803976,1.002608 9.356943,1.167222 9.811764000000153,2.343698 10.02611,2.168056</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>8.856667,3.499444 8.44611,3.27444400000013 8.68611,3.741666000000109 8.958887000000175,3.703888 8.856667,3.499444</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Eritrea</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Africakml">
+		<SimpleData name="FIPS">ER</SimpleData>
+		<SimpleData name="ISO2">ER</SimpleData>
+		<SimpleData name="ISO3">ERI</SimpleData>
+		<SimpleData name="UN">232</SimpleData>
+		<SimpleData name="AREA">10100</SimpleData>
+		<SimpleData name="POP2005">4526722</SimpleData>
+		<SimpleData name="REGION">2</SimpleData>
+		<SimpleData name="SUBREGION">14</SimpleData>
+		<SimpleData name="LON">38.219</SimpleData>
+		<SimpleData name="LAT">16.045</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>40.087219,15.851665 40.419441,15.573889000000136 39.977776,15.605 40.087219,15.851665</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>40.113327,16.055832000000109 39.979721,16.012218000000118 40.030273,16.095276 40.113327,16.055832000000109</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>38.797775,17.653332 39.721107000000103,15.084166 39.881386,15.489443 40.17083,14.973610000000136 41.170555,14.6325 43.121384000000177,12.708332 42.399719,12.469721 40.228058,14.443506 39.024021,14.655162000000146 38.449440000000124,14.4175 37.911385000000138,14.88361 37.572212,14.102253 37.291664,14.451944 36.542816000000101,14.262053 36.443283000000207,15.149952 36.973053000000192,16.269444 36.995827,17.073887 37.423286000000104,17.034214 38.600693,17.994881 38.797775,17.653332</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Ethiopia</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Africakml">
+		<SimpleData name="FIPS">ET</SimpleData>
+		<SimpleData name="ISO2">ET</SimpleData>
+		<SimpleData name="ISO3">ETH</SimpleData>
+		<SimpleData name="UN">231</SimpleData>
+		<SimpleData name="AREA">100000</SimpleData>
+		<SimpleData name="POP2005">78985857</SimpleData>
+		<SimpleData name="REGION">2</SimpleData>
+		<SimpleData name="SUBREGION">14</SimpleData>
+		<SimpleData name="LON">39.616</SimpleData>
+		<SimpleData name="LAT">8.626</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>36.542816000000101,14.262053 37.291664,14.451944 37.572212,14.102253 37.911385000000138,14.88361 38.449440000000124,14.4175 39.024021,14.655162000000146 40.228058,14.443506 42.399719,12.469721 41.828606,11.74 41.789719,11.008055 42.944092,11.002438 42.663055,10.6325 42.848053,10.22361 44.010551,9.007221 47.01194,8.00111 47.988243,8.004107 44.950829,4.902499 43.686386,4.891944 41.905167,3.980322 41.171387,3.9425 40.783768,4.287975 39.524437,3.406389 38.121109,3.611666 37.039719,4.375555000000134 35.940552,4.622499 35.821663,5.32861 35.301941000000141,5.378055 34.70472,6.677777000000106 33.711388,7.660277 32.991104,7.924999 33.252777,8.458611000000118 34.120552,8.577221000000122 34.28611,10.554165 34.594444,10.887777 34.864441,10.734999 35.096939000000106,11.826944 35.70108,12.666115 36.142693,12.706923000000117 36.542816000000101,14.262053</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>Gambia</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Africakml">
+		<SimpleData name="FIPS">GA</SimpleData>
+		<SimpleData name="ISO2">GM</SimpleData>
+		<SimpleData name="ISO3">GMB</SimpleData>
+		<SimpleData name="UN">270</SimpleData>
+		<SimpleData name="AREA">1000</SimpleData>
+		<SimpleData name="POP2005">1617029</SimpleData>
+		<SimpleData name="REGION">2</SimpleData>
+		<SimpleData name="SUBREGION">11</SimpleData>
+		<SimpleData name="LON">-15.386</SimpleData>
+		<SimpleData name="LAT">13.453</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-16.73167,13.44972 -16.200836,13.251665 -16.162224,13.425278 -15.295834,13.491665 -16.14389,13.454166 -16.394726,13.330555 -16.56567,13.589998 -15.070278,13.826387 -13.798613,13.406387 -14.351112,13.237778 -15.111668,13.595833 -15.285002,13.374443 -15.803612,13.347776 -15.809723,13.159721 -16.750874,13.059977 -16.73167,13.44972</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>Gabon</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Africakml">
+		<SimpleData name="FIPS">GB</SimpleData>
+		<SimpleData name="ISO2">GA</SimpleData>
+		<SimpleData name="ISO3">GAB</SimpleData>
+		<SimpleData name="UN">266</SimpleData>
+		<SimpleData name="AREA">25767</SimpleData>
+		<SimpleData name="POP2005">1290693</SimpleData>
+		<SimpleData name="REGION">2</SimpleData>
+		<SimpleData name="SUBREGION">17</SimpleData>
+		<SimpleData name="LON">11.797</SimpleData>
+		<SimpleData name="LAT">-0.591</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>9.007776260375977,-0.767778396606445 8.946664810180664,-0.658332824707031 9.00666618347168,-0.598888397216797 9.007776260375977,-0.767778396606445</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>12.523611068725586,2.283334732055664 13.293889999389648,2.163610458374023 13.186784744262695,1.222475051879883 14.18889045715332,1.391389846801758 14.487222671508789,0.913610458374023 13.848333358764648,-0.198610305786133 14.518610000610352,-0.609167098999023 14.429723739624023,-1.891666412353516 14.110834121704102,-2.49305534362793 13.76222038269043,-2.088888168334961 13.482778549194336,-2.4375 13.001508712768555,-2.367671966552734 12.649999618530273,-1.822500228881836 12.478055953979492,-2.327220916748047 11.574167251586914,-2.333332061767578 11.925832748413086,-3.636943817138672 11.496946334838867,-3.50694465637207 11.140661239624023,-3.925275802612305 9.700834274291992,-2.445554733276367 10.130556106567383,-2.520000457763672 9.615278244018555,-2.376667022705078 8.983057022094727,-1.234167098999023 9.513887405395508,-1.59666633605957 8.710000991821289,-0.641111373901367 9.013887405395508,-0.81916618347168 9.298334121704102,-0.371665954589844 9.347501754760742,0.363058090209961 9.921110153198242,0.185277938842773 9.303609848022461,0.52833366394043 9.600000381469727,0.481111526489258 9.564722061157227,0.983057022094727 9.803976058959961,1.002607345581055 11.353887557983398,1.001943588256836 11.339765548706055,2.168611526489258 12.523611068725586,2.283334732055664</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>9.554445266723633,0.274446487426758 9.544443130493164,0.285001754760742 9.538057327270508,0.270833969116211 9.554445266723633,0.274446487426758</coordinates></LinearRing></innerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Ghana</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Africakml">
+		<SimpleData name="FIPS">GH</SimpleData>
+		<SimpleData name="ISO2">GH</SimpleData>
+		<SimpleData name="ISO3">GHA</SimpleData>
+		<SimpleData name="UN">288</SimpleData>
+		<SimpleData name="AREA">22754</SimpleData>
+		<SimpleData name="POP2005">2253501</SimpleData>
+		<SimpleData name="REGION">2</SimpleData>
+		<SimpleData name="SUBREGION">11</SimpleData>
+		<SimpleData name="LON">-1.207</SimpleData>
+		<SimpleData name="LAT">7.960</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>0.63953,5.845486 0.662222,5.754167 0.255833,5.757777 -0.795556,5.208055 -1.613333,5.020833 -2.058889,4.730833 -3.103041,5.085022 -3.102272,5.109545000000125 -2.928128,5.100222 -2.764445,5.579166 -3.249166999999886,6.611388 -2.487778,8.197777000000116 -2.685561,9.481817 -2.834048,11.002007 -0.618333,10.911665 -0.149762,11.13854 0.368333,10.259443 0.2175,9.457222 0.550833,9.411388 0.382735,8.760756 0.727222,8.321388 0.525,6.947778 1.198891,6.100546 0.692222,5.748055 0.634444,5.948055 0.51209,6.055245 0.208197,6.089699 0.488889,6.043611 0.63953,5.845486</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>Guinea</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Africakml">
+		<SimpleData name="FIPS">GV</SimpleData>
+		<SimpleData name="ISO2">GN</SimpleData>
+		<SimpleData name="ISO3">GIN</SimpleData>
+		<SimpleData name="UN">324</SimpleData>
+		<SimpleData name="AREA">24572</SimpleData>
+		<SimpleData name="POP2005">9002656</SimpleData>
+		<SimpleData name="REGION">2</SimpleData>
+		<SimpleData name="SUBREGION">11</SimpleData>
+		<SimpleData name="LON">-10.942</SimpleData>
+		<SimpleData name="LAT">10.439</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-13.602783,9.734441 -14.664446,10.476665 -14.693056,11.035276 -15.016847999999868,10.956451000000143 -14.686944999999895,11.509722 -13.709167,11.715277 -13.971035,12.154758 -13.713139,12.677221 -12.345404,12.301748 -11.373058,12.407774 -11.315556,12.022774 -10.92889,12.224442 -10.652748,11.892609 -10.323893,12.224997 -9.701946,12.029163 -9.155556,12.486111 -8.53388,11.49391 -8.357779,11.305555 -8.680557,10.966389 -8.289722,11.007776 -7.973984,10.165611 -8.143612,9.533888000000104 -7.732779,9.088055 -7.957778,8.813332 -7.646536,8.378416 -8.198056999999892,8.496666 -7.946838,8.018505 -8.469749,7.561325 -8.660557,7.695 -9.106945,7.198889 -9.485161,7.361989 -9.48365,8.346931 -10.266651,8.488377 -10.695835,8.298611 -10.571526,9.059532 -11.214444999999898,9.997499 -12.456112,9.888332 -13.29561,9.032143 -13.602783,9.734441</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>Cote d'Ivoire</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Africakml">
+		<SimpleData name="FIPS">IV</SimpleData>
+		<SimpleData name="ISO2">CI</SimpleData>
+		<SimpleData name="ISO3">CIV</SimpleData>
+		<SimpleData name="UN">384</SimpleData>
+		<SimpleData name="AREA">31800</SimpleData>
+		<SimpleData name="POP2005">18584701</SimpleData>
+		<SimpleData name="REGION">2</SimpleData>
+		<SimpleData name="SUBREGION">11</SimpleData>
+		<SimpleData name="LON">-5.556</SimpleData>
+		<SimpleData name="LAT">7.632</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.102272,5.109545000000125 -3.103041,5.085022 -3.168334,5.117222 -3.102272,5.109545000000125</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-4.787278,5.1683120000001 -4.146389,5.277222 -4.004445,5.231667 -4.787278,5.1683120000001</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-4.787278,5.1683120000001 -5.319723,5.230833 -5.002929,5.129237 -7.525402,4.352806000000101 -7.423334,5.839444 -8.606383999999878,6.507815 -8.308334,6.860833000000113 -8.469749,7.561325 -7.946838,8.018505 -8.198056999999892,8.496666 -7.646536,8.378416 -7.957778,8.813332 -7.732779,9.088055 -8.143612,9.533888000000104 -7.973984,10.165611 -7.635555999999895,10.448332000000107 -6.988056,10.147499 -6.243402,10.735256 -6.111389,10.197777 -5.51985,10.436272 -4.704445,9.698055 -3.633611,9.954443000000111 -2.685561,9.481817 -2.487778,8.197777000000116 -3.249166999999886,6.611388 -2.764445,5.579166 -2.928128,5.100222 -3.1425,5.367777 -3.29722299999986,5.118055 -4.004168,5.253611 -3.807778,5.375555000000119 -4.787278,5.1683120000001</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Kenya</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Africakml">
+		<SimpleData name="FIPS">KE</SimpleData>
+		<SimpleData name="ISO2">KE</SimpleData>
+		<SimpleData name="ISO3">KEN</SimpleData>
+		<SimpleData name="UN">404</SimpleData>
+		<SimpleData name="AREA">56914</SimpleData>
+		<SimpleData name="POP2005">35598952</SimpleData>
+		<SimpleData name="REGION">2</SimpleData>
+		<SimpleData name="SUBREGION">14</SimpleData>
+		<SimpleData name="LON">37.858</SimpleData>
+		<SimpleData name="LAT">0.530</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>41.138054000000153,-2.124444 40.950272,-2.173611 41.063889000000103,-2.044167 41.138054000000153,-2.124444</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>35.940552,4.622499 37.039719,4.375555000000134 38.121109,3.611666 39.524437,3.406389 40.783768,4.287975 41.171387,3.9425 41.905167,3.980322 40.986595000000108,2.829956 40.998329,-0.866111 41.558159,-1.674868 41.315277000000179,-1.958056 40.891663,-2.019167 40.963608000000107,-2.298889 40.854996000000114,-2.236111 40.638054,-2.55 40.236664000000104,-2.663333 39.203026000000108,-4.669618 37.613609,-3.504167 37.602776,-2.995833 33.920273,-1.001111 33.907219,0.103056 35.009720000000101,1.895278 34.463333,3.671389 33.996666,4.222777000000136 34.388191,4.609682 35.940552,4.622499</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Liberia</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Africakml">
+		<SimpleData name="FIPS">LI</SimpleData>
+		<SimpleData name="ISO2">LR</SimpleData>
+		<SimpleData name="ISO3">LBR</SimpleData>
+		<SimpleData name="UN">430</SimpleData>
+		<SimpleData name="AREA">9632</SimpleData>
+		<SimpleData name="POP2005">3441796</SimpleData>
+		<SimpleData name="REGION">2</SimpleData>
+		<SimpleData name="SUBREGION">11</SimpleData>
+		<SimpleData name="LON">-9.657</SimpleData>
+		<SimpleData name="LAT">6.682</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-10.806074,6.403 -11.492331,6.927091000000132 -10.266651,8.488377 -9.48365,8.346931 -9.485161,7.361989 -9.106945,7.198889 -8.660557,7.695 -8.469749,7.561325 -8.308334,6.860833000000113 -8.606383999999878,6.507815 -7.423334,5.839444 -7.525402,4.352806000000101 -9.142778,5.055555 -10.806074,6.403</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>Libyan Arab Jamahiriya</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Africakml">
+		<SimpleData name="FIPS">LY</SimpleData>
+		<SimpleData name="ISO2">LY</SimpleData>
+		<SimpleData name="ISO3">LBY</SimpleData>
+		<SimpleData name="UN">434</SimpleData>
+		<SimpleData name="AREA">175954</SimpleData>
+		<SimpleData name="POP2005">5918217</SimpleData>
+		<SimpleData name="REGION">2</SimpleData>
+		<SimpleData name="SUBREGION">15</SimpleData>
+		<SimpleData name="LON">18.023</SimpleData>
+		<SimpleData name="LAT">27.044</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>9.948332,27.824444 9.766388,29.427776 9.303888,30.122498 9.537113,30.23439 10.21361,30.730831 10.287222,31.694164 11.567499,32.442215 11.526081,33.171135 15.165833,32.398605 15.761665,31.385555 17.370831,31.081665 19.001389,30.266941 20.060555,30.855274 20.084442,32.184715 21.621387,32.933609 23.112499,32.6325 23.247196,32.216225 24.973888,31.969997 25.151665,31.646942 24.706665,30.16861 24.997776,29.248886 25.001423,21.999695 25.000832,19.999119 24.000832000000116,20.001942 24.002747,19.499065 16.000832,23.450554 14.997889,23.000591 14.234999,22.614166 13.543888,23.16861 11.986475,23.522305 11.558887,24.302498 10.252222,24.605831 9.398333,26.153332 9.871666,26.514164 9.948332,27.824444</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>Madagascar</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Africakml">
+		<SimpleData name="FIPS">MA</SimpleData>
+		<SimpleData name="ISO2">MG</SimpleData>
+		<SimpleData name="ISO3">MDG</SimpleData>
+		<SimpleData name="UN">450</SimpleData>
+		<SimpleData name="AREA">58154</SimpleData>
+		<SimpleData name="POP2005">18642586</SimpleData>
+		<SimpleData name="REGION">2</SimpleData>
+		<SimpleData name="SUBREGION">14</SimpleData>
+		<SimpleData name="LON">46.706</SimpleData>
+		<SimpleData name="LAT">-19.374</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>49.833612442016602,-17.089723587036133 49.860551834106445,-16.913890838623047 50.010553359985352,-16.725559234619141 49.833612442016602,-17.089723587036133</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>47.219720840454102,-15.436668395996094 47.207773208618164,-15.434446334838867 47.200555801391602,-15.427501678466797 47.206666946411133,-15.420557022094727 47.219446182250977,-15.420833587646484 47.219720840454102,-15.436668395996094</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>48.342500686645508,-13.418054580688477 48.20555305480957,-13.391389846801758 48.281389236450195,-13.196666717529297 48.342500686645508,-13.418054580688477</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>49.356943130493164,-12.09083366394043 49.943330764770508,-13.039445877075195 50.433610916137695,-15.580001831054688 50.17277717590332,-15.97972297668457 49.866106033325195,-15.432500839233398 49.633607864379883,-15.557500839233398 49.788606643676758,-16.830280303955078 47.133050918579102,-24.928058624267578 45.214723587036133,-25.588336944580078 44.017221450805664,-24.985279083251953 43.238885879516602,-22.282501220703125 43.500551223754883,-21.333889007568359 44.482217788696289,-19.970279693603516 43.937219619750977,-17.479446411132812 44.459161758422852,-16.1844482421875 46.151384353637695,-15.703611373901367 46.47722053527832,-15.96611213684082 46.338335037231445,-15.624723434448242 46.947221755981445,-15.198890686035156 46.959444046020508,-15.558055877685547 47.22361946105957,-15.448465347290039 47.235647201538086,-15.412919998168945 47.111940383911133,-15.305557250976562 47.058328628540039,-15.185001373291016 47.454996109008789,-14.665279388427734 47.427217483520508,-15.110555648803711 47.811277389526367,-14.603889465332031 48.001665115356445,-14.765556335449219 47.699441909790039,-14.420557022094727 48.048334121704102,-14.155555725097656 47.905275344848633,-13.596389770507812 48.28721809387207,-13.808055877685547 48.739717483520508,-13.427223205566406 48.959444046020508,-12.822223663330078 48.730829238891602,-12.434167861938477 49.356943130493164,-12.09083366394043</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>49.604440689086914,-12.62639045715332 49.595834732055664,-12.610000610351562 49.594446182250977,-12.623611450195312 49.604440689086914,-12.62639045715332</coordinates></LinearRing></innerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Mali</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Africakml">
+		<SimpleData name="FIPS">ML</SimpleData>
+		<SimpleData name="ISO2">ML</SimpleData>
+		<SimpleData name="ISO3">MLI</SimpleData>
+		<SimpleData name="UN">466</SimpleData>
+		<SimpleData name="AREA">122019</SimpleData>
+		<SimpleData name="POP2005">1161109</SimpleData>
+		<SimpleData name="REGION">2</SimpleData>
+		<SimpleData name="SUBREGION">11</SimpleData>
+		<SimpleData name="LON">-3.524</SimpleData>
+		<SimpleData name="LAT">17.350</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-8.53388,11.49391 -9.155556,12.486111 -9.701946,12.029163 -10.323893,12.224997 -10.652748,11.892609 -10.92889,12.224442 -11.315556,12.022774 -11.373058,12.407774 -11.378056,12.988054 -12.057222,13.664721 -12.244833,14.764385 -11.841391,14.863054 -11.494167,15.646387 -10.899637,15.106874 -10.716387,15.438902000000112 -9.411112,15.443888 -9.338057,15.704721000000106 -9.333612,15.499722000000148 -5.49505,15.498371 -5.335,16.328053 -5.601389,16.507774 -6.577223,24.999165000000133 -4.806111,25.000275 1.169662,21.102543 1.1675,20.741108 1.795833,20.308331 3.233055,19.820274 3.331944,18.976387 4.245277,19.146664 4.245,18.645275 4.200833,16.393887 3.523981,15.358152 1.3125,15.286665 0.235048,14.915068 -0.725278,15.082777 -1.980834,14.474722 -2.006945,14.187777 -2.474722,14.287498 -2.879167,13.655554 -3.2575,13.696665 -3.437675,13.166498 -3.964253,13.50383 -4.337223,13.121666 -4.4175,12.300831 -5.273056,11.843887 -5.51985,10.436272 -6.111389,10.197777 -6.243402,10.735256 -6.988056,10.147499 -7.635555999999895,10.448332000000107 -7.973984,10.165611 -8.289722,11.007776 -8.680557,10.966389 -8.357779,11.305555 -8.53388,11.49391</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>Morocco</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Africakml">
+		<SimpleData name="FIPS">MO</SimpleData>
+		<SimpleData name="ISO2">MA</SimpleData>
+		<SimpleData name="ISO3">MAR</SimpleData>
+		<SimpleData name="UN">504</SimpleData>
+		<SimpleData name="AREA">44630</SimpleData>
+		<SimpleData name="POP2005">30494991</SimpleData>
+		<SimpleData name="REGION">2</SimpleData>
+		<SimpleData name="SUBREGION">15</SimpleData>
+		<SimpleData name="LON">-5.758</SimpleData>
+		<SimpleData name="LAT">32.706</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-9.053169,32.734802 -6.843056,34.018608 -5.918744,35.790649 -5.395557,35.916336000000129 -5.345834,35.841660000000118 -4.695834,35.208885 -2.946945,35.329163 -2.925278,35.266663 -2.91472199999987,35.273605 -2.209445,35.085831 -1.747222,34.747215 -1.668056,33.261108 -1.010278,32.508331 -1.180556,32.11055 -2.853889,32.088333 -3.818334,31.695553 -3.626667,30.970554 -4.920556,30.508053 -5.538334,29.902496 -7.123889,29.636944 -8.667223,28.709442 -8.666668,27.666664 -13.174961,27.666958 -11.458057,28.334442 -10.138056,29.428055 -9.640278,30.168053 -9.809168,31.446663 -9.053169,32.734802</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>Mauritius</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Africakml">
+		<SimpleData name="FIPS">MP</SimpleData>
+		<SimpleData name="ISO2">MU</SimpleData>
+		<SimpleData name="ISO3">MUS</SimpleData>
+		<SimpleData name="UN">480</SimpleData>
+		<SimpleData name="AREA">203</SimpleData>
+		<SimpleData name="POP2005">1241173</SimpleData>
+		<SimpleData name="REGION">2</SimpleData>
+		<SimpleData name="SUBREGION">14</SimpleData>
+		<SimpleData name="LON">57.583</SimpleData>
+		<SimpleData name="LAT">-20.255</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>57.572495000000146,-20.514168 57.304718,-20.449169 57.624443,-19.986389 57.572495000000146,-20.514168</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>63.466385,-19.735836 63.328606000000121,-19.738056 63.461105,-19.673058 63.466385,-19.735836</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>56.564438,-10.397223 56.511665,-10.346668 56.513611000000111,-10.316668 56.564438,-10.397223</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Mauritania</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Africakml">
+		<SimpleData name="FIPS">MR</SimpleData>
+		<SimpleData name="ISO2">MR</SimpleData>
+		<SimpleData name="ISO3">MRT</SimpleData>
+		<SimpleData name="UN">478</SimpleData>
+		<SimpleData name="AREA">102522</SimpleData>
+		<SimpleData name="POP2005">2963105</SimpleData>
+		<SimpleData name="REGION">2</SimpleData>
+		<SimpleData name="SUBREGION">11</SimpleData>
+		<SimpleData name="LON">-10.332</SimpleData>
+		<SimpleData name="LAT">20.260</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-16.42750199999989,19.603611 -16.460003,19.699718000000146 -16.344448,19.866386000000105 -16.42750199999989,19.603611</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-6.662778,26.129166 -4.806111,25.000275 -6.577223,24.999165000000133 -5.601389,16.507774 -5.335,16.328053 -5.49505,15.498371 -9.333612,15.499722000000148 -9.338057,15.704721000000106 -9.411112,15.443888 -10.716387,15.438902000000112 -10.899637,15.106874 -11.494167,15.646387 -11.841391,14.863054 -12.244833,14.764385 -14.345278,16.638611 -16.280834,16.519722 -16.527679,16.060249 -16.039448,17.728054000000114 -16.51166899999987,19.352219 -16.196391999999889,20.223053 -16.919724,21.161663000000104 -17.05233,20.764095000000125 -16.953056,21.338333 -15.741997,21.338284 -12.999723,21.338055000000125 -13.105278,22.893055 -12.000278,23.454441000000102 -12.000557,26.0 -8.666944999999885,26.000275000000116 -8.66679,27.290459 -6.662778,26.129166</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Mozambique</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Africakml">
+		<SimpleData name="FIPS">MZ</SimpleData>
+		<SimpleData name="ISO2">MZ</SimpleData>
+		<SimpleData name="ISO3">MOZ</SimpleData>
+		<SimpleData name="UN">508</SimpleData>
+		<SimpleData name="AREA">78409</SimpleData>
+		<SimpleData name="POP2005">20532675</SimpleData>
+		<SimpleData name="REGION">2</SimpleData>
+		<SimpleData name="SUBREGION">14</SimpleData>
+		<SimpleData name="LON">37.923</SimpleData>
+		<SimpleData name="LAT">-14.422</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>32.954437,-26.058613 32.895271000000122,-26.040836 32.980553,-25.972778 32.954437,-26.058613</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>35.488327000000112,-21.685001 35.435555,-21.783337 35.479439000000212,-21.523891 35.488327000000112,-21.685001</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>39.901382,-16.413334 39.810829000000155,-16.363056 39.861382,-16.278057 39.901382,-16.413334</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>40.500832000000202,-11.031946 40.646942000000223,-12.760834 40.409996,-12.961945 40.846107,-14.697779 40.587776000000105,-15.479723 39.094444000000209,-16.986389 36.841385,-17.877224 36.943886,-18.108612 36.252777000000123,-18.891392 34.899162,-19.857224 34.619164,-19.617779 35.312492,-22.418056 35.545273,-22.232502 35.497215,-24.105278 35.012215,-24.654167 32.81388900000016,-25.60778 32.576111,-25.975559 32.837494,-26.293056 32.952499000000131,-26.083889 32.890427,-26.847145 32.1334,-26.839626 31.96851,-25.95784 32.016106,-24.459446 31.297504000000146,-22.414764 32.488876,-21.344448 32.502220000000108,-20.598614 33.018883000000102,-19.943336 32.699165,-18.944447 33.073051000000106,-18.348892 32.987808,-17.265003 32.98114,-16.709053 31.276665,-16.018612 30.422775,-16.009167 30.415756,-15.631872 30.213017000000178,-14.981716 33.222229,-14.012566 33.633331,-14.539722 34.522217,-14.571667 34.589722,-15.282778 34.255554000000103,-15.899168 35.290054000000197,-17.134266 35.135300000000115,-16.553375 35.814438,-16.019447 35.924164000000104,-14.885557 34.566383000000116,-13.342224 34.375275,-12.155834 34.626106000000135,-11.575834 34.966728,-11.572111 35.838333,-11.414722 36.18972,-11.706667 37.462044,-11.727329 37.941383,-11.285002 39.268051000000156,-11.168056 40.436813000000171,-10.478174 40.500832000000202,-11.031946</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>34.602776000000205,-12.011946 34.623886,-12.036667 34.629997,-12.012501 34.602776000000205,-12.011946</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>34.723885,-12.032778 34.732216,-12.095556 34.754715,-12.044168 34.723885,-12.032778</coordinates></LinearRing></innerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Malawi</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Africakml">
+		<SimpleData name="FIPS">MI</SimpleData>
+		<SimpleData name="ISO2">MW</SimpleData>
+		<SimpleData name="ISO3">MWI</SimpleData>
+		<SimpleData name="UN">454</SimpleData>
+		<SimpleData name="AREA">9408</SimpleData>
+		<SimpleData name="POP2005">13226091</SimpleData>
+		<SimpleData name="REGION">2</SimpleData>
+		<SimpleData name="SUBREGION">14</SimpleData>
+		<SimpleData name="LON">33.808</SimpleData>
+		<SimpleData name="LAT">-13.400</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>34.732216,-12.095556 34.723885,-12.032778 34.754715,-12.044168 34.732216,-12.095556</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>34.623886,-12.036667 34.602776000000205,-12.011946 34.629997,-12.012501 34.623886,-12.036667</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>33.134720000000158,-9.494167 34.325272,-9.732779 34.966728,-11.572111 34.626106000000135,-11.575834 34.375275,-12.155834 34.566383000000116,-13.342224 35.924164000000104,-14.885557 35.814438,-16.019447 35.135300000000115,-16.553375 35.290054000000197,-17.134266 34.255554000000103,-15.899168 34.589722,-15.282778 34.522217,-14.571667 33.633331,-14.539722 33.222229,-14.012566 32.678886,-13.60639 33.046387,-12.603889 33.54583,-12.359446 33.273331,-12.144445 33.250549,-10.886667 33.702278,-10.561857 32.940399,-9.405077 33.134720000000158,-9.494167</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Niger</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Africakml">
+		<SimpleData name="FIPS">NG</SimpleData>
+		<SimpleData name="ISO2">NE</SimpleData>
+		<SimpleData name="ISO3">NER</SimpleData>
+		<SimpleData name="UN">562</SimpleData>
+		<SimpleData name="AREA">126670</SimpleData>
+		<SimpleData name="POP2005">1326419</SimpleData>
+		<SimpleData name="REGION">2</SimpleData>
+		<SimpleData name="SUBREGION">11</SimpleData>
+		<SimpleData name="LON">9.398</SimpleData>
+		<SimpleData name="LAT">17.426</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>4.245,18.645275 4.245277,19.146664 5.812499,19.44611 7.450807,20.852863 11.986475,23.522305 13.543888,23.16861 14.234999,22.614166 14.997889,23.000591 15.202499,21.495831 15.996666,20.353054 15.489166,16.914165 13.468887,14.461111 13.62512,13.718338 12.459166,13.066111 10.724165,13.386389 9.634932,12.802435 7.815,13.352777 6.933332,12.997221000000124 6.423055,13.605276000000131 5.874722,13.749443 4.1425,13.476944 3.604459,11.693274 2.83862,12.396658 2.378054,12.240274 2.397925,11.896152 2.1425,12.694443 1.578333,12.629999 0.989167,13.047222 0.991667,13.371666 1.285306,13.349957 0.602222,13.703888 0.235048,14.915068 1.3125,15.286665 3.523981,15.358152 4.200833,16.393887 4.245,18.645275</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>Mayotte</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Africakml">
+		<SimpleData name="FIPS">MF</SimpleData>
+		<SimpleData name="ISO2">YT</SimpleData>
+		<SimpleData name="ISO3">MYT</SimpleData>
+		<SimpleData name="UN">175</SimpleData>
+		<SimpleData name="AREA">0</SimpleData>
+		<SimpleData name="POP2005">0</SimpleData>
+		<SimpleData name="REGION">2</SimpleData>
+		<SimpleData name="SUBREGION">14</SimpleData>
+		<SimpleData name="LON">45.155</SimpleData>
+		<SimpleData name="LAT">-12.777</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>45.282494,-12.804167 45.262497,-12.76889 45.283051,-12.747501 45.282494,-12.804167</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>45.204994000000198,-12.849724 45.097496,-12.985834 45.078888,-12.6625 45.204994000000198,-12.849724</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Nigeria</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Africakml">
+		<SimpleData name="FIPS">NI</SimpleData>
+		<SimpleData name="ISO2">NG</SimpleData>
+		<SimpleData name="ISO3">NGA</SimpleData>
+		<SimpleData name="UN">566</SimpleData>
+		<SimpleData name="AREA">91077</SimpleData>
+		<SimpleData name="POP2005">141356083</SimpleData>
+		<SimpleData name="REGION">2</SimpleData>
+		<SimpleData name="SUBREGION">11</SimpleData>
+		<SimpleData name="LON">8.105</SimpleData>
+		<SimpleData name="LAT">9.594</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>7.466389,4.445277 7.335833,4.443055 7.411944,4.488055 7.466389,4.445277</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>7.20361,4.380555000000129 7.22611,4.52 7.316667,4.4725 7.20361,4.380555000000129</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>5.874722,13.749443 6.423055,13.605276000000131 6.933332,12.997221000000124 7.815,13.352777 9.634932,12.802435 10.724165,13.386389 12.459166,13.066111 13.62512,13.718338 14.07472,13.0816650000001 14.174444,12.396666 14.645277,12.188332000000145 14.646387,11.575832 13.80722,11.055832 12.79694400000011,8.769722 12.253887000000134,8.408054 11.864166,7.084722 11.340277,6.440833 10.615000000000123,7.06861 9.795555,6.801666 8.865276,5.841944 8.591738000000134,4.810932000000122 7.676944,4.496388 7.071666,4.753888 7.073055,4.434722 6.962222000000111,4.725277000000119 7.005555,4.369444 6.768055,4.774722 6.848611000000119,4.348332000000113 6.727221,4.605 6.694166000000109,4.33 6.104166,4.272778000000102 5.451944,4.923055 5.345277,5.33 5.639722,5.536111 5.257222000000183,5.43555500000015 5.501111,5.620555 5.175278000000105,5.575555 4.525833,6.304999 3.388611,6.443333000000109 3.807222000000166,6.612778 2.719606,6.365505 2.789444,9.043888 3.095,9.090555 3.855,10.584999 3.604459,11.693274 4.1425,13.476944 5.874722,13.749443</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Guinea-Bissau</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Africakml">
+		<SimpleData name="FIPS">PU</SimpleData>
+		<SimpleData name="ISO2">GW</SimpleData>
+		<SimpleData name="ISO3">GNB</SimpleData>
+		<SimpleData name="UN">624</SimpleData>
+		<SimpleData name="AREA">2812</SimpleData>
+		<SimpleData name="POP2005">1596929</SimpleData>
+		<SimpleData name="REGION">2</SimpleData>
+		<SimpleData name="SUBREGION">11</SimpleData>
+		<SimpleData name="LON">-14.651</SimpleData>
+		<SimpleData name="LAT">12.125</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-15.885834,11.052221 -15.981111999999882,11.049444000000122 -15.94639,11.195 -15.885834,11.052221</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-16.005836,11.068333 -16.06139,11.163055 -15.980556,11.202499000000131 -16.005836,11.068333</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-16.088058,11.025555 -16.244166999999891,11.100555 -16.0825,11.206944 -16.088058,11.025555</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-15.862223,11.199999 -15.906388999999876,11.224998 -15.830278,11.300833 -15.862223,11.199999</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-15.740002,11.166943 -15.77639,11.225832000000167 -15.667501,11.306389 -15.740002,11.166943</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-16.17778,11.2152770000001 -16.264446,11.281666 -16.160835,11.290277000000103 -16.17778,11.2152770000001</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-15.679724,11.439444000000108 -15.743057,11.458332 -15.665834,11.502222000000131 -15.679724,11.439444000000108</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-16.21278,11.439722 -16.300556,11.449444 -16.164447999999879,11.514999 -16.21278,11.439722</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-16.250557,11.536665 -16.419445,11.482777 -16.393889999999885,11.545832000000132 -16.250557,11.536665</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-15.952501,11.423054 -16.065002,11.44972 -15.958334,11.594166 -15.952501,11.423054</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-15.553057,11.517221 -15.633612,11.535276 -15.472223,11.631109000000109 -15.553057,11.517221</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-16.031948,11.755833 -16.162224,11.86861 -15.978334,11.905832 -16.031948,11.755833</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-16.236389,11.836943 -16.30167,11.971666000000113 -16.184723,11.876665 -16.236389,11.836943</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-14.516945,12.67972200000014 -13.713139,12.677221 -13.971035,12.154758 -13.709167,11.715277 -14.686944999999895,11.509722 -15.016847999999868,10.956451000000143 -15.022779,11.195276 -15.407223,11.184999 -15.26528,11.425913 -15.509167,11.338055 -15.027223999999876,11.594166 -15.556666999999891,11.723331 -14.931946,11.750832 -15.003889,11.974165000000113 -15.963335,11.734165000000132 -15.704445,12.004444 -15.852779,12.016666 -16.128056,11.881943 -16.333893,11.996664 -16.334446,12.15111 -16.110558,12.330832 -16.71777,12.322426 -14.516945,12.67972200000014</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Reunion</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Africakml">
+		<SimpleData name="FIPS">RE</SimpleData>
+		<SimpleData name="ISO2">RE</SimpleData>
+		<SimpleData name="ISO3">REU</SimpleData>
+		<SimpleData name="UN">638</SimpleData>
+		<SimpleData name="AREA">250</SimpleData>
+		<SimpleData name="POP2005">785159</SimpleData>
+		<SimpleData name="REGION">2</SimpleData>
+		<SimpleData name="SUBREGION">14</SimpleData>
+		<SimpleData name="LON">55.538</SimpleData>
+		<SimpleData name="LAT">-21.122</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>55.709999,-20.998058 55.674164,-21.37389 55.219719,-21.027779 55.709999,-20.998058</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>Rwanda</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Africakml">
+		<SimpleData name="FIPS">RW</SimpleData>
+		<SimpleData name="ISO2">RW</SimpleData>
+		<SimpleData name="ISO3">RWA</SimpleData>
+		<SimpleData name="UN">646</SimpleData>
+		<SimpleData name="AREA">2467</SimpleData>
+		<SimpleData name="POP2005">9233793</SimpleData>
+		<SimpleData name="REGION">2</SimpleData>
+		<SimpleData name="SUBREGION">14</SimpleData>
+		<SimpleData name="LON">29.917</SimpleData>
+		<SimpleData name="LAT">-1.998</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>29.952221,-2.309445 29.85083,-2.759722 29.024441,-2.744722 28.868332,-2.394444 29.596943,-1.385834 29.974998,-1.464445 30.48222,-1.063334 30.894165,-2.076111 30.57333,-2.399167 29.952221,-2.309445</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>Seychelles</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Africakml">
+		<SimpleData name="FIPS">SE</SimpleData>
+		<SimpleData name="ISO2">SC</SimpleData>
+		<SimpleData name="ISO3">SYC</SimpleData>
+		<SimpleData name="UN">690</SimpleData>
+		<SimpleData name="AREA">46</SimpleData>
+		<SimpleData name="POP2005">85532</SimpleData>
+		<SimpleData name="REGION">2</SimpleData>
+		<SimpleData name="SUBREGION">14</SimpleData>
+		<SimpleData name="LON">55.474</SimpleData>
+		<SimpleData name="LAT">-4.647</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>46.491386,-9.754446 46.476105,-9.744167 46.508331,-9.717779 46.491386,-9.754446</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>46.510551,-9.396946 46.269165000000186,-9.463057 46.204163,-9.389446 46.510551,-9.396946</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>46.413887,-9.358891 46.276665,-9.346111 46.426941000000141,-9.342779 46.413887,-9.358891</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>56.282219,-7.134167 56.247215000000125,-7.194445 56.278610000000214,-7.110834 56.282219,-7.134167</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>55.535271000000108,-4.763056 55.376106,-4.627223 55.45916,-4.55139 55.535271000000108,-4.763056</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>55.246109,-4.506945 55.231667000000158,-4.448056 55.267220000000151,-4.481668 55.246109,-4.506945</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>55.775833,-4.348333 55.687218,-4.2875 55.77166,-4.315556 55.775833,-4.348333</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>South Africa</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Africakml">
+		<SimpleData name="FIPS">SF</SimpleData>
+		<SimpleData name="ISO2">ZA</SimpleData>
+		<SimpleData name="ISO3">ZAF</SimpleData>
+		<SimpleData name="UN">710</SimpleData>
+		<SimpleData name="AREA">121447</SimpleData>
+		<SimpleData name="POP2005">47938663</SimpleData>
+		<SimpleData name="REGION">2</SimpleData>
+		<SimpleData name="SUBREGION">18</SimpleData>
+		<SimpleData name="LON">23.121</SimpleData>
+		<SimpleData name="LAT">-30.558</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>37.85083,-46.956947 37.576385000000215,-46.909447 37.781944,-46.83223 37.85083,-46.956947</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>37.959442000000166,-46.658615 37.856941,-46.626945 37.942772,-46.60334 37.959442000000166,-46.658615</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>29.893887,-22.194447 31.297504000000146,-22.414764 32.016106,-24.459446 31.96851,-25.95784 31.33083,-25.751392 30.902048,-26.305254 30.818886000000106,-26.810558 31.161663,-27.203056 31.987499,-27.316113 32.1334,-26.839626 32.890427,-26.847145 32.390274000000119,-28.537781 31.325832,-29.390835 30.023888000000198,-31.281113 27.899998,-33.040558 26.530552000000171,-33.753334 25.724998,-33.767227 25.701942,-34.031952 22.544998,-34.005005 20.0,-34.822002 18.817776,-34.377785 18.793331,-34.08667 18.404720000000111,-34.30278 18.441109,-33.706673 17.8475,-32.830833 18.292221,-32.624451 18.278610000000128,-31.89278 16.48959,-28.578178 17.06361,-28.028614 17.40472,-28.713612 18.175831,-28.908611 19.123055000000107,-28.962223 19.99612,-28.421448 20.000942,-24.765408 20.811386,-25.883335 20.642498,-26.828056 21.667221,-26.864445 22.624809000000113,-26.111565 23.014832000000126,-25.299725 24.6772,-25.827824 25.50972,-25.67778 25.871387,-24.744446 26.845276,-24.264446 26.95919,-23.752075 28.29833200000013,-22.609447 29.373623,-22.19241 29.893887,-22.194447</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>28.565552,-28.610001 27.011108,-29.625278 27.564617,-30.404911 28.079937,-30.650528 28.377777,-30.16028 29.168888,-29.913891 29.430832,-29.278614 28.565552,-28.610001</coordinates></LinearRing></innerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Lesotho</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Africakml">
+		<SimpleData name="FIPS">LT</SimpleData>
+		<SimpleData name="ISO2">LS</SimpleData>
+		<SimpleData name="ISO3">LSO</SimpleData>
+		<SimpleData name="UN">426</SimpleData>
+		<SimpleData name="AREA">3035</SimpleData>
+		<SimpleData name="POP2005">1980831</SimpleData>
+		<SimpleData name="REGION">2</SimpleData>
+		<SimpleData name="SUBREGION">18</SimpleData>
+		<SimpleData name="LON">28.243</SimpleData>
+		<SimpleData name="LAT">-29.581</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>27.564617,-30.404911 27.011108,-29.625278 28.565552,-28.610001 29.430832,-29.278614 29.168888,-29.913891 28.377777,-30.16028 28.079937,-30.650528 27.564617,-30.404911</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>Botswana</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Africakml">
+		<SimpleData name="FIPS">BC</SimpleData>
+		<SimpleData name="ISO2">BW</SimpleData>
+		<SimpleData name="ISO3">BWA</SimpleData>
+		<SimpleData name="UN">72</SimpleData>
+		<SimpleData name="AREA">56673</SimpleData>
+		<SimpleData name="POP2005">1835938</SimpleData>
+		<SimpleData name="REGION">2</SimpleData>
+		<SimpleData name="SUBREGION">18</SimpleData>
+		<SimpleData name="LON">23.815</SimpleData>
+		<SimpleData name="LAT">-22.182</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>26.95919,-23.752075 26.845276,-24.264446 25.871387,-24.744446 25.50972,-25.67778 24.6772,-25.827824 23.014832000000126,-25.299725 22.624809000000113,-26.111565 21.667221,-26.864445 20.642498,-26.828056 20.811386,-25.883335 20.000942,-24.765408 19.996666,-22.005001 20.991943,-21.996948 20.993286,-18.318417 23.297108,-17.995949 23.615578,-18.485069 24.362499,-17.948612 25.264431,-17.80225 26.166111,-19.527779 27.219997,-20.091667 27.287453,-20.494965 27.713165,-20.506432 28.015831,-21.566113 29.060555,-21.798058 29.373623,-22.19241 28.29833200000013,-22.609447 26.95919,-23.752075</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>Senegal</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Africakml">
+		<SimpleData name="FIPS">SG</SimpleData>
+		<SimpleData name="ISO2">SN</SimpleData>
+		<SimpleData name="ISO3">SEN</SimpleData>
+		<SimpleData name="UN">686</SimpleData>
+		<SimpleData name="AREA">19253</SimpleData>
+		<SimpleData name="POP2005">1177034</SimpleData>
+		<SimpleData name="REGION">2</SimpleData>
+		<SimpleData name="SUBREGION">11</SimpleData>
+		<SimpleData name="LON">-14.881</SimpleData>
+		<SimpleData name="LAT">15.013</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-17.148308,14.61392 -17.537224,14.756109 -16.878334,15.224998 -16.527679,16.060249 -16.280834,16.519722 -14.345278,16.638611 -12.244833,14.764385 -12.057222,13.664721 -11.378056,12.988054 -11.373058,12.407774 -12.345404,12.301748 -13.713139,12.677221 -14.516945,12.67972200000014 -16.71777,12.322426 -16.586945,12.632776 -15.626945,12.531111 -15.390001,12.831944 -15.650002,12.555555 -16.598057,12.791666 -16.756111,12.564999 -16.750874,13.059977 -15.809723,13.159721 -15.803612,13.347776 -15.285002,13.374443 -15.111668,13.595833 -14.351112,13.237778 -13.798613,13.406387 -15.070278,13.826387 -16.56567,13.589998 -16.490837,13.958055 -16.747223,13.951944 -16.363056,14.166111 -16.775837,14.012499 -17.148308,14.61392</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>Sierra Leone</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Africakml">
+		<SimpleData name="FIPS">SL</SimpleData>
+		<SimpleData name="ISO2">SL</SimpleData>
+		<SimpleData name="ISO3">SLE</SimpleData>
+		<SimpleData name="UN">694</SimpleData>
+		<SimpleData name="AREA">7162</SimpleData>
+		<SimpleData name="POP2005">5586403</SimpleData>
+		<SimpleData name="REGION">2</SimpleData>
+		<SimpleData name="SUBREGION">11</SimpleData>
+		<SimpleData name="LON">-11.792</SimpleData>
+		<SimpleData name="LAT">8.560</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-12.525278,7.431389 -12.952778,7.568333 -12.591112,7.634444 -12.525278,7.431389</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-11.214444999999898,9.997499 -10.571526,9.059532 -10.695835,8.298611 -10.266651,8.488377 -11.492331,6.927091000000132 -12.958612,7.9 -13.288057,8.496111000000127 -13.05139,8.36861 -13.120278999999897,8.461666000000122 -12.897500999999863,8.567778 -13.165279,8.51861 -13.2425,8.802500000000123 -13.132223,8.861944 -13.29561,9.032143 -12.456112,9.888332 -11.214444999999898,9.997499</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Somalia</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Africakml">
+		<SimpleData name="FIPS">SO</SimpleData>
+		<SimpleData name="ISO2">SO</SimpleData>
+		<SimpleData name="ISO3">SOM</SimpleData>
+		<SimpleData name="UN">706</SimpleData>
+		<SimpleData name="AREA">62734</SimpleData>
+		<SimpleData name="POP2005">8196395</SimpleData>
+		<SimpleData name="REGION">2</SimpleData>
+		<SimpleData name="SUBREGION">14</SimpleData>
+		<SimpleData name="LON">48.316</SimpleData>
+		<SimpleData name="LAT">9.774</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>42.944092,11.002438 43.249222,11.469534 44.278328,10.447777 44.898331,10.420555 45.759995,10.875277 46.448051,10.688889 47.398888,11.179998 50.085548,11.511944 50.76944,11.979166 51.277222,11.836666 51.01416,10.442778 51.412636,10.451515 50.896942,10.319721 50.83625,9.432688 47.954437,4.463888 46.014717,2.427778 43.488609,0.649999 41.558159,-1.674868 40.998329,-0.866111 40.986595000000108,2.829956 41.905167,3.980322 43.686386,4.891944 44.950829,4.902499 47.988243,8.004107 47.01194,8.00111 44.010551,9.007221 42.848053,10.22361 42.663055,10.6325 42.944092,11.002438</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>Sudan</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Africakml">
+		<SimpleData name="FIPS">SU</SimpleData>
+		<SimpleData name="ISO2">SD</SimpleData>
+		<SimpleData name="ISO3">SDN</SimpleData>
+		<SimpleData name="UN">736</SimpleData>
+		<SimpleData name="AREA">237600</SimpleData>
+		<SimpleData name="POP2005">36899747</SimpleData>
+		<SimpleData name="REGION">2</SimpleData>
+		<SimpleData name="SUBREGION">15</SimpleData>
+		<SimpleData name="LON">30.050</SimpleData>
+		<SimpleData name="LAT">13.832</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>37.268608000000114,20.75111 37.242218,20.785831 37.263855,20.849724000000109 37.268608000000114,20.75111</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>31.453888,21.998333000000102 36.888466,22.000111000000132 37.309441,21.060276 37.105270000000161,21.212219 37.433327000000105,18.858055 38.600693,17.994881 37.423286000000104,17.034214 36.995827,17.073887 36.973053000000192,16.269444 36.443283000000207,15.149952 36.542816000000101,14.262053 36.142693,12.706923000000117 35.70108,12.666115 35.096939000000106,11.826944 34.864441,10.734999 34.594444,10.887777 34.28611,10.554165 34.120552,8.577221000000122 33.252777,8.458611000000118 32.991104,7.924999 33.711388,7.660277 34.70472,6.677777000000106 35.301941000000141,5.378055 35.821663,5.32861 35.940552,4.622499 34.388191,4.609682 33.996666,4.222777000000136 33.516937,3.752222 33.016663,3.888611000000111 32.193329,3.511389000000108 31.176666,3.795278 30.858818,3.493394000000137 29.64333,4.643611000000135 28.363052,4.29 27.455276,5.016388 27.142776,5.771944 26.437496000000124,6.077777 26.404999,6.646388 25.206944000000135,7.497499 25.25333,7.850555 24.192497000000117,8.30361 24.201111,8.686943 23.517776,8.714167 23.669167,9.866943 22.866505,10.922447 22.466942000000131,12.621666 21.827774,12.797499000000144 22.294167,13.35861 22.084442,13.779165 22.554996000000131,14.125555000000148 22.384163,14.55416500000014 22.935833,15.11611 22.937222000000105,15.561943 23.999603,15.698709 24.002747,19.499065 24.000832000000116,20.001942 25.000832,19.999119 25.001423,21.999695 31.271111000000104,21.998333000000102 31.455555000000146,22.23222 31.453888,21.998333000000102</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Togo</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Africakml">
+		<SimpleData name="FIPS">TO</SimpleData>
+		<SimpleData name="ISO2">TG</SimpleData>
+		<SimpleData name="ISO3">TGO</SimpleData>
+		<SimpleData name="UN">768</SimpleData>
+		<SimpleData name="AREA">5439</SimpleData>
+		<SimpleData name="POP2005">6238572</SimpleData>
+		<SimpleData name="REGION">2</SimpleData>
+		<SimpleData name="SUBREGION">11</SimpleData>
+		<SimpleData name="LON">1.081</SimpleData>
+		<SimpleData name="LAT">8.799</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>1.398542,9.429901 1.635404,6.218721 1.198891,6.100546 0.525,6.947778 0.727222,8.321388 0.382735,8.760756 0.550833,9.411388 0.2175,9.457222 0.368333,10.259443 -0.149762,11.13854 0.91797,10.996399 0.776667,10.376665 1.355,9.995277 1.398542,9.429901</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>Sao Tome and Principe</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Africakml">
+		<SimpleData name="FIPS">TP</SimpleData>
+		<SimpleData name="ISO2">ST</SimpleData>
+		<SimpleData name="ISO3">STP</SimpleData>
+		<SimpleData name="UN">678</SimpleData>
+		<SimpleData name="AREA">96</SimpleData>
+		<SimpleData name="POP2005">152622</SimpleData>
+		<SimpleData name="REGION">2</SimpleData>
+		<SimpleData name="SUBREGION">17</SimpleData>
+		<SimpleData name="LON">6.629</SimpleData>
+		<SimpleData name="LAT">0.201</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>6.523889000000139,0.018333 6.467222,0.259722000000139 6.687778,0.402222 6.523889000000139,0.018333</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>7.423055,1.556111 7.327222,1.607222000000107 7.406666000000143,1.701944000000154 7.423055,1.556111</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Tunisia</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Africakml">
+		<SimpleData name="FIPS">TS</SimpleData>
+		<SimpleData name="ISO2">TN</SimpleData>
+		<SimpleData name="ISO3">TUN</SimpleData>
+		<SimpleData name="UN">788</SimpleData>
+		<SimpleData name="AREA">15536</SimpleData>
+		<SimpleData name="POP2005">10104685</SimpleData>
+		<SimpleData name="REGION">2</SimpleData>
+		<SimpleData name="SUBREGION">15</SimpleData>
+		<SimpleData name="LON">9.596</SimpleData>
+		<SimpleData name="LAT">35.383</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>10.99361,33.75 10.865,33.638611 10.72611,33.880829 10.99361,33.75</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>11.064722,34.640549000000149 11.03500000000011,34.617493000000124 10.961111000000102,34.655273 11.064722,34.640549000000149</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>11.13722,34.675278 11.230833,34.821106 11.302221,34.803329000000119 11.13722,34.675278</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>10.808611,37.119438 10.791943,37.126389 10.814722,37.125275000000116 10.808611,37.119438</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>9.845247000000143,37.139351 10.252499,37.186386 10.381943000000149,36.723328 11.067778000000118,37.051384 10.455276,36.123329 11.128887,35.235832000000173 10.005833,34.166939000000113 10.331944,33.700272 11.048611,33.61694300000012 11.17111,33.210831 11.526081,33.171135 11.567499,32.442215 10.287222,31.694164 10.21361,30.730831 9.537113,30.23439 9.055277,32.099998 8.34861,32.533333 7.492499000000123,33.887497 8.251665,34.64444 8.183611,36.524162 8.62203,36.941368 9.672499000000187,37.338051 9.845247000000143,37.139351</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>8.917776000000174,37.510826 8.896111000000133,37.525833 8.944721000000101,37.538055 8.917776000000174,37.510826</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>United Republic of Tanzania</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Africakml">
+		<SimpleData name="FIPS">TZ</SimpleData>
+		<SimpleData name="ISO2">TZ</SimpleData>
+		<SimpleData name="ISO3">TZA</SimpleData>
+		<SimpleData name="UN">834</SimpleData>
+		<SimpleData name="AREA">88359</SimpleData>
+		<SimpleData name="POP2005">38477873</SimpleData>
+		<SimpleData name="REGION">2</SimpleData>
+		<SimpleData name="SUBREGION">14</SimpleData>
+		<SimpleData name="LON">34.823</SimpleData>
+		<SimpleData name="LAT">-6.270</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>39.682495,-7.993334 39.591385,-7.945834 39.901108,-7.638889 39.682495,-7.993334</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>39.4466630000002,-6.210556 39.516106,-6.468612 39.201385,-6.226945 39.304161,-5.723889 39.4466630000002,-6.210556</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>39.736107,-5.462778 39.676941,-4.941389 39.857216,-4.908611 39.736107,-5.462778</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>31.677219,-0.999722 33.920273,-1.001111 37.602776,-2.995833 37.613609,-3.504167 39.203026000000108,-4.669618 38.776382,-6.045556 39.547882000000101,-6.994313 39.274437,-7.579167 39.387772,-8.9025 39.826385000000101,-9.993057 40.436813000000171,-10.478174 39.268051000000156,-11.168056 37.941383,-11.285002 37.462044,-11.727329 36.18972,-11.706667 35.838333,-11.414722 34.966728,-11.572111 34.325272,-9.732779 33.134720000000158,-9.494167 32.940399,-9.405077 31.041111,-8.590279 30.77124000000012,-8.192247 29.550278,-6.295279 29.423885,-4.448056 30.026108000000107,-4.269444 30.834999000000181,-3.256945 30.843662,-2.978794 30.4175,-2.861945 30.57333,-2.399167 30.894165,-2.076111 30.48222,-1.063334 31.677219,-0.999722</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Uganda</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Africakml">
+		<SimpleData name="FIPS">UG</SimpleData>
+		<SimpleData name="ISO2">UG</SimpleData>
+		<SimpleData name="ISO3">UGA</SimpleData>
+		<SimpleData name="UN">800</SimpleData>
+		<SimpleData name="AREA">19710</SimpleData>
+		<SimpleData name="POP2005">28947181</SimpleData>
+		<SimpleData name="REGION">2</SimpleData>
+		<SimpleData name="SUBREGION">14</SimpleData>
+		<SimpleData name="LON">32.386</SimpleData>
+		<SimpleData name="LAT">1.280</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>33.996666,4.222777000000136 34.463333,3.671389 35.009720000000101,1.895278 33.907219,0.103056 33.920273,-1.001111 31.677219,-0.999722 30.48222,-1.063334 29.974998,-1.464445 29.596943,-1.385834 29.960552,0.825555 31.302776,2.121388 30.729721000000126,2.448055 30.858818,3.493394000000137 31.176666,3.795278 32.193329,3.511389000000108 33.016663,3.888611000000111 33.516937,3.752222 33.996666,4.222777000000136</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>Burkina Faso</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Africakml">
+		<SimpleData name="FIPS">UV</SimpleData>
+		<SimpleData name="ISO2">BF</SimpleData>
+		<SimpleData name="ISO3">BFA</SimpleData>
+		<SimpleData name="UN">854</SimpleData>
+		<SimpleData name="AREA">27360</SimpleData>
+		<SimpleData name="POP2005">13933363</SimpleData>
+		<SimpleData name="REGION">2</SimpleData>
+		<SimpleData name="SUBREGION">11</SimpleData>
+		<SimpleData name="LON">-1.740</SimpleData>
+		<SimpleData name="LAT">12.278</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-2.834048,11.002007 -2.685561,9.481817 -3.633611,9.954443000000111 -4.704445,9.698055 -5.51985,10.436272 -5.273056,11.843887 -4.4175,12.300831 -4.337223,13.121666 -3.964253,13.50383 -3.437675,13.166498 -3.2575,13.696665 -2.879167,13.655554 -2.474722,14.287498 -2.006945,14.187777 -1.980834,14.474722 -0.725278,15.082777 0.235048,14.915068 0.602222,13.703888 1.285306,13.349957 0.991667,13.371666 0.989167,13.047222 1.578333,12.629999 2.1425,12.694443 2.397925,11.896152 2.014722,11.422499 1.435278,11.458887 0.91797,10.996399 -0.149762,11.13854 -0.618333,10.911665 -2.834048,11.002007</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>Namibia</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Africakml">
+		<SimpleData name="FIPS">WA</SimpleData>
+		<SimpleData name="ISO2">NA</SimpleData>
+		<SimpleData name="ISO3">NAM</SimpleData>
+		<SimpleData name="UN">516</SimpleData>
+		<SimpleData name="AREA">82329</SimpleData>
+		<SimpleData name="POP2005">2019677</SimpleData>
+		<SimpleData name="REGION">2</SimpleData>
+		<SimpleData name="SUBREGION">18</SimpleData>
+		<SimpleData name="LON">17.218</SimpleData>
+		<SimpleData name="LAT">-22.133</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>23.284721,-17.662502 23.476109,-17.625835 24.969997,-17.559723 25.264431,-17.80225 24.362499,-17.948612 23.615578,-18.485069 23.297108,-17.995949 20.993286,-18.318417 20.991943,-21.996948 19.996666,-22.005001 20.000942,-24.765408 19.99612,-28.421448 19.123055000000107,-28.962223 18.175831,-28.908611 17.40472,-28.713612 17.06361,-28.028614 16.48959,-28.578178 15.294167,-27.322502 14.463333,-24.109169 14.511389,-22.55278 11.804722,-18.081947 11.752783000000107,-17.254833 13.16055500000013,-16.952778 13.993219,-17.423946 18.451538,-17.389835 18.915833000000134,-17.815556 20.854164,-18.016392 23.284721,-17.662502</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>Swaziland</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Africakml">
+		<SimpleData name="FIPS">WZ</SimpleData>
+		<SimpleData name="ISO2">SZ</SimpleData>
+		<SimpleData name="ISO3">SWZ</SimpleData>
+		<SimpleData name="UN">748</SimpleData>
+		<SimpleData name="AREA">1720</SimpleData>
+		<SimpleData name="POP2005">1124529</SimpleData>
+		<SimpleData name="REGION">2</SimpleData>
+		<SimpleData name="SUBREGION">18</SimpleData>
+		<SimpleData name="LON">31.497</SimpleData>
+		<SimpleData name="LAT">-26.562</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>30.902048,-26.305254 31.33083,-25.751392 31.96851,-25.95784 32.1334,-26.839626 31.987499,-27.316113 31.161663,-27.203056 30.818886000000106,-26.810558 30.902048,-26.305254</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>Zambia</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Africakml">
+		<SimpleData name="FIPS">ZA</SimpleData>
+		<SimpleData name="ISO2">ZM</SimpleData>
+		<SimpleData name="ISO3">ZMB</SimpleData>
+		<SimpleData name="UN">894</SimpleData>
+		<SimpleData name="AREA">74339</SimpleData>
+		<SimpleData name="POP2005">11478317</SimpleData>
+		<SimpleData name="REGION">2</SimpleData>
+		<SimpleData name="SUBREGION">14</SimpleData>
+		<SimpleData name="LON">26.320</SimpleData>
+		<SimpleData name="LAT">-14.614</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>24.969997,-17.559723 23.476109,-17.625835 22.000149000000135,-16.171661 21.998333,-13.004168 24.020554,-13.00639 23.986206,-10.870461 24.44833,-11.463612 25.332222000000115,-11.193335 25.359722000000119,-11.641668 26.004719,-11.9025 26.86861,-11.973612 27.199249,-11.567905 27.66000000000011,-12.296667 28.441944,-12.519724 29.015831,-13.397779 29.589443,-13.221945 29.801388,-13.454168 29.80505,-12.155247 29.49361,-12.458057 29.031387,-12.383057 28.363331,-11.550835 28.699718000000104,-10.653334 28.372219,-9.260834 28.901665,-8.478613 30.77124000000012,-8.192247 31.041111,-8.590279 32.940399,-9.405077 33.702278,-10.561857 33.250549,-10.886667 33.273331,-12.144445 33.54583,-12.359446 33.046387,-12.603889 32.678886,-13.60639 33.222229,-14.012566 30.213017000000178,-14.981716 30.415756,-15.631872 28.927219,-15.972223 28.759441,-16.552223 27.825275,-16.959167 27.038055,-17.959446 25.264431,-17.80225 24.969997,-17.559723</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>Zimbabwe</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Africakml">
+		<SimpleData name="FIPS">ZI</SimpleData>
+		<SimpleData name="ISO2">ZW</SimpleData>
+		<SimpleData name="ISO3">ZWE</SimpleData>
+		<SimpleData name="UN">716</SimpleData>
+		<SimpleData name="AREA">38685</SimpleData>
+		<SimpleData name="POP2005">13119679</SimpleData>
+		<SimpleData name="REGION">2</SimpleData>
+		<SimpleData name="SUBREGION">14</SimpleData>
+		<SimpleData name="LON">29.872</SimpleData>
+		<SimpleData name="LAT">-19.000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>32.987808,-17.265003 33.073051000000106,-18.348892 32.699165,-18.944447 33.018883000000102,-19.943336 32.502220000000108,-20.598614 32.488876,-21.344448 31.297504000000146,-22.414764 29.893887,-22.194447 29.373623,-22.19241 29.060555,-21.798058 28.015831,-21.566113 27.713165,-20.506432 27.287453,-20.494965 27.219997,-20.091667 26.166111,-19.527779 25.264431,-17.80225 27.038055,-17.959446 27.825275,-16.959167 28.759441,-16.552223 28.927219,-15.972223 30.415756,-15.631872 30.422775,-16.009167 31.276665,-16.018612 32.98114,-16.709053 32.987808,-17.265003</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>Saint Helena</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Africakml">
+		<SimpleData name="FIPS">SH</SimpleData>
+		<SimpleData name="ISO2">SH</SimpleData>
+		<SimpleData name="ISO3">SHN</SimpleData>
+		<SimpleData name="UN">654</SimpleData>
+		<SimpleData name="AREA">0</SimpleData>
+		<SimpleData name="POP2005">6399</SimpleData>
+		<SimpleData name="REGION">2</SimpleData>
+		<SimpleData name="SUBREGION">11</SimpleData>
+		<SimpleData name="LON">-5.710</SimpleData>
+		<SimpleData name="LAT">-15.953</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-9.892223,-40.390839 -10.028611999999896,-40.309448 -9.95222299999989,-40.306671 -9.892223,-40.390839</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-12.206389999999885,-37.112503 -12.331666999999868,-37.107506 -12.259445,-37.05278 -12.206389999999885,-37.112503</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-5.662222999999869,-15.987501 -5.793056,-15.994167 -5.704167,-15.903057 -5.662222999999869,-15.987501</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-14.36389,-7.979723 -14.381945,-7.883612 -14.293056,-7.945278 -14.36389,-7.979723</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Western Sahara</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Africakml">
+		<SimpleData name="FIPS">WI</SimpleData>
+		<SimpleData name="ISO2">EH</SimpleData>
+		<SimpleData name="ISO3">ESH</SimpleData>
+		<SimpleData name="UN">732</SimpleData>
+		<SimpleData name="AREA">0</SimpleData>
+		<SimpleData name="POP2005">440428</SimpleData>
+		<SimpleData name="REGION">2</SimpleData>
+		<SimpleData name="SUBREGION">15</SimpleData>
+		<SimpleData name="LON">-13.706</SimpleData>
+		<SimpleData name="LAT">24.554</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-15.741997,21.338284 -16.953056,21.338333 -17.05233,20.764095000000125 -16.917225,21.943054 -16.719448,22.26083 -16.491112,22.334164 -16.075558,23.324444 -15.766668,23.781666 -15.777225,23.908882 -16.00639,23.6675 -15.838058,23.896938 -14.901112,24.688053 -14.480278,26.171108 -13.574167,26.731667 -13.174961,27.666958 -8.666668,27.666664 -8.66679,27.290459 -8.666944999999885,26.000275000000116 -12.000557,26.0 -12.000278,23.454441000000102 -13.105278,22.893055 -12.999723,21.338055000000125 -15.741997,21.338284</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document>
+</kml>
