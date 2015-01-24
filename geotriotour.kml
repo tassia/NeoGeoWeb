@@ -144,7 +144,7 @@
 -12.952778,7.568333,1034000
 -12.591112,7.634444,1034000
 -12.525278,7.431389,1034000
-</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>
+</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><extrude>1</extrude><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>
 -11.214444999999898,9.997499,1034000
 -10.571526,9.059532,1034000
 -10.695835,8.298611,1034000
@@ -164,8 +164,7 @@
 </coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
 <Placemark>
-	<name>Nigeria</name>
-	<Style id="transBluePoly">
+	<name>Nigeria</name><description>Mali</description><Style id="transBluePoly">
       <LineStyle>
         <width>1.5</width>
       </LineStyle>
@@ -173,77 +172,55 @@
         <color>7dff0000</color>
       </PolyStyle>
     </Style>
-	<ExtendedData><SchemaData schemaUrl="#Africakml">
-		<SimpleData name="FIPS">NI</SimpleData>
-		<SimpleData name="ISO2">NG</SimpleData>
-		<SimpleData name="ISO3">NGA</SimpleData>
-		<SimpleData name="UN">566</SimpleData>
-		<SimpleData name="AREA">91077</SimpleData>
-		<SimpleData name="POP2005">141356083</SimpleData>
-		<SimpleData name="REGION">2</SimpleData>
-		<SimpleData name="SUBREGION">11</SimpleData>
-		<SimpleData name="LON">8.105</SimpleData>
-		<SimpleData name="LAT">9.594</SimpleData>
-	</SchemaData></ExtendedData>
-      <MultiGeometry><Polygon><extrude>1</extrude><tessellate>1</tessellate><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>
-7.466389,4.445277,2000
-7.335833,4.443055,2000
-7.411944,4.488055,2000
-7.466389,4.445277,2000
-</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><extrude>1</extrude><tessellate>1</tessellate><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>
-7.20361,4.380555000000129,2000
-7.22611,4.52,2000
-7.316667,4.4725,2000
-7.20361,4.380555000000129,2000
-</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>
-5.874722,13.749443,2000
-6.423055,13.605276000000131,2000
-6.933332,12.997221000000124,2000
-7.815,13.352777,2000
-9.634932,12.802435,2000
-10.724165,13.386389,2000
-12.459166,13.066111,2000
-13.62512,13.718338,2000
-14.07472,13.0816650000001,2000
-14.174444,12.396666,2000
-14.645277,12.188332000000145,2000
-14.646387,11.575832,2000
-13.80722,11.055832,2000
-12.79694400000011,8.769722,2000
-12.253887000000134,8.408054,2000
-11.864166,7.084722,2000
-11.340277,6.440833,2000
-10.615000000000123,7.06861,2000
-9.795555,6.801666,2000
-8.865276,5.841944,2000
-8.591738000000134,4.810932000000122,2000
-7.676944,4.496388,2000
-7.071666,4.753888,2000
-7.073055,4.434722,2000
-6.962222000000111,4.725277000000119,2000
-7.005555,4.369444,2000
-6.768055,4.774722,2000
-6.848611000000119,4.348332000000113,2000
-6.727221,4.605,2000
-6.694166000000109,4.33,2000
-6.104166,4.272778000000102,2000
-5.451944,4.923055,2000
-5.345277,5.33,2000
-5.639722,5.536111,2000
-5.257222000000183,5.43555500000015,2000
-5.501111,5.620555,2000
-5.175278000000105,5.575555,2000
-4.525833,6.304999,2000
-3.388611,6.443333000000109,2000
-3.807222000000166,6.612778,2000
-2.719606,6.365505,2000
-2.789444,9.043888,2000
-3.095,9.090555,2000
-3.855,10.584999,2000
-3.604459,11.693274,2000
-4.1425,13.476944,2000
-5.874722,13.749443,2000
-</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+ <Polygon><extrude>1</extrude><tessellate>1</tessellate><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>
+	5.874722,13.749443,2000
+	6.423055,13.605276000000131,2000
+	6.933332,12.997221000000124,2000
+	7.815,13.352777,2000
+	9.634932,12.802435,2000
+	10.724165,13.386389,2000
+	12.459166,13.066111,2000
+	13.62512,13.718338,2000
+	14.07472,13.0816650000001,2000
+	14.174444,12.396666,2000
+	14.645277,12.188332000000145,2000
+	14.646387,11.575832,2000
+	13.80722,11.055832,2000
+	12.79694400000011,8.769722,2000
+	12.253887000000134,8.408054,2000
+	11.864166,7.084722,2000
+	11.340277,6.440833,2000
+	10.615000000000123,7.06861,2000
+	9.795555,6.801666,2000
+	8.865276,5.841944,2000
+	8.591738000000134,4.810932000000122,2000
+	7.676944,4.496388,2000
+	7.071666,4.753888,2000
+	7.073055,4.434722,2000
+	6.962222000000111,4.725277000000119,2000
+	7.005555,4.369444,2000
+	6.768055,4.774722,2000
+	6.848611000000119,4.348332000000113,2000
+	6.727221,4.605,2000
+	6.694166000000109,4.33,2000
+	6.104166,4.272778000000102,2000
+	5.451944,4.923055,2000
+	5.345277,5.33,2000
+	5.639722,5.536111,2000
+	5.257222000000183,5.43555500000015,2000
+	5.501111,5.620555,2000
+	5.175278000000105,5.575555,2000
+	4.525833,6.304999,2000
+	3.388611,6.443333000000109,2000
+	3.807222000000166,6.612778,2000
+	2.719606,6.365505,2000
+	2.789444,9.043888,2000
+	3.095,9.090555,2000
+	3.855,10.584999,2000
+	3.604459,11.693274,2000
+	4.1425,13.476944,2000
+	5.874722,13.749443,2000
+</coordinates></LinearRing></outerBoundaryIs></Polygon>
   </Placemark>
 <Placemark>
 	<name>Senegal</name>
@@ -313,7 +290,7 @@
         <color>7dff0000</color>
       </PolyStyle>
     </Style>
-<Polygon><extrude>1</extrude><tessellate>1</tessellate><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>
+ <Polygon><extrude>1</extrude><tessellate>1</tessellate><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>
 	-8.53388,11.49391,800
 	-9.155556,12.486111,800
 	-9.701946,12.029163,800
