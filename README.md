@@ -1,2 +1,4 @@
 This git repository will be used by the GeoTrio group in NeoGeoWeb course.
-Rachel is trying to add text ha ha ha 
+
+Rachel is trying to add text hahaha
+Yo.
