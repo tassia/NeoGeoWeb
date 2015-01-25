@@ -25,7 +25,7 @@
         		<width>1.5</width>
       		</LineStyle>
       		<PolyStyle>
-        		<color>7dff0000</color>
+        		<color>7d0066ff</color>
 		</PolyStyle>
 	</Style>
 	<ExtendedData><SchemaData schemaUrl="#Africakml">
@@ -100,7 +100,7 @@
 			<width>1.5</width>
 		</LineStyle>
 		<PolyStyle>
-			<color>7dff0000</color>
+			<color>7d0033ff</color>
 		</PolyStyle>
 	</Style>
 	<ExtendedData><SchemaData schemaUrl="#Africakml">
@@ -144,73 +144,85 @@
 </Placemark>
 
 <Placemark>
-	<name>Sierra Leone</name>
+	<name>Mali</name>
+	<description>Mali</description>
 	<Style id="transBluePoly">
 		<LineStyle>
-			<width>1.5</width>
+		 	<width>1.5</width>
 		</LineStyle>
 		<PolyStyle>
-			<color>7dff0000</color>
+			<color>7d00ffff</color>
 		</PolyStyle>
 	</Style>
-	<ExtendedData><SchemaData schemaUrl="#Africakml">
-		<SimpleData name="FIPS">SL</SimpleData>
-		<SimpleData name="ISO2">SL</SimpleData>
-		<SimpleData name="ISO3">SLE</SimpleData>
-		<SimpleData name="UN">694</SimpleData>
-		<SimpleData name="AREA">7162</SimpleData>
-		<SimpleData name="POP2005">5586403</SimpleData>
-		<SimpleData name="REGION">2</SimpleData>
-		<SimpleData name="SUBREGION">11</SimpleData>
-		<SimpleData name="LON">-11.792</SimpleData>
-		<SimpleData name="LAT">8.560</SimpleData>
-	</SchemaData></ExtendedData>
-	<MultiGeometry>
-		<Polygon>
-			<extrude>1</extrude>
-			<tessellate>1</tessellate>
-			<altitudeMode>relativeToGround</altitudeMode>
-			<outerBoundaryIs>
-				<LinearRing>
-					<altitudeMode>relativeToGround</altitudeMode>
-					<coordinates>
-						-12.525278,7.431389,1034000
-						-12.952778,7.568333,1034000
-						-12.591112,7.634444,1034000
-						-12.525278,7.431389,1034000
-					</coordinates>
-				</LinearRing>
-			</outerBoundaryIs>
-		</Polygon>
-		<Polygon>
-			<extrude>1</extrude>
-			<altitudeMode>relativeToGround</altitudeMode>
-			<outerBoundaryIs>
-				<LinearRing>
-					<altitudeMode>relativeToGround</altitudeMode>
-					<coordinates>
-						-11.214444999999898,9.997499,1034000
-						-10.571526,9.059532,1034000
-						-10.695835,8.298611,1034000
-						-10.266651,8.488377,1034000
-						-11.492331,6.927091000000132,1034000
-						-12.958612,7.9,1034000
-						-13.288057,8.496111000000127,1034000
-						-13.05139,8.36861,1034000
-						-13.120278999999897,8.461666000000122,1034000
-						-12.897500999999863,8.567778,1034000
-						-13.165279,8.51861,1034000
-						-13.2425,8.802500000000123,1034000
-						-13.132223,8.861944,1034000
-						-13.29561,9.032143,1034000
-						-12.456112,9.888332,1034000
-						-11.214444999999898,9.997499,1034000
-					</coordinates>
-				</LinearRing>
-			</outerBoundaryIs>
-		</Polygon>
-	</MultiGeometry>
+	<Polygon>
+		<extrude>1</extrude>
+		<tessellate>1</tessellate>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<outerBoundaryIs>
+			<LinearRing>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>
+					-8.53388,11.49391,800
+					-9.155556,12.486111,800
+					-9.701946,12.029163,800
+					-10.323893,12.224997,800
+					-10.652748,11.892609,800
+					-10.92889,12.224442,800
+					-11.315556,12.022774,800
+					-11.373058,12.407774,800
+					-11.378056,12.988054,800
+					-12.057222,13.664721,800
+					-12.244833,14.764385,800
+					-11.841391,14.863054,800
+					-11.494167,15.646387,800
+					-10.899637,15.106874,800
+					-10.716387,15.438902000000112,800
+					-9.411112,15.443888,800
+					-9.338057,15.704721000000106,800
+					-9.333612,15.499722000000148,800
+					-5.49505,15.498371,800
+					-5.335,16.328053,800
+					-5.601389,16.507774,800
+					-6.577223,24.999165000000133,800
+					-4.806111,25.000275,800
+					1.169662,21.102543,800
+					1.1675,20.741108,800
+					1.795833,20.308331,800
+					3.233055,19.820274,800
+					3.331944,18.976387,800
+					4.245277,19.146664,800
+					4.245,18.645275,800
+					4.200833,16.393887,800
+					3.523981,15.358152,800
+					1.3125,15.286665,800
+					0.235048,14.915068,800
+					-0.725278,15.082777,800
+					-1.980834,14.474722,800
+					-2.006945,14.187777,800
+					-2.474722,14.287498,800
+					-2.879167,13.655554,800
+					-3.2575,13.696665,800
+					-3.437675,13.166498,800
+					-3.964253,13.50383,800
+					-4.337223,13.121666,800
+					-4.4175,12.300831,800
+					-5.273056,11.843887,800
+					-5.51985,10.436272,800
+					-6.111389,10.197777,800
+					-6.243402,10.735256,800
+					-6.988056,10.147499,800
+					-7.635555999999895,10.448332000000107,800
+					-7.973984,10.165611,800
+					-8.289722,11.007776,800
+					-8.680557,10.966389,800
+					-8.357779,11.305555,800
+					-8.53388,11.49391,800
+				</coordinates>
+			</LinearRing>
+		</outerBoundaryIs>
+	</Polygon>
 </Placemark>
+
 
 <Placemark>
 	<name>Nigeria</name>
@@ -220,7 +232,7 @@
 			<width>1.5</width>
 		</LineStyle>
 		<PolyStyle>
-			<color>7dff0000</color>
+			<color>7d00ccff</color>
 		</PolyStyle>
 	</Style>
 	<Polygon>
@@ -291,7 +303,7 @@
 			<width>1.5</width>
 		</LineStyle>
 		<PolyStyle>
-			<color>7dff0000</color>
+			<color>7d00ffff</color>
 		</PolyStyle>
 	</Style>
 	<ExtendedData><SchemaData schemaUrl="#Africakml">
@@ -355,83 +367,72 @@
 </Placemark>
 
 <Placemark>
-	<name>Mali</name>
-	<description>Mali</description>
+	<name>Sierra Leone</name>
 	<Style id="transBluePoly">
 		<LineStyle>
-		 	<width>1.5</width>
+			<width>1.5</width>
 		</LineStyle>
 		<PolyStyle>
-			<color>7dff0000</color>
+			<color>7d0000ff</color>
 		</PolyStyle>
 	</Style>
-	<Polygon>
-		<extrude>1</extrude>
-		<tessellate>1</tessellate>
-		<altitudeMode>relativeToGround</altitudeMode>
-		<outerBoundaryIs>
-			<LinearRing>
-				<altitudeMode>relativeToGround</altitudeMode>
-				<coordinates>
-					-8.53388,11.49391,800
-					-9.155556,12.486111,800
-					-9.701946,12.029163,800
-					-10.323893,12.224997,800
-					-10.652748,11.892609,800
-					-10.92889,12.224442,800
-					-11.315556,12.022774,800
-					-11.373058,12.407774,800
-					-11.378056,12.988054,800
-					-12.057222,13.664721,800
-					-12.244833,14.764385,800
-					-11.841391,14.863054,800
-					-11.494167,15.646387,800
-					-10.899637,15.106874,800
-					-10.716387,15.438902000000112,800
-					-9.411112,15.443888,800
-					-9.338057,15.704721000000106,800
-					-9.333612,15.499722000000148,800
-					-5.49505,15.498371,800
-					-5.335,16.328053,800
-					-5.601389,16.507774,800
-					-6.577223,24.999165000000133,800
-					-4.806111,25.000275,800
-					1.169662,21.102543,800
-					1.1675,20.741108,800
-					1.795833,20.308331,800
-					3.233055,19.820274,800
-					3.331944,18.976387,800
-					4.245277,19.146664,800
-					4.245,18.645275,800
-					4.200833,16.393887,800
-					3.523981,15.358152,800
-					1.3125,15.286665,800
-					0.235048,14.915068,800
-					-0.725278,15.082777,800
-					-1.980834,14.474722,800
-					-2.006945,14.187777,800
-					-2.474722,14.287498,800
-					-2.879167,13.655554,800
-					-3.2575,13.696665,800
-					-3.437675,13.166498,800
-					-3.964253,13.50383,800
-					-4.337223,13.121666,800
-					-4.4175,12.300831,800
-					-5.273056,11.843887,800
-					-5.51985,10.436272,800
-					-6.111389,10.197777,800
-					-6.243402,10.735256,800
-					-6.988056,10.147499,800
-					-7.635555999999895,10.448332000000107,800
-					-7.973984,10.165611,800
-					-8.289722,11.007776,800
-					-8.680557,10.966389,800
-					-8.357779,11.305555,800
-					-8.53388,11.49391,800
-				</coordinates>
-			</LinearRing>
-		</outerBoundaryIs>
-	</Polygon>
+	<ExtendedData><SchemaData schemaUrl="#Africakml">
+		<SimpleData name="FIPS">SL</SimpleData>
+		<SimpleData name="ISO2">SL</SimpleData>
+		<SimpleData name="ISO3">SLE</SimpleData>
+		<SimpleData name="UN">694</SimpleData>
+		<SimpleData name="AREA">7162</SimpleData>
+		<SimpleData name="POP2005">5586403</SimpleData>
+		<SimpleData name="REGION">2</SimpleData>
+		<SimpleData name="SUBREGION">11</SimpleData>
+		<SimpleData name="LON">-11.792</SimpleData>
+		<SimpleData name="LAT">8.560</SimpleData>
+	</SchemaData></ExtendedData>
+	<MultiGeometry>
+		<Polygon>
+			<extrude>1</extrude>
+			<tessellate>1</tessellate>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<outerBoundaryIs>
+				<LinearRing>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>
+						-12.525278,7.431389,1034000
+						-12.952778,7.568333,1034000
+						-12.591112,7.634444,1034000
+						-12.525278,7.431389,1034000
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+		<Polygon>
+			<extrude>1</extrude>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<outerBoundaryIs>
+				<LinearRing>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>
+						-11.214444999999898,9.997499,1034000
+						-10.571526,9.059532,1034000
+						-10.695835,8.298611,1034000
+						-10.266651,8.488377,1034000
+						-11.492331,6.927091000000132,1034000
+						-12.958612,7.9,1034000
+						-13.288057,8.496111000000127,1034000
+						-13.05139,8.36861,1034000
+						-13.120278999999897,8.461666000000122,1034000
+						-12.897500999999863,8.567778,1034000
+						-13.165279,8.51861,1034000
+						-13.2425,8.802500000000123,1034000
+						-13.132223,8.861944,1034000
+						-13.29561,9.032143,1034000
+						-12.456112,9.888332,1034000
+						-11.214444999999898,9.997499,1034000
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</MultiGeometry>
 </Placemark>
 
 </Folder>
