@@ -442,7 +442,8 @@ Democratic Republic of Congo, Zaire strain, 318 cases, 280 deaths, 88% fatality
 Sudan, Sudan strain, 284 cases, 151 deaths, 53% fatality//
 
 <Placemark>
-	<name>Democratic Republic of the Congo</name>
+	<name>1976 Democratic Republic of the Congo</name>
+    <description>Zaire strain: 318 cases, 280 deaths, 88% fatality</description>
 	<Style>
 		<LineStyle>
 			<color>ff0000ff</color>
@@ -560,6 +561,119 @@ Sudan, Sudan strain, 284 cases, 151 deaths, 53% fatality//
 			</LinearRing>
 		</innerBoundaryIs>
 	</Polygon>
+</Placemark>
+
+<Placemark>
+	<name>1976 Sudan</name>
+	<Style>
+        <LineStyle>
+            <color>ff0000ff</color>
+        </LineStyle>
+        <PolyStyle>
+            <fill>0</fill>
+        </PolyStyle>
+    </Style>
+	<ExtendedData>
+        <SchemaData schemaUrl="#Africakml">
+            <SimpleData name="FIPS">SU</SimpleData>
+            <SimpleData name="ISO2">SD</SimpleData>
+            <SimpleData name="ISO3">SDN</SimpleData>
+            <SimpleData name="UN">736</SimpleData>
+            <SimpleData name="AREA">237600</SimpleData>
+            <SimpleData name="POP2005">36899747</SimpleData>
+            <SimpleData name="REGION">2</SimpleData>
+            <SimpleData name="SUBREGION">15</SimpleData>
+            <SimpleData name="LON">30.050</SimpleData>
+            <SimpleData name="LAT">13.832</SimpleData>
+        </SchemaData>
+    </ExtendedData>
+    <MultiGeometry>
+        <Polygon>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <altitudeMode>relativeToGround</altitudeMode>
+                    <coordinates>
+                        37.268608000000114,20.75111
+                        37.242218,20.785831
+                        37.263855,20.849724000000109
+                        37.268608000000114,20.75111
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+        <Polygon>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <altitudeMode>relativeToGround</altitudeMode>
+                    <coordinates>
+                        31.453888,21.998333000000102
+                        36.888466,22.000111000000132
+                        37.309441,21.060276
+                        37.105270000000161,21.212219
+                        37.433327000000105,18.858055
+                        38.600693,17.994881
+                        37.423286000000104,17.034214
+                        36.995827,17.073887
+                        36.973053000000192,16.269444
+                        36.443283000000207,15.149952
+                        36.542816000000101,14.262053
+                        36.142693,12.706923000000117
+                        35.70108,12.666115
+                        35.096939000000106,11.826944
+                        34.864441,10.734999
+                        34.594444,10.887777
+                        34.28611,10.554165
+                        34.120552,8.577221000000122
+                        33.252777,8.458611000000118
+                        32.991104,7.924999
+                        33.711388,7.660277
+                        34.70472,6.677777000000106
+                        35.301941000000141,5.378055
+                        35.821663,5.32861
+                        35.940552,4.622499
+                        34.388191,4.609682
+                        33.996666,4.222777000000136
+                        33.516937,3.752222
+                        33.016663,3.888611000000111
+                        32.193329,3.511389000000108
+                        31.176666,3.795278
+                        30.858818,3.493394000000137
+                        29.64333,4.643611000000135
+                        28.363052,4.29
+                        27.455276,5.016388
+                        27.142776,5.771944
+                        26.437496000000124,6.077777
+                        26.404999,6.646388
+                        25.206944000000135,7.497499
+                        25.25333,7.850555
+                        24.192497000000117,8.30361
+                        24.201111,8.686943
+                        23.517776,8.714167
+                        23.669167,9.866943
+                        22.866505,10.922447
+                        22.466942000000131,12.621666
+                        21.827774,12.797499000000144
+                        22.294167,13.35861
+                        22.084442,13.779165
+                        22.554996000000131,14.125555000000148
+                        22.384163,14.55416500000014
+                        22.935833,15.11611
+                        22.937222000000105,15.561943
+                        23.999603,15.698709
+                        24.002747,19.499065
+                        24.000832000000116,20.001942
+                        25.000832,19.999119
+                        25.001423,21.999695
+                        31.271111000000104,21.998333000000102
+                        31.455555000000146,22.23222
+                        31.453888,21.998333000000102
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </MultiGeometry>
 </Placemark>
 
 //1977:
