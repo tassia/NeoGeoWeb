@@ -768,10 +768,10 @@ Republic of Congo, Zaire strain, 12 cases, 10 deaths, 83% fatality //
 		</Data>
     </ExtendedData>
     <Polygon>
-		<altitudeMode>relativeToGround</altitudeMode>
+		<altitudeMode>lockToGround</altitudeMode>
 		<outerBoundaryIs>
 			<LinearRing>
-				<altitudeMode>relativeToGround</altitudeMode>
+				<altitudeMode>lockToGround</altitudeMode>
 				<coordinates>
 					12.779047,-4.388991
 					12.026131,-5.014997
@@ -845,10 +845,10 @@ Uganda, Bundibugyo strain, 149 cases, 37 deaths, 25% fatality//
 		</Data>
     </ExtendedData>
     <Polygon>
-		<altitudeMode>relativeToGround</altitudeMode>
+		<altitudeMode>lockToGround</altitudeMode>
 		<outerBoundaryIs>
 			<LinearRing>
-				<altitudeMode>relativeToGround</altitudeMode>
+				<altitudeMode>lockToGround</altitudeMode>
 				<coordinates>
 					12.779047,-4.388991
 					12.026131,-5.014997
