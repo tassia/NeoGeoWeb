@@ -435,9 +435,9 @@
 	</MultiGeometry>
 </Placemark>
 
-//Anna: early epidemics 1976-1995//
+// Anna: early epidemics 1976-1995 //
 
-//1976:
+// 1976:
 Democratic Republic of Congo, Zaire strain, 318 cases, 280 deaths, 88% fatality
 Sudan, Sudan strain, 284 cases, 151 deaths, 53% fatality//
 
@@ -676,21 +676,66 @@ Sudan, Sudan strain, 284 cases, 151 deaths, 53% fatality//
     </MultiGeometry>
 </Placemark>
 
-//1977:
+// 1977:
 Democratic Republic of Congo, Zaire strain, 1 case, 1 death, 100% fatality//
 
-//1979:
+// 1979:
 Sudan, Sudan strain, 34 cases, 22 deaths, 65% fatality//
 
-//1994:
+// 1994:
 Gabon, Zaire strain, 52 cases, 31 deaths, 60% fatality
 Cote d’Ivoire, Tai Forest strain, 1 case, 0 deaths, 0% fatality//
 
-//1995:
+// 1995:
 Democratic Republic of Congo, Zaire strain, 315 cases, 254 deaths, 81% fatality rate//
 
 
+// Rachel: 1996-2004
 
+// 1996:
+//
+
+// 2000:
+//
+
+// 2001:
+//
+
+// 2003;
+//
+
+// 2004:
+//
+
+// Tassia: 2005-2012 //
+
+// 2005:
+Republic of Congo, Zaire strain, 12 cases, 10 deaths, 83% fatality //
+
+// 2007:
+Democratic Republic of Congo, Zaire strain, 264 cases, 187 deaths, 71% fatality
+Uganda, Bundibugyo strain, 149 cases, 37 deaths, 25% fatality//
+
+// 2008:
+Democratic Republic of Congo, Zaire strain, 32 cases, 14 deaths, 44% fatality//
+
+// 2011:
+Uganda, Sudan strain, 1 cases, 1 deaths, 100% fatality//
+
+// 2012:
+Uganda, Sudan strain, 31 cases, 21 deaths, 68% fatality
+Democratic Republic of Congo, Bundibugyo strain, 57 cases, 29 deaths, 51% fatality//
+
+// 2014:
+Guinea
+Sierra Leone
+Liberia
+Nigeria
+Senegal
+United States of America
+Spain
+Mali
+Democratic Republic of Congo
 
 </Folder>
 </Document>
