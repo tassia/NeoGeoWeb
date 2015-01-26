@@ -20,20 +20,37 @@
 		<color>ff0000ff</color>
 	</LineStyle>
 	<PolyStyle>
-		<fill>0</fill>
+		<fill>1</fill>
 	</PolyStyle>
-    <BalloonStyle>
-      <text>
-        <![CDATA[
-          Year: $[year]
-		  Country: $[country]
-          Cases: $[cases]
-          Deaths: $[deaths]
-          Mortality rate: $[fatality]
-        ]]>
-      </text>
-    </BalloonStyle>
-  </Style>
+	<BalloonStyle>
+		<bgColor>#dddddd</bgColor>
+		<text>
+			<![CDATA[
+				<table width="250" border="0" cellpadding="5" cellspacing="0" bgcolor="#ffffff">
+				<tr>
+					<td>
+						<img src=$[flag_src] alt="picture" width="60" align="left" />
+					</td>
+					<td>
+						<h3><font color="#006600">$[country]</font></h3>
+					</td>
+				</tr>
+				<tr>
+					<td></td><td align="center" ><b>$[year]</b></td>
+				</tr>				
+				<tr>
+					<td colspan="2">
+						<p>$[info]</p>
+					</td>
+				</tr>
+				<table border="0.5" cellpadding="5">
+					<tr><td>Cases</td><td>Deaths</td><td>Fatality</td></tr>
+					<tr align="center"><td><b>$[cases]</b></td><td><b>$[deaths]</b></td><td><b>$[fatality]</b></td></tr>
+				</table>
+			]]>
+		</text>
+	</BalloonStyle>
+</Style>
 
 <Folder>
 <name>GeoTrioTour</name>
@@ -725,24 +742,30 @@ Democratic Republic of Congo, Zaire strain, 315 cases, 254 deaths, 81% fatality 
 // 2005:
 Republic of Congo, Zaire strain, 12 cases, 10 deaths, 83% fatality //
 <Placemark>
-	<name>2005 Congo</name>
+	<name>2005: Republic of Congo</name>
 	<styleUrl>#epidemics</styleUrl>
     <ExtendedData>
-      <Data name="year">
-        <value>2005</value>
-      </Data>
-      <Data name="country">
-        <value>Republic of Congo</value>
-      </Data>
-      <Data name="cases">
-        <value>12</value>
-      </Data>
-	  <Data name="deaths">
-        <value>10</value>
-      </Data>
-	  <Data name="fatality">
-        <value>83</value>
-      </Data>
+		<Data name="year">
+			<value>2005</value>
+		</Data>
+		<Data name="flag_src">
+			<value>http://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_Sudan.svg</value>
+		</Data>
+		<Data name="country">
+			<value>Republic of Congo</value>
+		</Data>
+		<Data name="info">
+			<value>Occurred in Nzara, Maridi and surrounding areas between June and November 1976. Mainly spread by personal contact in hospitals. Many medical care personnel were infected.</value>
+		</Data>
+		<Data name="cases">
+			<value>12</value>
+		</Data>
+		<Data name="deaths">
+			<value>10</value>
+		</Data>
+		<Data name="fatality">
+			<value>83</value>
+		</Data>
     </ExtendedData>
     <Polygon>
 		<altitudeMode>relativeToGround</altitudeMode>
