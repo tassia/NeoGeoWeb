@@ -605,9 +605,9 @@ Sudan, Sudan strain, 284 cases, 151 deaths, 53% fatality//
         <bgColor>ffff0000</bgColor>
         <text>
             <![CDATA[
-                <b><font color="#ff0000" size="+1">$[name]</font></b>
+                <b><font color="#ff0000" size="+1">$[year] $[name]</font></b>
                 <br/><br/>
-                <i><font face="Courier" color="#00ff00">$[description]</font></i>
+                <i><font face="Courier" color="#00ff00">Deaths: $[deaths] Cases: $[cases] Fatality: $[fatality]</font></i>
                 <br/><br/>
                 example text woop
                 <br/><br/><br/>
@@ -623,15 +623,26 @@ Sudan, Sudan strain, 284 cases, 151 deaths, 53% fatality//
 </Style>
 
 <Placemark>
-	<name>1976 Democratic Republic of the Congo</name>
+	<name>Democratic Republic of the Congo</name>
     <styleUrl>#annastyle</styleUrl>
-    <description>Zaire strain: 318 cases, 280 deaths, 88% fatality</description>
 	<ExtendedData>
 		<Data name="year">
 			<value>1976</value>
         </Data>
-        <Data name="country">
-            <value>Democratic Republic of the Congo</value>
+        <Data name="flag">
+ <value>http://upload.wikimedia.org/wikipedia/commons/6/6f/Flag_of_the_Democratic_Republic_of_the_Congo.svg</value>
+        </Data>
+        <Data name="cases">
+			<value>318</value>
+        </Data>
+        <Data name="deaths">
+			<value>280</value>
+        </Data>
+        <Data name="fatality">
+			<value>88%</value>
+        </Data>
+        <Data name="strain">
+			<value>Zaire</value>
         </Data>
     </ExtendedData>
 	<Polygon>
