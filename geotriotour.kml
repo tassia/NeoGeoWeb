@@ -460,7 +460,9 @@
 // 1976:
 Democratic Republic of Congo, Zaire strain, 318 cases, 280 deaths, 88% fatality
 Sudan, Sudan strain, 284 cases, 151 deaths, 53% fatality//
-<Style id="anna-style">
+
+//defining my balloon and polygon styles to be after//
+<Style id="annastyle">
     <BalloonStyle>
         <bgColor>ffff0000</bgColor>
         <text>
@@ -474,19 +476,18 @@ Sudan, Sudan strain, 284 cases, 151 deaths, 53% fatality//
             ]]>
         </text> 
     </BalloonStyle>
+    <Polystyle>
+        <fill>1</fill>
+    </Polystyle>
+    <LineStyle>
+        <color>ff0000ff</color>
+    </LineStyle>
 </Style>
+
 <Placemark>
 	<name>1976 Democratic Republic of the Congo</name>
-    <styleUrl>#anna-style</styleUrl>
+    <styleUrl>#annastyle</styleUrl>
     <description>Zaire strain: 318 cases, 280 deaths, 88% fatality</description>
-    <Style>
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>1</fill>
-		</PolyStyle>
-	</Style>
 	<ExtendedData>
 		<SchemaData schemaUrl="#Africakml">
 			<SimpleData name="FIPS">CG</SimpleData>
@@ -586,7 +587,7 @@ Sudan, Sudan strain, 284 cases, 151 deaths, 53% fatality//
 		</outerBoundaryIs>
 		<innerBoundaryIs>
 			<LinearRing>
-				<altitudeMode>relativeToGround</altitudeMode>
+				<altitudeMode>lockToGround</altitudeMode>
 				<coordinates>
 					12.953054428100586,-5.87611198425293
 					12.844167709350586,-5.850555419921875
@@ -599,15 +600,8 @@ Sudan, Sudan strain, 284 cases, 151 deaths, 53% fatality//
 </Placemark>
 
 <Placemark>
+    <styleUrl>#annastyle</styleUrl>
 	<name>1976 South Sudan</name>
-	<Style>
-        <LineStyle>
-            <color>ff0000ff</color>
-        </LineStyle>
-        <PolyStyle>
-            <fill>0</fill>
-        </PolyStyle>
-    </Style>
 	<ExtendedData>
         <SchemaData schemaUrl="#Africakml">
             <SimpleData name="FIPS">SU</SimpleData>
@@ -624,10 +618,10 @@ Sudan, Sudan strain, 284 cases, 151 deaths, 53% fatality//
     </ExtendedData>
     <MultiGeometry>
         <Polygon>
-            <altitudeMode>relativeToGround</altitudeMode>
+            <altitudeMode>lockToGround</altitudeMode>
             <outerBoundaryIs>
                 <LinearRing>
-                    <altitudeMode>relativeToGround</altitudeMode>
+                    <altitudeMode>lockToGround</altitudeMode>
                     <coordinates>
                         37.268608000000114,20.75111
                         37.242218,20.785831
@@ -638,10 +632,10 @@ Sudan, Sudan strain, 284 cases, 151 deaths, 53% fatality//
             </outerBoundaryIs>
         </Polygon>
         <Polygon>
-            <altitudeMode>relativeToGround</altitudeMode>
+            <altitudeMode>lockToGround</altitudeMode>
             <outerBoundaryIs>
                 <LinearRing>
-                    <altitudeMode>relativeToGround</altitudeMode>
+                    <altitudeMode>lockToGround</altitudeMode>
                     <coordinates>
                         34.18132176556481,9.302878614942379
                         34.120552,8.577221000000122
