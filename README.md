@@ -1,4 +1,3 @@
 This git repository will be used by the GeoTrio group in NeoGeoWeb course.
 
-Rachel is trying to add text hahaha
-Yo.
+Assignement 1: History of Ebola outbreaks from 1976 to 2014.
