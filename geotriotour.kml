@@ -478,7 +478,7 @@
 Democratic Republic of Congo, Zaire strain, 318 cases, 280 deaths, 88% fatality
 Sudan, Sudan strain, 284 cases, 151 deaths, 53% fatality//
 
-//defining my balloon and polygon styles to be after//
+//defining my balloon and polygon styles to" be after//
 <Style id="annastyle">
     <BalloonStyle>
         <bgColor>ffff0000</bgColor>
@@ -726,8 +726,78 @@ Democratic Republic of Congo, Zaire strain, 315 cases, 254 deaths, 81% fatality 
 //
 
 // 2000:
+Uganda
 //
+<Placemark>
+	<name>Uganda</name>
+	<Style><LineStyle></LineStyle><PolyStyle><color>7dff0000</color></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Africakml">
+		<SimpleData name="FIPS">UG</SimpleData>
+		<SimpleData name="ISO2">UG</SimpleData>
+		<SimpleData name="ISO3">UGA</SimpleData>
+		<SimpleData name="UN">800</SimpleData>
+		<SimpleData name="AREA">19710</SimpleData>
+		<SimpleData name="POP2005">28947181</SimpleData>
+		<SimpleData name="REGION">2</SimpleData>
+		<SimpleData name="SUBREGION">14</SimpleData>
+		<SimpleData name="LON">32.386</SimpleData>
+		<SimpleData name="LAT">1.280</SimpleData>
+	</SchemaData></ExtendedData>
+       <Polygon>
+		<extrude>1</extrude>
+		<tessellate>1</tessellate>
+		<altitudeMode>lockToGround</altitudeMode>
+		<outerBoundaryIs>
+			<LinearRing>
+				<coordinates>
+33.996666,4.222777000000136,20000
+34.463333,3.671389,20000
+35.009720000000101,1.895278,20000
+33.907219,0.103056,20000
+33.920273,-1.001111,20000
+31.677219,-0.999722,20000
+30.48222,-1.063334,20000
+29.974998,-1.464445,20000
+29.596943,-1.385834,20000
+29.960552,0.825555,20000
+31.302776,2.121388,20000
+30.729721000000126,2.448055,20000
+30.858818,3.493394000000137,20000
+31.176666,3.795278,20000
+32.193329,3.511389000000108,20000
+33.016663,3.888611000000111,20000
+33.516937,3.752222,20000
+33.996666,4.222777000000136,20000
+				</coordinates>
+			</LinearRing>
+		</outerBoundaryIs>
+	</Polygon>
 
+  </Placemark>
+  <Style id="rachel">
+    <BalloonStyle>
+      <!-- a background color for the balloon -->
+      <bgColor>ffffffbb</bgColor>
+      <!-- styling of the balloon text -->
+      <text><![CDATA[
+      <b><font color="#CC0000" size="+3">$[name]</font></b>
+      <br/><br/>
+      <font face="Courier">$[description]</font>
+      <br/><br/>
+      53% Fatality Rate
+      <br/><br/>
+      <!-- insert the to/from hyperlinks -->
+      ]]></text>
+    </BalloonStyle>
+  </Style>
+  <Placemark>
+    <name>2000 Outbreak in Uganda</name>
+    <description>425 cases, 224 deaths</description>
+    <styleUrl>#rachel</styleUrl>
+    <Point>
+      <coordinates>32,1,4000</coordinates>
+    </Point>
+  </Placemark>
 // 2001:
 //
 
