@@ -849,14 +849,167 @@ Democratic Republic of Congo, Zaire strain, 315 cases, 254 deaths, 81% fatality 
 // Rachel: 1996-2004
 
 // 1996:
+Gabon, Zaire Strain strain, 91 cases, 66 deaths, 72% fatality
+South Africa, Zaire strain, 1 case, 1 death, 100% fatality
 //
 
+<Placemark>
+	<name>South Africa</name>
+	<Styleurl>#rachel</Styleurl>
+    <Style>
+        <LineStyle>
+        </LineStyle>
+        <PolyStyle>
+            <color>7dff0000</color>
+        </PolyStyle>
+    </Style><ExtendedData>
+        <SchemaData schemaUrl="#Africakml">
+		<SimpleData name="FIPS">SF</SimpleData>
+		<SimpleData name="ISO2">ZA</SimpleData>
+		<SimpleData name="ISO3">ZAF</SimpleData>
+		<SimpleData name="UN">710</SimpleData>
+		<SimpleData name="AREA">121447</SimpleData>
+		<SimpleData name="POP2005">47938663</SimpleData>
+		<SimpleData name="REGION">2</SimpleData>
+		<SimpleData name="SUBREGION">18</SimpleData>
+		<SimpleData name="LON">23.121</SimpleData>
+		<SimpleData name="LAT">-30.558</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry>
+            <Polygon>
+                <altitudeMode>lockToGround</altitudeMode>
+                <outerBoundaryIs>
+                <LinearRing>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <coordinates>
+37.85083,-46.956947 
+37.576385000000215,-46.909447 
+37.781944,-46.83223 
+37.85083,-46.956947
+            </coordinates>
+        </LinearRing>
+    </outerBoundaryIs>
+</Polygon>
+<Polygon>
+    <altitudeMode>lockToGround</altitudeMode>
+        <outerBoundaryIs>
+            <LinearRing>
+            <altitudeMode>lockToGround</altitudeMode>
+                <coordinates>
+37.959442000000166,-46.658615
+37.856941,-46.626945 
+37.942772,-46.60334 
+37.959442000000166,-46.658615
+                </coordinates>
+            </LinearRing>
+        </outerBoundaryIs>
+    </Polygon>
+<Polygon>
+    <altitudeMode>lockToGround</altitudeMode>
+        <outerBoundaryIs>
+            <LinearRing>
+                <altitudeMode>lockToGround</altitudeMode>
+                    <coordinates>
+29.893887,-22.194447
+31.297504000000146,-22.414764 
+32.016106,-24.459446 
+31.96851,-25.95784 
+31.33083,-25.751392 
+30.902048,-26.305254 
+30.818886000000106,-26.810558 
+31.161663,-27.203056 
+31.987499,-27.316113 
+32.1334,-26.839626 
+32.890427,-26.847145 
+32.390274000000119,-28.537781 
+31.325832,-29.390835 
+30.023888000000198,-31.281113 
+27.899998,-33.040558 
+26.530552000000171,-33.753334 
+25.724998,-33.767227 
+25.701942,-34.031952 
+22.544998,-34.005005 
+20.0,-34.822002 
+18.817776,-34.377785 
+18.793331,-34.08667 
+18.404720000000111,-34.30278 
+18.441109,-33.706673 
+17.8475,-32.830833 
+18.292221,-32.624451 
+18.278610000000128,-31.89278 
+16.48959,-28.578178 
+17.06361,-28.028614 
+17.40472,-28.713612 
+18.175831,-28.908611 
+19.123055000000107,-28.962223 
+19.99612,-28.421448 
+20.000942,-24.765408 
+20.811386,-25.883335 
+20.642498,-26.828056 
+21.667221,-26.864445 
+22.624809000000113,-26.111565 
+23.014832000000126,-25.299725 
+24.6772,-25.827824 
+25.50972,-25.67778 
+25.871387,-24.744446 
+26.845276,-24.264446 
+26.95919,-23.752075 
+28.29833200000013,-22.609447 
+29.373623,-22.19241 
+29.893887,-22.194447
+        </coordinates>
+    </LinearRing>
+</outerBoundaryIs>
+<innerBoundaryIs>
+    <LinearRing>
+        <altitudeMode>lockToGround</altitudeMode>
+            <coordinates>
+            28.565552,-28.610001
+            27.011108,-29.625278 
+            27.564617,-30.404911 
+            28.079937,-30.650528 
+            28.377777,-30.16028 
+            29.168888,-29.913891 
+            29.430832,-29.278614 
+            28.565552,-28.610001
+            </coordinates>
+            </LinearRing>
+        </innerBoundaryIs>
+    </Polygon>
+</MultiGeometry>
+  </Placemark>
+
+//defining my balloon style after//
+
+<Style id="rachel">
+    <BalloonStyle>
+        <bgColor>ffff0000</bgColor>
+        <text>
+            <![CDATA[
+                <b><font color="#ff0000" size="+1">$[name]</font></b>
+                <br/><br/>
+                <i><font face="Courier" color="#00ff00">$[description]</font></i>
+                <br/><br/>
+                1996 South Africa
+                <br/><br/><br/>
+            ]]>
+        </text> 
+    </BalloonStyle>
+    <Polystyle>
+        <fill>1</fill>
+    </Polystyle>
+    <LineStyle>
+        <color>ff0000ff</color>
+    </LineStyle>
+</Style>
+
 // 2000:
-Uganda
+Uganda, Zaire strain, 425 cases, 224 deaths, 53% fatality rate
 //
 <Placemark>
 	<name>Uganda</name>
-	<Style><LineStyle></LineStyle><PolyStyle><color>7dff0000</color></PolyStyle></Style>
+	<Style><LineStyle></LineStyle>
+    <PolyStyle><color>7dff0000</color></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#Africakml">
 		<SimpleData name="FIPS">UG</SimpleData>
 		<SimpleData name="ISO2">UG</SimpleData>
@@ -924,13 +1077,18 @@ Uganda
       <coordinates>32,1,4000</coordinates>
     </Point>
   </Placemark>
+
 // 2001:
+Gabon, 65 cases, 53 deaths, 82% fatality rate
+Congo, 59 cases, 44 deaths, 75% fatality rate
 //
 
 // 2003;
+Congo, 178 cases, 157 deaths, 88% fatality rate
 //
 
 // 2004:
+
 //
 
 // Tassia: 2005-2012 //
