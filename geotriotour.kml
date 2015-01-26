@@ -870,7 +870,7 @@ South Africa, Zaire strain, 1 case, 1 death, 100% fatality
 //
 
 <Placemark>
-	<name>South Africa</name>
+	<name>South Africa 1997</name>
 	<Styleurl>#rachel</Styleurl>
     <Style>
         <LineStyle>
@@ -878,19 +878,7 @@ South Africa, Zaire strain, 1 case, 1 death, 100% fatality
         <PolyStyle>
             <color>7dff0000</color>
         </PolyStyle>
-    </Style><ExtendedData>
-        <SchemaData schemaUrl="#Africakml">
-		<SimpleData name="FIPS">SF</SimpleData>
-		<SimpleData name="ISO2">ZA</SimpleData>
-		<SimpleData name="ISO3">ZAF</SimpleData>
-		<SimpleData name="UN">710</SimpleData>
-		<SimpleData name="AREA">121447</SimpleData>
-		<SimpleData name="POP2005">47938663</SimpleData>
-		<SimpleData name="REGION">2</SimpleData>
-		<SimpleData name="SUBREGION">18</SimpleData>
-		<SimpleData name="LON">23.121</SimpleData>
-		<SimpleData name="LAT">-30.558</SimpleData>
-	</SchemaData></ExtendedData>
+    </Style>
       <MultiGeometry>
             <Polygon>
                 <altitudeMode>lockToGround</altitudeMode>
@@ -999,78 +987,6 @@ South Africa, Zaire strain, 1 case, 1 death, 100% fatality
 
 <Style id="rachel">
     <BalloonStyle>
-        <bgColor>ffff0000</bgColor>
-        <text>
-            <![CDATA[
-                <b><font color="#ff0000" size="+1">$[name]</font></b>
-                <br/><br/>
-                <i><font face="Courier" color="#00ff00">$[description]</font></i>
-                <br/><br/>
-                1996 South Africa
-                <br/><br/><br/>
-            ]]>
-        </text> 
-    </BalloonStyle>
-    <Polystyle>
-        <fill>1</fill>
-    </Polystyle>
-    <LineStyle>
-        <color>ff0000ff</color>
-    </LineStyle>
-</Style>
-
-// 2000:
-Uganda, Zaire strain, 425 cases, 224 deaths, 53% fatality rate
-//
-<Placemark>
-	<name>Uganda</name>
-	<Style><LineStyle></LineStyle>
-    <PolyStyle><color>7dff0000</color></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#Africakml">
-		<SimpleData name="FIPS">UG</SimpleData>
-		<SimpleData name="ISO2">UG</SimpleData>
-		<SimpleData name="ISO3">UGA</SimpleData>
-		<SimpleData name="UN">800</SimpleData>
-		<SimpleData name="AREA">19710</SimpleData>
-		<SimpleData name="POP2005">28947181</SimpleData>
-		<SimpleData name="REGION">2</SimpleData>
-		<SimpleData name="SUBREGION">14</SimpleData>
-		<SimpleData name="LON">32.386</SimpleData>
-		<SimpleData name="LAT">1.280</SimpleData>
-	</SchemaData></ExtendedData>
-       <Polygon>
-		<extrude>1</extrude>
-		<tessellate>1</tessellate>
-		<altitudeMode>lockToGround</altitudeMode>
-		<outerBoundaryIs>
-			<LinearRing>
-				<coordinates>
-33.996666,4.222777000000136,20000
-34.463333,3.671389,20000
-35.009720000000101,1.895278,20000
-33.907219,0.103056,20000
-33.920273,-1.001111,20000
-31.677219,-0.999722,20000
-30.48222,-1.063334,20000
-29.974998,-1.464445,20000
-29.596943,-1.385834,20000
-29.960552,0.825555,20000
-31.302776,2.121388,20000
-30.729721000000126,2.448055,20000
-30.858818,3.493394000000137,20000
-31.176666,3.795278,20000
-32.193329,3.511389000000108,20000
-33.016663,3.888611000000111,20000
-33.516937,3.752222,20000
-33.996666,4.222777000000136,20000
-				</coordinates>
-			</LinearRing>
-		</outerBoundaryIs>
-	</Polygon>
-
-  </Placemark>
-  <Style id="rachel">
-    <BalloonStyle>
       <!-- a background color for the balloon -->
       <bgColor>ffffffbb</bgColor>
       <!-- styling of the balloon text -->
@@ -1085,13 +1001,70 @@ Uganda, Zaire strain, 425 cases, 224 deaths, 53% fatality rate
       ]]></text>
     </BalloonStyle>
   </Style>
-  <Placemark>
-    <name>2000 Outbreak in Uganda</name>
-    <description>425 cases, 224 deaths</description>
+<Placemark>
+    <name>1997 South Africa </name>
+    <description>1 Case, 1 death, 100% Fatality </description>
     <styleUrl>#rachel</styleUrl>
-    <Point>
-      <coordinates>32,1,4000</coordinates>
-    </Point>
+  </Placemark>
+
+// 2000:
+Uganda, Zaire strain, 425 cases, 224 deaths, 53% fatality rate
+//
+ 
+ <Style id="rachel">
+    <BalloonStyle>
+      <!-- a background color for the balloon -->
+      <bgColor>ffffffbb</bgColor>
+      <!-- styling of the balloon text -->
+      <text><![CDATA[
+      <b><font color="#CC0000" size="+3">$[name]</font></b>
+      <br/><br/>
+      <font face="Courier">$[description]</font>
+      <br/><br/>
+      <br/><br/>
+      <!-- insert the to/from hyperlinks -->
+      ]]></text>
+    </BalloonStyle>
+  </Style>
+
+<Placemark>
+    <name>Uganda 2000</name>
+    <description> 425 cases, 224 deaths, 53% Fatality</description>
+    <styleUrl>#rachel</styleUrl>
+    <Style>
+        <PolyStyle>
+            <color>7dff0000</color>
+        </PolyStyle>
+    </Style>
+    <Polygon>
+		<extrude>1</extrude>
+		<tessellate>1</tessellate>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<outerBoundaryIs>
+			<LinearRing>
+				<coordinates>
+33.996666,4.222777000000136,53000
+34.463333,3.671389,53000
+35.009720000000101,1.895278,53000
+33.907219,0.103056,53000
+33.920273,-1.001111,53000
+31.677219,-0.999722,53000
+30.48222,-1.063334,53000
+29.974998,-1.464445,53000
+29.596943,-1.385834,53000
+29.960552,0.825555,53000
+31.302776,2.121388,53000
+30.729721000000126,2.448055,53000
+30.858818,3.493394000000137,53000
+31.176666,3.795278,53000
+32.193329,3.511389000000108,53000
+33.016663,3.888611000000111,53000
+33.516937,3.752222,53000
+33.996666,4.222777000000136,53000
+				</coordinates>
+			</LinearRing>
+		</outerBoundaryIs>
+	</Polygon>
   </Placemark>
 
 // 2001:
