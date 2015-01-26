@@ -55,6 +55,23 @@
 <Folder>
 <name>GeoTrioTour</name>
 
+
+<!--
+2014 Ebole Outbreak
+Data up to 18 January 2015
+
+Guinea: 2871 cases, 1876 deaths
+Sierra Leone: 10340 cases, 3145 deaths
+Liberia: 8478 cases, 3605 deaths
+Nigeria: 20 cases, 8 deaths
+Senegal: 1 cases, 0 deaths
+United States of America: 4 cases, 1 deaths
+Spain: 1 cases, 0 deaths
+Inited Kingdom: 1 cases, 0 deaths
+Mali: 8 cases, 6 deaths
+Democratic Republic of Congo: 66 cases, 49 deaths (data from Dec. 15, couldn't find updated)
+-->
+
 <Placemark>
 	<name>Guinea</name>
 	<Style id="transBluePoly">
@@ -737,19 +754,22 @@ Democratic Republic of Congo, Zaire strain, 315 cases, 254 deaths, 81% fatality 
 // 2004:
 //
 
-// Tassia: 2005-2012 //
+<!--
+Tassia: 2005-2012
 
-// 2005:
-Republic of Congo, Zaire strain, 12 cases, 10 deaths, 83% fatality //
+2005:
+Republic of the Congo, Zaire strain, 12 cases, 10 deaths, 83% fatality 
+-->
+
 <Placemark>
-	<name>2005: Republic of Congo</name>
+	<name>2005: Republic of the Congo</name>
 	<styleUrl>#epidemics</styleUrl>
     <ExtendedData>
 		<Data name="year">
 			<value>2005</value>
 		</Data>
 		<Data name="flag_src">
-			<value>http://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_Sudan.svg</value>
+			<value>http://upload.wikimedia.org/wikipedia/commons/9/92/Flag_of_the_Republic_of_the_Congo.svg</value>
 		</Data>
 		<Data name="country">
 			<value>Republic of Congo</value>
@@ -815,18 +835,20 @@ Republic of Congo, Zaire strain, 12 cases, 10 deaths, 83% fatality //
 	</Polygon>
 </Placemark>
 
-// 2007:
-Democratic Republic of Congo, Zaire strain, 264 cases, 187 deaths, 71% fatality
-Uganda, Bundibugyo strain, 149 cases, 37 deaths, 25% fatality//
+<!--
+2007:
+Democratic Republic of the Congo, Zaire strain, 264 cases, 187 deaths, 71% fatality
+Uganda, Bundibugyo strain, 149 cases, 37 deaths, 25% fatality
+-->
 <Placemark>
-	<name>2007: Democratic Republic of Congo (Zaire)</name>
+	<name>2007: Democratic Republic of the Congo (Zaire)</name>
 	<styleUrl>#epidemics</styleUrl>
     <ExtendedData>
 		<Data name="year">
 			<value>2007</value>
 		</Data>
 		<Data name="flag_src">
-			<value>http://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Zaire.svg</value>
+			<value>http://upload.wikimedia.org/wikipedia/commons/6/6f/Flag_of_the_Democratic_Republic_of_the_Congo.svg</value>
 		</Data>
 		<Data name="country">
 			<value>Democratic Republic of Congo (Zaire)</value>
@@ -892,29 +914,335 @@ Uganda, Bundibugyo strain, 149 cases, 37 deaths, 25% fatality//
 		</outerBoundaryIs>
 	</Polygon>
 </Placemark>
-// 2008:
-Democratic Republic of Congo, Zaire strain, 32 cases, 14 deaths, 44% fatality//
+<Placemark>
+	<name>2007: Uganda</name>
+	<styleUrl>#epidemics</styleUrl>
+    <ExtendedData>
+		<Data name="year">
+			<value>2007</value>
+		</Data>
+		<Data name="flag_src">
+			<value>http://upload.wikimedia.org/wikipedia/commons/4/4e/Flag_of_Uganda.svg</value>
+		</Data>
+		<Data name="country">
+			<value>Uganda</value>
+		</Data>
+		<Data name="info">
+			<value>First recognition of Bundibugyo strain (BDBV). Occurred in Bundibugyo District in western Uganda between December 2007 and January 2008.</value>
+		</Data>
+		<Data name="cases">
+			<value>149</value>
+		</Data>
+		<Data name="deaths">
+			<value>37</value>
+		</Data>
+		<Data name="fatality">
+			<value>25</value>
+		</Data>
+    </ExtendedData>
+    <Polygon>
+		<altitudeMode>lockToGround</altitudeMode>
+		<outerBoundaryIs>
+			<LinearRing>
+				<altitudeMode>lockToGround</altitudeMode>
+				<coordinates>
+					33.996666,4.222777000000136
+					34.463333,3.671389
+					35.009720000000101,1.895278
+					33.907219,0.103056
+					33.920273,-1.001111
+					31.677219,-0.999722
+					30.48222,-1.063334
+					29.974998,-1.464445
+					29.596943,-1.385834
+					29.960552,0.825555
+					31.302776,2.121388
+					30.729721000000126,2.448055
+					30.858818,3.493394000000137
+					31.176666,3.795278
+					32.193329,3.511389000000108
+					33.016663,3.888611000000111
+					33.516937,3.752222
+					33.996666,4.222777000000136
+				</coordinates>
+			</LinearRing>
+		</outerBoundaryIs>
+	</Polygon>
+</Placemark>
 
-// 2011:
-Uganda, Sudan strain, 1 cases, 1 deaths, 100% fatality//
+<!--
+2008:
+Democratic Republic of Congo, Zaire strain, 32 cases, 14 deaths, 44% fatality
+-->
+<Placemark>
+	<name>2008: Democratic Republic of the Congo</name>
+	<styleUrl>#epidemics</styleUrl>
+    <ExtendedData>
+		<Data name="year">
+			<value>2008</value>
+		</Data>
+		<Data name="flag_src">
+			<value>http://upload.wikimedia.org/wikipedia/commons/6/6f/Flag_of_the_Democratic_Republic_of_the_Congo.svg</value>
+		</Data>
+		<Data name="country">
+			<value>Democratic Republic of Congo (Zaire)</value>
+		</Data>
+		<Data name="info">
+			<value>Occurred in Yambuku and surrounding areas in August. Spread by personal contact and use of contaminated needles and syringes in hospitals or clinics</value>
+		</Data>
+		<Data name="cases">
+			<value>32</value>
+		</Data>
+		<Data name="deaths">
+			<value>14</value>
+		</Data>
+		<Data name="fatality">
+			<value>44</value>
+		</Data>
+    </ExtendedData>
+    <Polygon>
+		<altitudeMode>lockToGround</altitudeMode>
+		<outerBoundaryIs>
+			<LinearRing>
+				<altitudeMode>lockToGround</altitudeMode>
+				<coordinates>
+					12.779047,-4.388991
+					12.026131,-5.014997
+					11.140661000000108,-3.925277
+					11.496944,-3.506945
+					11.925833,-3.636945
+					11.574165,-2.333333
+					12.478054000000128,-2.327222
+					12.65,-1.8225
+					13.001507,-2.367672
+					13.482777000000112,-2.4375
+					13.76222,-2.088889
+					14.110832,-2.493056
+					14.429722000000112,-1.891667
+					14.51861,-0.609167
+					13.848331000000144,-0.198611
+					14.487221,0.913611000000117
+					14.188889,1.391389
+					13.186785,1.222476
+					13.293888,2.163611
+					14.564999,2.169444
+					16.072220000000129,1.654166
+					16.207222,2.220833
+					16.659721,3.533333
+					17.475277,3.713055
+					18.624958,3.479444
+					18.091942000000131,2.224166
+					17.714996,-0.537222
+					16.195831,-2.175834
+					16.226944,-3.328333
+					15.890505000000132,-3.943009
+					14.661388,-4.909445
+					14.418888000000152,-4.887222
+					14.400833,-4.2775
+					13.729443,-4.445834
+					13.413887000000102,-4.882501
+					13.091389,-4.633056
+					12.779047,-4.388991
+				</coordinates>
+			</LinearRing>
+		</outerBoundaryIs>
+	</Polygon>
+</Placemark>
 
-// 2012:
+<!--
+2011:
+Uganda, Sudan strain, 1 cases, 1 deaths, 100% fatality
+-->
+<Placemark>
+	<name>2011: Uganda</name>
+	<styleUrl>#epidemics</styleUrl>
+    <ExtendedData>
+		<Data name="year">
+			<value>2007</value>
+		</Data>
+		<Data name="flag_src">
+			<value>http://upload.wikimedia.org/wikipedia/commons/4/4e/Flag_of_Uganda.svg</value>
+		</Data>
+		<Data name="country">
+			<value>Uganda</value>
+		</Data>
+		<Data name="info">
+			<value>An isolated case in Luwero District. Rapid outbreak response and control activities.</value>
+		</Data>
+		<Data name="cases">
+			<value>1</value>
+		</Data>
+		<Data name="deaths">
+			<value>1</value>
+		</Data>
+		<Data name="fatality">
+			<value>100</value>
+		</Data>
+    </ExtendedData>
+    <Polygon>
+		<altitudeMode>lockToGround</altitudeMode>
+		<outerBoundaryIs>
+			<LinearRing>
+				<altitudeMode>lockToGround</altitudeMode>
+				<coordinates>
+					33.996666,4.222777000000136
+					34.463333,3.671389
+					35.009720000000101,1.895278
+					33.907219,0.103056
+					33.920273,-1.001111
+					31.677219,-0.999722
+					30.48222,-1.063334
+					29.974998,-1.464445
+					29.596943,-1.385834
+					29.960552,0.825555
+					31.302776,2.121388
+					30.729721000000126,2.448055
+					30.858818,3.493394000000137
+					31.176666,3.795278
+					32.193329,3.511389000000108
+					33.016663,3.888611000000111
+					33.516937,3.752222
+					33.996666,4.222777000000136
+				</coordinates>
+			</LinearRing>
+		</outerBoundaryIs>
+	</Polygon>
+</Placemark>
+
+<!--
+2012:
 Uganda, Sudan strain, 31 cases, 21 deaths, 68% fatality
-Democratic Republic of Congo, Bundibugyo strain, 57 cases, 29 deaths, 51% fatality//
-
-// 2014:
-Data up to 18 January 2015
-
-Guinea: 2871 cases, 1876 deaths
-Sierra Leone: 10340 cases, 3145 deaths
-Liberia: 8478 cases, 3605 deaths
-Nigeria: 20 cases, 8 deaths
-Senegal: 1 cases, 0 deaths
-United States of America: 4 cases, 1 deaths
-Spain: 1 cases, 0 deaths
-Inited Kingdom: 1 cases, 0 deaths
-Mali: 8 cases, 6 deaths
-Democratic Republic of Congo: 66 cases, 49 deaths (data from Dec. 15, couldn't find updated) //
+Democratic Republic of Congo, Bundibugyo strain, 57 cases, 29 deaths, 51% fatality
+-->
+<Placemark>
+	<name>2012: Uganda</name>
+	<styleUrl>#epidemics</styleUrl>
+    <ExtendedData>
+		<Data name="year">
+			<value>2012</value>
+		</Data>
+		<Data name="flag_src">
+			<value>http://upload.wikimedia.org/wikipedia/commons/4/4e/Flag_of_Uganda.svg</value>
+		</Data>
+		<Data name="country">
+			<value>Uganda</value>
+		</Data>
+		<Data name="info">
+			<value>Occurred in the Kibaale District between June and August.</value>
+		</Data>
+		<Data name="cases">
+			<value>31</value>
+		</Data>
+		<Data name="deaths">
+			<value>21</value>
+		</Data>
+		<Data name="fatality">
+			<value>68</value>
+		</Data>
+    </ExtendedData>
+    <Polygon>
+		<altitudeMode>lockToGround</altitudeMode>
+		<outerBoundaryIs>
+			<LinearRing>
+				<altitudeMode>lockToGround</altitudeMode>
+				<coordinates>
+					33.996666,4.222777000000136
+					34.463333,3.671389
+					35.009720000000101,1.895278
+					33.907219,0.103056
+					33.920273,-1.001111
+					31.677219,-0.999722
+					30.48222,-1.063334
+					29.974998,-1.464445
+					29.596943,-1.385834
+					29.960552,0.825555
+					31.302776,2.121388
+					30.729721000000126,2.448055
+					30.858818,3.493394000000137
+					31.176666,3.795278
+					32.193329,3.511389000000108
+					33.016663,3.888611000000111
+					33.516937,3.752222
+					33.996666,4.222777000000136
+				</coordinates>
+			</LinearRing>
+		</outerBoundaryIs>
+	</Polygon>
+</Placemark>
+<Placemark>
+	<name>2012: Democratic Republic of the Congo</name>
+	<styleUrl>#epidemics</styleUrl>
+    <ExtendedData>
+		<Data name="year">
+			<value>2012</value>
+		</Data>
+		<Data name="flag_src">
+			<value>http://upload.wikimedia.org/wikipedia/commons/6/6f/Flag_of_the_Democratic_Republic_of_the_Congo.svg</value>
+		</Data>
+		<Data name="country">
+			<value>Democratic Republic of Congo</value>
+		</Data>
+		<Data name="info">
+			<value>Occurred in Yambuku and surrounding areas in August. Spread by personal contact and use of contaminated needles and syringes in hospitals or clinics</value>
+		</Data>
+		<Data name="cases">
+			<value>57</value>
+		</Data>
+		<Data name="deaths">
+			<value>29</value>
+		</Data>
+		<Data name="fatality">
+			<value>51</value>
+		</Data>
+    </ExtendedData>
+    <Polygon>
+		<altitudeMode>lockToGround</altitudeMode>
+		<outerBoundaryIs>
+			<LinearRing>
+				<altitudeMode>lockToGround</altitudeMode>
+				<coordinates>
+					12.779047,-4.388991
+					12.026131,-5.014997
+					11.140661000000108,-3.925277
+					11.496944,-3.506945
+					11.925833,-3.636945
+					11.574165,-2.333333
+					12.478054000000128,-2.327222
+					12.65,-1.8225
+					13.001507,-2.367672
+					13.482777000000112,-2.4375
+					13.76222,-2.088889
+					14.110832,-2.493056
+					14.429722000000112,-1.891667
+					14.51861,-0.609167
+					13.848331000000144,-0.198611
+					14.487221,0.913611000000117
+					14.188889,1.391389
+					13.186785,1.222476
+					13.293888,2.163611
+					14.564999,2.169444
+					16.072220000000129,1.654166
+					16.207222,2.220833
+					16.659721,3.533333
+					17.475277,3.713055
+					18.624958,3.479444
+					18.091942000000131,2.224166
+					17.714996,-0.537222
+					16.195831,-2.175834
+					16.226944,-3.328333
+					15.890505000000132,-3.943009
+					14.661388,-4.909445
+					14.418888000000152,-4.887222
+					14.400833,-4.2775
+					13.729443,-4.445834
+					13.413887000000102,-4.882501
+					13.091389,-4.633056
+					12.779047,-4.388991
+				</coordinates>
+			</LinearRing>
+		</outerBoundaryIs>
+	</Polygon>
+</Placemark>
 
 </Folder>
 </Document>
