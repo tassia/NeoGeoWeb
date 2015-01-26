@@ -2,7 +2,7 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document id="root_doc">
 
-<Schema name="GeoTrioTour" id="GeoTrioTour">
+<Schema name="Africakml" id="Africakml">
 	<SimpleField name="FIPS" type="string"></SimpleField>
 	<SimpleField name="ISO2" type="string"></SimpleField>
 	<SimpleField name="ISO3" type="string"></SimpleField>
@@ -14,6 +14,26 @@
 	<SimpleField name="LON" type="float"></SimpleField>
 	<SimpleField name="LAT" type="float"></SimpleField>
 </Schema>
+
+<Style id="epidemics">
+	<LineStyle>
+		<color>ff0000ff</color>
+	</LineStyle>
+	<PolyStyle>
+		<fill>0</fill>
+	</PolyStyle>
+    <BalloonStyle>
+      <text>
+        <![CDATA[
+          Year: $[year]
+		  Country: $[country]
+          Cases: $[cases]
+          Deaths: $[deaths]
+          Mortality rate: $[fatality]
+        ]]>
+      </text>
+    </BalloonStyle>
+  </Style>
 
 <Folder>
 <name>GeoTrioTour</name>
@@ -711,6 +731,73 @@ Democratic Republic of Congo, Zaire strain, 315 cases, 254 deaths, 81% fatality 
 
 // 2005:
 Republic of Congo, Zaire strain, 12 cases, 10 deaths, 83% fatality //
+<Placemark>
+	<name>2005 Congo</name>
+	<styleUrl>#epidemics</styleUrl>
+    <ExtendedData>
+      <Data name="year">
+        <value>2005</value>
+      </Data>
+      <Data name="country">
+        <value>Republic of Congo</value>
+      </Data>
+      <Data name="cases">
+        <value>12</value>
+      </Data>
+	  <Data name="deaths">
+        <value>10</value>
+      </Data>
+	  <Data name="fatality">
+        <value>83</value>
+      </Data>
+    </ExtendedData>
+    <Polygon>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<outerBoundaryIs>
+			<LinearRing>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>
+					12.779047,-4.388991
+					12.026131,-5.014997
+					11.140661000000108,-3.925277
+					11.496944,-3.506945
+					11.925833,-3.636945
+					11.574165,-2.333333
+					12.478054000000128,-2.327222
+					12.65,-1.8225 13.001507,-2.367672
+					13.482777000000112,-2.4375
+					13.76222,-2.088889
+					14.110832,-2.493056
+					14.429722000000112,-1.891667
+					14.51861,-0.609167
+					13.848331000000144,-0.198611
+					14.487221,0.913611000000117
+					14.188889,1.391389
+					13.186785,1.222476
+					13.293888,2.163611
+					14.564999,2.169444
+					16.072220000000129,1.654166
+					16.207222,2.220833
+					16.659721,3.533333
+					17.475277,3.713055
+					18.624958,3.479444
+					18.091942000000131,2.224166
+					17.714996,-0.537222
+					16.195831,-2.175834
+					16.226944,-3.328333
+					15.890505000000132,-3.943009
+					14.661388,-4.909445
+					14.418888000000152,-4.887222
+					14.400833,-4.2775
+					13.729443,-4.445834
+					13.413887000000102,-4.882501
+					13.091389,-4.633056
+					12.779047,-4.388991
+				</coordinates>
+			</LinearRing>
+		</outerBoundaryIs>
+	</Polygon>
+</Placemark>
 
 // 2007:
 Democratic Republic of Congo, Zaire strain, 264 cases, 187 deaths, 71% fatality
