@@ -1,3 +1,26 @@
+Some useful links
+---------------------
+
+Outbreaks cronology:
+http://healthintelligence.drupalgardens.com/content/chronology-ebola-virus-disease-outbreaks-1976-2014
+
+2014 Outbreak:
+http://docs.hdx.rwlabs.org/west-africa-ebola-outbreak-visualization/
+http://www.google.com/publicdata/explore?ds=eq10po6kah9si_&ctype=l&strail=false&bcs=d&nselm=h&met_y=deaths_cum&scale_y=lin&ind_y=false&rdim=country&idim=district:26:27:28:29:30:31:32:33:34:35:37:38:39:40:41&ifdim=country&hl=en&dl=en&ind=false#!ctype=l&strail=false&bcs=d&nselm=h&met_y=cases_cum&scale_y=lin&ind_y=false&rdim=country&idim=country:GN:LR:SL&ifdim=country&hl=en_US&dl=en&ind=false
+
+Treatment centers (shapefiles):
+https://data.hdx.rwlabs.org/dataset/ebola-treatment-centers
+
+Country boundaries coordinates (kml):
+https://www.google.com/fusiontables/DataSource?docid=1N2LBk4JHwWpOY4d9fobIn27lfnZ5MDy-NoqqRpk#rows:id=1
+
+2014 West Africa Ebola Response (for curiosity):
+https://wiki.openstreetmap.org/wiki/2014_West_Africa_Ebola_Response#Map_and_Data_Services
+
+
+Assigned outbreaks by team member
+------------------------------------
+
 Ana: 1976, 1977, 1979, 1994, 1995
 Rachel: 1996, 2000, 2001, 2003, 2004
 Tassia: 2005, 2007, 2008, 2011, 2012
