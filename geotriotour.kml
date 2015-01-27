@@ -1054,7 +1054,7 @@ http://upload.wikimedia.org/wikipedia/commons/0/04/Flag_of_Gabon.svg
         <LineStyle>
         </LineStyle>
         <PolyStyle>
-        <color>7dff0000</color>
+        <color>7d00ccff</color>
         </PolyStyle>
     </Style>
       <MultiGeometry>
@@ -1157,7 +1157,7 @@ http://upload.wikimedia.org/wikipedia/commons/4/4e/Flag_of_Uganda.svg
     </ExtendedData>
     <Style>
         <PolyStyle>
-            <color>7dff0000</color>
+            <color>7d0000ff</color>
         </PolyStyle>
     </Style>
     <Polygon>
@@ -1197,21 +1197,30 @@ Congo, 59 cases, 44 deaths, 75% fatality rate
 //
 
 <Placemark>
-	<name>Gabon</name>
-	<description> 65 cases, 53 deaths, 82% fatality </description>
+	<name>Gabon 2001</name>
+	<description> Occurred over the border of Gabon and the Republic of the Congo between October 2001 and July 2002.</description>
     <ExtendedData>
     <Data name="flag">
 			<value>
 http://upload.wikimedia.org/wikipedia/commons/0/04/Flag_of_Gabon.svg
             </value>
             </Data>
+        <Data name="cases">
+			<value>65</value>
+		</Data>
+		<Data name="deaths">
+			<value>53</value>
+		</Data>
+		<Data name="fatality">
+			<value>82%</value>
+		</Data>
     </ExtendedData>
     <styleUrl>#rachel</styleUrl>
     <Style>
         <LineStyle>
         </LineStyle>
         <PolyStyle>
-        <color>7dff0000</color>
+        <color>7d00ccff</color>
         </PolyStyle>
     </Style>
       <MultiGeometry>
@@ -1290,13 +1299,22 @@ http://upload.wikimedia.org/wikipedia/commons/0/04/Flag_of_Gabon.svg
 
 <Placemark>
 <name> Republic of the Congo </name>
-<description> 59 cases, 44 deaths, 75% fatality rate </description>
+<description> Occurred over the border of Gabon and the Republic of the Congo between October 2001 and July 2002. First reported occurrence of Ebola virus disease in the Republic of the Congo. </description>
     <ExtendedData>
     <Data name="flag">
 			<value>
 http://upload.wikimedia.org/wikipedia/commons/9/92/Flag_of_the_Republic_of_the_Congo.svg
             </value>
             </Data>
+        <Data name="cases">
+			<value>59</value>
+		</Data>
+		<Data name="deaths">
+			<value>44</value>
+		</Data>
+		<Data name="fatality">
+			<value>75%</value>
+		</Data>
     </ExtendedData>
     <styleUrl>#rachel</styleUrl>
     <Style>
@@ -1359,9 +1377,184 @@ http://upload.wikimedia.org/wikipedia/commons/9/92/Flag_of_the_Republic_of_the_C
 Republic of Congo, 178 cases, 157 deaths, 88% fatality rate
 //
 
+<Placemark>
+<name> Republic of the Congo </name>
+<description> Occurred in the districts of Mbomo and Kéllé in Cuvette Ouest Département between December 2002 and April 2003. Occurred in Mbomo and Mbandza villages located in Mbomo district, Cuvette Ouest Département, between November and December 2003.</description>
+    <ExtendedData>
+    <Data name="flag">
+			<value>
+http://upload.wikimedia.org/wikipedia/commons/9/92/Flag_of_the_Republic_of_the_Congo.svg
+            </value>
+            </Data>
+        <Data name="cases">
+			<value>178</value>
+		</Data>
+		<Data name="deaths">
+			<value>157</value>
+		</Data>
+		<Data name="fatality">
+			<value>88%</value>
+		</Data>
+    </ExtendedData>
+    <styleUrl>#rachel</styleUrl>
+    <Style>
+        <LineStyle>
+        </LineStyle>
+        <PolyStyle>
+        <color>7d0066ff</color>
+        </PolyStyle>
+    </Style>
+<Polygon>
+		<altitudeMode>lockToGround</altitudeMode>
+		<outerBoundaryIs>
+			<LinearRing>
+				<altitudeMode>lockToGround</altitudeMode>
+				<coordinates>
+					12.779047,-4.388991
+					12.026131,-5.014997
+					11.140661000000108,-3.925277
+					11.496944,-3.506945
+					11.925833,-3.636945
+					11.574165,-2.333333
+					12.478054000000128,-2.327222
+					12.65,-1.8225
+					13.001507,-2.367672
+					13.482777000000112,-2.4375
+					13.76222,-2.088889
+					14.110832,-2.493056
+					14.429722000000112,-1.891667
+					14.51861,-0.609167
+					13.848331000000144,-0.198611
+					14.487221,0.913611000000117
+					14.188889,1.391389
+					13.186785,1.222476
+					13.293888,2.163611
+					14.564999,2.169444
+					16.072220000000129,1.654166
+					16.207222,2.220833
+					16.659721,3.533333
+					17.475277,3.713055
+					18.624958,3.479444
+					18.091942000000131,2.224166
+					17.714996,-0.537222
+					16.195831,-2.175834
+					16.226944,-3.328333
+					15.890505000000132,-3.943009
+					14.661388,-4.909445
+					14.418888000000152,-4.887222
+					14.400833,-4.2775
+					13.729443,-4.445834
+					13.413887000000102,-4.882501
+					13.091389,-4.633056
+					12.779047,-4.388991
+				</coordinates>
+			</LinearRing>
+		</outerBoundaryIs>
+	</Polygon>
+</Placemark>
+
 // 2004:
 Sudan, 17 cases, 7 death, 41% fatality rate
 //
+<Placemark>
+	<name>Sudan 2004</name>
+	<description> Occurred in Yambio county in Western Equatoria of southern Sudan. This outbreak was concurrent with an outbreak of measles in the same area, and several suspected EVD cases were later reclassified as measles cases.</description>
+    <ExtendedData>
+    <Data name="flag">
+			<value>
+http://upload.wikimedia.org/wikipedia/commons/7/7a/Flag_of_South_Sudan.svg
+            </value>
+            </Data>
+        <Data name="cases">
+			<value>17</value>
+		</Data>
+		<Data name="deaths">
+			<value>7</value>
+		</Data>
+		<Data name="fatality">
+			<value>41%</value>
+		</Data>
+    </ExtendedData>
+    <styleUrl>#rachel</styleUrl>
+    <Style>
+        <LineStyle>
+        </LineStyle>
+        <PolyStyle>
+        <color>7dff0000</color>
+        </PolyStyle>
+    </Style>
+<MultiGeometry>
+        <Polygon>
+            <altitudeMode>lockToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <altitudeMode>lockToGround</altitudeMode>
+                    <coordinates>
+                        37.268608000000114,20.75111
+                        37.242218,20.785831
+                        37.263855,20.849724000000109
+                        37.268608000000114,20.75111
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+        <Polygon>
+            <altitudeMode>lockToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <altitudeMode>lockToGround</altitudeMode>
+                    <coordinates>
+                        34.18132176556481,9.302878614942379
+                        34.120552,8.577221000000122
+                        33.252777,8.458611000000118
+                        32.991104,7.924999
+                        33.711388,7.660277
+                        34.70472,6.677777000000106
+                        35.301941000000141,5.378055
+                        35.821663,5.32861
+                        35.940552,4.622499
+                        34.388191,4.609682
+                        33.996666,4.222777000000136
+                        33.516937,3.752222
+                        33.016663,3.888611000000111
+                        32.193329,3.511389000000108
+                        31.176666,3.795278
+                        30.858818,3.493394000000137
+                        29.64333,4.643611000000135
+                        28.363052,4.29
+                        27.455276,5.016388
+                        27.142776,5.771944
+                        26.437496000000124,6.077777
+                        26.404999,6.646388
+                        25.206944000000135,7.497499
+                        25.25333,7.850555
+                        24.192497000000117,8.30361
+                        24.201111,8.686943
+                        24.152026974735634,8.688898502797061
+                        24.556231070987529,8.899084632848046
+                        24.556231070987529,9.272421046084204
+                        25.033272043455952,10.267984814713957
+                        25.92513125285344,10.433912109485581
+                        26.485135872707673,9.479830164548735
+                        27.045140492561909,9.625016547473908
+                        29.368122619364666,9.749462018552627
+                        29.430345354904023,10.143539343635236
+                        29.865904503679541,10.516875756871395
+                        30.861468272309295,9.666498371166814
+                        31.214063773698996,9.645757459320361
+                        32.458518484486191,11.076880376725629
+                        32.188886630482294,11.927257762430211
+                        33.184450399112052,12.113925969048289
+                        33.184450399112052,10.765766699028832
+                        33.931123225584365,10.081316608095877
+                        33.910382313737912,9.438348340855828
+                        34.18132176556481,9.302878614942379
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </MultiGeometry>
+</Placemark>
 
 <!--
 Tassia: 2005-2012
