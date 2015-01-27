@@ -879,6 +879,10 @@ Democratic Republic of Congo, Zaire strain, 315 cases, 254 deaths, 81% fatality 
         <font face="Courier">$[description]</font>
         <br/><br/>
         <br/><br/>
+        <table border="0.5" cellpadding="5">
+					<tr><td>Cases</td><td>Deaths</td><td>Fatality</td></tr>
+                    <tr align="center"><td><b>$[cases]</b></td><td><b>$[deaths]</b></td><td><b>$[fatality]</b></td></tr>
+				</table>
         <!-- insert the to/from hyperlinks -->
         ]]>
       </text>
@@ -1115,7 +1119,7 @@ Uganda, Zaire strain, 425 cases, 224 deaths, 53% fatality rate
  
 <Placemark>
     <name>Uganda 2000</name>
-    <description> 425 cases, 224 deaths, 53% Fatality</description>
+    <description> Occurred in Gulu, Masindi, and Mbarara districts of Uganda. The three greatest risks associated with Sudan virus infection were attending funerals of case-patients, having contact with case-patients in one's family, and providing medical care to case-patients without using adequate personal protective measures.</description>
     <styleUrl>#rachel</styleUrl>
     <ExtendedData>
     <Data name="flag">
@@ -1123,6 +1127,15 @@ Uganda, Zaire strain, 425 cases, 224 deaths, 53% fatality rate
 http://upload.wikimedia.org/wikipedia/commons/4/4e/Flag_of_Uganda.svg
             </value>
             </Data>
+    <Data name="cases">
+			<value>425</value>
+		</Data>
+		<Data name="deaths">
+			<value>224</value>
+		</Data>
+		<Data name="fatality">
+			<value>53%</value>
+		</Data>
     </ExtendedData>
     <Style>
         <PolyStyle>
@@ -1258,7 +1271,7 @@ http://upload.wikimedia.org/wikipedia/commons/0/04/Flag_of_Gabon.svg
 </Placemark>
 
 <Placemark>
-<name> Republic of Congo </name>
+<name> Republic of the Congo </name>
 <description> 59 cases, 44 deaths, 75% fatality rate </description>
     <ExtendedData>
     <Data name="flag">
@@ -1329,7 +1342,7 @@ Republic of Congo, 178 cases, 157 deaths, 88% fatality rate
 //
 
 // 2004:
-
+Sudan, 17 cases, 7 death, 41% fatality rate
 //
 
 <!--
