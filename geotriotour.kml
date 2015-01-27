@@ -899,13 +899,22 @@ South Africa, Zaire strain, 1 case, 1 death, 100% fatality
 
 <Placemark>
 	<name>South Africa 1997</name>
-	<description> 1 Case, 1 death, 100% Fatality </description>
+	<description> A medical professional traveled from Gabon to Johannesburg, South Africa, in October 1996 after having treated Ebola virus-infected patients. He was hospitalized, and the nurse that took care of him became infected and died. </description>
     <ExtendedData>
     <Data name="flag">
 			<value>
 http://upload.wikimedia.org/wikipedia/commons/a/af/Flag_of_South_Africa.svg
             </value>
             </Data>
+        <Data name="cases">
+			<value>1</value>
+		</Data>
+		<Data name="deaths">
+			<value>1</value>
+		</Data>
+		<Data name="fatality">
+			<value>100%</value>
+		</Data>
     </ExtendedData>
     <styleUrl>#rachel</styleUrl>
     <Style>
@@ -1023,13 +1032,22 @@ http://upload.wikimedia.org/wikipedia/commons/a/af/Flag_of_South_Africa.svg
 
 <Placemark>
 	<name>Gabon</name>
-	<description> 91 cases, 66 deaths, 72% fatality </description>
+	<description>Occurred in Booué area with transport of patients to Libreville between July 1996 and January 1997. Index case-patient was a hunter who lived in a forest camp. Disease was spread by close contact with infected persons. A dead chimpanzee found in the forest at the time was determined to be infected.</description>
     <ExtendedData>
     <Data name="flag">
 			<value>
 http://upload.wikimedia.org/wikipedia/commons/0/04/Flag_of_Gabon.svg
             </value>
             </Data>
+        <Data name="cases">
+			<value>91</value>
+		</Data>
+		<Data name="deaths">
+			<value>66</value>
+		</Data>
+		<Data name="fatality">
+			<value>72%</value>
+		</Data>
     </ExtendedData>
     <styleUrl>#rachel</styleUrl>
     <Style>
