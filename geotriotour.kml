@@ -869,17 +869,39 @@ Gabon, Zaire Strain strain, 91 cases, 66 deaths, 72% fatality
 South Africa, Zaire strain, 1 case, 1 death, 100% fatality
 //
 
+<Style id="rachel">
+    <BalloonStyle>
+      <!-- a background color for the balloon -->
+      <bgColor>ffffffbb</bgColor>
+      <!-- styling of the balloon text -->
+      <text><![CDATA[
+      <b><font color="#CC0000" size="+3">$[name]</font></b>
+      <br/><br/>
+      <font face="Courier">$[description]</font>
+      <br/><br/>
+      <br/><br/>
+      <!-- insert the to/from hyperlinks -->
+      ]]></text>
+      <Polystyle>
+        <fill>1</fill>
+    </Polystyle>
+    </BalloonStyle>
+  </Style>
+
 <Placemark>
 	<name>South Africa 1997</name>
-	<Styleurl>#rachel</Styleurl>
+	<description> 1 Case, 1 death, 100% Fatality </description>
+    <styleUrl>#rachel</styleUrl>
     <Style>
         <LineStyle>
         </LineStyle>
         <PolyStyle>
             <color>7dff0000</color>
+            <fill>1</fill>
         </PolyStyle>
     </Style>
       <MultiGeometry>
+            
             <Polygon>
                 <altitudeMode>lockToGround</altitudeMode>
                 <outerBoundaryIs>
@@ -983,50 +1005,10 @@ South Africa, Zaire strain, 1 case, 1 death, 100% fatality
 </MultiGeometry>
   </Placemark>
 
-//defining my balloon style after//
-
-<Style id="rachel">
-    <BalloonStyle>
-      <!-- a background color for the balloon -->
-      <bgColor>ffffffbb</bgColor>
-      <!-- styling of the balloon text -->
-      <text><![CDATA[
-      <b><font color="#CC0000" size="+3">$[name]</font></b>
-      <br/><br/>
-      <font face="Courier">$[description]</font>
-      <br/><br/>
-      53% Fatality Rate
-      <br/><br/>
-      <!-- insert the to/from hyperlinks -->
-      ]]></text>
-    </BalloonStyle>
-  </Style>
-<Placemark>
-    <name>1997 South Africa </name>
-    <description>1 Case, 1 death, 100% Fatality </description>
-    <styleUrl>#rachel</styleUrl>
-  </Placemark>
-
 // 2000:
 Uganda, Zaire strain, 425 cases, 224 deaths, 53% fatality rate
 //
  
- <Style id="rachel">
-    <BalloonStyle>
-      <!-- a background color for the balloon -->
-      <bgColor>ffffffbb</bgColor>
-      <!-- styling of the balloon text -->
-      <text><![CDATA[
-      <b><font color="#CC0000" size="+3">$[name]</font></b>
-      <br/><br/>
-      <font face="Courier">$[description]</font>
-      <br/><br/>
-      <br/><br/>
-      <!-- insert the to/from hyperlinks -->
-      ]]></text>
-    </BalloonStyle>
-  </Style>
-
 <Placemark>
     <name>Uganda 2000</name>
     <description> 425 cases, 224 deaths, 53% Fatality</description>
