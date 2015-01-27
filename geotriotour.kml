@@ -874,23 +874,35 @@ South Africa, Zaire strain, 1 case, 1 death, 100% fatality
       <!-- a background color for the balloon -->
       <bgColor>ffffffbb</bgColor>
       <!-- styling of the balloon text -->
-      <text><![CDATA[
-      <b><font color="#CC0000" size="+3">$[name]</font></b>
-      <br/><br/>
-      <font face="Courier">$[description]</font>
-      <br/><br/>
-      <br/><br/>
-      <!-- insert the to/from hyperlinks -->
-      ]]></text>
+      <text>
+        <![CDATA[
+        <b><font color="#CC0000" size="+3">$[name]</font></b>
+        <br/><br/>
+        <td>
+        <img src=$[flag] alt="picture" width="60" align="left" />
+        </td>
+        <font face="Courier">$[description]</font>
+        <br/><br/>
+        <br/><br/>
+        <!-- insert the to/from hyperlinks -->
+        ]]>
+      </text>
       <Polystyle>
-        <fill>1</fill>
-    </Polystyle>
+            <fill>1</fill>
+        </Polystyle>
     </BalloonStyle>
   </Style>
 
 <Placemark>
 	<name>South Africa 1997</name>
 	<description> 1 Case, 1 death, 100% Fatality </description>
+    <ExtendedData>
+    <Data name="flag">
+			<value>
+http://upload.wikimedia.org/wikipedia/commons/a/af/Flag_of_South_Africa.svg
+            </value>
+            </Data>
+    </ExtendedData>
     <styleUrl>#rachel</styleUrl>
     <Style>
         <LineStyle>
@@ -1013,6 +1025,13 @@ Uganda, Zaire strain, 425 cases, 224 deaths, 53% fatality rate
     <name>Uganda 2000</name>
     <description> 425 cases, 224 deaths, 53% Fatality</description>
     <styleUrl>#rachel</styleUrl>
+    <ExtendedData>
+    <Data name="flag">
+			<value>
+http://upload.wikimedia.org/wikipedia/commons/4/4e/Flag_of_Uganda.svg
+            </value>
+            </Data>
+    </ExtendedData>
     <Style>
         <PolyStyle>
             <color>7dff0000</color>
