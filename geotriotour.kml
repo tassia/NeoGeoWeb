@@ -864,11 +864,6 @@ Democratic Republic of Congo, Zaire strain, 315 cases, 254 deaths, 81% fatality 
 
 // Rachel: 1996-2004
 
-// 1996:
-Gabon, Zaire Strain strain, 91 cases, 66 deaths, 72% fatality
-South Africa, Zaire strain, 1 case, 1 death, 100% fatality
-//
-
 <Style id="rachel">
     <BalloonStyle>
       <!-- a background color for the balloon -->
@@ -892,6 +887,11 @@ South Africa, Zaire strain, 1 case, 1 death, 100% fatality
         </Polystyle>
     </BalloonStyle>
   </Style>
+
+// 1996:
+Gabon, Zaire Strain strain, 91 cases, 66 deaths, 72% fatality
+South Africa, Zaire strain, 1 case, 1 death, 100% fatality
+//
 
 <Placemark>
 	<name>South Africa 1997</name>
@@ -1017,6 +1017,98 @@ http://upload.wikimedia.org/wikipedia/commons/a/af/Flag_of_South_Africa.svg
 </MultiGeometry>
   </Placemark>
 
+<Placemark>
+	<name>Gabon</name>
+	<description> 91 cases, 66 deaths, 72% fatality </description>
+    <ExtendedData>
+    <Data name="flag">
+			<value>
+http://upload.wikimedia.org/wikipedia/commons/0/04/Flag_of_Gabon.svg
+            </value>
+            </Data>
+    </ExtendedData>
+    <styleUrl>#rachel</styleUrl>
+    <Style>
+        <LineStyle>
+        </LineStyle>
+        <PolyStyle>
+        <color>7dff0000</color>
+        </PolyStyle>
+    </Style>
+      <MultiGeometry>
+      <Polygon>
+      <altitudeMode>lockToGround</altitudeMode>
+      <outerBoundaryIs>
+        <LinearRing>
+        <altitudeMode>lockToGround</altitudeMode>
+    <coordinates>
+9.007776260375977,-0.767778396606445
+8.946664810180664,-0.658332824707031
+9.00666618347168,-0.598888397216797 
+9.007776260375977,-0.767778396606445
+            </coordinates>
+        </LinearRing>
+    </outerBoundaryIs>
+</Polygon>
+<Polygon>
+    <altitudeMode>lockToGround</altitudeMode>
+        <outerBoundaryIs>
+            <LinearRing>
+                <altitudeMode>lockToGround</altitudeMode>
+                    <coordinates>
+12.523611068725586,2.283334732055664
+13.293889999389648,2.163610458374023 
+13.186784744262695,1.222475051879883
+14.18889045715332,1.391389846801758 
+14.487222671508789,0.913610458374023 
+13.848333358764648,-0.198610305786133 
+14.518610000610352,-0.609167098999023 
+14.429723739624023,-1.891666412353516 
+14.110834121704102,-2.49305534362793 
+13.76222038269043,-2.088888168334961 
+13.482778549194336,-2.4375 
+13.001508712768555,-2.367671966552734 
+12.649999618530273,-1.822500228881836 
+12.478055953979492,-2.327220916748047 
+11.574167251586914,-2.333332061767578 
+11.925832748413086,-3.636943817138672 
+11.496946334838867,-3.50694465637207 
+11.140661239624023,-3.925275802612305 
+9.700834274291992,-2.445554733276367 
+10.130556106567383,-2.520000457763672 
+9.615278244018555,-2.376667022705078 
+8.983057022094727,-1.234167098999023 
+9.513887405395508,-1.59666633605957
+8.710000991821289,-0.641111373901367 
+9.013887405395508,-0.81916618347168 
+9.298334121704102,-0.371665954589844 
+9.347501754760742,0.363058090209961 
+9.921110153198242,0.185277938842773 
+9.303609848022461,0.52833366394043 
+9.600000381469727,0.481111526489258 
+9.564722061157227,0.983057022094727 
+9.803976058959961,1.002607345581055 
+11.353887557983398,1.001943588256836 
+11.339765548706055,2.168611526489258 
+12.523611068725586,2.283334732055664
+            </coordinates>
+        </LinearRing>
+    </outerBoundaryIs>
+<innerBoundaryIs>
+    <LinearRing>
+        <altitudeMode>lockToGround</altitudeMode>
+    <coordinates>
+9.554445266723633,0.274446487426758 
+9.544443130493164,0.285001754760742 
+9.538057327270508,0.270833969116211 
+9.554445266723633,0.274446487426758
+                </coordinates>
+            </LinearRing>
+        </innerBoundaryIs>
+    </Polygon>
+    </MultiGeometry>
+</Placemark>
+  
 // 2000:
 Uganda, Zaire strain, 425 cases, 224 deaths, 53% fatality rate
 //
@@ -1073,8 +1165,167 @@ Gabon, 65 cases, 53 deaths, 82% fatality rate
 Congo, 59 cases, 44 deaths, 75% fatality rate
 //
 
+<Placemark>
+	<name>Gabon</name>
+	<description> 65 cases, 53 deaths, 82% fatality </description>
+    <ExtendedData>
+    <Data name="flag">
+			<value>
+http://upload.wikimedia.org/wikipedia/commons/0/04/Flag_of_Gabon.svg
+            </value>
+            </Data>
+    </ExtendedData>
+    <styleUrl>#rachel</styleUrl>
+    <Style>
+        <LineStyle>
+        </LineStyle>
+        <PolyStyle>
+        <color>7dff0000</color>
+        </PolyStyle>
+    </Style>
+      <MultiGeometry>
+      <Polygon>
+      <altitudeMode>lockToGround</altitudeMode>
+      <outerBoundaryIs>
+        <LinearRing>
+        <altitudeMode>lockToGround</altitudeMode>
+    <coordinates>
+9.007776260375977,-0.767778396606445
+8.946664810180664,-0.658332824707031
+9.00666618347168,-0.598888397216797 
+9.007776260375977,-0.767778396606445
+            </coordinates>
+        </LinearRing>
+    </outerBoundaryIs>
+</Polygon>
+<Polygon>
+    <altitudeMode>lockToGround</altitudeMode>
+        <outerBoundaryIs>
+            <LinearRing>
+                <altitudeMode>lockToGround</altitudeMode>
+                    <coordinates>
+12.523611068725586,2.283334732055664
+13.293889999389648,2.163610458374023 
+13.186784744262695,1.222475051879883
+14.18889045715332,1.391389846801758 
+14.487222671508789,0.913610458374023 
+13.848333358764648,-0.198610305786133 
+14.518610000610352,-0.609167098999023 
+14.429723739624023,-1.891666412353516 
+14.110834121704102,-2.49305534362793 
+13.76222038269043,-2.088888168334961 
+13.482778549194336,-2.4375 
+13.001508712768555,-2.367671966552734 
+12.649999618530273,-1.822500228881836 
+12.478055953979492,-2.327220916748047 
+11.574167251586914,-2.333332061767578 
+11.925832748413086,-3.636943817138672 
+11.496946334838867,-3.50694465637207 
+11.140661239624023,-3.925275802612305 
+9.700834274291992,-2.445554733276367 
+10.130556106567383,-2.520000457763672 
+9.615278244018555,-2.376667022705078 
+8.983057022094727,-1.234167098999023 
+9.513887405395508,-1.59666633605957
+8.710000991821289,-0.641111373901367 
+9.013887405395508,-0.81916618347168 
+9.298334121704102,-0.371665954589844 
+9.347501754760742,0.363058090209961 
+9.921110153198242,0.185277938842773 
+9.303609848022461,0.52833366394043 
+9.600000381469727,0.481111526489258 
+9.564722061157227,0.983057022094727 
+9.803976058959961,1.002607345581055 
+11.353887557983398,1.001943588256836 
+11.339765548706055,2.168611526489258 
+12.523611068725586,2.283334732055664
+            </coordinates>
+        </LinearRing>
+    </outerBoundaryIs>
+<innerBoundaryIs>
+    <LinearRing>
+        <altitudeMode>lockToGround</altitudeMode>
+    <coordinates>
+9.554445266723633,0.274446487426758 
+9.544443130493164,0.285001754760742 
+9.538057327270508,0.270833969116211 
+9.554445266723633,0.274446487426758
+                </coordinates>
+            </LinearRing>
+        </innerBoundaryIs>
+    </Polygon>
+    </MultiGeometry>
+</Placemark>
+
+<Placemark>
+<name> Republic of Congo </name>
+<description> 59 cases, 44 deaths, 75% fatality rate </description>
+    <ExtendedData>
+    <Data name="flag">
+			<value>
+http://upload.wikimedia.org/wikipedia/commons/9/92/Flag_of_the_Republic_of_the_Congo.svg
+            </value>
+            </Data>
+    </ExtendedData>
+    <styleUrl>#rachel</styleUrl>
+    <Style>
+        <LineStyle>
+        </LineStyle>
+        <PolyStyle>
+        <color>7dff0000</color>
+        </PolyStyle>
+    </Style>
+<Polygon>
+		<altitudeMode>lockToGround</altitudeMode>
+		<outerBoundaryIs>
+			<LinearRing>
+				<altitudeMode>lockToGround</altitudeMode>
+				<coordinates>
+					12.779047,-4.388991
+					12.026131,-5.014997
+					11.140661000000108,-3.925277
+					11.496944,-3.506945
+					11.925833,-3.636945
+					11.574165,-2.333333
+					12.478054000000128,-2.327222
+					12.65,-1.8225
+					13.001507,-2.367672
+					13.482777000000112,-2.4375
+					13.76222,-2.088889
+					14.110832,-2.493056
+					14.429722000000112,-1.891667
+					14.51861,-0.609167
+					13.848331000000144,-0.198611
+					14.487221,0.913611000000117
+					14.188889,1.391389
+					13.186785,1.222476
+					13.293888,2.163611
+					14.564999,2.169444
+					16.072220000000129,1.654166
+					16.207222,2.220833
+					16.659721,3.533333
+					17.475277,3.713055
+					18.624958,3.479444
+					18.091942000000131,2.224166
+					17.714996,-0.537222
+					16.195831,-2.175834
+					16.226944,-3.328333
+					15.890505000000132,-3.943009
+					14.661388,-4.909445
+					14.418888000000152,-4.887222
+					14.400833,-4.2775
+					13.729443,-4.445834
+					13.413887000000102,-4.882501
+					13.091389,-4.633056
+					12.779047,-4.388991
+				</coordinates>
+			</LinearRing>
+		</outerBoundaryIs>
+	</Polygon>
+</Placemark>
+
 // 2003;
-Congo, 178 cases, 157 deaths, 88% fatality rate
+Republic of Congo, 178 cases, 157 deaths, 88% fatality rate
 //
 
 // 2004:
