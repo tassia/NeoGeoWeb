@@ -3,6 +3,8 @@
  xmlns:gx="http://www.google.com/kml/ext/2.2">
  
 <Document id="NeoGeoWebTouring">
+<name>Ebola Outbreaks along time</name>
+<description>Touring over Ebola outbreaks since 1976, poping up ballons with relevant information on each epidemics.</description>
 
 <Schema name="Africakml" id="Africakml">
 	<SimpleField name="FIPS" type="string"></SimpleField>
