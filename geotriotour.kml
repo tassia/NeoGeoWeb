@@ -2651,12 +2651,78 @@ Democratic Republic of Congo: 66 cases, 49 deaths (data from Dec. 15, couldn't f
           </LookAt>
         </gx:FlyTo>
 		
+        //open south africa 1996
         <gx:AnimatedUpdate>
           <gx:duration>2.0</gx:duration>
           <Update>
             <targetHref/>
             <Change>
-              <Placemark targetId="#congo2005">
+              <Placemark targetId="#southafrica1996">
+                <gx:balloonVisibility>1</gx:balloonVisibility>
+              </Placemark>
+            </Change>
+          </Update>
+        </gx:AnimatedUpdate>
+        
+        <gx:Wait>
+            <gx:duration> 2.0 </gx:duration>
+        </gx:Wait>
+        
+        // open gabon 1996
+        <gx:AnimatedUpdate>
+          <gx:duration>2.0</gx:duration>
+          <Update>
+            <targetHref/>
+            <Change>
+              <Placemark targetId="#gabon1996">
+                <gx:balloonVisibility>1</gx:balloonVisibility>
+              </Placemark>
+            </Change>
+          </Update>
+        </gx:AnimatedUpdate>
+        
+        <gx:Wait>
+            <gx:duration> 2.0 </gx:duration>
+        </gx:Wait>
+        
+        <gx:AnimatedUpdate>
+          <gx:duration>2.0</gx:duration>
+          <Update>
+            <targetHref/>
+            <Change>
+              <Placemark targetId="#uganda2000">
+                <gx:balloonVisibility>1</gx:balloonVisibility>
+              </Placemark>
+            </Change>
+          </Update>
+        </gx:AnimatedUpdate>
+        
+        <gx:Wait>
+            <gx:duration> 2.0 </gx:duration>
+        </gx:Wait>
+        
+        <gx:AnimatedUpdate>
+          <gx:duration>2.0</gx:duration>
+          <Update>
+            <targetHref/>
+            <Change>
+              <Placemark targetId="#gabon2001">
+                <gx:balloonVisibility>1</gx:balloonVisibility>
+              </Placemark>
+            </Change>
+          </Update>
+        </gx:AnimatedUpdate>
+        
+        <gx:Wait>
+            <gx:duration> 2.0 </gx:duration>
+         </gx:Wait>
+        
+        <gx:AnimatedUpdate>
+          <gx:duration>2.0</gx:duration>
+          <Update>
+            <targetHref/>
+            <Change>
+              <Placemark targetId="#congo2001">
                 <gx:balloonVisibility>1</gx:balloonVisibility>
               </Placemark>
             </Change>
