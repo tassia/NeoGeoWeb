@@ -55,7 +55,7 @@
 	</BalloonStyle>
 </Style>
 
-//defining my balloon and polygon styles to" be after//
+//defining my balloon and polygon styles to be used after//
 <Style id="annastyle">
     <BalloonStyle>
         <bgColor>ffff0000</bgColor>
@@ -235,7 +235,7 @@ Sudan, Sudan strain, 284 cases, 151 deaths, 53% fatality//
 	</Polygon>
 </Placemark>
 
-<Placemark id="southsudan1996">
+<Placemark id="southsudan1976">
     <styleUrl>#annastyle</styleUrl>
 	<name>1976 South Sudan</name>
 	<ExtendedData>
