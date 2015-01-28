@@ -63,34 +63,35 @@
         <bgColor>503C0014</bgColor>
         <text>
             <![CDATA[
-                <table width="210" border="0" cellpadding="3" cellspacing="0" bgcolor="#bebebe" align="center">
+                <br/>
+				<table width="210" border="0" cellpadding="0" cellspacing="0" bgcolor="#bebebe">
 					<tr>
-						<th></th>
+						<th align="left" ><font size="4">$[name]</font></th>
 						<th></th>
 						<th rowspan="2"><img src=$[flag] alt="picture" width="60"</th>
 					</tr>
 					<tr>
-						<b>
-							<td>$[name]</td>
-							<td>$[year]</td>
-						</b>
+						<td><b>$[year]</b></td>
+						<td></td>
 					</tr>
-					<tr>
-						<td colspan="3">$[description]</td>
+					<tr align="justify">
+						<td colspan="3">Strain: $[strain]<br/></br>$[description]</td>
 					</tr>
-				</
+				</table>
+				<br/>
 				<table width="210" border="0" cellpadding="3" cellspacing="0" bgcolor="#bebebe" align="center">
-					<tr>
+					<tr align="center">
 						<td>Cases</td>
 						<td>Deaths</td>
 						<td>Fatality</td>
 					</tr>
-					<tr>
-						<td>$[cases]</td>
-						<td>$[deaths]</td>
-						<td>$[fatality]</td>
+					<tr align="center">
+						<td><b>$[cases]</b></td>
+						<td><b>$[deaths]</b></td>
+						<td><b>$[fatality]</b></td>
 					</tr>
 				</table>
+				<br/>
             ]]>
         </text> 
     </BalloonStyle>
@@ -142,7 +143,7 @@ Sudan, Sudan strain, 284 cases, 151 deaths, 53% fatality//
 <Placemark id="congo1976">
 	<styleUrl>#annastyle</styleUrl>
 	<name>Democratic Republic of the Congo</name>
-	<description></description>
+	<description>Occurred in Yambuku and surrounding areas in August. Spread by personal contact and use of contaminated needles and syringes in hospitals.</description>
 	<ExtendedData>
 		<Data name="year">
 			<value>1976</value>
@@ -263,7 +264,7 @@ Sudan, Sudan strain, 284 cases, 151 deaths, 53% fatality//
 <Placemark id="southsudan1976">
 	<styleUrl>#annastyle</styleUrl>
 	<name>South Sudan</name>
-	<description></description>
+	<description>Mainly spread by personal contact in hospitals. Many medical care personnel were infected.</description>
 	<ExtendedData>
 		<Data name="year">
 			<value>1976</value>
@@ -363,7 +364,7 @@ Democratic Republic of Congo, Zaire strain, 1 case, 1 death, 100% fatality//
 <Placemark id="congo1977">
 	<styleUrl>#annastyle</styleUrl>
 	<name>Democratic Republic of the Congo</name>
-	<description></description>
+	<description>Noted retroactively in the village of Tandala.</description>
 	<ExtendedData>
 		<Data name="year">
 			<value>1977</value>
@@ -486,7 +487,7 @@ Sudan, Sudan strain, 34 cases, 22 deaths, 65% fatality//
 <Placemark id="southsudan1979">
 	<styleUrl>#annastyle</styleUrl>
 	<name>South Sudan</name>
-	<description></description>
+	<description>Recurrent outbreak at the same site as the 1976 Sudan epidemic.</description>
 	<ExtendedData>
 		<Data name="year">
 			<value>1979</value>
@@ -587,7 +588,7 @@ Cote d’Ivoire, Tai Forest strain, 1 case, 0 deaths, 0% fatality//
  <Placemark id="gabon1994">
 	<styleUrl>#annastyle</styleUrl>
 	<name>Gabon</name>
-	<description></description>
+	<description>Occurred in Mékouka and other gold-mining camps deep in the rain forest. Thought to be yellow fever until 1995.</description>
 	<ExtendedData>
 		<Data name="year">
 			<value>1994</value>
@@ -685,7 +686,7 @@ Cote d’Ivoire, Tai Forest strain, 1 case, 0 deaths, 0% fatality//
 <Placemark id="cotedivoire1994">
 	<styleUrl>#annastyle</styleUrl>
 	<name>Cote d'Ivoire</name>
-	<description>descriptionwoop</description>
+	<description>Approximately one week after conducting necropsies on infected western chimpanzees in Taï National Park, a scientist contracted the virus and developed symptoms similar to those of dengue fever. She was discharged from a Swiss hospital two weeks later, and fully recovered after six weeks.</description>
 		<ExtendedData>
 		<Data name="year">
 			<value>1994</value>
@@ -785,7 +786,7 @@ Democratic Republic of Congo, Zaire strain, 315 cases, 254 deaths, 81% fatality 
 <Placemark id="congo1995">
     <styleUrl>#annastyle</styleUrl>
 	<name>Democratic Republic of the Congo</name>
-	<description></description>
+	<description>Traced to index case-patient who worked in forest adjoining the city. Epidemic spread through families and hospitals.</description>
 	<ExtendedData>
 		<Data name="year">
 			<value>1995</value>
@@ -912,7 +913,7 @@ South Africa, Zaire strain, 1 case, 1 death, 100% fatality
 
 <Placemark id="southafrica1996">
 	<name>South Africa 1997</name>
-	<description> A medical professional traveled from Gabon to Johannesburg, South Africa, in October 1996 after having treated Ebola virus-infected patients. He was hospitalized, and the nurse that took care of him became infected and died. </description>
+	<description> A medical professional travelled from Gabon to Johannesburg, South Africa, in October 1996 after having treated Ebola virus-infected patients. He was hospitalized, and the nurse that took care of him became infected and died. </description>
     <ExtendedData>
 		<Data name="flag">
 			<value>http://upload.wikimedia.org/wikipedia/commons/a/af/Flag_of_South_Africa.svg</value>
