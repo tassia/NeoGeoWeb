@@ -133,6 +133,14 @@
 <Folder>
 <name>Geo Trio Placemarks</name>
 
+<Placemark id="mcgill">
+	<name>McGill University</name>
+	<description>Please fill in!</description>
+	<Point>
+      <coordinates>45,-73,0</coordinates>
+    </Point>
+</Placemark>
+
 // Anna: early epidemics 1976-1995 //
 
 // 1976:
@@ -142,6 +150,7 @@ Sudan, Sudan strain, 284 cases, 151 deaths, 53% fatality//
 <Placemark id="congo1976">
 	<styleUrl>#annastyle</styleUrl>
 	<name>Democratic Republic of the Congo</name>
+	<visibility>0</visibility>
 	<description></description>
 	<ExtendedData>
 		<Data name="year">
@@ -263,6 +272,7 @@ Sudan, Sudan strain, 284 cases, 151 deaths, 53% fatality//
 <Placemark id="southsudan1976">
 	<styleUrl>#annastyle</styleUrl>
 	<name>South Sudan</name>
+	<visibility>0</visibility>
 	<description></description>
 	<ExtendedData>
 		<Data name="year">
@@ -363,6 +373,7 @@ Democratic Republic of Congo, Zaire strain, 1 case, 1 death, 100% fatality//
 <Placemark id="congo1977">
 	<styleUrl>#annastyle</styleUrl>
 	<name>Democratic Republic of the Congo</name>
+	<visibility>0</visibility>
 	<description></description>
 	<ExtendedData>
 		<Data name="year">
@@ -486,6 +497,7 @@ Sudan, Sudan strain, 34 cases, 22 deaths, 65% fatality//
 <Placemark id="southsudan1979">
 	<styleUrl>#annastyle</styleUrl>
 	<name>South Sudan</name>
+	<visibility>0</visibility>
 	<description></description>
 	<ExtendedData>
 		<Data name="year">
@@ -587,6 +599,7 @@ Cote d’Ivoire, Tai Forest strain, 1 case, 0 deaths, 0% fatality//
  <Placemark id="gabon1994">
 	<styleUrl>#annastyle</styleUrl>
 	<name>Gabon</name>
+	<visibility>0</visibility>
 	<description></description>
 	<ExtendedData>
 		<Data name="year">
@@ -685,6 +698,7 @@ Cote d’Ivoire, Tai Forest strain, 1 case, 0 deaths, 0% fatality//
 <Placemark id="cotedivoire1994">
 	<styleUrl>#annastyle</styleUrl>
 	<name>Cote d'Ivoire</name>
+	<visibility>0</visibility>
 	<description>descriptionwoop</description>
 		<ExtendedData>
 		<Data name="year">
@@ -785,6 +799,7 @@ Democratic Republic of Congo, Zaire strain, 315 cases, 254 deaths, 81% fatality 
 <Placemark id="congo1995">
     <styleUrl>#annastyle</styleUrl>
 	<name>Democratic Republic of the Congo</name>
+	<visibility>0</visibility>
 	<description></description>
 	<ExtendedData>
 		<Data name="year">
@@ -912,6 +927,7 @@ South Africa, Zaire strain, 1 case, 1 death, 100% fatality
 
 <Placemark id="southafrica1996">
 	<name>South Africa 1997</name>
+	<visibility>0</visibility>
 	<description> A medical professional traveled from Gabon to Johannesburg, South Africa, in October 1996 after having treated Ebola virus-infected patients. He was hospitalized, and the nurse that took care of him became infected and died. </description>
     <ExtendedData>
 		<Data name="flag">
@@ -1042,6 +1058,7 @@ South Africa, Zaire strain, 1 case, 1 death, 100% fatality
 
 <Placemark id="gabon1996">
 	<name>Gabon</name>
+	<visibility>0</visibility>
 	<description>Occurred in Booué area with transport of patients to Libreville between July 1996 and January 1997. Index case-patient was a hunter who lived in a forest camp. Disease was spread by close contact with infected persons. A dead chimpanzee found in the forest at the time was determined to be infected.</description>
     <ExtendedData>
     <Data name="flag">
@@ -1145,6 +1162,7 @@ Uganda, Zaire strain, 425 cases, 224 deaths, 53% fatality rate
  
 <Placemark id="uganda2000">
     <name>Uganda 2000</name>
+	<visibility>0</visibility>
     <description> Occurred in Gulu, Masindi, and Mbarara districts of Uganda. The three greatest risks associated with Sudan virus infection were attending funerals of case-patients, having contact with case-patients in one's family, and providing medical care to case-patients without using adequate personal protective measures.</description>
     <styleUrl>#rachelstyle</styleUrl>
     <ExtendedData>
@@ -1204,6 +1222,7 @@ Congo, 59 cases, 44 deaths, 75% fatality rate
 
 <Placemark id="gabon2001">
 	<name>Gabon 2001</name>
+	<visibility>0</visibility>
 	<description> Occurred over the border of Gabon and the Republic of the Congo between October 2001 and July 2002.</description>
     <ExtendedData>
     <Data name="flag">
@@ -1303,6 +1322,7 @@ Congo, 59 cases, 44 deaths, 75% fatality rate
 
 <Placemark id="congo2001">
 <name> Republic of the Congo </name>
+<visibility>0</visibility>
 <description> Occurred over the border of Gabon and the Republic of the Congo between October 2001 and July 2002. First reported occurrence of Ebola virus disease in the Republic of the Congo. </description>
     <ExtendedData>
     <Data name="flag">
@@ -1381,6 +1401,7 @@ Republic of Congo, 178 cases, 157 deaths, 88% fatality rate
 
 <Placemark id="congo2003">
 <name> Republic of the Congo </name>
+	<visibility>0</visibility>
 <description> Occurred in the districts of Mbomo and Kéllé in Cuvette Ouest Département between December 2002 and April 2003. Occurred in Mbomo and Mbandza villages located in Mbomo district, Cuvette Ouest Département, between November and December 2003.</description>
     <ExtendedData>
     <Data name="flag">
@@ -1458,6 +1479,7 @@ Sudan, 17 cases, 7 death, 41% fatality rate
 //
 <Placemark id="sudan2004">
 	<name>Sudan 2004</name>
+	<visibility>0</visibility>
 	<description> Occurred in Yambio county in Western Equatoria of southern Sudan. This outbreak was concurrent with an outbreak of measles in the same area, and several suspected EVD cases were later reclassified as measles cases.</description>
     <ExtendedData>
     <Data name="flag">
@@ -1563,6 +1585,7 @@ Republic of the Congo, Zaire strain, 12 cases, 10 deaths, 83% fatality
 
 <Placemark id="congo2005">
 	<name>2005: Republic of the Congo</name>
+	<visibility>0</visibility>
 	<styleUrl>#tassiastyle</styleUrl>
     <ExtendedData>
 		<Data name="year">
@@ -1641,7 +1664,8 @@ Democratic Republic of the Congo, Zaire strain, 264 cases, 187 deaths, 71% fatal
 Uganda, Bundibugyo strain, 149 cases, 37 deaths, 25% fatality
 -->
 <Placemark id="demcongo2007">
-	<name>2007: Democratic Republic of the Congo (Zaire)</name>
+	<name>2007: Democratic Republic of the Congo</name>
+	<visibility>0</visibility>
 	<styleUrl>#tassiastyle</styleUrl>
     <ExtendedData>
 		<Data name="year">
@@ -1651,7 +1675,7 @@ Uganda, Bundibugyo strain, 149 cases, 37 deaths, 25% fatality
 			<value>http://upload.wikimedia.org/wikipedia/commons/6/6f/Flag_of_the_Democratic_Republic_of_the_Congo.svg</value>
 		</Data>
 		<Data name="country">
-			<value>Democratic Republic of Congo (Zaire)</value>
+			<value>Democratic Republic of Congo</value>
 		</Data>
 		<Data name="info">
 			<value>Occurred in Yambuku and surrounding areas in August. Spread by personal contact and use of contaminated needles and syringes in hospitals or clinics</value>
@@ -1666,56 +1690,108 @@ Uganda, Bundibugyo strain, 149 cases, 37 deaths, 25% fatality
 			<value>88</value>
 		</Data>
     </ExtendedData>
-    <Polygon>
-		<altitudeMode>lockToGround</altitudeMode>
-		<outerBoundaryIs>
-			<LinearRing>
-				<altitudeMode>lockToGround</altitudeMode>
-				<coordinates>
-					12.779047,-4.388991
-					12.026131,-5.014997
-					11.140661000000108,-3.925277
-					11.496944,-3.506945
-					11.925833,-3.636945
-					11.574165,-2.333333
-					12.478054000000128,-2.327222
-					12.65,-1.8225
-					13.001507,-2.367672
-					13.482777000000112,-2.4375
-					13.76222,-2.088889
-					14.110832,-2.493056
-					14.429722000000112,-1.891667
-					14.51861,-0.609167
-					13.848331000000144,-0.198611
-					14.487221,0.913611000000117
-					14.188889,1.391389
-					13.186785,1.222476
-					13.293888,2.163611
-					14.564999,2.169444
-					16.072220000000129,1.654166
-					16.207222,2.220833
-					16.659721,3.533333
-					17.475277,3.713055
-					18.624958,3.479444
-					18.091942000000131,2.224166
-					17.714996,-0.537222
-					16.195831,-2.175834
-					16.226944,-3.328333
-					15.890505000000132,-3.943009
-					14.661388,-4.909445
-					14.418888000000152,-4.887222
-					14.400833,-4.2775
-					13.729443,-4.445834
-					13.413887000000102,-4.882501
-					13.091389,-4.633056
-					12.779047,-4.388991
-				</coordinates>
-			</LinearRing>
-		</outerBoundaryIs>
-	</Polygon>
+	<MultiGeometry>
+		<Polygon>
+		<altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <altitudeMode>relativeToGround</altitudeMode>
+                    <coordinates>
+                        25.891668319702148,5.192499160766602,66000
+                        27.455278396606445,5.016389846801758,66000
+                        28.363054275512695,4.290002822875977,66000
+                        29.643331527709961,4.643613815307617,66000
+                        30.858819961547852,3.49339485168457,66000
+                        30.72972297668457,2.448057174682617,66000
+                        31.302778244018555,2.121389389038086,66000
+                        29.960554122924805,0.825555801391602,66000
+                        29.596944808959961,-1.385833740234375,66000
+                        28.86833381652832,-2.394443511962891,66000
+                        29.024442672729492,-2.744722366333008,66000
+                        29.229898452758789,-3.75096321105957,66000
+                        29.423887252807617,-4.448055267333984,66000
+                        29.55027961730957,-6.295278549194336,66000
+                        30.771242141723633,-8.19224739074707,66000
+                        28.901666641235352,-8.478612899780273,66000
+                        28.372220993041992,-9.260833740234375,66000
+                        28.69972038269043,-10.65333366394043,66000
+                        28.363332748413086,-11.550834655761719,66000
+                        29.031389236450195,-12.383056640625,66000
+                        29.493612289428711,-12.458057403564453,66000
+                        29.805051803588867,-12.155246734619141,66000
+                        29.801389694213867,-13.454168319702148,66000
+                        29.589445114135742,-13.221944808959961,66000
+                        29.015832901000977,-13.39777946472168,66000
+                        28.441946029663086,-12.519723892211914,66000
+                        27.660001754760742,-12.296667098999023,66000
+                        27.199251174926758,-11.567905426025391,66000
+                        26.868612289428711,-11.973611831665039,66000
+                        26.004720687866211,-11.902500152587891,66000
+                        25.359724044799805,-11.641668319702148,66000
+                        25.332223892211914,-11.193334579467773,66000
+                        24.448331832885742,-11.463611602783203,66000
+                        23.986207962036133,-10.870460510253906,66000
+                        22.253889083862305,-11.209722518920898,66000
+                        22.312223434448242,-10.364444732666016,66000
+                        21.790555953979492,-9.405555725097656,66000
+                        21.782960891723633,-7.280841827392578,66000
+                        20.548715591430664,-7.283615112304688,66000
+                        20.62974739074707,-6.913881301879883,66000
+                        19.538949966430664,-6.996614456176758,66000
+                        19.373056411743164,-7.996110916137695,66000
+                        17.624166488647461,-8.098056793212891,66000
+                        16.941667556762695,-7.198610305786133,66000
+                        16.579721450805664,-5.900833129882812,66000
+                        13.997499465942383,-5.848611831665039,66000
+                        13.17888069152832,-5.856328964233398,66000
+                        12.435834884643555,-6.016666412353516,66000
+                        12.21455192565918,-5.7685546875,66000
+                        12.526666641235352,-5.724166870117188,66000
+                        12.565553665161133,-5.025554656982422,66000
+                        13.088888168334961,-4.662500381469727,66000
+                        13.091390609741211,-4.633054733276367,66000
+                        13.413888931274414,-4.882499694824219,66000
+                        13.72944450378418,-4.445833206176758,66000
+                        14.400835037231445,-4.277500152587891,66000
+                        14.418889999389648,-4.887222290039062,66000
+                        14.66139030456543,-4.909444808959961,66000
+                        15.890504837036133,-3.943008422851562,66000
+                        16.226945877075195,-3.328332901000977,66000
+                        16.195833206176758,-2.175832748413086,66000
+                        17.714998245239258,-0.537221908569336,66000
+                        18.091943740844727,2.22416877746582,66000
+                        18.624959945678711,3.47944450378418,66000
+                        18.54194450378418,4.335554122924805,66000
+                        19.421388626098633,5.13416862487793,66000
+                        20.585554122924805,4.410001754760742,66000
+                        22.379167556762695,4.127500534057617,66000
+                        22.895833969116211,4.821111679077148,66000
+                        23.420278549194336,4.59111213684082,66000
+                        24.394166946411133,5.115556716918945,66000
+                        24.734445571899414,4.910833358764648,66000
+                        25.54222297668457,5.381391525268555,66000
+                        25.891668319702148,5.192499160766602,66000
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+            <innerBoundaryIs>
+                <LinearRing>
+                    <altitudeMode>lockToGround</altitudeMode>
+                    <coordinates>
+                        12.953054428100586,-5.87611198425293,66000
+                        12.844167709350586,-5.850555419921875,66000
+                        12.737222671508789,-5.943611145019531,66000
+                        12.953054428100586,-5.87611198425293,66000
+                    </coordinates>
+                </LinearRing>
+            </innerBoundaryIs>
+        </Polygon>
+    </MultiGeometry>
 </Placemark>
+
 <Placemark>
 	<name>2007: Uganda</name>
+	<visibility>0</visibility>
 	<styleUrl>#tassiastyle</styleUrl>
     <ExtendedData>
 		<Data name="year">
@@ -1776,6 +1852,7 @@ Democratic Republic of Congo, Zaire strain, 32 cases, 14 deaths, 44% fatality
 -->
 <Placemark id="demcongo2008">
 	<name>2008: Democratic Republic of the Congo</name>
+	<visibility>0</visibility>
 	<styleUrl>#tassiastyle</styleUrl>
     <ExtendedData>
 		<Data name="year">
@@ -1785,7 +1862,7 @@ Democratic Republic of Congo, Zaire strain, 32 cases, 14 deaths, 44% fatality
 			<value>http://upload.wikimedia.org/wikipedia/commons/6/6f/Flag_of_the_Democratic_Republic_of_the_Congo.svg</value>
 		</Data>
 		<Data name="country">
-			<value>Democratic Republic of Congo (Zaire)</value>
+			<value>Democratic Republic of Congo</value>
 		</Data>
 		<Data name="info">
 			<value>Occurred in Yambuku and surrounding areas in August. Spread by personal contact and use of contaminated needles and syringes in hospitals or clinics</value>
@@ -1800,53 +1877,103 @@ Democratic Republic of Congo, Zaire strain, 32 cases, 14 deaths, 44% fatality
 			<value>44</value>
 		</Data>
     </ExtendedData>
-    <Polygon>
-		<altitudeMode>lockToGround</altitudeMode>
-		<outerBoundaryIs>
-			<LinearRing>
-				<altitudeMode>lockToGround</altitudeMode>
-				<coordinates>
-					12.779047,-4.388991
-					12.026131,-5.014997
-					11.140661000000108,-3.925277
-					11.496944,-3.506945
-					11.925833,-3.636945
-					11.574165,-2.333333
-					12.478054000000128,-2.327222
-					12.65,-1.8225
-					13.001507,-2.367672
-					13.482777000000112,-2.4375
-					13.76222,-2.088889
-					14.110832,-2.493056
-					14.429722000000112,-1.891667
-					14.51861,-0.609167
-					13.848331000000144,-0.198611
-					14.487221,0.913611000000117
-					14.188889,1.391389
-					13.186785,1.222476
-					13.293888,2.163611
-					14.564999,2.169444
-					16.072220000000129,1.654166
-					16.207222,2.220833
-					16.659721,3.533333
-					17.475277,3.713055
-					18.624958,3.479444
-					18.091942000000131,2.224166
-					17.714996,-0.537222
-					16.195831,-2.175834
-					16.226944,-3.328333
-					15.890505000000132,-3.943009
-					14.661388,-4.909445
-					14.418888000000152,-4.887222
-					14.400833,-4.2775
-					13.729443,-4.445834
-					13.413887000000102,-4.882501
-					13.091389,-4.633056
-					12.779047,-4.388991
-				</coordinates>
-			</LinearRing>
-		</outerBoundaryIs>
-	</Polygon>
+	<MultiGeometry>
+		<Polygon>
+		<altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <altitudeMode>relativeToGround</altitudeMode>
+                    <coordinates>
+                        25.891668319702148,5.192499160766602,66000
+                        27.455278396606445,5.016389846801758,66000
+                        28.363054275512695,4.290002822875977,66000
+                        29.643331527709961,4.643613815307617,66000
+                        30.858819961547852,3.49339485168457,66000
+                        30.72972297668457,2.448057174682617,66000
+                        31.302778244018555,2.121389389038086,66000
+                        29.960554122924805,0.825555801391602,66000
+                        29.596944808959961,-1.385833740234375,66000
+                        28.86833381652832,-2.394443511962891,66000
+                        29.024442672729492,-2.744722366333008,66000
+                        29.229898452758789,-3.75096321105957,66000
+                        29.423887252807617,-4.448055267333984,66000
+                        29.55027961730957,-6.295278549194336,66000
+                        30.771242141723633,-8.19224739074707,66000
+                        28.901666641235352,-8.478612899780273,66000
+                        28.372220993041992,-9.260833740234375,66000
+                        28.69972038269043,-10.65333366394043,66000
+                        28.363332748413086,-11.550834655761719,66000
+                        29.031389236450195,-12.383056640625,66000
+                        29.493612289428711,-12.458057403564453,66000
+                        29.805051803588867,-12.155246734619141,66000
+                        29.801389694213867,-13.454168319702148,66000
+                        29.589445114135742,-13.221944808959961,66000
+                        29.015832901000977,-13.39777946472168,66000
+                        28.441946029663086,-12.519723892211914,66000
+                        27.660001754760742,-12.296667098999023,66000
+                        27.199251174926758,-11.567905426025391,66000
+                        26.868612289428711,-11.973611831665039,66000
+                        26.004720687866211,-11.902500152587891,66000
+                        25.359724044799805,-11.641668319702148,66000
+                        25.332223892211914,-11.193334579467773,66000
+                        24.448331832885742,-11.463611602783203,66000
+                        23.986207962036133,-10.870460510253906,66000
+                        22.253889083862305,-11.209722518920898,66000
+                        22.312223434448242,-10.364444732666016,66000
+                        21.790555953979492,-9.405555725097656,66000
+                        21.782960891723633,-7.280841827392578,66000
+                        20.548715591430664,-7.283615112304688,66000
+                        20.62974739074707,-6.913881301879883,66000
+                        19.538949966430664,-6.996614456176758,66000
+                        19.373056411743164,-7.996110916137695,66000
+                        17.624166488647461,-8.098056793212891,66000
+                        16.941667556762695,-7.198610305786133,66000
+                        16.579721450805664,-5.900833129882812,66000
+                        13.997499465942383,-5.848611831665039,66000
+                        13.17888069152832,-5.856328964233398,66000
+                        12.435834884643555,-6.016666412353516,66000
+                        12.21455192565918,-5.7685546875,66000
+                        12.526666641235352,-5.724166870117188,66000
+                        12.565553665161133,-5.025554656982422,66000
+                        13.088888168334961,-4.662500381469727,66000
+                        13.091390609741211,-4.633054733276367,66000
+                        13.413888931274414,-4.882499694824219,66000
+                        13.72944450378418,-4.445833206176758,66000
+                        14.400835037231445,-4.277500152587891,66000
+                        14.418889999389648,-4.887222290039062,66000
+                        14.66139030456543,-4.909444808959961,66000
+                        15.890504837036133,-3.943008422851562,66000
+                        16.226945877075195,-3.328332901000977,66000
+                        16.195833206176758,-2.175832748413086,66000
+                        17.714998245239258,-0.537221908569336,66000
+                        18.091943740844727,2.22416877746582,66000
+                        18.624959945678711,3.47944450378418,66000
+                        18.54194450378418,4.335554122924805,66000
+                        19.421388626098633,5.13416862487793,66000
+                        20.585554122924805,4.410001754760742,66000
+                        22.379167556762695,4.127500534057617,66000
+                        22.895833969116211,4.821111679077148,66000
+                        23.420278549194336,4.59111213684082,66000
+                        24.394166946411133,5.115556716918945,66000
+                        24.734445571899414,4.910833358764648,66000
+                        25.54222297668457,5.381391525268555,66000
+                        25.891668319702148,5.192499160766602,66000
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+            <innerBoundaryIs>
+                <LinearRing>
+                    <altitudeMode>lockToGround</altitudeMode>
+                    <coordinates>
+                        12.953054428100586,-5.87611198425293,66000
+                        12.844167709350586,-5.850555419921875,66000
+                        12.737222671508789,-5.943611145019531,66000
+                        12.953054428100586,-5.87611198425293,66000
+                    </coordinates>
+                </LinearRing>
+            </innerBoundaryIs>
+        </Polygon>
+    </MultiGeometry>
 </Placemark>
 
 <!--
@@ -1855,6 +1982,7 @@ Uganda, Sudan strain, 1 cases, 1 deaths, 100% fatality
 -->
 <Placemark id="ugand2011">
 	<name>2011: Uganda</name>
+	<visibility>0</visibility>
 	<styleUrl>#tassiastyle</styleUrl>
     <ExtendedData>
 		<Data name="year">
@@ -1916,6 +2044,7 @@ Democratic Republic of Congo, Bundibugyo strain, 57 cases, 29 deaths, 51% fatali
 -->
 <Placemark id="uganda2012">
 	<name>2012: Uganda</name>
+	<visibility>0</visibility>
 	<open>1</open>
 	<styleUrl>#tassiastyle</styleUrl>
     <ExtendedData>
@@ -1972,6 +2101,7 @@ Democratic Republic of Congo, Bundibugyo strain, 57 cases, 29 deaths, 51% fatali
 </Placemark>
 <Placemark id="demcongo2012">
 	<name>2012: Democratic Republic of the Congo</name>
+	<visibility>0</visibility>
 	<open>1</open>
 	<styleUrl>#tassiastyle</styleUrl>
     <ExtendedData>
@@ -1997,53 +2127,103 @@ Democratic Republic of Congo, Bundibugyo strain, 57 cases, 29 deaths, 51% fatali
 			<value>51</value>
 		</Data>
     </ExtendedData>
-    <Polygon>
-		<altitudeMode>lockToGround</altitudeMode>
-		<outerBoundaryIs>
-			<LinearRing>
-				<altitudeMode>lockToGround</altitudeMode>
-				<coordinates>
-					12.779047,-4.388991
-					12.026131,-5.014997
-					11.140661000000108,-3.925277
-					11.496944,-3.506945
-					11.925833,-3.636945
-					11.574165,-2.333333
-					12.478054000000128,-2.327222
-					12.65,-1.8225
-					13.001507,-2.367672
-					13.482777000000112,-2.4375
-					13.76222,-2.088889
-					14.110832,-2.493056
-					14.429722000000112,-1.891667
-					14.51861,-0.609167
-					13.848331000000144,-0.198611
-					14.487221,0.913611000000117
-					14.188889,1.391389
-					13.186785,1.222476
-					13.293888,2.163611
-					14.564999,2.169444
-					16.072220000000129,1.654166
-					16.207222,2.220833
-					16.659721,3.533333
-					17.475277,3.713055
-					18.624958,3.479444
-					18.091942000000131,2.224166
-					17.714996,-0.537222
-					16.195831,-2.175834
-					16.226944,-3.328333
-					15.890505000000132,-3.943009
-					14.661388,-4.909445
-					14.418888000000152,-4.887222
-					14.400833,-4.2775
-					13.729443,-4.445834
-					13.413887000000102,-4.882501
-					13.091389,-4.633056
-					12.779047,-4.388991
-				</coordinates>
-			</LinearRing>
-		</outerBoundaryIs>
-	</Polygon>
+	<MultiGeometry>
+		<Polygon>
+		<altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <altitudeMode>relativeToGround</altitudeMode>
+                    <coordinates>
+                        25.891668319702148,5.192499160766602,66000
+                        27.455278396606445,5.016389846801758,66000
+                        28.363054275512695,4.290002822875977,66000
+                        29.643331527709961,4.643613815307617,66000
+                        30.858819961547852,3.49339485168457,66000
+                        30.72972297668457,2.448057174682617,66000
+                        31.302778244018555,2.121389389038086,66000
+                        29.960554122924805,0.825555801391602,66000
+                        29.596944808959961,-1.385833740234375,66000
+                        28.86833381652832,-2.394443511962891,66000
+                        29.024442672729492,-2.744722366333008,66000
+                        29.229898452758789,-3.75096321105957,66000
+                        29.423887252807617,-4.448055267333984,66000
+                        29.55027961730957,-6.295278549194336,66000
+                        30.771242141723633,-8.19224739074707,66000
+                        28.901666641235352,-8.478612899780273,66000
+                        28.372220993041992,-9.260833740234375,66000
+                        28.69972038269043,-10.65333366394043,66000
+                        28.363332748413086,-11.550834655761719,66000
+                        29.031389236450195,-12.383056640625,66000
+                        29.493612289428711,-12.458057403564453,66000
+                        29.805051803588867,-12.155246734619141,66000
+                        29.801389694213867,-13.454168319702148,66000
+                        29.589445114135742,-13.221944808959961,66000
+                        29.015832901000977,-13.39777946472168,66000
+                        28.441946029663086,-12.519723892211914,66000
+                        27.660001754760742,-12.296667098999023,66000
+                        27.199251174926758,-11.567905426025391,66000
+                        26.868612289428711,-11.973611831665039,66000
+                        26.004720687866211,-11.902500152587891,66000
+                        25.359724044799805,-11.641668319702148,66000
+                        25.332223892211914,-11.193334579467773,66000
+                        24.448331832885742,-11.463611602783203,66000
+                        23.986207962036133,-10.870460510253906,66000
+                        22.253889083862305,-11.209722518920898,66000
+                        22.312223434448242,-10.364444732666016,66000
+                        21.790555953979492,-9.405555725097656,66000
+                        21.782960891723633,-7.280841827392578,66000
+                        20.548715591430664,-7.283615112304688,66000
+                        20.62974739074707,-6.913881301879883,66000
+                        19.538949966430664,-6.996614456176758,66000
+                        19.373056411743164,-7.996110916137695,66000
+                        17.624166488647461,-8.098056793212891,66000
+                        16.941667556762695,-7.198610305786133,66000
+                        16.579721450805664,-5.900833129882812,66000
+                        13.997499465942383,-5.848611831665039,66000
+                        13.17888069152832,-5.856328964233398,66000
+                        12.435834884643555,-6.016666412353516,66000
+                        12.21455192565918,-5.7685546875,66000
+                        12.526666641235352,-5.724166870117188,66000
+                        12.565553665161133,-5.025554656982422,66000
+                        13.088888168334961,-4.662500381469727,66000
+                        13.091390609741211,-4.633054733276367,66000
+                        13.413888931274414,-4.882499694824219,66000
+                        13.72944450378418,-4.445833206176758,66000
+                        14.400835037231445,-4.277500152587891,66000
+                        14.418889999389648,-4.887222290039062,66000
+                        14.66139030456543,-4.909444808959961,66000
+                        15.890504837036133,-3.943008422851562,66000
+                        16.226945877075195,-3.328332901000977,66000
+                        16.195833206176758,-2.175832748413086,66000
+                        17.714998245239258,-0.537221908569336,66000
+                        18.091943740844727,2.22416877746582,66000
+                        18.624959945678711,3.47944450378418,66000
+                        18.54194450378418,4.335554122924805,66000
+                        19.421388626098633,5.13416862487793,66000
+                        20.585554122924805,4.410001754760742,66000
+                        22.379167556762695,4.127500534057617,66000
+                        22.895833969116211,4.821111679077148,66000
+                        23.420278549194336,4.59111213684082,66000
+                        24.394166946411133,5.115556716918945,66000
+                        24.734445571899414,4.910833358764648,66000
+                        25.54222297668457,5.381391525268555,66000
+                        25.891668319702148,5.192499160766602,66000
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+            <innerBoundaryIs>
+                <LinearRing>
+                    <altitudeMode>lockToGround</altitudeMode>
+                    <coordinates>
+                        12.953054428100586,-5.87611198425293,66000
+                        12.844167709350586,-5.850555419921875,66000
+                        12.737222671508789,-5.943611145019531,66000
+                        12.953054428100586,-5.87611198425293,66000
+                    </coordinates>
+                </LinearRing>
+            </innerBoundaryIs>
+        </Polygon>
+    </MultiGeometry>
 </Placemark>
 
 <!--
@@ -2064,6 +2244,7 @@ Democratic Republic of Congo: 66 cases, 49 deaths (data from Dec. 15, couldn't f
 
 <Placemark id="guinea2014">
 	<name>Guinea</name>
+	<visibility>0</visibility>
 	<Style id="transBluePoly">
 		<LineStyle>
         		<width>1.5</width>
@@ -2139,6 +2320,7 @@ Democratic Republic of Congo: 66 cases, 49 deaths (data from Dec. 15, couldn't f
 
 <Placemark id="liberia2014">
 	<name>Liberia</name>
+	<visibility>0</visibility>
 	<Style id="transBluePoly">
 		<LineStyle>
 			<width>1.5</width>
@@ -2189,6 +2371,7 @@ Democratic Republic of Congo: 66 cases, 49 deaths (data from Dec. 15, couldn't f
 
 <Placemark id="mali2014">
 	<name>Mali</name>
+	<visibility>0</visibility>
 	<description>Mali</description>
 	<Style id="transBluePoly">
 		<LineStyle>
@@ -2270,6 +2453,7 @@ Democratic Republic of Congo: 66 cases, 49 deaths (data from Dec. 15, couldn't f
 
 <Placemark id="nigeria2014">
 	<name>Nigeria</name>
+	<visibility>0</visibility>
 	<description>Mali</description>
 	<Style id="transBluePoly">
 		<LineStyle>
@@ -2342,6 +2526,7 @@ Democratic Republic of Congo: 66 cases, 49 deaths (data from Dec. 15, couldn't f
 
 <Placemark id="senegal2014">
 	<name>Senegal</name>
+	<visibility>0</visibility>
 	<Style id="transBluePoly">
 		<LineStyle>
 			<width>1.5</width>
@@ -2412,6 +2597,7 @@ Democratic Republic of Congo: 66 cases, 49 deaths (data from Dec. 15, couldn't f
 
 <Placemark id="sierraleone2014">
 	<name>Sierra Leone</name>
+	<visibility>0</visibility>
 	<Style id="transBluePoly">
 		<LineStyle>
 			<width>1.5</width>
@@ -2481,6 +2667,7 @@ Democratic Republic of Congo: 66 cases, 49 deaths (data from Dec. 15, couldn't f
 
 <Placemark id="demcongo2014">
 	<name>Democratic Republic of Congo</name>
+	<visibility>0</visibility>
 	<Style id="transBluePoly">
 		<LineStyle>
 			<width>1.5</width>
@@ -2637,7 +2824,7 @@ Democratic Republic of Congo: 66 cases, 49 deaths (data from Dec. 15, couldn't f
 		
 		// Flying to Africa
         <gx:FlyTo>
-          <gx:duration>2</gx:duration>
+          <gx:duration>4.0</gx:duration>
           <gx:flyToMode>smooth</gx:flyToMode>
           <LookAt>
             <longitude>23.104467</longitude>
@@ -2654,11 +2841,12 @@ Democratic Republic of Congo: 66 cases, 49 deaths (data from Dec. 15, couldn't f
           <gx:duration>2.0</gx:duration>
           <Update>
             <targetHref/>
-            <Change>
-              <Placemark targetId="#congo2005">
-                <gx:balloonVisibility>1</gx:balloonVisibility>
-              </Placemark>
-            </Change>
+			  <Change>
+                <Placemark targetId="#congo2005">
+			   	  <visibility>1</visibility>
+                  <gx:balloonVisibility>1</gx:balloonVisibility>
+                </Placemark> 
+              </Change> 
           </Update>
         </gx:AnimatedUpdate>
 		
@@ -2672,18 +2860,30 @@ Democratic Republic of Congo: 66 cases, 49 deaths (data from Dec. 15, couldn't f
             <targetHref/>
             <Change>
               <Placemark targetId="#congo2005">
+				<PolyStyle>
+				  <color>ff0000ff</color>
+				</PolyStyle>
+				<visibility>0</visibility>
                 <gx:balloonVisibility>0</gx:balloonVisibility>
               </Placemark>
             </Change>
           </Update>
         </gx:AnimatedUpdate>
 
+		<gx:Wait>
+          <gx:duration>2.0</gx:duration>
+        </gx:Wait>
+		
         <gx:AnimatedUpdate>
           <gx:duration>2.0</gx:duration>
           <Update>
             <targetHref/>
             <Change>
               <Placemark targetId="demcongo2007">
+				<PolyStyle>
+				  <color>ff000000</color>
+				</PolyStyle>
+			  	<visibility>1</visibility>
                 <gx:balloonVisibility>1</gx:balloonVisibility>
               </Placemark>
             </Change>
@@ -2700,6 +2900,9 @@ Democratic Republic of Congo: 66 cases, 49 deaths (data from Dec. 15, couldn't f
             <targetHref/>
             <Change>
               <Placemark targetId="demcongo2007">
+			    <PolyStyle>
+					<color>ff0000ff</color>
+				</PolyStyle>
                 <gx:balloonVisibility>0</gx:balloonVisibility>
               </Placemark>
             </Change>
