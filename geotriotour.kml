@@ -4,7 +4,8 @@
  
 <Document id="NeoGeoWebTouring">
 <name>Ebola Outbreaks along time</name>
-<description>Touring over Ebola outbreaks since 1976, poping up ballons with relevant information on each epidemics.</description>
+<open>1</open>
+<description>Touring over Ebola outbreaks since 1976. Ballons show details on each epidemics.</description>
 
 <Schema name="Africakml" id="Africakml">
 	<SimpleField name="FIPS" type="string"></SimpleField>
@@ -1915,6 +1916,7 @@ Democratic Republic of Congo, Bundibugyo strain, 57 cases, 29 deaths, 51% fatali
 -->
 <Placemark id="uganda2012">
 	<name>2012: Uganda</name>
+	<open>1</open>
 	<styleUrl>#tassiastyle</styleUrl>
     <ExtendedData>
 		<Data name="year">
@@ -1970,6 +1972,7 @@ Democratic Republic of Congo, Bundibugyo strain, 57 cases, 29 deaths, 51% fatali
 </Placemark>
 <Placemark id="demcongo2012">
 	<name>2012: Democratic Republic of the Congo</name>
+	<open>1</open>
 	<styleUrl>#tassiastyle</styleUrl>
     <ExtendedData>
 		<Data name="year">
@@ -2597,72 +2600,90 @@ Democratic Republic of Congo: 66 cases, 49 deaths (data from Dec. 15, couldn't f
     </MultiGeometry>
 </Placemark>
 
+</Folder>
 <gx:Tour>
-      <name>Play me</name>
-      <gx:Playlist>
+    <name>Play me!</name>
+    <gx:Playlist>
 
+		// Starting the tour at McGill University
         <gx:FlyTo>
-          <gx:duration>8.0</gx:duration>
+          <gx:duration>2.0</gx:duration>
           <gx:flyToMode>bounce</gx:flyToMode>
           <LookAt>
-            <longitude>-1.748584</longitude>
-            <latitude>3.736266</latitude>
-            <altitude>0</altitude>
-            <heading>-9.295926</heading>
-            <tilt>84.0957450</tilt>
-            <range>4469.850414</range>
-            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-          </LookAt>
+		    <longitude>-73.575220</longitude>
+            <latitude>45.504086</latitude>
+			<altitude>90070000</altitude>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<range>15000</range>
+            <heading>0</heading>
+            <tilt>0</tilt>
+          </LookAt>  
         </gx:FlyTo>
-
-        <gx:AnimatedUpdate>
-          <gx:duration>0.0</gx:duration>
-          <Update>
-            <targetHref/>
-            <Change>
-              <Placemark targetId="demcongo2012">
-                <gx:balloonVisibility>1</gx:balloonVisibility>
-              </Placemark>
-            </Change>
-          </Update>
-        </gx:AnimatedUpdate>
-
-        <gx:Wait>
-          <gx:duration>4.0</gx:duration>
-        </gx:Wait>
-
-        <gx:AnimatedUpdate>
-          <gx:duration>0.0</gx:duration>
-          <Update>
-            <targetHref/>
-            <Change>
-              <Placemark targetId="demcongo2012">
-                <gx:balloonVisibility>0</gx:balloonVisibility>
-              </Placemark>
-            </Change>
-          </Update>
-        </gx:AnimatedUpdate>
-
+		
+		// Zooming in...
         <gx:FlyTo>
-          <gx:duration>3</gx:duration>
+          <gx:duration>2.0</gx:duration>
+          <gx:flyToMode>bounce</gx:flyToMode>
+          <LookAt>
+		    <longitude>-73.575220</longitude>
+            <latitude>45.504086</latitude>
+			<altitude>9007000</altitude>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<range>1500</range>
+            <heading>0</heading>
+            <tilt>0</tilt>
+          </LookAt>  
+        </gx:FlyTo>
+		
+		// Flying to Africa
+        <gx:FlyTo>
+          <gx:duration>2</gx:duration>
           <gx:flyToMode>smooth</gx:flyToMode>
           <LookAt>
-            <longitude>-1.782630</longitude>
-            <latitude>3.862855</latitude>
-            <altitude>0</altitude>
-            <heading>-9.314858</heading>
-            <tilt>84.117317</tilt>
-            <range>6792.665540</range>
-            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            <longitude>23.104467</longitude>
+            <latitude>-1.782724</latitude>
+            <altitude>9007000</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>1500</range>
+            <gx:altitudeMode>relativeToGround</gx:altitudeMode>
           </LookAt>
         </gx:FlyTo>
-
+		
         <gx:AnimatedUpdate>
-          <gx:duration>0.0</gx:duration>
+          <gx:duration>2.0</gx:duration>
           <Update>
             <targetHref/>
             <Change>
-              <Placemark targetId="uganda2012">
+              <Placemark targetId="#congo2005">
+                <gx:balloonVisibility>1</gx:balloonVisibility>
+              </Placemark>
+            </Change>
+          </Update>
+        </gx:AnimatedUpdate>
+		
+        <gx:Wait>
+          <gx:duration>2.0</gx:duration>
+        </gx:Wait>
+
+        <gx:AnimatedUpdate>
+          <gx:duration>2.0</gx:duration>
+          <Update>
+            <targetHref/>
+            <Change>
+              <Placemark targetId="#congo2005">
+                <gx:balloonVisibility>0</gx:balloonVisibility>
+              </Placemark>
+            </Change>
+          </Update>
+        </gx:AnimatedUpdate>
+
+        <gx:AnimatedUpdate>
+          <gx:duration>2.0</gx:duration>
+          <Update>
+            <targetHref/>
+            <Change>
+              <Placemark targetId="demcongo2007">
                 <gx:balloonVisibility>1</gx:balloonVisibility>
               </Placemark>
             </Change>
@@ -2670,20 +2691,24 @@ Democratic Republic of Congo: 66 cases, 49 deaths (data from Dec. 15, couldn't f
         </gx:AnimatedUpdate>
 
         <gx:Wait>
-          <gx:duration>4.0</gx:duration>
+          <gx:duration>2.0</gx:duration>
         </gx:Wait>
 
         <gx:AnimatedUpdate>
-          <gx:duration>0.0</gx:duration>
+          <gx:duration>2.0</gx:duration>
           <Update>
             <targetHref/>
             <Change>
-              <Placemark targetId="uganda2012">
+              <Placemark targetId="demcongo2007">
                 <gx:balloonVisibility>0</gx:balloonVisibility>
               </Placemark>
             </Change>
           </Update>
         </gx:AnimatedUpdate>
+
+        <gx:Wait>
+          <gx:duration>2.0</gx:duration>
+        </gx:Wait>
 
         <gx:FlyTo>
           <gx:duration>3</gx:duration>
@@ -2698,9 +2723,9 @@ Democratic Republic of Congo: 66 cases, 49 deaths (data from Dec. 15, couldn't f
             <altitudeMode>relativeToGround</altitudeMode>
           </LookAt>
         </gx:FlyTo>
-
+<!--
         <gx:AnimatedUpdate>
-          <gx:duration>0.0</gx:duration>
+          <gx:duration>2.0</gx:duration>
           <Update>
             <targetHref/>
             <Change>
@@ -2712,14 +2737,13 @@ Democratic Republic of Congo: 66 cases, 49 deaths (data from Dec. 15, couldn't f
         </gx:AnimatedUpdate>
 
         <gx:Wait>
-          <gx:duration>4.0</gx:duration>
+          <gx:duration>2.0</gx:duration>
         </gx:Wait>
-
+-->
       </gx:Playlist>
     </gx:Tour>
 
 
-</Folder>
 </Document>
 
 </kml>
