@@ -131,15 +131,42 @@
 // 1976:
 Democratic Republic of Congo, Zaire strain, 318 cases, 280 deaths, 88% fatality
 Sudan, Sudan strain, 284 cases, 151 deaths, 53% fatality//
-
-<Placemark id="congo1976">
+<Placemark id="xcongo1976">
 	<styleUrl>#annastyle</styleUrl>
+	<name>Democratic Republic of the Congo</name>
+	<description>Occurred in Yambuku and surrounding areas in August. Spread by personal contact and use of contaminated needles and syringes in hospitals.</description>
+	<ExtendedData>
+		<Data name="year">
+			<value>1976</value>
+        </Data>
+        <Data name="flag">
+			<value>http://upload.wikimedia.org/wikipedia/commons/6/6f/Flag_of_the_Democratic_Republic_of_the_Congo.svg</value>
+        </Data>
+        <Data name="cases">
+			<value>318</value>
+        </Data>
+        <Data name="deaths">
+			<value>280</value>
+        </Data>
+        <Data name="fatality">
+			<value>88%</value>
+        </Data>
+        <Data name="strain">
+			<value>Zaire</value>
+        </Data>
+    </ExtendedData>
+	<Point>
+		<coordinates>
+			19.665527,4.893941
+		</coordinates>
+	</Point>
+</Placemark>
+<Placemark id="congo1976">
+	<visibility>0</visibility>
 	<PolyStyle>
 		<fill>1</fill>
 	</PolyStyle>
 	<name>Democratic Republic of the Congo</name>
-	<visibility>0</visibility>
-	<description></description>
 	<description>Occurred in Yambuku and surrounding areas in August. Spread by personal contact and use of contaminated needles and syringes in hospitals.</description>
 	<ExtendedData>
 		<Data name="year">
@@ -2809,8 +2836,11 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
             <Change>
               <Placemark targetId="#congo1976">
 			  	<visibility>1</visibility>
-                <gx:balloonVisibility>1</gx:balloonVisibility>
               </Placemark>
+			  <Placemark targetId="#xcongo1976">
+				<visibility>1</visibility>
+				<gx:balloonVisibility>1</gx:balloonVisibility>
+			  </Placemark>
             </Change>
           </Update>
         </gx:AnimatedUpdate>	
@@ -2826,8 +2856,11 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
             <Change>
               <Placemark targetId="#congo1976">
 			  	<visibility>0</visibility>
-                <gx:balloonVisibility>0</gx:balloonVisibility>
               </Placemark>
+			  <Placemark targetId="#xcongo1976">
+				<visibility>0</visibility>
+				<gx:balloonVisibility>0</gx:balloonVisibility>
+			  </Placemark>
             </Change>
           </Update>
         </gx:AnimatedUpdate>
