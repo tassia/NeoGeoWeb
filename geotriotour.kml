@@ -1175,7 +1175,7 @@ South Africa, Zaire strain, 1 case, 1 death, 100% fatality
             <altitudeMode>lockToGround</altitudeMode>
             <outerBoundaryIs>
                 <LinearRing>
-					<altitudeMode>relativeToGround</altitudeMode>
+					<altitudeMode>lockToGround</altitudeMode>
 					<coordinates>
 						37.85083,-46.956947 
 						37.576385000000215,-46.909447 
@@ -1407,7 +1407,7 @@ Uganda, Zaire strain, 425 cases, 224 deaths, 53% fatality rate
     <Polygon>
 		<extrude>0</extrude>
 		<tessellate>1</tessellate>
-		<altitudeMode>relativeToGround</altitudeMode>
+		<altitudeMode>lockToGround</altitudeMode>
 		<outerBoundaryIs>
 			<LinearRing>
 				<coordinates>
@@ -1914,10 +1914,10 @@ Uganda, Bundibugyo strain, 149 cases, 37 deaths, 25% fatality//
     </ExtendedData>
 	<MultiGeometry>
 		<Polygon>
-		<altitudeMode>relativeToGround</altitudeMode>
+		<altitudeMode>lockToGround</altitudeMode>
             <outerBoundaryIs>
                 <LinearRing>
-                    <altitudeMode>relativeToGround</altitudeMode>
+                    <altitudeMode>lockToGround</altitudeMode>
                     <coordinates>
                         25.891668319702148,5.192499160766602,66000
                         27.455278396606445,5.016389846801758,66000
@@ -2099,10 +2099,10 @@ Democratic Republic of Congo, Zaire strain, 32 cases, 14 deaths, 44% fatality//
     </ExtendedData>
 	<MultiGeometry>
 		<Polygon>
-		<altitudeMode>relativeToGround</altitudeMode>
+		<altitudeMode>lcokToGround</altitudeMode>
             <outerBoundaryIs>
                 <LinearRing>
-                    <altitudeMode>relativeToGround</altitudeMode>
+                    <altitudeMode>lockToGround</altitudeMode>
                     <coordinates>
                         25.891668319702148,5.192499160766602,66000
                         27.455278396606445,5.016389846801758,66000
@@ -2347,10 +2347,10 @@ Democratic Republic of Congo, Bundibugyo strain, 57 cases, 29 deaths, 51% fatali
     </ExtendedData>
 	<MultiGeometry>
 		<Polygon>
-		<altitudeMode>relativeToGround</altitudeMode>
+		<altitudeMode>lockToGround</altitudeMode>
             <outerBoundaryIs>
                 <LinearRing>
-                    <altitudeMode>relativeToGround</altitudeMode>
+                    <altitudeMode>lockToGround</altitudeMode>
                     <coordinates>
                         25.891668319702148,5.192499160766602,66000
                         27.455278396606445,5.016389846801758,66000
@@ -3665,18 +3665,48 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
             </Change>
           </Update>
         </gx:AnimatedUpdate>
+		
+        <gx:Wait>
+          <gx:duration>2.0</gx:duration>
+        </gx:Wait>
+		
+        <gx:AnimatedUpdate>
+          <gx:duration>2.0</gx:duration>
+          <Update>
+            <targetHref/>
+            <Change>
+              <Placemark targetId="demcongo2012">
+			  	<visibility>1</visibility>
+                <gx:balloonVisibility>1</gx:balloonVisibility>
+              </Placemark>
+            </Change>
+          </Update>
+        </gx:AnimatedUpdate>
 
         <gx:Wait>
           <gx:duration>2.0</gx:duration>
         </gx:Wait>
 
+        <gx:AnimatedUpdate>
+          <gx:duration>2.0</gx:duration>
+          <Update>
+            <targetHref/>
+            <Change>
+              <Placemark targetId="demcongo2012">
+				<visibility>0</visibility>
+                <gx:balloonVisibility>0</gx:balloonVisibility>
+              </Placemark>
+            </Change>
+          </Update>
+        </gx:AnimatedUpdate>
+
 		<gx:FlyTo>
           <gx:duration>3</gx:duration>
           <gx:flyToMode>smooth</gx:flyToMode>
           <LookAt>
-            <longitude>-7.954102</longitude>
-            <latitude>10.508066</latitude>
-            <altitude>9007000</altitude>
+            <longitude>1.707783</longitude>
+            <latitude>12.78498</latitude>
+            <altitude>4138520</altitude>
             <heading>0</heading>
             <tilt>0</tilt>
             <range>15000</range>
@@ -3688,36 +3718,6 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
           <gx:duration>0.5</gx:duration>
         </gx:Wait>
 		
-        <gx:AnimatedUpdate>
-          <gx:duration>2.0</gx:duration>
-          <Update>
-            <targetHref/>
-            <Change>
-              <Placemark targetId="demcongo2012">
-			  	<visibility>1</visibility>
-                <gx:balloonVisibility>1</gx:balloonVisibility>
-              </Placemark>
-            </Change>
-          </Update>
-        </gx:AnimatedUpdate>
-
-        <gx:Wait>
-          <gx:duration>2.0</gx:duration>
-        </gx:Wait>
-
-        <gx:AnimatedUpdate>
-          <gx:duration>2.0</gx:duration>
-          <Update>
-            <targetHref/>
-            <Change>
-              <Placemark targetId="demcongo2012">
-				<visibility>0</visibility>
-                <gx:balloonVisibility>0</gx:balloonVisibility>
-              </Placemark>
-            </Change>
-          </Update>
-        </gx:AnimatedUpdate>
-
         <gx:Wait>
           <gx:duration>2.0</gx:duration>
         </gx:Wait>
@@ -3921,12 +3921,12 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
             </Change>
           </Update>
         </gx:AnimatedUpdate>
-
+<!--
         <gx:Wait>
           <gx:duration>2.0</gx:duration>
         </gx:Wait>
 
-        <gx:AnimatedUpdate>
+		<gx:AnimatedUpdate>
           <gx:duration>2.0</gx:duration>
           <Update>
             <targetHref/>
@@ -3955,11 +3955,11 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
             </Change>
           </Update>
         </gx:AnimatedUpdate>	
-		
+-->	
         <gx:Wait>
           <gx:duration>2.0</gx:duration>
         </gx:Wait>	
-		
+	
         <gx:FlyTo>
           <gx:duration>3</gx:duration>
           <gx:flyToMode>smooth</gx:flyToMode>
