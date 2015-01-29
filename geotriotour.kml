@@ -2458,7 +2458,386 @@ Spain: 1 cases, 0 deaths
 Inited Kingdom: 1 cases, 0 deaths
 Mali: 8 cases, 6 deaths
 Democratic Republic of Congo: 66 cases, 49 deaths //
+//non-extruded 2014 polygons//
+<Placemark id="noexguinea2014">
+	<name>Guinea</name>
+	<visibility>0</visibility>
+	<Style>
+		<LineStyle>
+        	<width>1.5</width>
+			<color>ff0000ff</color>
+      	</LineStyle>
+      	<PolyStyle>
+        	<fill>1</fill>
+		</PolyStyle>
+	</Style>
+	<Polygon>
+		<extrude>0</extrude>
+		<tessellate>1</tessellate>
+		<altitudeMode>lockToGround</altitudeMode>
+		<outerBoundaryIs>
+			<LinearRing>
+				<altitudeMode>lockToGround</altitudeMode>
+				<coordinates>
+					-13.602783,9.734441,287100
+					-14.664446,10.476665,287100
+					-14.693056,11.035276,287100
+					-15.016847999999868,10.956451000000143,287100
+					-14.686944999999895,11.509722,287100
+					-13.709167,11.715277,287100
+					-13.971035,12.154758,287100
+					-13.713139,12.677221,287100
+					-12.345404,12.301748,287100
+					-11.373058,12.407774,287100
+					-11.315556,12.022774,287100
+					-10.92889,12.224442,287100
+					-10.652748,11.892609,287100
+					-10.323893,12.224997,287100
+					-9.701946,12.029163,287100
+					-9.155556,12.486111,287100
+					-8.53388,11.49391,287100
+					-8.357779,11.305555,287100
+					-8.680557,10.966389,287100
+					-8.289722,11.007776,287100
+					-7.973984,10.165611,287100
+					-8.143612,9.533888000000104,287100
+					-7.732779,9.088055,287100
+					-7.957778,8.813332,287100
+					-7.646536,8.378416,287100
+					-8.198056999999892,8.496666,287100
+					-7.946838,8.018505,287100
+					-8.469749,7.561325,287100
+					-8.660557,7.695,287100
+					-9.106945,7.198889,287100
+					-9.485161,7.361989,287100
+					-9.48365,8.346931,287100
+					-10.266651,8.488377,287100
+					-10.695835,8.298611,287100
+					-10.571526,9.059532,287100
+					-11.214444999999898,9.997499,287100
+					-12.456112,9.888332,287100
+					-13.29561,9.032143,287100
+					-13.602783,9.734441,287100
+				</coordinates>
+			</LinearRing>
+		</outerBoundaryIs>
+	</Polygon>
+</Placemark>
 
+<Placemark id="noexliberia2014">
+	<name>Liberia</name>
+	<visibility>0</visibility>
+	<Style>
+		<LineStyle>
+        	<width>1.5</width>
+			<color>ff0000ff</color>
+      	</LineStyle>
+      	<PolyStyle>
+        	<fill>1</fill>
+		</PolyStyle>
+	</Style>
+	<Polygon>
+		<extrude>0</extrude>
+		<tessellate>1</tessellate>
+		<altitudeMode>lockToGround</altitudeMode>
+		<outerBoundaryIs>
+			<LinearRing>
+				<altitudeMode>lockToGround</altitudeMode>
+				<coordinates>
+					-10.806074,6.403,847800
+					-11.492331,6.927091000000132,847800
+					-10.266651,8.488377,847800
+					-9.48365,8.346931,847800
+					-9.485161,7.361989,847800
+					-9.106945,7.198889,847800
+					-8.660557,7.695,847800
+					-8.469749,7.561325,847800
+					-8.308334,6.860833000000113,847800
+					-8.606383999999878,6.507815,847800
+					-7.423334,5.839444,847800
+					-7.525402,4.352806000000101,847800
+					-9.142778,5.055555,847800
+					-10.806074,6.403,847800
+				</coordinates>
+			</LinearRing>
+		</outerBoundaryIs>
+	</Polygon>
+</Placemark>
+
+<Placemark id="noexmali2014">
+	<name>Mali</name>
+	<visibility>0</visibility>
+	<Style>
+		<LineStyle>
+        	<width>1.5</width>
+			<color>ff0000ff</color>
+      	</LineStyle>
+      	<PolyStyle>
+        	<fill>1</fill>
+		</PolyStyle>
+	</Style>
+	<Polygon>
+		<extrude>0</extrude>
+		<tessellate>1</tessellate>
+		<altitudeMode>lockToGround</altitudeMode>
+		<outerBoundaryIs>
+			<LinearRing>
+				<altitudeMode>lockToGround</altitudeMode>
+				<coordinates>
+					-8.53388,11.49391,30000
+					-9.155556,12.486111,30000
+					-9.701946,12.029163,30000
+					-10.323893,12.224997,30000
+					-10.652748,11.892609,30000
+					-10.92889,12.224442,30000
+					-11.315556,12.022774,30000
+					-11.373058,12.407774,30000
+					-11.378056,12.988054,30000
+					-12.057222,13.664721,30000
+					-12.244833,14.764385,30000
+					-11.841391,14.863054,30000
+					-11.494167,15.646387,30000
+					-10.899637,15.106874,30000
+					-10.716387,15.438902000000112,30000
+					-9.411112,15.443888,30000
+					-9.338057,15.704721000000106,30000
+					-9.333612,15.499722000000148,30000
+					-5.49505,15.498371,30000
+					-5.335,16.328053,30000
+					-5.601389,16.507774,30000
+					-6.577223,24.999165000000133,30000
+					-4.806111,25.000275,30000
+					1.169662,21.102543,30000
+					1.1675,20.741108,30000
+					1.795833,20.308331,30000
+					3.233055,19.820274,30000
+					3.331944,18.976387,30000
+					4.245277,19.146664,30000
+					4.245,18.645275,30000
+					4.200833,16.393887,30000
+					3.523981,15.358152,30000
+					1.3125,15.286665,30000
+					0.235048,14.915068,30000
+					-0.725278,15.082777,30000
+					-1.980834,14.474722,30000
+					-2.006945,14.187777,30000
+					-2.474722,14.287498,30000
+					-2.879167,13.655554,30000
+					-3.2575,13.696665,30000
+					-3.437675,13.166498,30000
+					-3.964253,13.50383,30000
+					-4.337223,13.121666,30000
+					-4.4175,12.300831,30000
+					-5.273056,11.843887,30000
+					-5.51985,10.436272,30000
+					-6.111389,10.197777,30000
+					-6.243402,10.735256,30000
+					-6.988056,10.147499,30000
+					-7.635555999999895,10.448332000000107,30000
+					-7.973984,10.165611,30000
+					-8.289722,11.007776,30000
+					-8.680557,10.966389,30000
+					-8.357779,11.305555,30000
+					-8.53388,11.49391,30000
+				</coordinates>
+			</LinearRing>
+		</outerBoundaryIs>
+	</Polygon>
+</Placemark>
+
+<Placemark id="noexnigeria2014">
+	<name>Nigeria</name>
+	<visibility>0</visibility>
+	<Style>
+		<LineStyle>
+        	<width>1.5</width>
+			<color>ff0000ff</color>
+      	</LineStyle>
+      	<PolyStyle>
+        	<fill>1</fill>
+		</PolyStyle>
+	</Style>
+	<Polygon>
+		<extrude>0</extrude>
+		<tessellate>1</tessellate>
+		<altitudeMode>lockToGround</altitudeMode>
+		<outerBoundaryIs>
+			<LinearRing>
+				<altitudeMode>lockToGround</altitudeMode>
+				<coordinates>
+					5.874722,13.749443,45000
+					6.423055,13.605276000000131,45000
+					6.933332,12.997221000000124,45000
+					7.815,13.352777,45000
+					9.634932,12.802435,45000
+					10.724165,13.386389,45000
+					12.459166,13.066111,45000
+					13.62512,13.718338,45000
+					14.07472,13.0816650000001,45000
+					14.174444,12.396666,45000
+					14.645277,12.188332000000145,45000
+					14.646387,11.575832,45000
+					13.80722,11.055832,45000
+					12.79694400000011,8.769722,45000
+					12.253887000000134,8.408054,45000
+					11.864166,7.084722,45000
+					11.340277,6.440833,45000
+					10.615000000000123,7.06861,45000
+					9.795555,6.801666,45000
+					8.865276,5.841944,45000
+					8.591738000000134,4.810932000000122,45000
+					7.676944,4.496388,45000
+					7.071666,4.753888,45000
+					7.073055,4.434722,45000
+					6.962222000000111,4.725277000000119,45000
+					7.005555,4.369444,45000
+					6.768055,4.774722,45000
+					6.848611000000119,4.348332000000113,45000
+					6.727221,4.605,45000
+					6.694166000000109,4.33,45000
+					6.104166,4.272778000000102,45000
+					5.451944,4.923055,45000
+					5.345277,5.33,45000
+					5.639722,5.536111,45000
+					5.257222000000183,5.43555500000015,45000
+					5.501111,5.620555,45000
+					5.175278000000105,5.575555,45000
+					4.525833,6.304999,45000
+					3.388611,6.443333000000109,45000
+					3.807222000000166,6.612778,45000
+					2.719606,6.365505,45000
+					2.789444,9.043888,45000
+					3.095,9.090555,45000
+					3.855,10.584999,45000
+					3.604459,11.693274,45000
+					4.1425,13.476944,45000
+					5.874722,13.749443,45000
+				</coordinates>
+			</LinearRing>
+		</outerBoundaryIs>
+	</Polygon>
+</Placemark>
+
+<Placemark id="noexsenegal2014">
+	<name>Senegal</name>
+	<visibility>0</visibility>
+	<Style>
+		<LineStyle>
+        	<width>1.5</width>
+			<color>ff0000ff</color>
+      	</LineStyle>
+      	<PolyStyle>
+        	<fill>1</fill>
+		</PolyStyle>
+	</Style>
+	<Polygon>
+		<extrude>0</extrude>
+		<tessellate>1</tessellate>
+		<altitudeMode>lockToGround</altitudeMode>
+		<outerBoundaryIs>
+			<LinearRing>
+				<altitudeMode>lockToGround</altitudeMode>
+				<coordinates>
+					-17.148308,14.61392,16000
+					-17.537224,14.756109,16000
+					-16.878334,15.224998,16000
+					-16.527679,16.060249,16000
+					-16.280834,16.519722,16000
+					-14.345278,16.638611,16000
+					-12.244833,14.764385,16000
+					-12.057222,13.664721,16000
+					-11.378056,12.988054,16000
+					-11.373058,12.407774,16000
+					-12.345404,12.301748,16000
+					-13.713139,12.677221,16000
+					-14.516945,12.67972200000014,16000
+					-16.71777,12.322426,16000
+					-16.586945,12.632776,16000
+					-15.626945,12.531111,16000
+					-15.390001,12.831944,16000
+					-15.650002,12.555555,16000
+					-16.598057,12.791666,16000
+					-16.756111,12.564999,16000
+					-16.750874,13.059977,16000
+					-15.809723,13.159721,16000
+					-15.803612,13.347776,16000
+					-15.285002,13.374443,16000
+					-15.111668,13.595833,16000
+					-14.351112,13.237778,16000
+					-13.798613,13.406387,16000
+					-15.070278,13.826387,16000
+					-16.56567,13.589998,16000
+					-16.490837,13.958055,16000
+					-16.747223,13.951944,16000
+					-16.363056,14.166111,16000
+					-16.775837,14.012499,16000
+					-17.148308,14.61392,16000
+				</coordinates>
+			</LinearRing>
+		</outerBoundaryIs>
+	</Polygon>
+</Placemark>
+
+<Placemark id="noexsierraleone2014">
+	<name>Sierra Leone</name>
+	<visibility>0</visibility>
+	<Style>
+		<LineStyle>
+        	<width>1.5</width>
+			<color>ff0000ff</color>
+      	</LineStyle>
+      	<PolyStyle>
+        	<fill>1</fill>
+		</PolyStyle>
+	</Style>
+	<MultiGeometry>
+		<Polygon>
+			<extrude>0</extrude>
+			<tessellate>1</tessellate>
+			<altitudeMode>lockToGround</altitudeMode>
+			<outerBoundaryIs>
+				<LinearRing>
+					<altitudeMode>lockToGround</altitudeMode>
+					<coordinates>
+						-12.525278,7.431389,1034000
+						-12.952778,7.568333,1034000
+						-12.591112,7.634444,1034000
+						-12.525278,7.431389,1034000
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+		<Polygon>
+			<extrude>0</extrude>
+			<altitudeMode>lockToGround</altitudeMode>
+			<outerBoundaryIs>
+				<LinearRing>
+					<altitudeMode>lockToGround</altitudeMode>
+					<coordinates>
+						-11.214444999999898,9.997499,1034000
+						-10.571526,9.059532,1034000
+						-10.695835,8.298611,1034000
+						-10.266651,8.488377,1034000
+						-11.492331,6.927091000000132,1034000
+						-12.958612,7.9,1034000
+						-13.288057,8.496111000000127,1034000
+						-13.05139,8.36861,1034000
+						-13.120278999999897,8.461666000000122,1034000
+						-12.897500999999863,8.567778,1034000
+						-13.165279,8.51861,1034000
+						-13.2425,8.802500000000123,1034000
+						-13.132223,8.861944,1034000
+						-13.29561,9.032143,1034000
+						-12.456112,9.888332,1034000
+						-11.214444999999898,9.997499,1034000
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</MultiGeometry>
+</Placemark>
+
+//extruded 2014 polygons//
 <Placemark id="guinea2014">
 	<name>Guinea</name>
 	<visibility>0</visibility>
@@ -3717,35 +4096,14 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
         <gx:Wait>
           <gx:duration>0.5</gx:duration>
         </gx:Wait>
-		
-        <gx:Wait>
-          <gx:duration>2.0</gx:duration>
-        </gx:Wait>
 
         <gx:AnimatedUpdate>
           <gx:duration>2.0</gx:duration>
           <Update>
             <targetHref/>
             <Change>
-              <Placemark targetId="guinea2014">
+              <Placemark targetId="noexguinea2014">
 			  	<visibility>1</visibility>
-                <gx:balloonVisibility>1</gx:balloonVisibility>
-              </Placemark>
-            </Change>
-          </Update>
-        </gx:AnimatedUpdate>
-
-        <gx:Wait>
-          <gx:duration>2.0</gx:duration>
-        </gx:Wait>
-
-        <gx:AnimatedUpdate>
-          <gx:duration>2.0</gx:duration>
-          <Update>
-            <targetHref/>
-            <Change>
-              <Placemark targetId="guinea2014">
-				<visibility>0</visibility>
                 <gx:balloonVisibility>0</gx:balloonVisibility>
               </Placemark>
             </Change>
@@ -3761,25 +4119,8 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
           <Update>
             <targetHref/>
             <Change>
-              <Placemark targetId="sierraleone2014">
+              <Placemark targetId="noexsierraleone2014">
 			  	<visibility>1</visibility>
-                <gx:balloonVisibility>1</gx:balloonVisibility>
-              </Placemark>
-            </Change>
-          </Update>
-        </gx:AnimatedUpdate>
-
-        <gx:Wait>
-          <gx:duration>2.0</gx:duration>
-        </gx:Wait>
-
-        <gx:AnimatedUpdate>
-          <gx:duration>2.0</gx:duration>
-          <Update>
-            <targetHref/>
-            <Change>
-              <Placemark targetId="sierraleone2014">
-				<visibility>0</visibility>
                 <gx:balloonVisibility>0</gx:balloonVisibility>
               </Placemark>
             </Change>
@@ -3795,25 +4136,8 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
           <Update>
             <targetHref/>
             <Change>
-              <Placemark targetId="liberia2014">
+              <Placemark targetId="noexliberia2014">
 			  	<visibility>1</visibility>
-                <gx:balloonVisibility>1</gx:balloonVisibility>
-              </Placemark>
-            </Change>
-          </Update>
-        </gx:AnimatedUpdate>
-
-        <gx:Wait>
-          <gx:duration>2.0</gx:duration>
-        </gx:Wait>
-
-        <gx:AnimatedUpdate>
-          <gx:duration>2.0</gx:duration>
-          <Update>
-            <targetHref/>
-            <Change>
-              <Placemark targetId="liberia2014">
-				<visibility>0</visibility>
                 <gx:balloonVisibility>0</gx:balloonVisibility>
               </Placemark>
             </Change>
@@ -3829,25 +4153,8 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
           <Update>
             <targetHref/>
             <Change>
-              <Placemark targetId="nigeria2014">
+              <Placemark targetId="noexnigeria2014">
 			  	<visibility>1</visibility>
-                <gx:balloonVisibility>1</gx:balloonVisibility>
-              </Placemark>
-            </Change>
-          </Update>
-        </gx:AnimatedUpdate>
-
-        <gx:Wait>
-          <gx:duration>2.0</gx:duration>
-        </gx:Wait>
-
-        <gx:AnimatedUpdate>
-          <gx:duration>2.0</gx:duration>
-          <Update>
-            <targetHref/>
-            <Change>
-              <Placemark targetId="nigeria2014">
-				<visibility>0</visibility>
                 <gx:balloonVisibility>0</gx:balloonVisibility>
               </Placemark>
             </Change>
@@ -3863,25 +4170,8 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
           <Update>
             <targetHref/>
             <Change>
-              <Placemark targetId="senegal2014">
+              <Placemark targetId="noexsenegal2014">
 			  	<visibility>1</visibility>
-                <gx:balloonVisibility>1</gx:balloonVisibility>
-              </Placemark>
-            </Change>
-          </Update>
-        </gx:AnimatedUpdate>
-
-        <gx:Wait>
-          <gx:duration>2.0</gx:duration>
-        </gx:Wait>
-
-        <gx:AnimatedUpdate>
-          <gx:duration>2.0</gx:duration>
-          <Update>
-            <targetHref/>
-            <Change>
-              <Placemark targetId="senegal2014">
-				<visibility>0</visibility>
                 <gx:balloonVisibility>0</gx:balloonVisibility>
               </Placemark>
             </Change>
@@ -3897,14 +4187,14 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
           <Update>
             <targetHref/>
             <Change>
-              <Placemark targetId="mali2014">
+              <Placemark targetId="noexmali2014">
 			  	<visibility>1</visibility>
-                <gx:balloonVisibility>1</gx:balloonVisibility>
+                <gx:balloonVisibility>0</gx:balloonVisibility>
               </Placemark>
             </Change>
           </Update>
         </gx:AnimatedUpdate>
-
+		
         <gx:Wait>
           <gx:duration>2.0</gx:duration>
         </gx:Wait>
@@ -3914,14 +4204,46 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
           <Update>
             <targetHref/>
             <Change>
-              <Placemark targetId="mali2014">
-				<visibility>0</visibility>
-                <gx:balloonVisibility>0</gx:balloonVisibility>
+              <Placemark targetId="guinea2014">
+			  	<visibility>1</visibility>
+              </Placemark>
+			  <Placemark targetId="sierraleone2014">
+			  	<visibility>1</visibility>
+              </Placemark>
+			  <Placemark targetId="liberia2014">
+			  	<visibility>1</visibility>
+              </Placemark>
+			  <Placemark targetId="nigeria2014">
+			  	<visibility>1</visibility>
+              </Placemark>
+			  <Placemark targetId="senegal2014">
+			  	<visibility>1</visibility>
+              </Placemark>
+			  <Placemark targetId="mali2014">
+			  	<visibility>1</visibility>
               </Placemark>
             </Change>
           </Update>
         </gx:AnimatedUpdate>
-<!--
+
+//trying to get the camera to fly to see the extrusion better, but I've been very unsuccessful//
+	<gx:FlyTo>
+		<gx:duration>3</gx:duration>
+		<gx:flyToMode>smooth</gx:flyToMode>
+		<LookAt>
+			<Camera>
+				<longitude>-2.457722</longitude>
+				<latitude>15.11139</latitude>
+				<altitude>3413420</altitude>
+				<heading>260</heading>
+				<tilt>31.88039338732444</tilt>
+				<roll>-1.746488482755837</roll>
+				<gx:altitudeMode>relativeToGround</gx:altitudeMode>
+			</Camera>
+		</LookAt>
+	</gx:FlyTo>
+		
+<!--I think that we should leave out the DRC 2014 outbreak because it's hard to show on the map
         <gx:Wait>
           <gx:duration>2.0</gx:duration>
         </gx:Wait>
