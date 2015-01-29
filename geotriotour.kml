@@ -112,6 +112,9 @@
       <Polystyle>
             <fill>1</fill>
         </Polystyle>
+    <LineStyle>
+        <color>ff0000ff</color>
+    </LineStyle>
     </BalloonStyle>
   </Style>
 
@@ -951,7 +954,6 @@ South Africa, Zaire strain, 1 case, 1 death, 100% fatality
 	<name>South Africa 1997</name>
 	<visibility>0</visibility>
 	<description> A medical professional traveled from Gabon to Johannesburg, South Africa, in October 1996 after having treated Ebola virus-infected patients. He was hospitalized, and the nurse that took care of him became infected and died. </description>
-	<description> A medical professional travelled from Gabon to Johannesburg, South Africa, in October 1996 after having treated Ebola virus-infected patients. He was hospitalized, and the nurse that took care of him became infected and died. </description>
     <ExtendedData>
 		<Data name="flag">
 			<value>http://upload.wikimedia.org/wikipedia/commons/a/af/Flag_of_South_Africa.svg</value>
@@ -971,7 +973,7 @@ South Africa, Zaire strain, 1 case, 1 death, 100% fatality
         <LineStyle>
         </LineStyle>
         <PolyStyle>
-            <color>7dff0000</color>
+            <color></color>
             <fill>1</fill>
         </PolyStyle>
     </Style>
@@ -1102,7 +1104,8 @@ South Africa, Zaire strain, 1 case, 1 death, 100% fatality
         <LineStyle>
         </LineStyle>
         <PolyStyle>
-        <color>7d00ccff</color>
+        <color></color>
+        <fill>1</fill>
         </PolyStyle>
     </Style>
 	<MultiGeometry>
@@ -1204,7 +1207,8 @@ Uganda, Zaire strain, 425 cases, 224 deaths, 53% fatality rate
     </ExtendedData>
     <Style>
         <PolyStyle>
-            <color>7d0000ff</color>
+            <color></color>
+            <fill>1</fill>
         </PolyStyle>
     </Style>
     <Polygon>
@@ -1266,7 +1270,8 @@ Congo, 59 cases, 44 deaths, 75% fatality rate
         <LineStyle>
         </LineStyle>
         <PolyStyle>
-        <color>7d00ccff</color>
+        <color></color>
+        <fill>1</fill>
         </PolyStyle>
     </Style>
       <MultiGeometry>
@@ -1366,7 +1371,8 @@ Congo, 59 cases, 44 deaths, 75% fatality rate
         <LineStyle>
         </LineStyle>
         <PolyStyle>
-        <color>7dff0000</color>
+        <color></color>
+        <fill>1</fill>
         </PolyStyle>
     </Style>
 	<Polygon>
@@ -1445,7 +1451,8 @@ Republic of Congo, 178 cases, 157 deaths, 88% fatality rate
         <LineStyle>
         </LineStyle>
         <PolyStyle>
-        <color>7d0066ff</color>
+        <color></color>
+        <fill>1</fill>
         </PolyStyle>
     </Style>
 	<Polygon>
@@ -1523,7 +1530,8 @@ Sudan, 17 cases, 7 death, 41% fatality rate
         <LineStyle>
         </LineStyle>
         <PolyStyle>
-        <color>7dff0000</color>
+        <color></color>
+        <fill>1</fill>
         </PolyStyle>
     </Style>
 	<MultiGeometry>
