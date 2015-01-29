@@ -289,6 +289,38 @@ Sudan, Sudan strain, 284 cases, 151 deaths, 53% fatality//
 	</Polygon>
 </Placemark>
 
+<Placemark id="xsouthsudan1976">
+	<styleUrl>#annastyle</styleUrl>
+	<name>South Sudan</name>
+	<visibility>0</visibility>
+	<description></description>
+	<description>Mainly spread by personal contact in hospitals. Many medical care personnel were infected.</description>
+	<ExtendedData>
+		<Data name="year">
+			<value>1976</value>
+        </Data>
+        <Data name="flag">
+			<value>http://upload.wikimedia.org/wikipedia/commons/7/7a/Flag_of_South_Sudan.svg</value>
+        </Data>
+        <Data name="cases">
+			<value>284</value>
+        </Data>
+        <Data name="deaths">
+			<value>151</value>
+        </Data>
+        <Data name="fatality">
+			<value>53%</value>
+        </Data>
+        <Data name="strain">
+			<value>Sudan</value>
+        </Data>
+    </ExtendedData>
+	<Point>
+		<coordinates>
+			31.794434,3.932760
+		</coordinates>
+	</Point>
+</Placemark>
 <Placemark id="southsudan1976">
 	<styleUrl>#annastyle</styleUrl>
 	<name>South Sudan</name>
@@ -391,6 +423,38 @@ Sudan, Sudan strain, 284 cases, 151 deaths, 53% fatality//
 // 1977:
 Democratic Republic of Congo, Zaire strain, 1 case, 1 death, 100% fatality//
 
+<Placemark id="xcongo1977">
+	<styleUrl>#annastyle</styleUrl>
+	<name>Democratic Republic of the Congo</name>
+	<visibility>0</visibility>
+	<description></description>
+	<description>Noted retroactively in the village of Tandala.</description>
+	<ExtendedData>
+		<Data name="year">
+			<value>1977</value>
+        </Data>
+        <Data name="flag">
+			<value>http://upload.wikimedia.org/wikipedia/commons/6/6f/Flag_of_the_Democratic_Republic_of_the_Congo.svg</value>
+        </Data>
+        <Data name="cases">
+			<value>1</value>
+        </Data>
+        <Data name="deaths">
+			<value>1</value>
+        </Data>
+        <Data name="fatality">
+			<value>100%</value>
+        </Data>
+        <Data name="strain">
+			<value>Zaire</value>
+        </Data>
+    </ExtendedData>
+	<Point>
+		<coordinates>
+			12.458496,-5.987607
+		</coordinates>
+	</Point>
+</Placemark>
 <Placemark id="congo1977">
 	<styleUrl>#annastyle</styleUrl>
 	<name>Democratic Republic of the Congo</name>
@@ -516,6 +580,38 @@ Democratic Republic of Congo, Zaire strain, 1 case, 1 death, 100% fatality//
 
 // 1979:
 Sudan, Sudan strain, 34 cases, 22 deaths, 65% fatality//
+<Placemark id="xsouthsudan1979">
+	<styleUrl>#annastyle</styleUrl>
+	<name>South Sudan</name>
+	<visibility>0</visibility>
+	<description></description>
+	<description>Recurrent outbreak at the same site as the 1976 Sudan epidemic.</description>
+	<ExtendedData>
+		<Data name="year">
+			<value>1979</value>
+        </Data>
+        <Data name="flag">
+			<value>http://upload.wikimedia.org/wikipedia/commons/7/7a/Flag_of_South_Sudan.svg</value>
+        </Data>
+        <Data name="cases">
+			<value>34</value>
+        </Data>
+        <Data name="deaths">
+			<value>22</value>
+        </Data>
+        <Data name="fatality">
+			<value>65%</value>
+        </Data>
+        <Data name="strain">
+			<value>Sudan</value>
+        </Data>
+    </ExtendedData>
+	<Point>
+		<coordinates>
+			31.794434,3.932760
+		</coordinates>
+	</Point>
+</Placemark>
 <Placemark id="southsudan1979">
 	<styleUrl>#annastyle</styleUrl>
 	<name>South Sudan</name>
@@ -618,8 +714,39 @@ Sudan, Sudan strain, 34 cases, 22 deaths, 65% fatality//
 // 1994:
 Gabon, Zaire strain, 52 cases, 31 deaths, 60% fatality
 Cote d’Ivoire, Tai Forest strain, 1 case, 0 deaths, 0% fatality//
-
- <Placemark id="gabon1994">
+<Placemark id="xgabon1994">
+	<styleUrl>#annastyle</styleUrl>
+	<name>Gabon</name>
+	<visibility>0</visibility>
+	<description></description>
+	<description>Occurred in Mékouka and other gold-mining camps deep in the rain forest. Thought to be yellow fever until 1995.</description>
+	<ExtendedData>
+		<Data name="year">
+			<value>1994</value>
+        </Data>
+        <Data name="flag">
+			<value>http://upload.wikimedia.org/wikipedia/commons/0/04/Flag_of_Gabon.svg</value>
+        </Data>
+        <Data name="cases">
+			<value>52</value>
+        </Data>
+        <Data name="deaths">
+			<value>31</value>
+        </Data>
+        <Data name="fatality">
+			<value>60%</value>
+        </Data>
+        <Data name="strain">
+			<value>Zaire</value>
+        </Data>
+    </ExtendedData>
+	<Point>
+		<coordinates>
+			11.513672,2.287295
+		</coordinates>
+	</Point>
+</Placemark>
+<Placemark id="gabon1994">
 	<styleUrl>#annastyle</styleUrl>
 	<name>Gabon</name>
 	<visibility>0</visibility>
@@ -719,6 +846,38 @@ Cote d’Ivoire, Tai Forest strain, 1 case, 0 deaths, 0% fatality//
 	</MultiGeometry>
 </Placemark>
 
+<Placemark id="xcotedivoire1994">
+	<styleUrl>#annastyle</styleUrl>
+	<name>Cote d'Ivoire</name>
+	<visibility>0</visibility>
+	<description>descriptionwoop</description>
+	<description>Approximately one week after conducting necropsies on infected western chimpanzees in Taï National Park, a scientist contracted the virus and developed symptoms similar to those of dengue fever. She was discharged from a Swiss hospital two weeks later, and fully recovered after six weeks.</description>
+		<ExtendedData>
+		<Data name="year">
+			<value>1994</value>
+        </Data>
+        <Data name="flag">
+			<value>http://upload.wikimedia.org/wikipedia/commons/f/fe/Flag_of_C%C3%B4te_d%27Ivoire.svg</value>
+        </Data>
+        <Data name="cases">
+			<value>1</value>
+        </Data>
+        <Data name="deaths">
+			<value>0</value>
+        </Data>
+        <Data name="fatality">
+			<value>0%</value>
+        </Data>
+        <Data name="strain">
+			<value>Tai Forest</value>
+        </Data>
+    </ExtendedData>
+	<Point>
+		<coordinates>
+			-7.301788,4.506607
+		</coordinates>
+	</Point>
+</Placemark>
 <Placemark id="cotedivoire1994">
 	<styleUrl>#annastyle</styleUrl>
 	<name>Cote d'Ivoire</name>
@@ -821,6 +980,38 @@ Cote d’Ivoire, Tai Forest strain, 1 case, 0 deaths, 0% fatality//
 
 // 1995:
 Democratic Republic of Congo, Zaire strain, 315 cases, 254 deaths, 81% fatality rate//
+<Placemark id="xcongo1995">
+    <styleUrl>#annastyle</styleUrl>
+	<name>Democratic Republic of the Congo</name>
+	<visibility>0</visibility>
+	<description></description>
+	<description>Traced to index case-patient who worked in forest adjoining the city. Epidemic spread through families and hospitals.</description>
+	<ExtendedData>
+		<Data name="year">
+			<value>1995</value>
+        </Data>
+        <Data name="flag">
+			<value>http://upload.wikimedia.org/wikipedia/commons/6/6f/Flag_of_the_Democratic_Republic_of_the_Congo.svg</value>
+        </Data>
+        <Data name="cases">
+			<value>315</value>
+        </Data>
+        <Data name="deaths">
+			<value>254</value>
+        </Data>
+        <Data name="fatality">
+			<value>81%</value>
+        </Data>
+        <Data name="strain">
+			<value>Zaire</value>
+        </Data>
+    </ExtendedData>
+	<Point>
+		<coordinates>
+			12.458496,-5.987607
+		</coordinates>
+	</Point>
+</Placemark>
 <Placemark id="congo1995">
     <styleUrl>#annastyle</styleUrl>
 	<name>Democratic Republic of the Congo</name>
@@ -2863,9 +3054,6 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
           <Update>
             <targetHref/>
             <Change>
-              <Placemark targetId="#congo1976">
-			  	<visibility>0</visibility>
-              </Placemark>
 			  <Placemark targetId="#xcongo1976">
 				<visibility>0</visibility>
 				<gx:balloonVisibility>0</gx:balloonVisibility>
@@ -2886,6 +3074,9 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
             <Change>
               <Placemark targetId="#southsudan1976">
 			  	<visibility>1</visibility>
+			  </Placemark>
+			  <Placemark targetId="#xsouthsudan1976">
+				<visibility>1</visibility>
                 <gx:balloonVisibility>1</gx:balloonVisibility>
               </Placemark>
             </Change>
@@ -2901,7 +3092,7 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
           <Update>
             <targetHref/>
             <Change>
-              <Placemark targetId="#southsudan1976">
+              <Placemark targetId="#xsouthsudan1976">
 			  	<visibility>0</visibility>
                 <gx:balloonVisibility>0</gx:balloonVisibility>
               </Placemark>
@@ -2921,7 +3112,10 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
             <Change>
               <Placemark targetId="#congo1977">
  			   <visibility>1</visibility>
-               <gx:balloonVisibility>1</gx:balloonVisibility>
+              </Placemark>
+			  <Placemark targetId="#xcongo1977">
+				<visibility>1</visibility>
+				<gx:balloonVisibility>1</gx:balloonVisibility>
               </Placemark>
             </Change>
           </Update>
@@ -2936,7 +3130,7 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
           <Update>
             <targetHref/>
             <Change>
-              <Placemark targetId="#congo1977">
+              <Placemark targetId="#xcongo1977">
 			    <visibility>0</visibility>
                 <gx:balloonVisibility>0</gx:balloonVisibility>
               </Placemark>
@@ -2956,6 +3150,9 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
             <Change>
               <Placemark targetId="#southsudan1979">
 			    <visibility>1</visibility>
+			  </Placemark>
+			  <Placemark targetId="#xsouthsudan1979">
+				<visibility>1</visibility>
                 <gx:balloonVisibility>1</gx:balloonVisibility>
               </Placemark>
             </Change>
@@ -2971,7 +3168,7 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
           <Update>
             <targetHref/>
             <Change>
-              <Placemark targetId="#southsudan1979">
+              <Placemark targetId="#xsouthsudan1979">
                 <visibility>0</visibility>
 				<gx:balloonVisibility>0</gx:balloonVisibility>
               </Placemark>
@@ -2991,6 +3188,9 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
             <Change>
               <Placemark targetId="#gabon1994">
                 <visibility>1</visibility>
+				</Placemark>
+			  <Placemark targetId="#xgabon1994">
+				<visibility>1</visibility>
 				<gx:balloonVisibility>1</gx:balloonVisibility>
               </Placemark>
             </Change>
@@ -3006,8 +3206,8 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
           <Update>
             <targetHref/>
             <Change>
-              <Placemark targetId="#gabon1994">
-                <visibility>0</visibility>
+			  <Placemark targetId="#xgabon1994">
+				<visibility>0</visibility>
 				<gx:balloonVisibility>0</gx:balloonVisibility>
               </Placemark>
             </Change>
@@ -3026,6 +3226,9 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
             <Change>
               <Placemark targetId="#cotedivoire1994">
 			    <visibility>1</visibility>
+			  </Placemark>
+			  <Placemark targetId="#xcotedivoire1994">
+				<visibility>1</visibility>
                 <gx:balloonVisibility>1</gx:balloonVisibility>
               </Placemark>
             </Change>
@@ -3041,7 +3244,7 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
           <Update>
             <targetHref/>
             <Change>
-              <Placemark targetId="#cotedivoire1994">
+              <Placemark targetId="#xcotedivoire1994">
                 <visibility>0</visibility>
 				<gx:balloonVisibility>0</gx:balloonVisibility>
               </Placemark>
@@ -3061,6 +3264,9 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
             <Change>
               <Placemark targetId="#congo1995">
                 <visibility>1</visibility>
+			  </Placemark>
+			  <Placemark targetId="#xcongo1995">
+				<visibility>1</visibility>
 				<gx:balloonVisibility>1</gx:balloonVisibility>
               </Placemark>
             </Change>
@@ -3076,7 +3282,7 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
           <Update>
             <targetHref/>
             <Change>
-              <Placemark targetId="#congo1995">
+              <Placemark targetId="#xcongo1995">
                 <visibility>0</visibility>
 				<gx:balloonVisibility>0</gx:balloonVisibility>
               </Placemark>
