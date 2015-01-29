@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="liberiahealth" id="liberiahealth">
+	<SimpleField name="ECF_Code" type="string"></SimpleField>
+	<SimpleField name="ECF_Name" type="string"></SimpleField>
+	<SimpleField name="Status" type="string"></SimpleField>
+	<SimpleField name="Type" type="string"></SimpleField>
+	<SimpleField name="Beds_Open" type="float"></SimpleField>
+	<SimpleField name="Beds_Plan" type="float"></SimpleField>
+	<SimpleField name="Plan_Open" type="string"></SimpleField>
+	<SimpleField name="Partner" type="string"></SimpleField>
+	<SimpleField name="Lead_Donor" type="string"></SimpleField>
+	<SimpleField name="Latitude" type="float"></SimpleField>
+	<SimpleField name="Longitude" type="float"></SimpleField>
+	<SimpleField name="Accuracy" type="string"></SimpleField>
+	<SimpleField name="Comment" type="string"></SimpleField>
+	<SimpleField name="LabPresent" type="string"></SimpleField>
+	<SimpleField name="DSTR_NM" type="string"></SimpleField>
+	<SimpleField name="ADM1_CODE" type="string"></SimpleField>
+	<SimpleField name="Updated" type="string"></SimpleField>
+</Schema>
+<Folder><name>liberiahealth</name>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#liberiahealth">
+		<SimpleData name="ECF_Code">LBR_0001</SimpleData>
+		<SimpleData name="ECF_Name">Barclayville</SimpleData>
+		<SimpleData name="Status">Under Construction</SimpleData>
+		<SimpleData name="Type">ETU</SimpleData>
+		<SimpleData name="Beds_Open">0</SimpleData>
+		<SimpleData name="Beds_Plan">50</SimpleData>
+		<SimpleData name="Plan_Open">2014/12/25</SimpleData>
+		<SimpleData name="Partner">PAE/Aspen</SimpleData>
+		<SimpleData name="Latitude">4.6765414949000003730361640919000</SimpleData>
+		<SimpleData name="Longitude">-8.2348949463400007431346239172854</SimpleData>
+		<SimpleData name="Accuracy">WFP - GPS</SimpleData>
+		<SimpleData name="Comment">Scheduled to complete 26/12/2014 - opening date TBC</SimpleData>
+		<SimpleData name="LabPresent">No</SimpleData>
+		<SimpleData name="DSTR_NM">Grand Kru</SimpleData>
+		<SimpleData name="ADM1_CODE">LBR18</SimpleData>
+		<SimpleData name="Updated">2014/12/15</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-8.234894946337647,4.676541494899709</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#liberiahealth">
+		<SimpleData name="ECF_Code">LBR_0002</SimpleData>
+		<SimpleData name="ECF_Name">Bopulu</SimpleData>
+		<SimpleData name="Status">Under Construction</SimpleData>
+		<SimpleData name="Type">ETU</SimpleData>
+		<SimpleData name="Beds_Open">0</SimpleData>
+		<SimpleData name="Beds_Plan">50</SimpleData>
+		<SimpleData name="Plan_Open">2014/12/25</SimpleData>
+		<SimpleData name="Partner">PAE/Aspen</SimpleData>
+		<SimpleData name="Latitude">7.0639017759999997991826603538357</SimpleData>
+		<SimpleData name="Longitude">-10.4906907979999992619468685006723</SimpleData>
+		<SimpleData name="Accuracy">WFP - GPS</SimpleData>
+		<SimpleData name="Comment">Scheduled to complete 25/12/2014 - opening date TBC</SimpleData>
+		<SimpleData name="LabPresent">No</SimpleData>
+		<SimpleData name="DSTR_NM">Gbarpolu</SimpleData>
+		<SimpleData name="ADM1_CODE">LBR45</SimpleData>
+		<SimpleData name="Updated">2014/12/15</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-10.490690797999946,7.063901776000023</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#liberiahealth">
+		<SimpleData name="ECF_Code">LBR_0003</SimpleData>
+		<SimpleData name="ECF_Name">Buchanan</SimpleData>
+		<SimpleData name="Status">Open</SimpleData>
+		<SimpleData name="Type">ETU</SimpleData>
+		<SimpleData name="Beds_Open">0</SimpleData>
+		<SimpleData name="Beds_Plan">50</SimpleData>
+		<SimpleData name="Plan_Open">2014/12/06</SimpleData>
+		<SimpleData name="Partner">IOM</SimpleData>
+		<SimpleData name="Latitude">5.8881033656700001444050940335728</SimpleData>
+		<SimpleData name="Longitude">-10.0332225543999999928246324998327</SimpleData>
+		<SimpleData name="Accuracy">WFP - GPS</SimpleData>
+		<SimpleData name="Comment">Location confirmed by WFP field team, status provided as open needs checking, opening 22 Dec</SimpleData>
+		<SimpleData name="LabPresent">No</SimpleData>
+		<SimpleData name="DSTR_NM">Grand Bassa</SimpleData>
+		<SimpleData name="ADM1_CODE">LBR09</SimpleData>
+		<SimpleData name="Updated">2014/12/15</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-10.033222554436634,5.888103365665643</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#liberiahealth">
+		<SimpleData name="ECF_Code">LBR_0026</SimpleData>
+		<SimpleData name="ECF_Name">Tappita</SimpleData>
+		<SimpleData name="Status">Under Construction</SimpleData>
+		<SimpleData name="Type">ETU</SimpleData>
+		<SimpleData name="Beds_Open">0</SimpleData>
+		<SimpleData name="Beds_Plan">50</SimpleData>
+		<SimpleData name="Plan_Open">2014/12/14</SimpleData>
+		<SimpleData name="Partner">Heart to Heart/PAE</SimpleData>
+		<SimpleData name="Latitude">6.4899590990000000090276444097981</SimpleData>
+		<SimpleData name="Longitude">-8.8599929090000006937088983249851</SimpleData>
+		<SimpleData name="Accuracy">WFP - GPS</SimpleData>
+		<SimpleData name="LabPresent">No</SimpleData>
+		<SimpleData name="DSTR_NM">Nimba</SimpleData>
+		<SimpleData name="ADM1_CODE">LBR33</SimpleData>
+		<SimpleData name="Updated">2014/12/15</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-8.859992908999914,6.489959099000089</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#liberiahealth">
+		<SimpleData name="ECF_Code">LBR_0010</SimpleData>
+		<SimpleData name="ECF_Name">Greenville</SimpleData>
+		<SimpleData name="Status">Under Construction</SimpleData>
+		<SimpleData name="Type">ETU</SimpleData>
+		<SimpleData name="Beds_Open">0</SimpleData>
+		<SimpleData name="Beds_Plan">50</SimpleData>
+		<SimpleData name="Plan_Open">2004/12/10</SimpleData>
+		<SimpleData name="Partner">PAE/MSB</SimpleData>
+		<SimpleData name="Latitude">5.4980000000000002202682480856311</SimpleData>
+		<SimpleData name="Longitude">-8.6600000000000001421085471520200</SimpleData>
+		<SimpleData name="Accuracy">WFP - GPS</SimpleData>
+		<SimpleData name="Comment">Location confirmed by WFP field team, status provided as open needs checking</SimpleData>
+		<SimpleData name="LabPresent">No</SimpleData>
+		<SimpleData name="DSTR_NM">Sinoe</SimpleData>
+		<SimpleData name="ADM1_CODE">LBR39</SimpleData>
+		<SimpleData name="Updated">2014/12/15</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-9.033332999999857,5.016667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#liberiahealth">
+		<SimpleData name="ECF_Code">LBR_0011</SimpleData>
+		<SimpleData name="ECF_Name">Harper</SimpleData>
+		<SimpleData name="Status">Under Construction</SimpleData>
+		<SimpleData name="Type">ETU</SimpleData>
+		<SimpleData name="Beds_Open">0</SimpleData>
+		<SimpleData name="Beds_Plan">50</SimpleData>
+		<SimpleData name="Plan_Open">2014/12/20</SimpleData>
+		<SimpleData name="Partner">Partners in Health/PAE</SimpleData>
+		<SimpleData name="Latitude">4.3934105109999999072556420287583</SimpleData>
+		<SimpleData name="Longitude">-7.6925200159999995719317666953430</SimpleData>
+		<SimpleData name="Accuracy">WFP - GPS</SimpleData>
+		<SimpleData name="Comment">Nearer to Jackson Ville Township - needs confirmation of location, WFP status provided as open needs checking</SimpleData>
+		<SimpleData name="LabPresent">No</SimpleData>
+		<SimpleData name="DSTR_NM">Maryland</SimpleData>
+		<SimpleData name="ADM1_CODE">LBR27</SimpleData>
+		<SimpleData name="Updated">2014/12/15</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-7.692520015999946,4.393410511000127</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#liberiahealth">
+		<SimpleData name="ECF_Code">LBR_0006</SimpleData>
+		<SimpleData name="ECF_Name">Fish Town</SimpleData>
+		<SimpleData name="Status">Under Construction</SimpleData>
+		<SimpleData name="Type">ETU</SimpleData>
+		<SimpleData name="Beds_Open">0</SimpleData>
+		<SimpleData name="Beds_Plan">50</SimpleData>
+		<SimpleData name="Plan_Open">2014/12/14</SimpleData>
+		<SimpleData name="Partner">ARC</SimpleData>
+		<SimpleData name="Latitude">5.1963900000000000645172804070171</SimpleData>
+		<SimpleData name="Longitude">-7.8760000000000003339550858072471</SimpleData>
+		<SimpleData name="Accuracy">WFP</SimpleData>
+		<SimpleData name="Comment">Construction complete, opening date TBC</SimpleData>
+		<SimpleData name="LabPresent">No</SimpleData>
+		<SimpleData name="DSTR_NM">River Gee</SimpleData>
+		<SimpleData name="ADM1_CODE">LBR42</SimpleData>
+		<SimpleData name="Updated">2014/12/15</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-7.75556,5.196390000000122</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#liberiahealth">
+		<SimpleData name="ECF_Code">LBR_0025</SimpleData>
+		<SimpleData name="ECF_Name">Sinje</SimpleData>
+		<SimpleData name="Status">Open</SimpleData>
+		<SimpleData name="Type">ETU</SimpleData>
+		<SimpleData name="Beds_Open">50</SimpleData>
+		<SimpleData name="Beds_Plan">50</SimpleData>
+		<SimpleData name="Plan_Open">2014/12/06</SimpleData>
+		<SimpleData name="Partner">IOM</SimpleData>
+		<SimpleData name="Latitude">6.8160545499999996010842551186215</SimpleData>
+		<SimpleData name="Longitude">-11.1338262700000001359512680210173</SimpleData>
+		<SimpleData name="Accuracy">WFP - GPS</SimpleData>
+		<SimpleData name="Comment">Construction completed, opening date TBC, opening 24 Dec 2014 - needs checking</SimpleData>
+		<SimpleData name="LabPresent">No</SimpleData>
+		<SimpleData name="DSTR_NM">Grand Cape Mount</SimpleData>
+		<SimpleData name="ADM1_CODE">LBR12</SimpleData>
+		<SimpleData name="Updated">2014/12/15</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-11.133826269999872,6.816054550000047</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#liberiahealth">
+		<SimpleData name="ECF_Code">LBR_0030</SimpleData>
+		<SimpleData name="ECF_Name">Zwedru</SimpleData>
+		<SimpleData name="Status">Open</SimpleData>
+		<SimpleData name="Type">ETU</SimpleData>
+		<SimpleData name="Beds_Open">0</SimpleData>
+		<SimpleData name="Beds_Plan">60</SimpleData>
+		<SimpleData name="Plan_Open">2015/01/12</SimpleData>
+		<SimpleData name="Partner">Partners in Health/PAE</SimpleData>
+		<SimpleData name="Latitude">6.0649570470000000455002009402961</SimpleData>
+		<SimpleData name="Longitude">-8.1380601979999998007997419335879</SimpleData>
+		<SimpleData name="Accuracy">WFP - GPS</SimpleData>
+		<SimpleData name="LabPresent">No</SimpleData>
+		<SimpleData name="DSTR_NM">Grand Gedeh</SimpleData>
+		<SimpleData name="ADM1_CODE">LBR15</SimpleData>
+		<SimpleData name="Updated">2014/12/15</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-8.138060197999948,6.064957047000064</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#liberiahealth">
+		<SimpleData name="ECF_Code">LBR_0028</SimpleData>
+		<SimpleData name="ECF_Name">Voinjama</SimpleData>
+		<SimpleData name="Status">Under Construction</SimpleData>
+		<SimpleData name="Type">ETU</SimpleData>
+		<SimpleData name="Beds_Open">0</SimpleData>
+		<SimpleData name="Beds_Plan">50</SimpleData>
+		<SimpleData name="Plan_Open">2014/12/14</SimpleData>
+		<SimpleData name="Partner">WAHA/GOAL/PAE/Aspen</SimpleData>
+		<SimpleData name="Latitude">8.4165836279999997060485839028843</SimpleData>
+		<SimpleData name="Longitude">-9.7499681220000002923598003690131</SimpleData>
+		<SimpleData name="Accuracy">WFP - GPS</SimpleData>
+		<SimpleData name="LabPresent">No</SimpleData>
+		<SimpleData name="DSTR_NM">Lofa</SimpleData>
+		<SimpleData name="ADM1_CODE">LBR21</SimpleData>
+		<SimpleData name="Updated">2014/12/15</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-9.749968121999871,8.416583628000126</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#liberiahealth">
+		<SimpleData name="ECF_Code">LBR_0012</SimpleData>
+		<SimpleData name="ECF_Name">JFK hospital</SimpleData>
+		<SimpleData name="Status">Closed</SimpleData>
+		<SimpleData name="Type">ETU</SimpleData>
+		<SimpleData name="Beds_Open">0</SimpleData>
+		<SimpleData name="Beds_Plan">0</SimpleData>
+		<SimpleData name="Partner">MoH/WHO</SimpleData>
+		<SimpleData name="Latitude">6.2872300000000000963495949690696</SimpleData>
+		<SimpleData name="Longitude">-10.7732500000000008810729923425242</SimpleData>
+		<SimpleData name="Accuracy">WFP - GPS</SimpleData>
+		<SimpleData name="LabPresent">No</SimpleData>
+		<SimpleData name="DSTR_NM">Montserrado</SimpleData>
+		<SimpleData name="ADM1_CODE">LBR30</SimpleData>
+		<SimpleData name="Updated">2014/12/15</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-10.77325,6.28723</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#liberiahealth">
+		<SimpleData name="ECF_Code">LBR_0021</SimpleData>
+		<SimpleData name="ECF_Name">SKD 1</SimpleData>
+		<SimpleData name="Status">Under Construction</SimpleData>
+		<SimpleData name="Type">ETU</SimpleData>
+		<SimpleData name="Beds_Open">0</SimpleData>
+		<SimpleData name="Beds_Plan">50</SimpleData>
+		<SimpleData name="Plan_Open">2014/12/15</SimpleData>
+		<SimpleData name="Partner">IRC</SimpleData>
+		<SimpleData name="Latitude">6.2567560630000000898576217878144</SimpleData>
+		<SimpleData name="Longitude">-10.7004559389999993612718753865920</SimpleData>
+		<SimpleData name="Accuracy">WFP - GPS</SimpleData>
+		<SimpleData name="LabPresent">No</SimpleData>
+		<SimpleData name="DSTR_NM">Montserrado</SimpleData>
+		<SimpleData name="ADM1_CODE">LBR30</SimpleData>
+		<SimpleData name="Updated">2014/12/15</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-10.700455938999937,6.256756063000125</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#liberiahealth">
+		<SimpleData name="ECF_Code">LBR_0022</SimpleData>
+		<SimpleData name="ECF_Name">SKD 2</SimpleData>
+		<SimpleData name="Status">Open</SimpleData>
+		<SimpleData name="Type">ETU</SimpleData>
+		<SimpleData name="Beds_Open">50</SimpleData>
+		<SimpleData name="Beds_Plan">50</SimpleData>
+		<SimpleData name="Plan_Open">2014/12/22</SimpleData>
+		<SimpleData name="Partner">German RC/German Armed Forces</SimpleData>
+		<SimpleData name="Latitude">6.2574459459999998145462996035349</SimpleData>
+		<SimpleData name="Longitude">-10.7005257050000004426237865118310</SimpleData>
+		<SimpleData name="Accuracy">WFP - GPS</SimpleData>
+		<SimpleData name="Comment">Construction complete, open date TBC</SimpleData>
+		<SimpleData name="LabPresent">No</SimpleData>
+		<SimpleData name="DSTR_NM">Montserrado</SimpleData>
+		<SimpleData name="ADM1_CODE">LBR30</SimpleData>
+		<SimpleData name="Updated">2014/12/15</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-10.700525704999961,6.257445946000075</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#liberiahealth">
+		<SimpleData name="ECF_Code">LBR_0017</SimpleData>
+		<SimpleData name="ECF_Name">Congo Town 2 (old MoD 2)</SimpleData>
+		<SimpleData name="Status">Closed</SimpleData>
+		<SimpleData name="Type">ETU</SimpleData>
+		<SimpleData name="Beds_Open">0</SimpleData>
+		<SimpleData name="Beds_Plan">0</SimpleData>
+		<SimpleData name="Partner">MBS Sweden</SimpleData>
+		<SimpleData name="Latitude">6.2681519999999997239115145930555</SimpleData>
+		<SimpleData name="Longitude">-10.7311910000000008125198291963898</SimpleData>
+		<SimpleData name="Accuracy">WFP - GPS</SimpleData>
+		<SimpleData name="Comment">Training Site</SimpleData>
+		<SimpleData name="LabPresent">No</SimpleData>
+		<SimpleData name="DSTR_NM">Montserrado</SimpleData>
+		<SimpleData name="ADM1_CODE">LBR30</SimpleData>
+		<SimpleData name="Updated">2014/12/15</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-10.731190999999853,6.268152</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#liberiahealth">
+		<SimpleData name="ECF_Code">LBR_0014</SimpleData>
+		<SimpleData name="ECF_Name">Kakata II</SimpleData>
+		<SimpleData name="Status">Closed</SimpleData>
+		<SimpleData name="Type">ETU</SimpleData>
+		<SimpleData name="Beds_Open">0</SimpleData>
+		<SimpleData name="Beds_Plan">0</SimpleData>
+		<SimpleData name="Plan_Open">2014/12/02</SimpleData>
+		<SimpleData name="Latitude">6.5399390439999995905395735462662</SimpleData>
+		<SimpleData name="Longitude">-10.3422213610000000016952981241047</SimpleData>
+		<SimpleData name="Accuracy">WFP - GPS</SimpleData>
+		<SimpleData name="Comment">On hold</SimpleData>
+		<SimpleData name="LabPresent">No</SimpleData>
+		<SimpleData name="DSTR_NM">Margibi</SimpleData>
+		<SimpleData name="ADM1_CODE">LBR24</SimpleData>
+		<SimpleData name="Updated">2014/12/15</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-10.342221360999929,6.53993904400005</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#liberiahealth">
+		<SimpleData name="ECF_Code">LBR_0024</SimpleData>
+		<SimpleData name="ECF_Name">Robertsport</SimpleData>
+		<SimpleData name="Status">Closed</SimpleData>
+		<SimpleData name="Type">ETU</SimpleData>
+		<SimpleData name="Beds_Open">0</SimpleData>
+		<SimpleData name="Beds_Plan">0</SimpleData>
+		<SimpleData name="Latitude">6.7520123099999995730513546732254</SimpleData>
+		<SimpleData name="Longitude">-11.3647046480000000201471266336739</SimpleData>
+		<SimpleData name="Accuracy">WFP - GPS</SimpleData>
+		<SimpleData name="LabPresent">No</SimpleData>
+		<SimpleData name="DSTR_NM">Grand Cape Mount</SimpleData>
+		<SimpleData name="ADM1_CODE">LBR12</SimpleData>
+		<SimpleData name="Updated">2014/12/15</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-11.364704647999929,6.75201231</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#liberiahealth">
+		<SimpleData name="ECF_Code">LBR_0048</SimpleData>
+		<SimpleData name="ECF_Name">Ganta</SimpleData>
+		<SimpleData name="Status">Under Construction</SimpleData>
+		<SimpleData name="Type">ETU</SimpleData>
+		<SimpleData name="Beds_Open">0</SimpleData>
+		<SimpleData name="Beds_Plan">10</SimpleData>
+		<SimpleData name="Plan_Open">2014/12/13</SimpleData>
+		<SimpleData name="Partner">Nimba CHT / PCI</SimpleData>
+		<SimpleData name="Latitude">7.2374999999999998223643160599750</SimpleData>
+		<SimpleData name="Longitude">-8.9814000000000007162270776461810</SimpleData>
+		<SimpleData name="Accuracy">WHO provided</SimpleData>
+		<SimpleData name="LabPresent">No</SimpleData>
+		<SimpleData name="DSTR_NM">Nimba</SimpleData>
+		<SimpleData name="ADM1_CODE">LBR33</SimpleData>
+		<SimpleData name="Updated">2014/12/15</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-8.9777,7.235110000000134</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#liberiahealth">
+		<SimpleData name="ECF_Code">LBR_0019</SimpleData>
+		<SimpleData name="ECF_Name">ELWA 3</SimpleData>
+		<SimpleData name="Status">Open</SimpleData>
+		<SimpleData name="Type">ETU</SimpleData>
+		<SimpleData name="Beds_Open">60</SimpleData>
+		<SimpleData name="Beds_Plan">60</SimpleData>
+		<SimpleData name="Plan_Open">2014/12/02</SimpleData>
+		<SimpleData name="Partner">MSF Brussels</SimpleData>
+		<SimpleData name="Latitude">6.2444399940000003823570295935497</SimpleData>
+		<SimpleData name="Longitude">-10.7002799999999993474375514779240</SimpleData>
+		<SimpleData name="Accuracy">WFP - GPS</SimpleData>
+		<SimpleData name="LabPresent">No</SimpleData>
+		<SimpleData name="DSTR_NM">Montserrado</SimpleData>
+		<SimpleData name="ADM1_CODE">LBR30</SimpleData>
+		<SimpleData name="Updated">2014/12/15</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-10.70028,6.244439994000118</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#liberiahealth">
+		<SimpleData name="ECF_Code">LBR_0018</SimpleData>
+		<SimpleData name="ECF_Name">ELWA 2</SimpleData>
+		<SimpleData name="Status">Open</SimpleData>
+		<SimpleData name="Type">ETU</SimpleData>
+		<SimpleData name="Beds_Open">100</SimpleData>
+		<SimpleData name="Beds_Plan">100</SimpleData>
+		<SimpleData name="Plan_Open">2014/12/02</SimpleData>
+		<SimpleData name="Partner">MoH/WHO</SimpleData>
+		<SimpleData name="Latitude">6.2396500020000003061682036786806</SimpleData>
+		<SimpleData name="Longitude">-10.6959999989999996472533894120716</SimpleData>
+		<SimpleData name="Accuracy">WFP - GPS</SimpleData>
+		<SimpleData name="Comment">Due for closure for renovation</SimpleData>
+		<SimpleData name="LabPresent">No</SimpleData>
+		<SimpleData name="DSTR_NM">Montserrado</SimpleData>
+		<SimpleData name="ADM1_CODE">LBR30</SimpleData>
+		<SimpleData name="Updated">2014/12/15</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-10.695999998999923,6.239650002000076</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#liberiahealth">
+		<SimpleData name="ECF_Code">LBR_0110</SimpleData>
+		<SimpleData name="ECF_Name">SKD 3 - Chinese</SimpleData>
+		<SimpleData name="Status">Open</SimpleData>
+		<SimpleData name="Type">ETU</SimpleData>
+		<SimpleData name="Beds_Open">100</SimpleData>
+		<SimpleData name="Beds_Plan">100</SimpleData>
+		<SimpleData name="Plan_Open">2014/12/02</SimpleData>
+		<SimpleData name="Partner">Chinese FMT</SimpleData>
+		<SimpleData name="Latitude">6.2580090532100003386517528269906</SimpleData>
+		<SimpleData name="Longitude">-10.7033632247000003445691618253477</SimpleData>
+		<SimpleData name="Accuracy">MGRS Coordinate Provided by US DoD</SimpleData>
+		<SimpleData name="Comment">Position Provided by US DoD. Apparently Called &quot;SKD 2&quot;</SimpleData>
+		<SimpleData name="LabPresent">No</SimpleData>
+		<SimpleData name="DSTR_NM">Montserrado</SimpleData>
+		<SimpleData name="ADM1_CODE">LBR30</SimpleData>
+		<SimpleData name="Updated">2014/12/15</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-10.703363224695579,6.258009053209321</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#liberiahealth">
+		<SimpleData name="ECF_Code">LBR_0005</SimpleData>
+		<SimpleData name="ECF_Name">Firestone</SimpleData>
+		<SimpleData name="Status">Open</SimpleData>
+		<SimpleData name="Type">ETU</SimpleData>
+		<SimpleData name="Beds_Open">31</SimpleData>
+		<SimpleData name="Beds_Plan">31</SimpleData>
+		<SimpleData name="Plan_Open">2014/12/09</SimpleData>
+		<SimpleData name="Partner">Firestone</SimpleData>
+		<SimpleData name="Latitude">6.3530599770000000248160176852252</SimpleData>
+		<SimpleData name="Longitude">-10.4697199899999997541044649551623</SimpleData>
+		<SimpleData name="Accuracy">British Red Cross - GPS</SimpleData>
+		<SimpleData name="Comment">WFP provided different position of  6.269344, -10.346535 needs checking</SimpleData>
+		<SimpleData name="LabPresent">No</SimpleData>
+		<SimpleData name="DSTR_NM">Margibi</SimpleData>
+		<SimpleData name="ADM1_CODE">LBR24</SimpleData>
+		<SimpleData name="Updated">2014/12/15</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-10.469719989999874,6.353059977000157</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#liberiahealth">
+		<SimpleData name="ECF_Code">LBR_0027</SimpleData>
+		<SimpleData name="ECF_Name">Tubmanburg</SimpleData>
+		<SimpleData name="Status">Open</SimpleData>
+		<SimpleData name="Type">ETU</SimpleData>
+		<SimpleData name="Beds_Open">100</SimpleData>
+		<SimpleData name="Beds_Plan">100</SimpleData>
+		<SimpleData name="Plan_Open">2014/12/09</SimpleData>
+		<SimpleData name="Partner">IOM</SimpleData>
+		<SimpleData name="Latitude">6.8687507290000002768692866084166</SimpleData>
+		<SimpleData name="Longitude">-10.8204098840000000336658558808267</SimpleData>
+		<SimpleData name="Accuracy">WFP - GPS</SimpleData>
+		<SimpleData name="LabPresent">No</SimpleData>
+		<SimpleData name="DSTR_NM">Bomi</SimpleData>
+		<SimpleData name="ADM1_CODE">LBR03</SimpleData>
+		<SimpleData name="Updated">2014/12/15</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-10.820409883999957,6.868750729000169</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#liberiahealth">
+		<SimpleData name="ECF_Code">LBR_0023</SimpleData>
+		<SimpleData name="ECF_Name">Unity Conference Centre</SimpleData>
+		<SimpleData name="Status">Open</SimpleData>
+		<SimpleData name="Type">ETU</SimpleData>
+		<SimpleData name="Beds_Open">50</SimpleData>
+		<SimpleData name="Beds_Plan">50</SimpleData>
+		<SimpleData name="Plan_Open">2014/12/09</SimpleData>
+		<SimpleData name="Partner">MoH</SimpleData>
+		<SimpleData name="Latitude">6.3890352180000000714699126547202</SimpleData>
+		<SimpleData name="Longitude">-10.7928325699999998477096596616320</SimpleData>
+		<SimpleData name="Accuracy">WFP - GPS</SimpleData>
+		<SimpleData name="Comment">Due to close for renovations</SimpleData>
+		<SimpleData name="LabPresent">No</SimpleData>
+		<SimpleData name="DSTR_NM">Montserrado</SimpleData>
+		<SimpleData name="ADM1_CODE">LBR30</SimpleData>
+		<SimpleData name="Updated">2014/12/15</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-10.792832569999916,6.389035218</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#liberiahealth">
+		<SimpleData name="ECF_Code">LBR_0009</SimpleData>
+		<SimpleData name="ECF_Name">Suakoko / Gbarnga</SimpleData>
+		<SimpleData name="Status">Open</SimpleData>
+		<SimpleData name="Type">ETU</SimpleData>
+		<SimpleData name="Beds_Open">71</SimpleData>
+		<SimpleData name="Beds_Plan">71</SimpleData>
+		<SimpleData name="Plan_Open">2014/12/09</SimpleData>
+		<SimpleData name="Partner">IMC</SimpleData>
+		<SimpleData name="Latitude">7.0046689999999998121893440838903</SimpleData>
+		<SimpleData name="Longitude">-9.5551440000000003038849172298796</SimpleData>
+		<SimpleData name="Accuracy">British Red Cross - GPS</SimpleData>
+		<SimpleData name="Comment">Known as Gbarnga or Suakoko in different documents</SimpleData>
+		<SimpleData name="LabPresent">No</SimpleData>
+		<SimpleData name="DSTR_NM">Bong</SimpleData>
+		<SimpleData name="ADM1_CODE">LBR06</SimpleData>
+		<SimpleData name="Updated">2014/12/15</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-9.555143999999871,7.004669</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#liberiahealth">
+		<SimpleData name="ECF_Code">LBR_0020</SimpleData>
+		<SimpleData name="ECF_Name">Island Clinic</SimpleData>
+		<SimpleData name="Status">Open</SimpleData>
+		<SimpleData name="Type">ETU</SimpleData>
+		<SimpleData name="Beds_Open">150</SimpleData>
+		<SimpleData name="Beds_Plan">150</SimpleData>
+		<SimpleData name="Plan_Open">2014/12/09</SimpleData>
+		<SimpleData name="Partner">MoH/WHO/AU</SimpleData>
+		<SimpleData name="Latitude">6.3843715999999997023905962123536</SimpleData>
+		<SimpleData name="Longitude">-10.7871135000000002435172063997015</SimpleData>
+		<SimpleData name="Accuracy">WFP - GPS</SimpleData>
+		<SimpleData name="Comment">Due to close for renovations</SimpleData>
+		<SimpleData name="LabPresent">No</SimpleData>
+		<SimpleData name="DSTR_NM">Montserrado</SimpleData>
+		<SimpleData name="ADM1_CODE">LBR30</SimpleData>
+		<SimpleData name="Updated">2014/12/15</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-10.787113499999919,6.384371600000179</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#liberiahealth">
+		<SimpleData name="ECF_Code">LBR_0015</SimpleData>
+		<SimpleData name="ECF_Name">Monrovia Medical Unit</SimpleData>
+		<SimpleData name="Status">Open</SimpleData>
+		<SimpleData name="Type">ETU</SimpleData>
+		<SimpleData name="Beds_Open">22</SimpleData>
+		<SimpleData name="Beds_Plan">22</SimpleData>
+		<SimpleData name="Plan_Open">2014/12/09</SimpleData>
+		<SimpleData name="Partner">USPHS</SimpleData>
+		<SimpleData name="Latitude">6.3133330000000000836735125631094</SimpleData>
+		<SimpleData name="Longitude">-10.8013890000000003510649548843503</SimpleData>
+		<SimpleData name="Accuracy">Needs location verified</SimpleData>
+		<SimpleData name="LabPresent">No</SimpleData>
+		<SimpleData name="DSTR_NM">Montserrado</SimpleData>
+		<SimpleData name="ADM1_CODE">LBR30</SimpleData>
+		<SimpleData name="Updated">2014/12/15</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-10.801389,6.313333000000171</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#liberiahealth">
+		<SimpleData name="ECF_Code">LBR_0007</SimpleData>
+		<SimpleData name="ECF_Name">Foya</SimpleData>
+		<SimpleData name="Status">Closed</SimpleData>
+		<SimpleData name="Type">ETU</SimpleData>
+		<SimpleData name="Beds_Open">0</SimpleData>
+		<SimpleData name="Beds_Plan">0</SimpleData>
+		<SimpleData name="Plan_Open">2014/12/09</SimpleData>
+		<SimpleData name="Partner">MSF</SimpleData>
+		<SimpleData name="Latitude">8.3789112960000000640548023511656</SimpleData>
+		<SimpleData name="Longitude">-10.2057566529999999005440258770250</SimpleData>
+		<SimpleData name="Accuracy">British Red Cross - GPS</SimpleData>
+		<SimpleData name="Comment">Closed due to no new cases in Lofa County.</SimpleData>
+		<SimpleData name="LabPresent">No</SimpleData>
+		<SimpleData name="DSTR_NM">Lofa</SimpleData>
+		<SimpleData name="ADM1_CODE">LBR21</SimpleData>
+		<SimpleData name="Updated">2014/12/15</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-10.205756652999867,8.378911296000069</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#liberiahealth">
+		<SimpleData name="ECF_Code">LBR_0016</SimpleData>
+		<SimpleData name="ECF_Name">Congo Town 1 (old MoD)</SimpleData>
+		<SimpleData name="Status">Open</SimpleData>
+		<SimpleData name="Type">ETU</SimpleData>
+		<SimpleData name="Beds_Open">40</SimpleData>
+		<SimpleData name="Beds_Plan">40</SimpleData>
+		<SimpleData name="Plan_Open">2014/12/02</SimpleData>
+		<SimpleData name="Partner">AU/Cuban FMT/MoH</SimpleData>
+		<SimpleData name="Latitude">6.2702799950000001061312104866374</SimpleData>
+		<SimpleData name="Longitude">-10.7341700039999992100092640612274</SimpleData>
+		<SimpleData name="Accuracy">British Red Cross - GPS</SimpleData>
+		<SimpleData name="LabPresent">No</SimpleData>
+		<SimpleData name="DSTR_NM">Montserrado</SimpleData>
+		<SimpleData name="ADM1_CODE">LBR30</SimpleData>
+		<SimpleData name="Updated">2014/12/15</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-10.734170003999964,6.27027999500018</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#liberiahealth">
+		<SimpleData name="ECF_Code">LBR_0013</SimpleData>
+		<SimpleData name="ECF_Name">Kakata 1</SimpleData>
+		<SimpleData name="Status">Open</SimpleData>
+		<SimpleData name="Type">ETU</SimpleData>
+		<SimpleData name="Beds_Open">50</SimpleData>
+		<SimpleData name="Beds_Plan">50</SimpleData>
+		<SimpleData name="Plan_Open">2014/12/02</SimpleData>
+		<SimpleData name="Partner">IMC</SimpleData>
+		<SimpleData name="Latitude">6.5275235580000003920986273442395</SimpleData>
+		<SimpleData name="Longitude">-10.3603842319999994714407876017503</SimpleData>
+		<SimpleData name="Accuracy">WFP - GPS</SimpleData>
+		<SimpleData name="Comment">Location and status confirmed by WFP field team</SimpleData>
+		<SimpleData name="LabPresent">No</SimpleData>
+		<SimpleData name="DSTR_NM">Margibi</SimpleData>
+		<SimpleData name="ADM1_CODE">LBR24</SimpleData>
+		<SimpleData name="Updated">2014/12/15</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-10.360384231999944,6.527523558000041</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#liberiahealth">
+		<SimpleData name="ECF_Code">LBR_0008</SimpleData>
+		<SimpleData name="ECF_Name">Ganta United Methodist Hospital</SimpleData>
+		<SimpleData name="Status">Open</SimpleData>
+		<SimpleData name="Type">ETU</SimpleData>
+		<SimpleData name="Beds_Open">36</SimpleData>
+		<SimpleData name="Beds_Plan">36</SimpleData>
+		<SimpleData name="Plan_Open">2014/12/18</SimpleData>
+		<SimpleData name="Partner">Methodist Church / PCI</SimpleData>
+		<SimpleData name="Latitude">7.2373265919999996143019416194875</SimpleData>
+		<SimpleData name="Longitude">-8.9813228659999992942175595089793</SimpleData>
+		<SimpleData name="Accuracy">WFP - GPS</SimpleData>
+		<SimpleData name="Comment">Location and status confirmed by WFP field team</SimpleData>
+		<SimpleData name="LabPresent">No</SimpleData>
+		<SimpleData name="DSTR_NM">Nimba</SimpleData>
+		<SimpleData name="ADM1_CODE">LBR33</SimpleData>
+		<SimpleData name="Updated">2014/12/15</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-8.981322865999914,7.237326592000045</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#liberiahealth">
+		<SimpleData name="ECF_Code">LBR_0116</SimpleData>
+		<SimpleData name="ECF_Name">Gbediah Town</SimpleData>
+		<SimpleData name="Status">Under Construction</SimpleData>
+		<SimpleData name="Type">ETU</SimpleData>
+		<SimpleData name="Beds_Open">0</SimpleData>
+		<SimpleData name="Beds_Plan">50</SimpleData>
+		<SimpleData name="Plan_Open">2014/12/25</SimpleData>
+		<SimpleData name="Partner">PAE/Aspen</SimpleData>
+		<SimpleData name="Latitude">5.4829999999999996518340594775509</SimpleData>
+		<SimpleData name="Longitude">-9.5879999999999991899812812334858</SimpleData>
+		<SimpleData name="Accuracy">WHO</SimpleData>
+		<SimpleData name="Comment">Opening date TBC</SimpleData>
+		<SimpleData name="LabPresent">No</SimpleData>
+		<SimpleData name="DSTR_NM">Rivercess</SimpleData>
+		<SimpleData name="ADM1_CODE">LBR36</SimpleData>
+		<SimpleData name="Updated">2014/12/15</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-9.648,5.687</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#liberiahealth">
+		<SimpleData name="ECF_Code">LBR_0119</SimpleData>
+		<SimpleData name="ECF_Name">Zorzor</SimpleData>
+		<SimpleData name="Status">Planned</SimpleData>
+		<SimpleData name="Type">ETU</SimpleData>
+		<SimpleData name="Beds_Open">0</SimpleData>
+		<SimpleData name="Beds_Plan">50</SimpleData>
+		<SimpleData name="Plan_Open">2014/12/19</SimpleData>
+		<SimpleData name="Partner">PAE / Aspend</SimpleData>
+		<SimpleData name="Latitude">7.7759999999999998010480339871719</SimpleData>
+		<SimpleData name="Longitude">-9.4230000000000000426325641456060</SimpleData>
+		<SimpleData name="Accuracy">OSM settlement</SimpleData>
+		<SimpleData name="Comment">Needs Checking</SimpleData>
+		<SimpleData name="LabPresent">No</SimpleData>
+		<SimpleData name="DSTR_NM">Lofa</SimpleData>
+		<SimpleData name="ADM1_CODE">LBR21</SimpleData>
+		<SimpleData name="Updated">2014/12/15</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-9.428165700000022,7.7787995</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>

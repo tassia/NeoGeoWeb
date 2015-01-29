@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="sierraleonehealth" id="sierraleonehealth">
+	<SimpleField name="OBJECTID" type="float"></SimpleField>
+	<SimpleField name="ECF_Code" type="string"></SimpleField>
+	<SimpleField name="ECF_Name" type="string"></SimpleField>
+	<SimpleField name="Status" type="string"></SimpleField>
+	<SimpleField name="Type" type="string"></SimpleField>
+	<SimpleField name="AdminCode" type="string"></SimpleField>
+	<SimpleField name="Beds_Open" type="float"></SimpleField>
+	<SimpleField name="Beds_Plan" type="float"></SimpleField>
+	<SimpleField name="Open_Date" type="string"></SimpleField>
+	<SimpleField name="Partner" type="string"></SimpleField>
+	<SimpleField name="Lead_Donor" type="string"></SimpleField>
+	<SimpleField name="Latitude" type="float"></SimpleField>
+	<SimpleField name="Longitude" type="float"></SimpleField>
+	<SimpleField name="Accuracy" type="string"></SimpleField>
+	<SimpleField name="Updated" type="string"></SimpleField>
+	<SimpleField name="LabPresent" type="string"></SimpleField>
+	<SimpleField name="Country" type="string"></SimpleField>
+	<SimpleField name="Comment" type="string"></SimpleField>
+</Schema>
+<Folder><name>sierraleonehealth</name>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sierraleonehealth">
+		<SimpleData name="OBJECTID">0</SimpleData>
+		<SimpleData name="ECF_Code">SLE_0001</SimpleData>
+		<SimpleData name="ECF_Name">Goderich</SimpleData>
+		<SimpleData name="Status">Open</SimpleData>
+		<SimpleData name="Type">ETU</SimpleData>
+		<SimpleData name="AdminCode">SLE0401</SimpleData>
+		<SimpleData name="Beds_Open">0</SimpleData>
+		<SimpleData name="Beds_Plan">100</SimpleData>
+		<SimpleData name="Open_Date">2014/12/15</SimpleData>
+		<SimpleData name="Partner">EMERGENCY</SimpleData>
+		<SimpleData name="Lead_Donor">DFID</SimpleData>
+		<SimpleData name="Latitude">8.4243210000000008363940651179291</SimpleData>
+		<SimpleData name="Longitude">-13.2804070000000002949036570498720</SimpleData>
+		<SimpleData name="Accuracy">WAERC Confirmed Coordinates</SimpleData>
+		<SimpleData name="Updated">2014/12/15</SimpleData>
+		<SimpleData name="LabPresent">No</SimpleData>
+		<SimpleData name="Country">Sierra Leone</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-13.280407348999859,8.424321007000174</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sierraleonehealth">
+		<SimpleData name="OBJECTID">1</SimpleData>
+		<SimpleData name="ECF_Code">SLE_0002</SimpleData>
+		<SimpleData name="ECF_Name">Hastings Eastside</SimpleData>
+		<SimpleData name="Status">Under Construction</SimpleData>
+		<SimpleData name="Type">ETU</SimpleData>
+		<SimpleData name="AdminCode">SLE0401</SimpleData>
+		<SimpleData name="Beds_Open">0</SimpleData>
+		<SimpleData name="Beds_Plan">100</SimpleData>
+		<SimpleData name="Open_Date">2014/12/20</SimpleData>
+		<SimpleData name="Partner">RSLAF/KINGS</SimpleData>
+		<SimpleData name="Lead_Donor">DFID</SimpleData>
+		<SimpleData name="Latitude">8.3821419999999999816964191268198</SimpleData>
+		<SimpleData name="Longitude">-13.1406519999999993331130099250004</SimpleData>
+		<SimpleData name="Accuracy">WAERC Confirmed Coordinates</SimpleData>
+		<SimpleData name="Updated">2014/12/15</SimpleData>
+		<SimpleData name="LabPresent">No</SimpleData>
+		<SimpleData name="Country">Sierra Leone</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-13.140651562999949,8.382141677999982</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sierraleonehealth">
+		<SimpleData name="OBJECTID">2</SimpleData>
+		<SimpleData name="ECF_Code">SLE_0004</SimpleData>
+		<SimpleData name="ECF_Name">Police Training Sch-Hastings 1</SimpleData>
+		<SimpleData name="Status">Open</SimpleData>
+		<SimpleData name="Type">ETU</SimpleData>
+		<SimpleData name="AdminCode">SLE0401</SimpleData>
+		<SimpleData name="Beds_Open">120</SimpleData>
+		<SimpleData name="Beds_Plan">120</SimpleData>
+		<SimpleData name="Open_Date">2014/12/01</SimpleData>
+		<SimpleData name="Partner">MOH / RSLAF</SimpleData>
+		<SimpleData name="Lead_Donor">GOSL</SimpleData>
+		<SimpleData name="Latitude">8.3827049999999996288124748389237</SimpleData>
+		<SimpleData name="Longitude">-13.1258510000000008233200787799433</SimpleData>
+		<SimpleData name="Accuracy">WAERC Confirmed Coordinates</SimpleData>
+		<SimpleData name="Updated">2014/12/15</SimpleData>
+		<SimpleData name="LabPresent">No</SimpleData>
+		<SimpleData name="Country">Sierra Leone</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-13.125850928999967,8.382704501000092</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sierraleonehealth">
+		<SimpleData name="OBJECTID">3</SimpleData>
+		<SimpleData name="ECF_Code">SLE_0005</SimpleData>
+		<SimpleData name="ECF_Name">Kerry Town</SimpleData>
+		<SimpleData name="Status">Open</SimpleData>
+		<SimpleData name="Type">ETU</SimpleData>
+		<SimpleData name="AdminCode">SLE0401</SimpleData>
+		<SimpleData name="Beds_Open">51</SimpleData>
+		<SimpleData name="Beds_Plan">80</SimpleData>
+		<SimpleData name="Open_Date">2014/12/01</SimpleData>
+		<SimpleData name="Partner">Save the Children</SimpleData>
+		<SimpleData name="Lead_Donor">DFID</SimpleData>
+		<SimpleData name="Latitude">8.2570949999999996293809090275317</SimpleData>
+		<SimpleData name="Longitude">-13.0863709999999997535269358195364</SimpleData>
+		<SimpleData name="Accuracy">WAERC Confirmed Coordinates</SimpleData>
+		<SimpleData name="Updated">2014/12/15</SimpleData>
+		<SimpleData name="LabPresent">Yes</SimpleData>
+		<SimpleData name="Country">Sierra Leone</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-13.086370684999906,8.25709548399999</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sierraleonehealth">
+		<SimpleData name="OBJECTID">4</SimpleData>
+		<SimpleData name="ECF_Code">SLE_0006</SimpleData>
+		<SimpleData name="ECF_Name">Port Loko</SimpleData>
+		<SimpleData name="Status">Open</SimpleData>
+		<SimpleData name="Type">ETU</SimpleData>
+		<SimpleData name="AdminCode">SLE0204</SimpleData>
+		<SimpleData name="Beds_Open">100</SimpleData>
+		<SimpleData name="Beds_Plan">100</SimpleData>
+		<SimpleData name="Open_Date">2014/11/30</SimpleData>
+		<SimpleData name="Partner">GOAL / UK NHS / DEMA</SimpleData>
+		<SimpleData name="Lead_Donor">DFID</SimpleData>
+		<SimpleData name="Latitude">8.7766500000000000625277607468888</SimpleData>
+		<SimpleData name="Longitude">-12.7623899999999999010924511821941</SimpleData>
+		<SimpleData name="Accuracy">CDC Checked Coordinate</SimpleData>
+		<SimpleData name="Updated">2014/12/15</SimpleData>
+		<SimpleData name="LabPresent">Yes</SimpleData>
+		<SimpleData name="Country">Sierra Leone</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-12.76239,8.776650000000132</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sierraleonehealth">
+		<SimpleData name="OBJECTID">5</SimpleData>
+		<SimpleData name="ECF_Code">SLE_0007</SimpleData>
+		<SimpleData name="ECF_Name">Lunsar, Port Loko</SimpleData>
+		<SimpleData name="Status">Open</SimpleData>
+		<SimpleData name="Type">ETU</SimpleData>
+		<SimpleData name="AdminCode">SLE0204</SimpleData>
+		<SimpleData name="Beds_Open">9</SimpleData>
+		<SimpleData name="Beds_Plan">75</SimpleData>
+		<SimpleData name="Open_Date">2014/12/01</SimpleData>
+		<SimpleData name="Partner">IMC</SimpleData>
+		<SimpleData name="Lead_Donor">DFID/ECHO/OFDA</SimpleData>
+		<SimpleData name="Latitude">8.6985399999999994946620063274167</SimpleData>
+		<SimpleData name="Longitude">-12.5765600000000006275513442233205</SimpleData>
+		<SimpleData name="Accuracy">CDC Checked Coordinate</SimpleData>
+		<SimpleData name="Updated">2014/12/15</SimpleData>
+		<SimpleData name="LabPresent">No</SimpleData>
+		<SimpleData name="Country">Sierra Leone</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-12.57656,8.69854</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sierraleonehealth">
+		<SimpleData name="OBJECTID">6</SimpleData>
+		<SimpleData name="ECF_Code">SLE_0008</SimpleData>
+		<SimpleData name="ECF_Name">Moyamba</SimpleData>
+		<SimpleData name="Status">Open</SimpleData>
+		<SimpleData name="Type">ETU</SimpleData>
+		<SimpleData name="AdminCode">SLE0303</SimpleData>
+		<SimpleData name="Beds_Open">100</SimpleData>
+		<SimpleData name="Beds_Plan">100</SimpleData>
+		<SimpleData name="Open_Date">2014/12/14</SimpleData>
+		<SimpleData name="Partner">MDM / Norway / UK NHS</SimpleData>
+		<SimpleData name="Lead_Donor">DFID</SimpleData>
+		<SimpleData name="Latitude">8.1765749999999997044142219237983</SimpleData>
+		<SimpleData name="Longitude">-12.4120369999999997645545590785332</SimpleData>
+		<SimpleData name="Updated">2014/12/15</SimpleData>
+		<SimpleData name="LabPresent">No</SimpleData>
+		<SimpleData name="Country">Sierra Leone</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-12.412037406999957,8.176575114000116</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sierraleonehealth">
+		<SimpleData name="OBJECTID">7</SimpleData>
+		<SimpleData name="ECF_Code">SLE_0009</SimpleData>
+		<SimpleData name="ECF_Name">Makeni</SimpleData>
+		<SimpleData name="Status">Under Construction</SimpleData>
+		<SimpleData name="Type">ETU</SimpleData>
+		<SimpleData name="AdminCode">SLE0201</SimpleData>
+		<SimpleData name="Beds_Open">0</SimpleData>
+		<SimpleData name="Beds_Plan">100</SimpleData>
+		<SimpleData name="Open_Date">2014/11/26</SimpleData>
+		<SimpleData name="Partner">IMC</SimpleData>
+		<SimpleData name="Lead_Donor">DFID</SimpleData>
+		<SimpleData name="Latitude">8.7980440000000008637925930088386</SimpleData>
+		<SimpleData name="Longitude">-12.0309720000000002215756467194296</SimpleData>
+		<SimpleData name="Updated">2014/12/15</SimpleData>
+		<SimpleData name="LabPresent">No</SimpleData>
+		<SimpleData name="Country">Sierra Leone</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-12.030972037999845,8.798044033000053</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sierraleonehealth">
+		<SimpleData name="OBJECTID">8</SimpleData>
+		<SimpleData name="ECF_Code">SLE_0010</SimpleData>
+		<SimpleData name="ECF_Name">Jui Hospital - Freetown</SimpleData>
+		<SimpleData name="Status">Open</SimpleData>
+		<SimpleData name="Type">ETU</SimpleData>
+		<SimpleData name="AdminCode">SLE0401</SimpleData>
+		<SimpleData name="Beds_Open">12</SimpleData>
+		<SimpleData name="Beds_Plan">22</SimpleData>
+		<SimpleData name="Open_Date">2014/12/17</SimpleData>
+		<SimpleData name="Partner">Chinese CDC</SimpleData>
+		<SimpleData name="Lead_Donor">China</SimpleData>
+		<SimpleData name="Latitude">8.3868609999999996773567545460537</SimpleData>
+		<SimpleData name="Longitude">-13.1495479999999993481196725042537</SimpleData>
+		<SimpleData name="Accuracy">WAERC Confirmed Coordinates</SimpleData>
+		<SimpleData name="Updated">2014/12/15</SimpleData>
+		<SimpleData name="LabPresent">Yes</SimpleData>
+		<SimpleData name="Country">Sierra Leone</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-13.149548493999873,8.386860908000187</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sierraleonehealth">
+		<SimpleData name="OBJECTID">9</SimpleData>
+		<SimpleData name="ECF_Code">SLE_0011</SimpleData>
+		<SimpleData name="ECF_Name">Lakka Hospital ETU</SimpleData>
+		<SimpleData name="Status">Open</SimpleData>
+		<SimpleData name="Type">ETU</SimpleData>
+		<SimpleData name="AdminCode">SLE0401</SimpleData>
+		<SimpleData name="Beds_Open">12</SimpleData>
+		<SimpleData name="Beds_Plan">12</SimpleData>
+		<SimpleData name="Open_Date">2014/12/01</SimpleData>
+		<SimpleData name="Partner">Emergency</SimpleData>
+		<SimpleData name="Latitude">8.4030000000000004689582056016661</SimpleData>
+		<SimpleData name="Longitude">-13.2650000000000005684341886080801</SimpleData>
+		<SimpleData name="Accuracy">WAERC Confirmed Coordinates</SimpleData>
+		<SimpleData name="Updated">2014/12/15</SimpleData>
+		<SimpleData name="LabPresent">Yes</SimpleData>
+		<SimpleData name="Country">Sierra Leone</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-13.265,8.403</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sierraleonehealth">
+		<SimpleData name="OBJECTID">10</SimpleData>
+		<SimpleData name="ECF_Code">SLE_0012</SimpleData>
+		<SimpleData name="ECF_Name">Kailahun MSF</SimpleData>
+		<SimpleData name="Status">Open</SimpleData>
+		<SimpleData name="Type">ETU</SimpleData>
+		<SimpleData name="AdminCode">SLE0101</SimpleData>
+		<SimpleData name="Beds_Open">72</SimpleData>
+		<SimpleData name="Beds_Plan">100</SimpleData>
+		<SimpleData name="Open_Date">2014/12/01</SimpleData>
+		<SimpleData name="Partner">Canadian Outfit</SimpleData>
+		<SimpleData name="Lead_Donor">Canadian Outfit</SimpleData>
+		<SimpleData name="Latitude">8.2984600000000003916511559509672</SimpleData>
+		<SimpleData name="Longitude">-10.5576000000000007617018127348274</SimpleData>
+		<SimpleData name="Accuracy">MSF GPS</SimpleData>
+		<SimpleData name="Updated">2014/12/15</SimpleData>
+		<SimpleData name="LabPresent">Yes</SimpleData>
+		<SimpleData name="Country">Sierra Leone</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-10.5576,8.29846</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sierraleonehealth">
+		<SimpleData name="OBJECTID">11</SimpleData>
+		<SimpleData name="ECF_Code">SLE_0013</SimpleData>
+		<SimpleData name="ECF_Name">Rural Kenema Field Hospital</SimpleData>
+		<SimpleData name="Status">Open</SimpleData>
+		<SimpleData name="Type">ETU</SimpleData>
+		<SimpleData name="AdminCode">SLE0102</SimpleData>
+		<SimpleData name="Beds_Open">25</SimpleData>
+		<SimpleData name="Beds_Plan">25</SimpleData>
+		<SimpleData name="Open_Date">2014/12/01</SimpleData>
+		<SimpleData name="Partner">IFRC</SimpleData>
+		<SimpleData name="Lead_Donor">IFRC</SimpleData>
+		<SimpleData name="Latitude">8.0050880000000006475602276623249</SimpleData>
+		<SimpleData name="Longitude">-11.1156000000000005911715561524034</SimpleData>
+		<SimpleData name="Accuracy">British Red Cross GPS</SimpleData>
+		<SimpleData name="Updated">2014/12/15</SimpleData>
+		<SimpleData name="LabPresent">No</SimpleData>
+		<SimpleData name="Country">Sierra Leone</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-11.1156,8.005088</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sierraleonehealth">
+		<SimpleData name="OBJECTID">12</SimpleData>
+		<SimpleData name="ECF_Code">SLE_0014</SimpleData>
+		<SimpleData name="ECF_Name">Kono - Koidu Town</SimpleData>
+		<SimpleData name="Status">Under Construction</SimpleData>
+		<SimpleData name="Type">ETU</SimpleData>
+		<SimpleData name="AdminCode">SLE0103</SimpleData>
+		<SimpleData name="Beds_Open">0</SimpleData>
+		<SimpleData name="Beds_Plan">50</SimpleData>
+		<SimpleData name="Open_Date">2014/11/30</SimpleData>
+		<SimpleData name="Partner">Well Body/ Partners in Health</SimpleData>
+		<SimpleData name="Lead_Donor">GOSL</SimpleData>
+		<SimpleData name="Latitude">8.6338989999999995461621438153088</SimpleData>
+		<SimpleData name="Longitude">-10.9594640000000005386482371250167</SimpleData>
+		<SimpleData name="Accuracy">WHO provided</SimpleData>
+		<SimpleData name="Updated">2014/12/15</SimpleData>
+		<SimpleData name="LabPresent">No</SimpleData>
+		<SimpleData name="Country">Sierra Leone</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-10.95946423,8.633899242000041</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sierraleonehealth">
+		<SimpleData name="OBJECTID">13</SimpleData>
+		<SimpleData name="ECF_Code">SLE_0015</SimpleData>
+		<SimpleData name="ECF_Name">Bo Town SLRA</SimpleData>
+		<SimpleData name="Status">Open</SimpleData>
+		<SimpleData name="Type">ETU</SimpleData>
+		<SimpleData name="AdminCode">SLE0301</SimpleData>
+		<SimpleData name="Beds_Open">50</SimpleData>
+		<SimpleData name="Beds_Plan">50</SimpleData>
+		<SimpleData name="Open_Date">2014/12/01</SimpleData>
+		<SimpleData name="Partner">MSF Amsterdam</SimpleData>
+		<SimpleData name="Lead_Donor">CDC</SimpleData>
+		<SimpleData name="Latitude">7.9410400000000000986233317235019</SimpleData>
+		<SimpleData name="Longitude">-11.6697000000000006281197784119286</SimpleData>
+		<SimpleData name="Accuracy">MSF GPS</SimpleData>
+		<SimpleData name="Updated">2014/12/15</SimpleData>
+		<SimpleData name="LabPresent">Yes</SimpleData>
+		<SimpleData name="Country">Sierra Leone</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-11.6697,7.9410400000001</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sierraleonehealth">
+		<SimpleData name="OBJECTID">14</SimpleData>
+		<SimpleData name="ECF_Code">SLE_0017</SimpleData>
+		<SimpleData name="ECF_Name">AHS - Waterloo Hospital</SimpleData>
+		<SimpleData name="Status">Open</SimpleData>
+		<SimpleData name="Type">ETU</SimpleData>
+		<SimpleData name="AdminCode">SLE0401</SimpleData>
+		<SimpleData name="Beds_Open">62</SimpleData>
+		<SimpleData name="Beds_Plan">62</SimpleData>
+		<SimpleData name="Open_Date">2014/11/16</SimpleData>
+		<SimpleData name="Partner">MOH / Cuban Brigade / Cap Anamur</SimpleData>
+		<SimpleData name="Lead_Donor">GOSL</SimpleData>
+		<SimpleData name="Latitude">8.3356209999999997251052263891324</SimpleData>
+		<SimpleData name="Longitude">-13.0735480000000006128857421572320</SimpleData>
+		<SimpleData name="Accuracy">WAERC Confirmed Coordinates</SimpleData>
+		<SimpleData name="Updated">2014/12/15</SimpleData>
+		<SimpleData name="LabPresent">No</SimpleData>
+		<SimpleData name="Country">Sierra Leone</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-13.073548,8.335621</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sierraleonehealth">
+		<SimpleData name="OBJECTID">15</SimpleData>
+		<SimpleData name="ECF_Code">SLE_0020</SimpleData>
+		<SimpleData name="ECF_Name">Magbenteh Hospital</SimpleData>
+		<SimpleData name="Status">Open</SimpleData>
+		<SimpleData name="Type">ETU</SimpleData>
+		<SimpleData name="AdminCode">SLE0201</SimpleData>
+		<SimpleData name="Beds_Open">100</SimpleData>
+		<SimpleData name="Beds_Plan">110</SimpleData>
+		<SimpleData name="Open_Date">2014/11/15</SimpleData>
+		<SimpleData name="Partner">MoH/AU/WHO</SimpleData>
+		<SimpleData name="Lead_Donor">GOSL</SimpleData>
+		<SimpleData name="Latitude">8.8461099999999994736299413489178</SimpleData>
+		<SimpleData name="Longitude">-12.0584469999999992495531841996126</SimpleData>
+		<SimpleData name="Updated">2014/12/15</SimpleData>
+		<SimpleData name="LabPresent">No</SimpleData>
+		<SimpleData name="Country">Sierra Leone</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-12.058447,8.84611</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sierraleonehealth">
+		<SimpleData name="OBJECTID">16</SimpleData>
+		<SimpleData name="ECF_Code">SLE_0021</SimpleData>
+		<SimpleData name="ECF_Name">HIM - Newton</SimpleData>
+		<SimpleData name="Status">Under Construction</SimpleData>
+		<SimpleData name="Type">ETU</SimpleData>
+		<SimpleData name="AdminCode">SLE0401</SimpleData>
+		<SimpleData name="Beds_Open">0</SimpleData>
+		<SimpleData name="Beds_Plan">120</SimpleData>
+		<SimpleData name="Open_Date">2015/01/15</SimpleData>
+		<SimpleData name="Partner">Unknown</SimpleData>
+		<SimpleData name="Lead_Donor">UNMEER</SimpleData>
+		<SimpleData name="Latitude">8.3351120000000005205720299272798</SimpleData>
+		<SimpleData name="Longitude">-13.0089150000000000062527760746889</SimpleData>
+		<SimpleData name="Accuracy">WAERC Confirmed Coordinates</SimpleData>
+		<SimpleData name="Updated">2014/12/15</SimpleData>
+		<SimpleData name="LabPresent">No</SimpleData>
+		<SimpleData name="Country">Sierra Leone</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-13.008915,8.335112</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sierraleonehealth">
+		<SimpleData name="OBJECTID">17</SimpleData>
+		<SimpleData name="ECF_Code">SLE_0022</SimpleData>
+		<SimpleData name="ECF_Name">Police Training Sch-Hastings 2</SimpleData>
+		<SimpleData name="Status">Open</SimpleData>
+		<SimpleData name="Type">ETU</SimpleData>
+		<SimpleData name="AdminCode">SLE0401</SimpleData>
+		<SimpleData name="Beds_Open">200</SimpleData>
+		<SimpleData name="Beds_Plan">200</SimpleData>
+		<SimpleData name="Open_Date">2014/12/18</SimpleData>
+		<SimpleData name="Partner">MOH / RSLAF / Cuban Brigade</SimpleData>
+		<SimpleData name="Lead_Donor">GOSL</SimpleData>
+		<SimpleData name="Latitude">8.3827049999999996288124748389237</SimpleData>
+		<SimpleData name="Longitude">-13.1258510000000008233200787799433</SimpleData>
+		<SimpleData name="Accuracy">WAERC Confirmed Coordinates</SimpleData>
+		<SimpleData name="Updated">2014/12/15</SimpleData>
+		<SimpleData name="LabPresent">No</SimpleData>
+		<SimpleData name="Country">Sierra Leone</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-13.125850928999967,8.382704501000092</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sierraleonehealth">
+		<SimpleData name="OBJECTID">18</SimpleData>
+		<SimpleData name="ECF_Code">SLE_0023</SimpleData>
+		<SimpleData name="ECF_Name">Maforki ETU</SimpleData>
+		<SimpleData name="Status">Open</SimpleData>
+		<SimpleData name="Type">ETU</SimpleData>
+		<SimpleData name="AdminCode">SLE0204</SimpleData>
+		<SimpleData name="Beds_Open">44</SimpleData>
+		<SimpleData name="Beds_Plan">80</SimpleData>
+		<SimpleData name="Open_Date">2014/12/01</SimpleData>
+		<SimpleData name="Partner">MoH / Plan / Cuban Brigade</SimpleData>
+		<SimpleData name="Lead_Donor">GOSL</SimpleData>
+		<SimpleData name="Latitude">8.7498400000000007281641956069507</SimpleData>
+		<SimpleData name="Longitude">-12.7723999999999993093524608411826</SimpleData>
+		<SimpleData name="Accuracy">CDC Checked Coordinate</SimpleData>
+		<SimpleData name="Updated">2014/12/15</SimpleData>
+		<SimpleData name="LabPresent">No</SimpleData>
+		<SimpleData name="Country">Sierra Leone</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-12.7724,8.74984</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sierraleonehealth">
+		<SimpleData name="OBJECTID">19</SimpleData>
+		<SimpleData name="ECF_Code">SLE_0109</SimpleData>
+		<SimpleData name="ECF_Name">34 Military Hospital</SimpleData>
+		<SimpleData name="Status">Open</SimpleData>
+		<SimpleData name="Type">ETU</SimpleData>
+		<SimpleData name="AdminCode">SLE0402</SimpleData>
+		<SimpleData name="Beds_Open">30</SimpleData>
+		<SimpleData name="Beds_Plan">30</SimpleData>
+		<SimpleData name="Open_Date">2014/12/01</SimpleData>
+		<SimpleData name="Partner">RSLAF</SimpleData>
+		<SimpleData name="Lead_Donor">MOD/RSLAF</SimpleData>
+		<SimpleData name="Latitude">8.4642169999999996576889316202141</SimpleData>
+		<SimpleData name="Longitude">-13.2612419999999993081019056262448</SimpleData>
+		<SimpleData name="Accuracy">WAERC Confirmed Coordinates</SimpleData>
+		<SimpleData name="Updated">2014/12/15</SimpleData>
+		<SimpleData name="LabPresent">No</SimpleData>
+		<SimpleData name="Country">Sierra Leone</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-13.261241999999868,8.464217</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sierraleonehealth">
+		<SimpleData name="OBJECTID">21</SimpleData>
+		<SimpleData name="ECF_Code">SLE_0005</SimpleData>
+		<SimpleData name="ECF_Name">Kerry Town - Section for Health Care Workers</SimpleData>
+		<SimpleData name="Status">Open</SimpleData>
+		<SimpleData name="Type">ETU</SimpleData>
+		<SimpleData name="AdminCode">SLE0401</SimpleData>
+		<SimpleData name="Beds_Open">12</SimpleData>
+		<SimpleData name="Beds_Plan">20</SimpleData>
+		<SimpleData name="Open_Date">2014/12/01</SimpleData>
+		<SimpleData name="Partner">DFID</SimpleData>
+		<SimpleData name="Lead_Donor">DFID</SimpleData>
+		<SimpleData name="Latitude">8.2699999999999995736743585439399</SimpleData>
+		<SimpleData name="Longitude">-13.0863709999999997535269358195364</SimpleData>
+		<SimpleData name="Accuracy">WAERC Confirmed Coordinates</SimpleData>
+		<SimpleData name="Updated">2014/12/15</SimpleData>
+		<SimpleData name="LabPresent">Yes</SimpleData>
+		<SimpleData name="Country">Sierra Leone</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-13.086370684999906,8.25709548399999</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sierraleonehealth">
+		<SimpleData name="OBJECTID">22</SimpleData>
+		<SimpleData name="ECF_Code">SLE_0111</SimpleData>
+		<SimpleData name="ECF_Name">Freetown - SA Build</SimpleData>
+		<SimpleData name="Status">Under Construction</SimpleData>
+		<SimpleData name="Type">ETU</SimpleData>
+		<SimpleData name="AdminCode">SLE0402</SimpleData>
+		<SimpleData name="Beds_Open">0</SimpleData>
+		<SimpleData name="Beds_Plan">40</SimpleData>
+		<SimpleData name="Open_Date">2015/01/31</SimpleData>
+		<SimpleData name="Partner">Right To Care</SimpleData>
+		<SimpleData name="Latitude">8.4809999999999998721023075631820</SimpleData>
+		<SimpleData name="Longitude">-13.2230000000000007531752999057062</SimpleData>
+		<SimpleData name="Accuracy">WFP ETC Overview document</SimpleData>
+		<SimpleData name="Updated">2014/12/15</SimpleData>
+		<SimpleData name="LabPresent">No</SimpleData>
+		<SimpleData name="Country">Sierra Leone</SimpleData>
+		<SimpleData name="Comment">Construction not started</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-13.223,8.481</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sierraleonehealth">
+		<SimpleData name="OBJECTID">23</SimpleData>
+		<SimpleData name="ECF_Code">SLE_0112</SimpleData>
+		<SimpleData name="ECF_Name">Freetown - UK Build</SimpleData>
+		<SimpleData name="Status">Completed</SimpleData>
+		<SimpleData name="Type">ETU</SimpleData>
+		<SimpleData name="AdminCode">SLE0402</SimpleData>
+		<SimpleData name="Beds_Open">0</SimpleData>
+		<SimpleData name="Beds_Plan">100</SimpleData>
+		<SimpleData name="Open_Date">2014/12/15</SimpleData>
+		<SimpleData name="Partner">Emergency / MoH</SimpleData>
+		<SimpleData name="Lead_Donor">DFID</SimpleData>
+		<SimpleData name="Latitude">8.4830000000000005400124791776761</SimpleData>
+		<SimpleData name="Longitude">-13.2129999999999991899812812334858</SimpleData>
+		<SimpleData name="Accuracy">WFP ETC Overview document</SimpleData>
+		<SimpleData name="Updated">2014/12/15</SimpleData>
+		<SimpleData name="LabPresent">No</SimpleData>
+		<SimpleData name="Country">Sierra Leone</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-13.217,8.483</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sierraleonehealth">
+		<SimpleData name="OBJECTID">24</SimpleData>
+		<SimpleData name="ECF_Code">SLE_0113</SimpleData>
+		<SimpleData name="ECF_Name">Prince of Wales School</SimpleData>
+		<SimpleData name="Status">Open</SimpleData>
+		<SimpleData name="Type">ETU</SimpleData>
+		<SimpleData name="AdminCode">SLE0402</SimpleData>
+		<SimpleData name="Beds_Open">8</SimpleData>
+		<SimpleData name="Beds_Plan">64</SimpleData>
+		<SimpleData name="Open_Date">2014/12/01</SimpleData>
+		<SimpleData name="Partner">Swiss MSF</SimpleData>
+		<SimpleData name="Latitude">8.4890000000000007673861546209082</SimpleData>
+		<SimpleData name="Longitude">-13.2439999999999997726263245567679</SimpleData>
+		<SimpleData name="Accuracy">UNMEER schools dataset</SimpleData>
+		<SimpleData name="Updated">2014/12/15</SimpleData>
+		<SimpleData name="LabPresent">No</SimpleData>
+		<SimpleData name="Country">Sierra Leone</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-13.245,8.489</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sierraleonehealth">
+		<SimpleData name="OBJECTID">25</SimpleData>
+		<SimpleData name="ECF_Code">SLE_0114</SimpleData>
+		<SimpleData name="ECF_Name">Methodist Boys High School</SimpleData>
+		<SimpleData name="Status">Under Construction</SimpleData>
+		<SimpleData name="Type">ETU</SimpleData>
+		<SimpleData name="AdminCode">SLE0402</SimpleData>
+		<SimpleData name="Beds_Open">0</SimpleData>
+		<SimpleData name="Beds_Plan">60</SimpleData>
+		<SimpleData name="Open_Date">2014/12/29</SimpleData>
+		<SimpleData name="Partner">Spain MST</SimpleData>
+		<SimpleData name="Latitude">8.4619999999999997442046151263639</SimpleData>
+		<SimpleData name="Longitude">-13.1850000000000004973799150320701</SimpleData>
+		<SimpleData name="Accuracy">UNMEER schools dataset</SimpleData>
+		<SimpleData name="Updated">2014/12/15</SimpleData>
+		<SimpleData name="LabPresent">No</SimpleData>
+		<SimpleData name="Country">Sierra Leone</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-13.186,8.462</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#sierraleonehealth">
+		<SimpleData name="OBJECTID">26</SimpleData>
+		<SimpleData name="ECF_Code">SLE_0115</SimpleData>
+		<SimpleData name="ECF_Name">Hastings Airfield</SimpleData>
+		<SimpleData name="Status">Under Construction</SimpleData>
+		<SimpleData name="Type">ETU</SimpleData>
+		<SimpleData name="AdminCode">SLE0204</SimpleData>
+		<SimpleData name="Beds_Open">0</SimpleData>
+		<SimpleData name="Beds_Plan">5</SimpleData>
+		<SimpleData name="Open_Date">2014/12/17</SimpleData>
+		<SimpleData name="Partner">Aspen Medical</SimpleData>
+		<SimpleData name="Latitude">8.6159999999999996589394868351519</SimpleData>
+		<SimpleData name="Longitude">-13.1780000000000008242295734817162</SimpleData>
+		<SimpleData name="Accuracy">UNMEER airfields dataset</SimpleData>
+		<SimpleData name="Updated">2014/12/15</SimpleData>
+		<SimpleData name="LabPresent">No</SimpleData>
+		<SimpleData name="Country">Sierra Leone</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-13.178610999999876,8.61611100000016</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>

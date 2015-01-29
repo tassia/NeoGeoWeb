@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="guinea" id="guinea">
+	<SimpleField name="OBJECTID" type="int"></SimpleField>
+	<SimpleField name="ECF_Code" type="string"></SimpleField>
+	<SimpleField name="ECF_Name" type="string"></SimpleField>
+	<SimpleField name="Status" type="string"></SimpleField>
+	<SimpleField name="Type" type="string"></SimpleField>
+	<SimpleField name="AdminCode" type="string"></SimpleField>
+	<SimpleField name="Beds_Open" type="int"></SimpleField>
+	<SimpleField name="Beds_Plan" type="int"></SimpleField>
+	<SimpleField name="Open_Date" type="string"></SimpleField>
+	<SimpleField name="Partner" type="string"></SimpleField>
+	<SimpleField name="Lead_Donor" type="string"></SimpleField>
+	<SimpleField name="Latitude" type="float"></SimpleField>
+	<SimpleField name="Longitude" type="float"></SimpleField>
+	<SimpleField name="Accuracy" type="string"></SimpleField>
+	<SimpleField name="Updated" type="string"></SimpleField>
+	<SimpleField name="LabPresent" type="string"></SimpleField>
+	<SimpleField name="Country" type="string"></SimpleField>
+	<SimpleField name="Comment" type="string"></SimpleField>
+</Schema>
+<Folder><name>guinea</name>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#guinea">
+		<SimpleData name="OBJECTID">0</SimpleData>
+		<SimpleData name="ECF_Code">GIN_0011</SimpleData>
+		<SimpleData name="ECF_Name">Macenta</SimpleData>
+		<SimpleData name="Status">Open</SimpleData>
+		<SimpleData name="Type">ETU</SimpleData>
+		<SimpleData name="AdminCode">GIN00800308</SimpleData>
+		<SimpleData name="Beds_Open">70</SimpleData>
+		<SimpleData name="Beds_Plan">70</SimpleData>
+		<SimpleData name="Open_Date">2014/12/05</SimpleData>
+		<SimpleData name="Partner">FRENCH RED CROSS</SimpleData>
+		<SimpleData name="Latitude">8.5410000000000003694822225952521</SimpleData>
+		<SimpleData name="Longitude">-9.4710000000000000852651282912120</SimpleData>
+		<SimpleData name="Accuracy">WHO - GPS</SimpleData>
+		<SimpleData name="Updated">2014/12/15</SimpleData>
+		<SimpleData name="LabPresent">Yes</SimpleData>
+		<SimpleData name="Country">Guinea</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-9.465582004999931,8.51824</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#guinea">
+		<SimpleData name="OBJECTID">1</SimpleData>
+		<SimpleData name="ECF_Code">GIN_0010</SimpleData>
+		<SimpleData name="ECF_Name">Gueckedou</SimpleData>
+		<SimpleData name="Status">Open</SimpleData>
+		<SimpleData name="Type">ETU</SimpleData>
+		<SimpleData name="AdminCode">GIN00800603</SimpleData>
+		<SimpleData name="Beds_Open">100</SimpleData>
+		<SimpleData name="Beds_Plan">100</SimpleData>
+		<SimpleData name="Open_Date">2014/12/05</SimpleData>
+		<SimpleData name="Partner">MSF</SimpleData>
+		<SimpleData name="Latitude">8.5619999999999993889332472463138</SimpleData>
+		<SimpleData name="Longitude">-10.1329999999999991189270076574758</SimpleData>
+		<SimpleData name="Accuracy">WHO - GPS</SimpleData>
+		<SimpleData name="Updated">2014/12/15</SimpleData>
+		<SimpleData name="LabPresent">Yes</SimpleData>
+		<SimpleData name="Country">Guinea</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-10.120963604999929,8.552846</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#guinea">
+		<SimpleData name="OBJECTID">2</SimpleData>
+		<SimpleData name="ECF_Code">GIN_0001</SimpleData>
+		<SimpleData name="ECF_Name">Conakry Donka Hospital</SimpleData>
+		<SimpleData name="Status">Open</SimpleData>
+		<SimpleData name="Type">ETU</SimpleData>
+		<SimpleData name="AdminCode">GIN00200101</SimpleData>
+		<SimpleData name="Beds_Open">70</SimpleData>
+		<SimpleData name="Beds_Plan">70</SimpleData>
+		<SimpleData name="Open_Date">2014/12/05</SimpleData>
+		<SimpleData name="Partner">MSF</SimpleData>
+		<SimpleData name="Latitude">9.5350000000000001421085471520200</SimpleData>
+		<SimpleData name="Longitude">-13.6829999999999998294697434175760</SimpleData>
+		<SimpleData name="Accuracy">WHO - GPS</SimpleData>
+		<SimpleData name="Updated">2014/12/15</SimpleData>
+		<SimpleData name="LabPresent">Yes</SimpleData>
+		<SimpleData name="Country">Guinea</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-13.683193,9.535421</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#guinea">
+		<SimpleData name="OBJECTID">3</SimpleData>
+		<SimpleData name="ECF_Code">GIN_0003</SimpleData>
+		<SimpleData name="ECF_Name">Coyah</SimpleData>
+		<SimpleData name="Status">Under Construction</SimpleData>
+		<SimpleData name="Type">ETU</SimpleData>
+		<SimpleData name="AdminCode">GIN00500103</SimpleData>
+		<SimpleData name="Beds_Open">0</SimpleData>
+		<SimpleData name="Beds_Plan">70</SimpleData>
+		<SimpleData name="Open_Date">2014/12/01</SimpleData>
+		<SimpleData name="Partner">Cuba?</SimpleData>
+		<SimpleData name="Latitude">9.7300000000000004263256414560601</SimpleData>
+		<SimpleData name="Longitude">-13.4209999999999993747223925311118</SimpleData>
+		<SimpleData name="Accuracy">Needs location verified</SimpleData>
+		<SimpleData name="Updated">2014/12/15</SimpleData>
+		<SimpleData name="LabPresent">No</SimpleData>
+		<SimpleData name="Country">Guinea</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-13.420806149999976,9.730112226000074</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#guinea">
+		<SimpleData name="OBJECTID">4</SimpleData>
+		<SimpleData name="ECF_Code">GIN_0009</SimpleData>
+		<SimpleData name="ECF_Name">Beyla</SimpleData>
+		<SimpleData name="Status">Under Construction</SimpleData>
+		<SimpleData name="Type">ETU</SimpleData>
+		<SimpleData name="AdminCode">GIN00800101</SimpleData>
+		<SimpleData name="Beds_Open">0</SimpleData>
+		<SimpleData name="Beds_Plan">70</SimpleData>
+		<SimpleData name="Open_Date">2014/12/17</SimpleData>
+		<SimpleData name="Partner">WAHA</SimpleData>
+		<SimpleData name="Latitude">8.6899999999999995026200849679299</SimpleData>
+		<SimpleData name="Longitude">-8.6479999999999996873611962655559</SimpleData>
+		<SimpleData name="Accuracy">Needs location verified</SimpleData>
+		<SimpleData name="Updated">2014/12/15</SimpleData>
+		<SimpleData name="LabPresent">No</SimpleData>
+		<SimpleData name="Country">Guinea</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-8.648371163999968,8.689988011000025</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#guinea">
+		<SimpleData name="OBJECTID">5</SimpleData>
+		<SimpleData name="ECF_Code">GIN_0007</SimpleData>
+		<SimpleData name="ECF_Name">Nzerekore</SimpleData>
+		<SimpleData name="Status">Open</SimpleData>
+		<SimpleData name="Type">ETU</SimpleData>
+		<SimpleData name="AdminCode">GIN00400203</SimpleData>
+		<SimpleData name="Beds_Open">0</SimpleData>
+		<SimpleData name="Beds_Plan">70</SimpleData>
+		<SimpleData name="Open_Date">2014/12/01</SimpleData>
+		<SimpleData name="Partner">ALIMA</SimpleData>
+		<SimpleData name="Latitude">7.7560000000000002273736754432321</SimpleData>
+		<SimpleData name="Longitude">-8.8200000000000002842170943040401</SimpleData>
+		<SimpleData name="Accuracy">Needs location verified</SimpleData>
+		<SimpleData name="Updated">2014/12/15</SimpleData>
+		<SimpleData name="LabPresent">No</SimpleData>
+		<SimpleData name="Country">Guinea</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-8.819621349999977,7.755827287000045</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#guinea">
+		<SimpleData name="OBJECTID">6</SimpleData>
+		<SimpleData name="ECF_Code">GIN_0054</SimpleData>
+		<SimpleData name="ECF_Name">Kerouane</SimpleData>
+		<SimpleData name="Status">Under Construction</SimpleData>
+		<SimpleData name="Type">ETU</SimpleData>
+		<SimpleData name="AdminCode">GIN00400203</SimpleData>
+		<SimpleData name="Beds_Open">0</SimpleData>
+		<SimpleData name="Beds_Plan">50</SimpleData>
+		<SimpleData name="Open_Date">2014/12/17</SimpleData>
+		<SimpleData name="Partner">French Red Cross</SimpleData>
+		<SimpleData name="Latitude">9.2741000000000006764366844436154</SimpleData>
+		<SimpleData name="Longitude">-9.0032599999999991524646247853525</SimpleData>
+		<SimpleData name="Accuracy">Approximate</SimpleData>
+		<SimpleData name="Updated">2014/12/15</SimpleData>
+		<SimpleData name="LabPresent">No</SimpleData>
+		<SimpleData name="Country">Guinea</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-9.00967686,9.27113866</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#guinea">
+		<SimpleData name="OBJECTID">7</SimpleData>
+		<SimpleData name="ECF_Code">GIN_0058</SimpleData>
+		<SimpleData name="ECF_Name">Wonkifong</SimpleData>
+		<SimpleData name="Status">Under Construction</SimpleData>
+		<SimpleData name="Type">ETU</SimpleData>
+		<SimpleData name="AdminCode">GIN005001</SimpleData>
+		<SimpleData name="Beds_Open">0</SimpleData>
+		<SimpleData name="Beds_Plan">70</SimpleData>
+		<SimpleData name="Open_Date">2014/12/22</SimpleData>
+		<SimpleData name="Latitude">9.7301120000000000942463884712197</SimpleData>
+		<SimpleData name="Longitude">-13.4208099999999994622612575767562</SimpleData>
+		<SimpleData name="Accuracy">WHO supplied</SimpleData>
+		<SimpleData name="Updated">2014/12/15</SimpleData>
+		<SimpleData name="LabPresent">No</SimpleData>
+		<SimpleData name="Country">Guinea</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-13.420806149999919,9.730112226000188</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#guinea">
+		<SimpleData name="OBJECTID">8</SimpleData>
+		<SimpleData name="ECF_Code">GIN_0059</SimpleData>
+		<SimpleData name="ECF_Name">Kankan</SimpleData>
+		<SimpleData name="Status">Under Construction</SimpleData>
+		<SimpleData name="Type">ETU</SimpleData>
+		<SimpleData name="AdminCode">GN001004</SimpleData>
+		<SimpleData name="Beds_Open">0</SimpleData>
+		<SimpleData name="Beds_Plan">0</SimpleData>
+		<SimpleData name="Partner">MSF</SimpleData>
+		<SimpleData name="Latitude">10.3829999999999991189270076574758</SimpleData>
+		<SimpleData name="Longitude">-9.3049999999999997157829056959599</SimpleData>
+		<SimpleData name="Accuracy">Needs location supplied</SimpleData>
+		<SimpleData name="Updated">2014/12/15</SimpleData>
+		<SimpleData name="LabPresent">No</SimpleData>
+		<SimpleData name="Country">Guinea</SimpleData>
+		<SimpleData name="Comment">No name, location or bed numbers provided</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-9.305,10.383</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>
