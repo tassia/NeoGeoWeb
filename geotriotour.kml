@@ -3323,6 +3323,20 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
     </MultiGeometry>
 </Placemark>
 
+<Placemark id="chartapi">
+    <name>West African Ebola Epidemic</name>
+    <open>1</open>
+    <visibility>0</visibility>
+    <Snippet>Death and Cases in West Africa 2015</Snippet>
+    <description><![CDATA[<img src="http://chart.apis.google.com/chart?cht=bvs&
+chs=200x150&chd=t:28.71,18.76,84.78,36.05,103.40,41.45&
+chxt=x,x&chxl=0:|Guinea||Liberia||Sierra Leone||1:|||Cases||Deaths&
+chtt=Deaths%20and|Cases%20in%20West%20Africa"/>]]></description>
+    <Point>
+      <coordinates>-8.374023,5.512997,0</coordinates>
+    </Point>
+  </Placemark>
+  
 </Folder>
 <gx:Tour>
     <name>Play me!</name>
@@ -4225,6 +4239,24 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
             </Change>
           </Update>
         </gx:AnimatedUpdate>
+        
+        <gx:Wait>
+          <gx:duration>2.0</gx:duration>
+        </gx:Wait>
+        
+        <gx:AnimatedUpdate>
+          <gx:duration>2.0</gx:duration>
+          <Update>
+            <targetHref/>
+            <Change>
+              <Placemark targetId="#chartapi">
+			  	<visibility>1</visibility>
+                <gx:balloonVisibility>1</gx:balloonVisibility>
+              </Placemark>
+            </Change>
+          </Update>
+        </gx:AnimatedUpdate>
+        
 
 //trying to get the camera to fly to see the extrusion better, but I've been very unsuccessful//
 	<gx:FlyTo>
