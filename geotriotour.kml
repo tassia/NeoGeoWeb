@@ -48,10 +48,10 @@
         <text>
             <![CDATA[
                 <br/>
-				<table width="300" border="0" cellpadding="10" cellspacing="0">
+				<table width="100" border="0" cellpadding="10" cellspacing="0">
 					<tr>
 						<th align="left" ><font size="4">$[name]</font></th>
-						<th>dsfdsfdsfsdfdsfsdfsdfsdf</th>
+						<th>dsfdsfd</th>
 						<th rowspan="2"><img src=$[flag] alt="picture" width="50"</th>
 					</tr>
 					<tr>
@@ -135,6 +135,7 @@
 Democratic Republic of Congo, Zaire strain, 318 cases, 280 deaths, 88% fatality
 Sudan, Sudan strain, 284 cases, 151 deaths, 53% fatality//
 <Placemark id="xcongo1976">
+	<visibility>0</visibility>
 	<styleUrl>#annastyle</styleUrl>
 	<name>Democratic Republic of the Congo</name>
 	<description>Occurred in Yambuku and surrounding areas in August. Spread by personal contact and use of contaminated needles and syringes in hospitals.</description>
@@ -160,7 +161,7 @@ Sudan, Sudan strain, 284 cases, 151 deaths, 53% fatality//
     </ExtendedData>
 	<Point>
 		<coordinates>
-			19.665527,4.893941
+			12.458496,-5.987607
 		</coordinates>
 	</Point>
 </Placemark>
