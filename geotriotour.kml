@@ -1405,30 +1405,30 @@ Uganda, Zaire strain, 425 cases, 224 deaths, 53% fatality rate
         </PolyStyle>
     </Style>
     <Polygon>
-		<extrude>1</extrude>
+		<extrude>0</extrude>
 		<tessellate>1</tessellate>
 		<altitudeMode>relativeToGround</altitudeMode>
 		<outerBoundaryIs>
 			<LinearRing>
 				<coordinates>
-					33.996666,4.222777000000136,53000
-					34.463333,3.671389,53000
-					35.009720000000101,1.895278,53000
-					33.907219,0.103056,53000
-					33.920273,-1.001111,53000
-					31.677219,-0.999722,53000
-					30.48222,-1.063334,53000
-					29.974998,-1.464445,53000
-					29.596943,-1.385834,53000
-					29.960552,0.825555,53000
-					31.302776,2.121388,53000
-					30.729721000000126,2.448055,53000
-					30.858818,3.493394000000137,53000
-					31.176666,3.795278,53000
-					32.193329,3.511389000000108,53000
-					33.016663,3.888611000000111,53000
-					33.516937,3.752222,53000
-					33.996666,4.222777000000136,53000
+					33.996666,4.222777000000136
+					34.463333,3.671389
+					35.009720000000101,1.895278
+					33.907219,0.103056
+					33.920273,-1.001111
+					31.677219,-0.999722
+					30.48222,-1.063334
+					29.974998,-1.464445
+					29.596943,-1.385834
+					29.960552,0.825555
+					31.302776,2.121388
+					30.729721000000126,2.448055
+					30.858818,3.493394000000137
+					31.176666,3.795278
+					32.193329,3.511389000000108
+					33.016663,3.888611000000111
+					33.516937,3.752222
+					33.996666,4.222777000000136
 				</coordinates>
 			</LinearRing>
 		</outerBoundaryIs>
@@ -3319,8 +3319,7 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
             <targetHref/>
             <Change>
               <Placemark targetId="#southafrica1996">
-                <visibility>0</visibility>
-				<visibility>0</visibility>
+                <visibility>1</visibility>
                 <gx:balloonVisibility>0</gx:balloonVisibility>
               </Placemark>
             </Change>
@@ -3355,7 +3354,7 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
             <targetHref/>
             <Change>
               <Placemark targetId="#gabon1996">
-                <visibility>0</visibility>
+                <visibility>1</visibility>
 				<gx:balloonVisibility>0</gx:balloonVisibility>
               </Placemark>
             </Change>
@@ -3389,7 +3388,7 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
             <targetHref/>
             <Change>
               <Placemark targetId="#uganda2000">
-                <visibility>0</visibility>
+                <visibility>1</visibility>
 				<gx:balloonVisibility>0</gx:balloonVisibility>
               </Placemark>
             </Change>
@@ -3423,7 +3422,7 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
             <targetHref/>
             <Change>
               <Placemark targetId="#gabon2001">
-                <visibility>0</visibility>
+                <visibility>1</visibility>
 				<gx:balloonVisibility>0</gx:balloonVisibility>
               </Placemark>
             </Change>
@@ -3457,7 +3456,7 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
             <targetHref/>
             <Change>
               <Placemark targetId="#congo2001">
-                <visibility>0</visibility>
+                <visibility>1</visibility>
 				<gx:balloonVisibility>0</gx:balloonVisibility>
               </Placemark>
             </Change>
