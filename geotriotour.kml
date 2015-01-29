@@ -109,13 +109,13 @@
         <!-- insert the to/from hyperlinks -->
         ]]>
       </text>
-      <Polystyle>
+    </BalloonStyle>
+    <LineStyle>
+       <color>ff0000ff</color>
+    </LineStyle>
+    <Polystyle>
             <fill>1</fill>
         </Polystyle>
-    <LineStyle>
-        <color>ff0000ff</color>
-    </LineStyle>
-    </BalloonStyle>
   </Style>
 
 <Folder>
@@ -1141,6 +1141,7 @@ Democratic Republic of Congo, Zaire strain, 315 cases, 254 deaths, 81% fatality 
 Gabon, Zaire Strain strain, 91 cases, 66 deaths, 72% fatality
 South Africa, Zaire strain, 1 case, 1 death, 100% fatality
 //
+
 
 <Placemark id="southafrica1996">
 	<name>South Africa 1997</name>
