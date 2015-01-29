@@ -1572,12 +1572,10 @@ Sudan, 17 cases, 7 death, 41% fatality rate
     </MultiGeometry>
 </Placemark>
 
-<!--
-Tassia: 2005-2012
+// Tassia: 2005-2012
 
 2005:
-Republic of the Congo, Zaire strain, 12 cases, 10 deaths, 83% fatality 
--->
+Republic of the Congo, Zaire strain, 12 cases, 10 deaths, 83% fatality //
 
 <Placemark id="congo2005">
 	<name>2005: Republic of the Congo</name>
@@ -1654,11 +1652,11 @@ Republic of the Congo, Zaire strain, 12 cases, 10 deaths, 83% fatality
 	</Polygon>
 </Placemark>
 
-<!--
+//
 2007:
 Democratic Republic of the Congo, Zaire strain, 264 cases, 187 deaths, 71% fatality
-Uganda, Bundibugyo strain, 149 cases, 37 deaths, 25% fatality
--->
+Uganda, Bundibugyo strain, 149 cases, 37 deaths, 25% fatality//
+
 <Placemark id="demcongo2007">
 	<name>2007: Democratic Republic of the Congo</name>
 	<visibility>0</visibility>
@@ -1785,7 +1783,7 @@ Uganda, Bundibugyo strain, 149 cases, 37 deaths, 25% fatality
     </MultiGeometry>
 </Placemark>
 
-<Placemark>
+<Placemark id="uganda2007">
 	<name>2007: Uganda</name>
 	<visibility>0</visibility>
 	<styleUrl>#tassiastyle</styleUrl>
@@ -1842,10 +1840,8 @@ Uganda, Bundibugyo strain, 149 cases, 37 deaths, 25% fatality
 	</Polygon>
 </Placemark>
 
-<!--
-2008:
-Democratic Republic of Congo, Zaire strain, 32 cases, 14 deaths, 44% fatality
--->
+// 2008:
+Democratic Republic of Congo, Zaire strain, 32 cases, 14 deaths, 44% fatality//
 <Placemark id="demcongo2008">
 	<name>2008: Democratic Republic of the Congo</name>
 	<visibility>0</visibility>
@@ -1972,10 +1968,9 @@ Democratic Republic of Congo, Zaire strain, 32 cases, 14 deaths, 44% fatality
     </MultiGeometry>
 </Placemark>
 
-<!--
-2011:
-Uganda, Sudan strain, 1 cases, 1 deaths, 100% fatality
--->
+// 2011:
+Uganda, Sudan strain, 1 cases, 1 deaths, 100% fatality//
+
 <Placemark id="ugand2011">
 	<name>2011: Uganda</name>
 	<visibility>0</visibility>
@@ -2033,11 +2028,10 @@ Uganda, Sudan strain, 1 cases, 1 deaths, 100% fatality
 	</Polygon>
 </Placemark>
 
-<!--
-2012:
+//2012:
 Uganda, Sudan strain, 31 cases, 21 deaths, 68% fatality
-Democratic Republic of Congo, Bundibugyo strain, 57 cases, 29 deaths, 51% fatality
--->
+Democratic Republic of Congo, Bundibugyo strain, 57 cases, 29 deaths, 51% fatality//
+
 <Placemark id="uganda2012">
 	<name>2012: Uganda</name>
 	<visibility>0</visibility>
@@ -2222,8 +2216,8 @@ Democratic Republic of Congo, Bundibugyo strain, 57 cases, 29 deaths, 51% fatali
     </MultiGeometry>
 </Placemark>
 
-<!--
-2014 Ebola Outbreak
+//2014 Ebola Outbreak
+
 Data up to 18 January 2015
 
 Guinea: 2871 cases, 1876 deaths
@@ -2235,8 +2229,7 @@ United States of America: 4 cases, 1 deaths
 Spain: 1 cases, 0 deaths
 Inited Kingdom: 1 cases, 0 deaths
 Mali: 8 cases, 6 deaths
-Democratic Republic of Congo: 66 cases, 49 deaths (data from Dec. 15, couldn't find updated)
--->
+Democratic Republic of Congo: 66 cases, 49 deaths //
 
 <Placemark id="guinea2014">
 	<name>Guinea</name>
@@ -3294,7 +3287,7 @@ Democratic Republic of Congo: 66 cases, 49 deaths (data from Dec. 15, couldn't f
           <gx:duration>2.0</gx:duration>
         </gx:Wait>
 
-		        <gx:AnimatedUpdate>
+		<gx:AnimatedUpdate>
           <gx:duration>2.0</gx:duration>
           <Update>
             <targetHref/>
