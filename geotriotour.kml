@@ -4503,6 +4503,7 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
           </Update>
         </gx:AnimatedUpdate>
 
+//flying to east Africa
 		<gx:FlyTo>
           <gx:duration>3</gx:duration>
           <gx:flyToMode>smooth</gx:flyToMode>
@@ -4634,15 +4635,17 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
 			  <Placemark targetId="liberia2014">
 			  	<visibility>1</visibility>
               </Placemark>
-			  <Placemark targetId="nigeria2014">
+              <Placemark targetId="nigeria2014">
 			  	<visibility>1</visibility>
               </Placemark>
-			  <Placemark targetId="senegal2014">
+<!--Making the small extrusions invisible			  
+              <Placemark targetId="senegal2014">
 			  	<visibility>1</visibility>
               </Placemark>
 			  <Placemark targetId="mali2014">
 			  	<visibility>1</visibility>
               </Placemark>
+-->
             </Change>
           </Update>
         </gx:AnimatedUpdate>
@@ -4663,6 +4666,7 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
             </Change>
           </Update>
         </gx:AnimatedUpdate>
+        
         <gx:Wait>
           <gx:duration>4.0</gx:duration>
         </gx:Wait>
@@ -4679,26 +4683,47 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
             </Change>
           </Update>
         </gx:AnimatedUpdate>
+
+//fly closer to east africa to show clinics//
+        <gx:FlyTo>
+          <gx:duration>2.0</gx:duration>
+          <gx:flyToMode>smooth</gx:flyToMode>
+          <LookAt>
+		    <longitude>-10.41932</longitude>
+            <latitude>9.05744</latitude>
+			<altitude>1010860</altitude>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<range>1500</range>
+            <heading>0</heading>
+            <tilt>0</tilt>
+          </LookAt>  
+        </gx:FlyTo>
         
-//trying to get the camera to fly to see the extrusion better, but I've been very unsuccessful//
-	<!--<gx:FlyTo>
-		<gx:duration>3</gx:duration>
-		<gx:flyToMode>smooth</gx:flyToMode>
-		<LookAt>
-			<Camera>
-				<longitude>-2.457722</longitude>
-				<latitude>15.11139</latitude>
-				<altitude>3413420</altitude>
-				<heading>260</heading>
-				<tilt>31.88039338732444</tilt>
-				<roll>-1.746488482755837</roll>
-				<gx:altitudeMode>relativeToGround</gx:altitudeMode>
-			</Camera>
-		</LookAt>
-	</gx:FlyTo>
-	-->
+        <gx:AnimatedUpdate>
+          <gx:duration>2.0</gx:duration>
+          <Update>
+            <targetHref/>
+            <Change>
+              <Placemark targetId="sierraleone2014">
+			  	<visibility>0</visibility>
+              </Placemark>
+              <Placemark targetId="guinea2014">
+			  	<visibility>0</visibility>
+              </Placemark>
+              <Placemark targetId="liberia2014">
+			  	<visibility>0</visibility>
+              </Placemark>
+            </Change>
+          </Update>
+        </gx:AnimatedUpdate>
+
+//show clinics//
+        <gx:Wait>
+            <gx:duration>5.0</gx:duration>
+        </gx:Wait>
+
 	    <gx:AnimatedUpdate>
-          <gx:duration>0</gx:duration>
+          <gx:duration>2.0</gx:duration>
           <Update>
             <targetHref/>
             <Change>
@@ -4706,63 +4731,18 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
 			  	<visibility>1</visibility>
                 <gx:balloonVisibility>1</gx:balloonVisibility>
               </Placemark>
-            </Change>
-          </Update>
-        </gx:AnimatedUpdate>
-        <gx:Wait>
-          <gx:duration>3.0</gx:duration>
-        </gx:Wait>
-		
-	      <gx:AnimatedUpdate>
-          <gx:duration>0</gx:duration>
-          <Update>
-            <targetHref/>
-            <Change>
               <Placemark targetId="#guinea_etc">
 			  	<visibility>1</visibility>
               </Placemark>
-            </Change>
-          </Update>
-        </gx:AnimatedUpdate>
-        <gx:Wait>
-          <gx:duration>3.0</gx:duration>
-        </gx:Wait>
-		
-<!--I think that we should leave out the DRC 2014 outbreak because it's hard to show on the map
-        <gx:Wait>
-          <gx:duration>2.0</gx:duration>
-        </gx:Wait>
-
-		<gx:AnimatedUpdate>
-          <gx:duration>2.0</gx:duration>
-          <Update>
-            <targetHref/>
-            <Change>
-              <Placemark targetId="demcongo2014">
+              <Placemark targetId="#sierraleone_etc">
 			  	<visibility>1</visibility>
-                <gx:balloonVisibility>1</gx:balloonVisibility>
               </Placemark>
             </Change>
           </Update>
         </gx:AnimatedUpdate>
-
-        <gx:Wait>
-          <gx:duration>2.0</gx:duration>
-        </gx:Wait>
-
-        <gx:AnimatedUpdate>
-          <gx:duration>2.0</gx:duration>
-          <Update>
-            <targetHref/>
-            <Change>
-              <Placemark targetId="demcongo2014">
-				<visibility>0</visibility>
-                <gx:balloonVisibility>0</gx:balloonVisibility>
-              </Placemark>
-            </Change>
-          </Update>
-        </gx:AnimatedUpdate>	
--->	
+    
+		
+<!--
         <gx:Wait>
           <gx:duration>5.0</gx:duration>
         </gx:Wait>	
@@ -4780,23 +4760,7 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
             <altitudeMode>relativeToGround</altitudeMode>
           </LookAt>
         </gx:FlyTo>
-<!--
-        <gx:AnimatedUpdate>
-          <gx:duration>2.0</gx:duration>
-          <Update>
-            <targetHref/>
-            <Change>
-              <Placemark targetId="congo2005">
-                <gx:balloonVisibility>1</gx:balloonVisibility>
-              </Placemark>
-            </Change>
-          </Update>
-        </gx:AnimatedUpdate>
-
-        <gx:Wait>
-          <gx:duration>2.0</gx:duration>
-        </gx:Wait>
--->
+-->	
       </gx:Playlist>
     </gx:Tour>
 
