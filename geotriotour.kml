@@ -3323,8 +3323,8 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
     </MultiGeometry>
 </Placemark>
 
-<Folder><name>Guinea Health Centres</name>
-	<Placemark>
+<Folder><name>Guinea Ebola Treatment Centres</name>
+	<Placemark id="guinea_etc">
 		<name/>
 		<visibility>0</visibility>
 		<MultiGeometry>
@@ -3377,8 +3377,8 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
 	</Placemark>
 </Folder>
 
-<Folder><name>Liberia Health Centres</name>
-	<Placemark>
+<Folder><name>Liberia Ebola Treatment Centres</name>
+	<Placemark id="liberia_etc">
 		<name/>
 		<visibility>0</visibility>
 		<MultiGeometry>
@@ -3638,58 +3638,31 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
           </LookAt>
         </gx:FlyTo>
 		
-
-	//open 1976 Congo//
+		//open 1976 Sudan//
 		<gx:Wait>
-			<gx:duration>0.5</gx:duration>
+			<gx:duration>1.0</gx:duration>
 		</gx:Wait>
 		
 		<gx:AnimatedUpdate>
-          <gx:duration>2.0</gx:duration>
-          <Update>
-            <targetHref/>
-            <Change>
-              <Placemark targetId="#congo1976">
-			  	<visibility>1</visibility>
-              </Placemark>
-			  <Placemark targetId="#xcongo1976">
-				<visibility>1</visibility>
-				<gx:balloonVisibility>1</gx:balloonVisibility>
-			  </Placemark>
-            </Change>
-          </Update>
-        </gx:AnimatedUpdate>	
-
-		<gx:Wait>
-			<gx:duration>2.0</gx:duration>
-		</gx:Wait>
-		
-		<gx:AnimatedUpdate>
-          <gx:duration>2.0</gx:duration>
-          <Update>
-            <targetHref/>
-            <Change>
-			  <Placemark targetId="#xcongo1976">
-				<visibility>0</visibility>
-				<gx:balloonVisibility>0</gx:balloonVisibility>
-			  </Placemark>
-            </Change>
-          </Update>
-        </gx:AnimatedUpdate>
-		
-	//open 1976 Sudan//
-		<gx:Wait>
-			<gx:duration>2.0</gx:duration>
-		</gx:Wait>
-		
-		<gx:AnimatedUpdate>
-          <gx:duration>2.0</gx:duration>
+          <gx:duration>0</gx:duration>
           <Update>
             <targetHref/>
             <Change>
               <Placemark targetId="#southsudan1976">
 			  	<visibility>1</visibility>
 			  </Placemark>
+            </Change>
+          </Update>
+        </gx:AnimatedUpdate>	
+		<gx:Wait>
+			<gx:duration>1.0</gx:duration>
+		</gx:Wait>
+					  
+		<gx:AnimatedUpdate>
+          <gx:duration>0</gx:duration>
+          <Update>
+            <targetHref/>
+            <Change>			  
 			  <Placemark targetId="#xsouthsudan1976">
 				<visibility>1</visibility>
                 <gx:balloonVisibility>1</gx:balloonVisibility>
@@ -3697,17 +3670,65 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
             </Change>
           </Update>
         </gx:AnimatedUpdate>	
-
 		<gx:Wait>
 			<gx:duration>2.0</gx:duration>
 		</gx:Wait>
 		
 		<gx:AnimatedUpdate>
-          <gx:duration>2.0</gx:duration>
+          <gx:duration>0</gx:duration>
           <Update>
             <targetHref/>
             <Change>
-              <Placemark targetId="#xsouthsudan1976">
+			  <Placemark targetId="#xsouthsudan1976">
+				<visibility>0</visibility>
+				<gx:balloonVisibility>0</gx:balloonVisibility>
+			  </Placemark>
+            </Change>
+          </Update>
+        </gx:AnimatedUpdate>
+		
+	//open 1976 Congo//
+		<gx:Wait>
+			<gx:duration>1.0</gx:duration>
+		</gx:Wait>
+		
+		<gx:AnimatedUpdate>
+          <gx:duration>0</gx:duration>
+          <Update>
+            <targetHref/>
+            <Change>
+              <Placemark targetId="#congo1976">
+			  	<visibility>1</visibility>
+              </Placemark>
+			</Change>
+          </Update>
+        </gx:AnimatedUpdate>	
+		<gx:Wait>
+			<gx:duration>1.0</gx:duration>
+		</gx:Wait>
+		
+	  <gx:AnimatedUpdate>
+          <gx:duration>0</gx:duration>
+          <Update>
+            <targetHref/>
+            <Change>
+			  <Placemark targetId="#xcongo1976">
+				<visibility>1</visibility>
+				<gx:balloonVisibility>1</gx:balloonVisibility>
+			  </Placemark>
+            </Change>
+          </Update>
+        </gx:AnimatedUpdate>	
+		<gx:Wait>
+			<gx:duration>2.0</gx:duration>
+		</gx:Wait>
+				
+		<gx:AnimatedUpdate>
+          <gx:duration>0</gx:duration>
+          <Update>
+            <targetHref/>
+            <Change>
+              <Placemark targetId="#xcongo1976">
 			  	<visibility>0</visibility>
                 <gx:balloonVisibility>0</gx:balloonVisibility>
               </Placemark>
@@ -3755,31 +3776,42 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
 		
 	//open 1979 sudan//
 		<gx:Wait>
-			<gx:duration>2.0</gx:duration>
+			<gx:duration>1.0</gx:duration>
 		</gx:Wait>
 		
 		<gx:AnimatedUpdate>
-          <gx:duration>2.0</gx:duration>
+          <gx:duration>0</gx:duration>
           <Update>
             <targetHref/>
             <Change>
               <Placemark targetId="#southsudan1979">
 			    <visibility>1</visibility>
 			  </Placemark>
+			</Change>
+          </Update>
+        </gx:AnimatedUpdate>	
+		<gx:Wait>
+			<gx:duration>1.0</gx:duration>
+		</gx:Wait>
+		
+	  <gx:AnimatedUpdate>
+          <gx:duration>0</gx:duration>
+          <Update>
+            <targetHref/>
+            <Change>
 			  <Placemark targetId="#xsouthsudan1979">
 				<visibility>1</visibility>
                 <gx:balloonVisibility>1</gx:balloonVisibility>
               </Placemark>
             </Change>
           </Update>
-        </gx:AnimatedUpdate>	
-
+        </gx:AnimatedUpdate>
 		<gx:Wait>
 			<gx:duration>2.0</gx:duration>
 		</gx:Wait>
 		
 		<gx:AnimatedUpdate>
-          <gx:duration>2.0</gx:duration>
+          <gx:duration>0</gx:duration>
           <Update>
             <targetHref/>
             <Change>
@@ -3792,11 +3824,11 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
         </gx:AnimatedUpdate>	
 	
 	//open 1994 gabon//
-		<gx:Wait>
+		<!--<gx:Wait>
 			<gx:duration>2.0</gx:duration>
 		</gx:Wait>
 		
-		<!--<gx:AnimatedUpdate>
+		<gx:AnimatedUpdate>
           <gx:duration>2.0</gx:duration>
           <Update>
             <targetHref/>
@@ -3869,17 +3901,29 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
 	
 	//open 1995 congo//
 		<gx:Wait>
-			<gx:duration>2.0</gx:duration>
+			<gx:duration>1.0</gx:duration>
 		</gx:Wait>
 		
 		<gx:AnimatedUpdate>
-          <gx:duration>2.0</gx:duration>
+          <gx:duration>0</gx:duration>
           <Update>
             <targetHref/>
             <Change>
               <Placemark targetId="#congo1995">
                 <visibility>1</visibility>
 			  </Placemark>
+			</Change>
+          </Update>
+        </gx:AnimatedUpdate>	
+		<gx:Wait>
+			<gx:duration>1.0</gx:duration>
+		</gx:Wait>
+		
+	  <gx:AnimatedUpdate>
+          <gx:duration>0</gx:duration>
+          <Update>
+            <targetHref/>
+            <Change>
 			  <Placemark targetId="#xcongo1995">
 				<visibility>1</visibility>
 				<gx:balloonVisibility>1</gx:balloonVisibility>
@@ -3887,13 +3931,12 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
             </Change>
           </Update>
         </gx:AnimatedUpdate>	
-
 		<gx:Wait>
 			<gx:duration>2.0</gx:duration>
 		</gx:Wait>
 		
 		<gx:AnimatedUpdate>
-          <gx:duration>2.0</gx:duration>
+          <gx:duration>0</gx:duration>
           <Update>
             <targetHref/>
             <Change>
@@ -3906,7 +3949,7 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
         </gx:AnimatedUpdate>		
 
         <gx:Wait>
-            <gx:duration> 2.0 </gx:duration>
+            <gx:duration> 1.0 </gx:duration>
         </gx:Wait>
         
         //open south africa 1996
@@ -3946,7 +3989,7 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
         
         // open gabon 1996
         <gx:AnimatedUpdate>
-          <gx:duration>2.0</gx:duration>
+          <gx:duration>0</gx:duration>
           <Update>
             <targetHref/>
             <Change>
@@ -4477,7 +4520,9 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
             </Change>
           </Update>
         </gx:AnimatedUpdate>
-        
+        <gx:Wait>
+          <gx:duration>2.0</gx:duration>
+        </gx:Wait>
 
 //trying to get the camera to fly to see the extrusion better, but I've been very unsuccessful//
 	<gx:FlyTo>
@@ -4495,7 +4540,42 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
 			</Camera>
 		</LookAt>
 	</gx:FlyTo>
-		
+	
+			   
+
+	    <gx:AnimatedUpdate>
+          <gx:duration>2.0</gx:duration>
+          <Update>
+            <targetHref/>
+            <Change>
+              <Placemark targetId="#liberia_etc">
+			  	<visibility>1</visibility>
+                <gx:balloonVisibility>1</gx:balloonVisibility>
+              </Placemark>
+            </Change>
+          </Update>
+        </gx:AnimatedUpdate>
+			
+		   
+        <gx:Wait>
+          <gx:duration>2.0</gx:duration>
+        </gx:Wait>
+	      <gx:AnimatedUpdate>
+          <gx:duration>2.0</gx:duration>
+          <Update>
+            <targetHref/>
+            <Change>
+              <Placemark targetId="#guinea_etc">
+			  	<visibility>1</visibility>
+                <gx:balloonVisibility>1</gx:balloonVisibility>
+              </Placemark>
+            </Change>
+          </Update>
+        </gx:AnimatedUpdate>
+		   
+        <gx:Wait>
+          <gx:duration>2.0</gx:duration>
+        </gx:Wait>
 <!--I think that we should leave out the DRC 2014 outbreak because it's hard to show on the map
         <gx:Wait>
           <gx:duration>2.0</gx:duration>
