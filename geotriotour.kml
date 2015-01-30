@@ -133,22 +133,20 @@
     </BalloonStyle>
 </Style>
 
-//style for intro//
-
-// A crazy cool style// 
+// Introducing Tour// 
 <Style id="intro">
     <BalloonStyle>
       <bgColor>#660066</bgColor>
       <text>
         <![CDATA[<table width="250" border="0" cellpadding="5" cellspacing="0" bgcolor="#FFFFFF">
 				<tr>
-					<h3><font color="#660033">McGill University</font></h3></td>
+					<h3><font color="#660033">$[name]</font></h3></td>
 				</tr>
 				<tr>
-					<td></td><td align="center" ><b>Get ready for a tough trip! This tour will take you over locations of Ebola outbreaks since 1976.</b></td>
+					<td></td><td align="center" ><b>$[description]</b></td>
 				</tr>				
 				<tr>
-					<td colspan="2"><p>**Isolated cases (less than 10 in a particular year/location) were omitted for the sake of clearness.</p></td>
+					<td colspan="2"><p>$[info]</p></td>
 				</tr>
 				<tr>
 					<table border="0.5" cellpadding="5">
@@ -1302,7 +1300,7 @@ South Africa, Zaire strain, 1 case, 1 death, 100% fatality//
 	<name>Gabon 1996</name>
     	<styleUrl>#rachelstyle</styleUrl>
 	<visibility>0</visibility>
-	<description>Occurred in Booué area with transport of patients to Libreville. Index case-patient was a hunter who lived in a forest camp. Disease was spread by close contact with infected persons. </description>
+	<description>Index case-patient was a hunter who lived in a forest camp. Disease was spread by close contact with infected persons. </description>
 	<ExtendedData>
 	    <Data name="flag">
 	        	<value>http://upload.wikimedia.org/wikipedia/commons/0/04/Flag_of_Gabon.svg</value>
@@ -1398,7 +1396,7 @@ Uganda, Zaire strain, 425 cases, 224 deaths, 53% fatality rate//
     <name>Uganda 2000</name>
     <styleUrl>#rachelstyle</styleUrl>
     <visibility>0</visibility>
-    <description> The three greatest risks associated with Sudan virus infection were attending funerals of case-patients, having contact with case-patients in one's family, and providing medical care to case-patients without using adequate personal protective measures.</description>
+    <description> The greatest risks associated with Sudan virus infection were attending funerals of case-patients, having contact with case-patients in one's family.</description>
     <styleUrl>#rachelstyle</styleUrl>
     <ExtendedData>
         <Data name="flag">
@@ -1546,7 +1544,7 @@ Congo, 59 cases, 44 deaths, 75% fatality rate//
     <name> Republic of the Congo 2001</name>
     <styleUrl>#rachelstyle</styleUrl>
     <visibility>0</visibility>
-    <description> Occurred over the border of Gabon and the Republic of the Congo between October 2001 and July 2002. First reported occurrence of Ebola virus disease in the Republic of the Congo. </description>
+    <description> Occurred over the border of Gabon and the Republic of the Congo between October 2001 and July 2002. </description>
     <ExtendedData>
         <Data name="flag">
     		<value>http://upload.wikimedia.org/wikipedia/commons/9/92/Flag_of_the_Republic_of_the_Congo.svg</value>
@@ -3706,9 +3704,28 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
 // Introductory placemark //
 
 <Placemark id="mcgill">
-	<name>McGill University</name>
 	<styleUrl>#intro</styleUrl>
-	<description></description>
+	<name>McGill University</name>
+    <description>Get ready for a tough trip! This tour will take you over locations of Ebola outbreaks since 1976.</description>
+    <ExtendedData>
+    <Data name="info">
+        <value>**Countries with less than ten documented cases were found to be isolated incidences and were therefore omitted from the tour for the sake of clarity.</value>
+    </Data>
+    </ExtendedData>
+	<Point>
+      <coordinates>-73.575220,45.504086,0</coordinates>
+    </Point>
+</Placemark>
+
+<Placemark id="finalcredits">
+	<styleUrl>#intro</styleUrl>
+	<name></name>
+    <description>Thanks for watching our tour!</description>
+    <ExtendedData>
+    <Data name="info">
+        <value>Tour developed by Tassia, Anna, and Rachel</value>
+    </Data>
+    </ExtendedData>
 	<Point>
       <coordinates>-73.575220,45.504086,0</coordinates>
     </Point>
@@ -4837,7 +4854,7 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
           <gx:duration>1.0</gx:duration>
         </gx:Wait>
 
-        <gx:AnimatedUpdate>
+        <!--<gx:AnimatedUpdate>
           <gx:duration>0</gx:duration>
           <Update>
             <targetHref/>
@@ -4848,7 +4865,7 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
               </Placemark>
             </Change>
           </Update>
-        </gx:AnimatedUpdate>
+        </gx:AnimatedUpdate>-->
         <gx:Wait>
           <gx:duration>1.0</gx:duration>
         </gx:Wait>
@@ -4901,9 +4918,9 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
 			  <Placemark targetId="liberia2014">
 			  	<visibility>1</visibility>
               </Placemark>
-              <Placemark targetId="nigeria2014">
+              <!--<Placemark targetId="nigeria2014">
 			  	<visibility>1</visibility>
-              </Placemark>
+              </Placemark>-->
 <!--Making the small extrusions invisible			  
               <Placemark targetId="senegal2014">
 			  	<visibility>1</visibility>
@@ -5038,7 +5055,24 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
         <gx:Wait>
             <gx:duration>5.0</gx:duration>
         </gx:Wait>
-    
+        
+    <gx:AnimatedUpdate>
+          <gx:duration>0</gx:duration>
+          <Update>
+            <targetHref/>
+            <Change>
+              <Placemark targetId="finalcredits">
+                <visibility>1</visibility>
+                <gx:balloonVisibility>1</gx:balloonVisibility>
+              </Placemark>
+            </Change>
+          </Update>
+        </gx:AnimatedUpdate>
+        <gx:Wait>
+            <gx:duration>5.0</gx:duration>
+        </gx:Wait>
+        
+    //Show Bibliography//
     <gx:AnimatedUpdate>
           <gx:duration>0</gx:duration>
           <Update>
