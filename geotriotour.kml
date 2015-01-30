@@ -94,7 +94,7 @@
       <!-- styling of the balloon text -->
       <text>
         <![CDATA[
-        <b><font color="#CC0000" size="+3">$[name]</font></b>
+        <b><font color="#CC0000" size="+2">$[name]</font></b>
         <br/><br/>
         <td>
         <img src=$[flag] alt="picture" width="60" align="left" />
