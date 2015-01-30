@@ -119,9 +119,9 @@
 	<LineStyle>
 		<color>ff0000ff</color>
 	</LineStyle>
-	<PolyStyle>
-		<fill>1<fill>
-	</PolySyle>
+	<Polystyle>
+	        <fill>1</fill>
+	</Polystyle>
 </Style>
 
 // A general clean style 
@@ -3281,10 +3281,10 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
 // Ebola Treatment Centres (ETCs) are shown as point features
 
 <Placemark id="guinea_etc">
-	<name>Guinea Ebola Treatment Centres</name>
 	<visibility>0</visibility>
 	<MultiGeometry>
 		<Point id="Macenta">
+			<name>Guinea Ebola Treatment Centres</name>
 			<coordinates>
 				-9.465582004999931,8.51824
 			</coordinates>
@@ -3333,10 +3333,10 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
 </Placemark>
 
 <Placemark id="liberia_etc">
-	<name>Liberia Ebola Treatment Centres</name>
 	<visibility>0</visibility>
 	<MultiGeometry>
 		<Point id="Barclayville">
+		<name>Liberia Ebola Treatment Centres</name>
 			<coordinates>
 				-8.234894946337647,4.676541494899709
 			</coordinates>
@@ -3500,10 +3500,10 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
 </Placemark>
 
 <Placemark id="sierraleone_etc">
-	<name>Sierra Leone Ebola Treatment Centres</name>
         <visibility>0</visibility>
         <MultiGeometry>
             <Point id="Goderich">
+				<name>Sierra Leone Ebola Treatment Centres</name>
                 <coordinates>
                     -13.280407348999859,8.424321007000174
                 </coordinates>
@@ -3697,7 +3697,8 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
     <name>Play me!</name>
     <gx:Playlist>
 
-	<gx:SoundCue>
+	// Music
+    <gx:SoundCue>
       <href>
         music/mozart-kv331.mp3
       </href> 
@@ -3747,7 +3748,7 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
           </Update>
         </gx:AnimatedUpdate>
         <gx:Wait>
-        	<gx:duration>2.0</gx:duration>
+        	<gx:duration>4.0</gx:duration>
         </gx:Wait>
 	
 	// Close ballon
@@ -4746,7 +4747,7 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
           </Update>
         </gx:AnimatedUpdate>
         <gx:Wait>
-          <gx:duration>2.0</gx:duration>
+          <gx:duration>1.0</gx:duration>
         </gx:Wait>
 
         <gx:AnimatedUpdate>
@@ -4762,7 +4763,7 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
           </Update>
         </gx:AnimatedUpdate>
         <gx:Wait>
-          <gx:duration>2.0</gx:duration>
+          <gx:duration>1.0</gx:duration>
         </gx:Wait>
 
         <gx:AnimatedUpdate>
@@ -4778,7 +4779,7 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
           </Update>
         </gx:AnimatedUpdate>
         <gx:Wait>
-          <gx:duration>2.0</gx:duration>
+          <gx:duration>1.0</gx:duration>
         </gx:Wait>
 
         <gx:AnimatedUpdate>
@@ -4794,7 +4795,7 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
           </Update>
         </gx:AnimatedUpdate>
         <gx:Wait>
-          <gx:duration>2.0</gx:duration>
+          <gx:duration>1.0</gx:duration>
         </gx:Wait>
 
         <!--<gx:AnimatedUpdate>
