@@ -3697,6 +3697,12 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
     <name>Play me!</name>
     <gx:Playlist>
 
+	<gx:SoundCue>
+      <href>
+        music/mozart-kv331.mp3
+      </href> 
+    </gx:SoundCue>
+	
 	// Starting poing at McGill University
         <gx:FlyTo>
           <gx:duration>2.0</gx:duration>
