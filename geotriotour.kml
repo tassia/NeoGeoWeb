@@ -3315,17 +3315,17 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
     </MultiGeometry>
 </Placemark>
 
-//Treatment centre description placemark/balloon//
+// Treatment centre description placemark/balloon //
 <Placemark id="clinicdescription">
     <name></name>
 	<styleUrl>#raw</styleUrl>
     <open>1</open>
     <visibility>0</visibility>
     <description><![CDATA[
-		These are the treatment centres that were established in Sierra Leone, Liberia, and Guinea during the 2014 epidemic.
+		<font size="5">These are the treatment centres that were established in Sierra Leone, Liberia, and Guinea during the 2014 epidemic.</font>
 		]]></description>
     <Point>
-      <coordinates>-5.253072,12.3373167,0</coordinates>
+      <coordinates>-12,12.4,0</coordinates>
     </Point>
 </Placemark>
 
@@ -3612,11 +3612,6 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
                     -13.265,8.403
                 </coordinates>
             </Point>
-            <Point id="Kailahun MSF">
-                <coordinates>
-                    -10.5576,8.29846
-                </coordinates>
-            </Point>
             <Point id="Rural Kenema Field Hospital">
                 <coordinates>
                     -11.1156,8.005088
@@ -3701,7 +3696,7 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
 </Placemark>
 
 
-// Kerry town clinic in Sierra Leone //
+// Images of particular clinics in Sierra Leone //
 
 <Placemark id="kerrytownclinic">
     <name></name>
@@ -3714,7 +3709,7 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
 				<th align="center">Kerry Town Clinic, Sierra Leone</th>
 			</tr>
 			<tr>
-				<td align="left"><br/><img src="http://i.telegraph.co.uk/multimedia/archive/03097/ebola-britain-kerr_3097258b.jpg" width="350"></td>
+				<td align="left"><br/><img src="http://i.telegraph.co.uk/multimedia/archive/03097/ebola-britain-kerr_3097258b.jpg" width="500"></td>
 			</tr>
 		</table>
 		<br/>
@@ -3724,6 +3719,48 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
     </Point>
 </Placemark>
 
+<Placemark id="kailahun">
+    <name></name>
+	<styleUrl>#healthcentericon</styleUrl>
+    <open>1</open>
+    <visibility>0</visibility>
+    <description><![CDATA[
+		<table>
+			<tr>
+				<th align="center">Medecins sans frontieres in Kailahun, Sierra Leone</th>
+			</tr>
+			<tr>
+				<td align="left"><br/><img src="http://i.telegraph.co.uk/multimedia/archive/02991/black02_2991771c.jpg" width="500"></td>
+			</tr>
+		</table>
+		<br/>
+		]]></description>
+    <Point>
+      <coordinates>-10.5576,8.29846,0</coordinates>
+    </Point>
+</Placemark>
+
+<Placemark id="monrovia">
+    <name></name>
+	<styleUrl>#healthcentericon</styleUrl>
+    <open>1</open>
+    <visibility>0</visibility>
+    <description><![CDATA[
+		<table>
+			<tr>
+				<th align="center">Food aid coming into Monrovia, Liberia</th>
+			</tr>
+			<tr>
+				<td align="left"><br/><img src="http://www.redcross.org/images/MEDIA_CustomProductCatalog/m38640115_p-LBR0402.jpg" width="500"></td>
+			</tr>
+		</table>
+		<br/>
+		]]></description>
+    <Point>
+      <coordinates>-10.801389,6.31333300000017,0</coordinates>
+    </Point>
+</Placemark>
+	
 // Mashup of a chart showing ebola cases and deaths - Created by Rachel//
 
 <Placemark id="chartapi">
@@ -5033,16 +5070,29 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
               <Placemark targetId="liberia2014">
 			  	<visibility>0</visibility>
               </Placemark>
+			  <Placemark targetId="noexsierraleone2014">
+			  	<visibility>0</visibility>
+              </Placemark>
+              <Placemark targetId="noexguinea2014">
+			  	<visibility>0</visibility>
+              </Placemark>
+              <Placemark targetId="noexliberia2014">
+			  	<visibility>0</visibility>
+              </Placemark>
             </Change>
           </Update>
         </gx:AnimatedUpdate>
 
 	// Show clinics //
-	<gx:AnimatedUpdate>
-          <gx:duration>5.0</gx:duration>
+		<gx:AnimatedUpdate>
+          <gx:duration>2.0</gx:duration>
           <Update>
             <targetHref/>
             <Change>
+			  <Placemark targetId="#clinicdescription">
+			  	<visibility>1</visibility>
+                <gx:balloonVisibility>1</gx:balloonVisibility>
+              </Placemark>
               <Placemark targetId="#liberia_etc">
 			  	<visibility>1</visibility>
               </Placemark>
@@ -5057,11 +5107,8 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
               </Placemark>
             </Change>
           </Update>
-        </gx:AnimatedUpdate>
-        <gx:Wait>
-            <gx:duration>5.0</gx:duration>
-        </gx:Wait>
-        
+		</gx:AnimatedUpdate>
+   
 	// Zoom to Sierra Leone //
         <gx:FlyTo>
           <gx:duration>2.0</gx:duration>
@@ -5078,6 +5125,7 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
         </gx:FlyTo>
 
 	// Show images //
+	//Kerrytown//
         <gx:AnimatedUpdate>
           <gx:duration>0</gx:duration>
           <Update>
@@ -5091,9 +5139,55 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
           </Update>
         </gx:AnimatedUpdate>
         <gx:Wait>
-            <gx:duration>5.0</gx:duration>
+            <gx:duration>3.0</gx:duration>
         </gx:Wait>
-        
+  	//Kailahun//	
+		<gx:AnimatedUpdate>
+		<gx:duration>0</gx:duration>
+          <Update>
+            <targetHref/>
+            <Change>
+              <Placemark targetId="kailahun">
+                <visibility>1</visibility>
+				<gx:balloonVisibility>1</gx:balloonVisibility>
+              </Placemark>
+            </Change>
+          </Update>
+		</gx:AnimatedUpdate>
+        <gx:Wait>
+            <gx:duration>3.0</gx:duration>
+        </gx:Wait>
+
+		<gx:FlyTo>
+          <gx:duration>1.0</gx:duration>
+          <gx:flyToMode>smooth</gx:flyToMode>
+          <LookAt>
+		    <longitude>-11.25</longitude>
+            <latitude>7.4</latitude>
+			<altitude>387000</altitude>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<range>1500</range>
+            <heading>0</heading>
+            <tilt>0</tilt>
+          </LookAt>  
+        </gx:FlyTo>		
+	//Monrovia//	
+		<gx:AnimatedUpdate>
+		<gx:duration>0</gx:duration>
+          <Update>
+            <targetHref/>
+            <Change>
+              <Placemark targetId="monrovia">
+                <visibility>1</visibility>
+				<gx:balloonVisibility>1</gx:balloonVisibility>
+              </Placemark>
+            </Change>
+          </Update>
+		</gx:AnimatedUpdate>
+        <gx:Wait>
+            <gx:duration>3.0</gx:duration>
+        </gx:Wait>
+		
     <gx:AnimatedUpdate>
           <gx:duration>0</gx:duration>
           <Update>
