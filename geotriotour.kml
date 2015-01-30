@@ -1275,9 +1275,9 @@ South Africa, Zaire strain, 1 case, 1 death, 100% fatality
 </Placemark>
 
 <Placemark id="gabon1996">
-	<name>Gabon</name>
+	<name>Gabon 1996</name>
 	<visibility>0</visibility>
-	<description>Occurred in Booué area with transport of patients to Libreville between July 1996 and January 1997. Index case-patient was a hunter who lived in a forest camp. Disease was spread by close contact with infected persons. A dead chimpanzee found in the forest at the time was determined to be infected.</description>
+	<description>Occurred in Booué area with transport of patients to Libreville. Index case-patient was a hunter who lived in a forest camp. Disease was spread by close contact with infected persons. </description>
     <ExtendedData>
     <Data name="flag">
 		<value>http://upload.wikimedia.org/wikipedia/commons/0/04/Flag_of_Gabon.svg</value>
@@ -1382,7 +1382,7 @@ Uganda, Zaire strain, 425 cases, 224 deaths, 53% fatality rate
 <Placemark id="uganda2000">
     <name>Uganda 2000</name>
 	<visibility>0</visibility>
-    <description> Occurred in Gulu, Masindi, and Mbarara districts of Uganda. The three greatest risks associated with Sudan virus infection were attending funerals of case-patients, having contact with case-patients in one's family, and providing medical care to case-patients without using adequate personal protective measures.</description>
+    <description> The three greatest risks associated with Sudan virus infection were attending funerals of case-patients, having contact with case-patients in one's family, and providing medical care to case-patients without using adequate personal protective measures.</description>
     <styleUrl>#rachelstyle</styleUrl>
     <ExtendedData>
     <Data name="flag">
@@ -1542,7 +1542,7 @@ Congo, 59 cases, 44 deaths, 75% fatality rate
 </Placemark>
 
 <Placemark id="congo2001">
-<name> Republic of the Congo </name>
+<name> Republic of the Congo 2001</name>
 <visibility>0</visibility>
 <description> Occurred over the border of Gabon and the Republic of the Congo between October 2001 and July 2002. First reported occurrence of Ebola virus disease in the Republic of the Congo. </description>
     <ExtendedData>
@@ -1622,9 +1622,9 @@ Republic of Congo, 178 cases, 157 deaths, 88% fatality rate
 //
 
 <Placemark id="congo2003">
-<name> Republic of the Congo </name>
+<name> Republic of the Congo 2003 </name>
 	<visibility>0</visibility>
-<description> Occurred in the districts of Mbomo and Kéllé in Cuvette Ouest Département between December 2002 and April 2003. Occurred in Mbomo and Mbandza villages located in Mbomo district, Cuvette Ouest Département, between November and December 2003.</description>
+<description> Occurred in Mbomo and Mbandza villages located in Mbomo district, Cuvette Ouest Département, between November and December 2003.</description>
     <ExtendedData>
     <Data name="flag">
 			<value>http://upload.wikimedia.org/wikipedia/commons/9/92/Flag_of_the_Republic_of_the_Congo.svg</value>
@@ -1703,7 +1703,7 @@ Sudan, 17 cases, 7 death, 41% fatality rate
 <Placemark id="sudan2004">
 	<name>Sudan 2004</name>
 	<visibility>0</visibility>
-	<description> Occurred in Yambio county in Western Equatoria of southern Sudan. This outbreak was concurrent with an outbreak of measles in the same area, and several suspected EVD cases were later reclassified as measles cases.</description>
+	<description> This outbreak was concurrent with an outbreak of measles in the same area, and several suspected EVD cases were later reclassified as measles cases.</description>
     <ExtendedData>
     <Data name="flag">
 		<value>http://upload.wikimedia.org/wikipedia/commons/7/7a/Flag_of_South_Sudan.svg</value>
@@ -3551,10 +3551,7 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
     <open>1</open>
     <visibility>0</visibility>
     <Snippet>Death and Cases in West Africa 2015</Snippet>
-    <description><![CDATA[<img src="http://chart.apis.google.com/chart?cht=bvs&
-chs=200x150&chd=t:28.71,18.76,84.78,36.05,103.40,41.45&
-chxt=x,x&chxl=0:|Guinea||Liberia||Sierra Leone||1:|||Cases||Deaths&
-chtt=Deaths%20and|Cases%20in%20West%20Africa"/>]]></description>
+    <description><![CDATA[<img src="http://chart.apis.google.com/chart?cht=bvg&chs=350x300&chd=t:2871,8471,10340|1876,3605,3145&chxr=1,0,12000&chds=1,12000&chco=0A8C8A,EBB671,DE091A&chbh=15,0,20&chxt=x,y&chxl=0:|Guinea|Liberia|Sierra%20Leone|Salad&chdl=Cases|Deaths&chg=0,8.3,5,5"/>]]></description>
     <Point>
       <coordinates>-8.374023,5.512997,0</coordinates>
     </Point>
