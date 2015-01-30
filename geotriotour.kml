@@ -110,13 +110,10 @@
 		<bgColor>#dddddd</bgColor>
 		<text>
 			<![CDATA[
-				<table width="250" border="0" cellpadding="5" cellspacing="0" bgcolor="#ffffff">
+				<table width="250" border="0" cellpadding="5" cellspacing="0" bgcolor="#ffffff">				
 				<tr>
-					<td><img src=$[flag_src] alt="picture" width="60" align="left" /></td>
-					<td><h3><font color="#006600">$[country]</font></h3></td>
-				</tr>
-				<tr>
-					<td></td><td align="center" ><b>$[year]</b></td>
+					<td><img src=$[flag_src] alt="picture" width="80" align="left" /></td>
+					<td><h3><b>$[year]</b><br /><font color="#006600">$[country]</font></h3></td>
 				</tr>				
 				<tr>
 					<td colspan="2"><p>$[info]</p></td>
