@@ -3797,7 +3797,7 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
 <Placemark id="kerrytownclinic">
     <name/>
     <visibility>0</visibility>
-    <description>Kerry Town Clinic<br/><![CDATA[<img src="http://i.telegraph.co.uk/multimedia/archive/03097/ebola-britain-kerr_3097258b.jpg"/>]]   </description>
+    <description>Kerry Town Clinic<br/><![CDATA[<img src="http://i.telegraph.co.uk/multimedia/archive/03097/ebola-britain-kerr_3097258b.jpg"/>]]>   </description>
     <Point>
         <coordinates>
             -13.086370684999906,8.25709548399999
