@@ -7,7 +7,21 @@
 <open>1</open>
 <description>Touring over Ebola outbreaks since 1976</description>
 
-// Ballon style authored by Anna
+//health center icon style//
+<Style id="healthcentericon">
+	<IconStyle>
+          <Icon>
+            <href>http://maps.google.com/mapfiles/kml/pal3/icon38.png</href>
+          </Icon>
+    </IconStyle>
+	<BalloonStyle>
+      <text>
+        $[description]
+      </text>
+    </BalloonStyle>
+ </Style>
+
+// Balloon style authored by Anna
 <Style id="annastyle">
     <BalloonStyle>
         <bgColor>503C0014</bgColor>
@@ -16,7 +30,7 @@
 					<tr>
 						<th align="left" ><font size="4">$[year]<br/></font><font size="3">$[name]</font></th>
 						<th><font color="white"></font></th>
-						<th rowspan="2"><img src=$[flag] alt="picture" width="60"</th>
+						<th rowspan="2"><img src=$[flag] alt="picture" width="60"></th>
                         <th><font color="white">d</font></th>
 					</tr>
 					<tr>
@@ -58,7 +72,7 @@
     </LineStyle>
 </Style>
 
-// Ballon style authored by Rachel
+// Balloon style authored by Rachel
 <Style id="rachelstyle">
     <BalloonStyle>
       <!-- a background color for the balloon -->
@@ -90,7 +104,7 @@
 	</Polystyle>
 </Style>
  
-// Ballon style authored by Tassia 
+// Balloon style authored by Tassia 
 <Style id="tassiastyle">
 	<BalloonStyle>
 		<bgColor>#dddddd</bgColor>
@@ -128,7 +142,7 @@
 <Style id="raw">
     <BalloonStyle>
       <text>
-        <![CDATA[$[description]]]>
+        $[description]
       </text>
     </BalloonStyle>
 </Style>
@@ -2825,7 +2839,7 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
         		<width>1.5</width>
       		</LineStyle>
       		<PolyStyle>
-        		<color>7d0066ff</color>
+        		<color>7f0066ff</color>
 		</PolyStyle>
 	</Style>
 	<Polygon>
@@ -2889,7 +2903,7 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
 			<width>1.5</width>
 		</LineStyle>
 		<PolyStyle>
-			<color>7d0033ff</color>
+			<color>7f0033ff</color>
 		</PolyStyle>
 	</Style>
 	<Polygon>
@@ -2929,7 +2943,7 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
 		 	<width>1.5</width>
 		</LineStyle>
 		<PolyStyle>
-			<color>7d00ffff</color>
+			<color>7f00ffff</color>
 		</PolyStyle>
 	</Style>
 	<Polygon>
@@ -3010,7 +3024,7 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
 			<width>1.5</width>
 		</LineStyle>
 		<PolyStyle>
-			<color>7d00ccff</color>
+			<color>7f00ccff</color>
 		</PolyStyle>
 	</Style>
 	<Polygon>
@@ -3082,7 +3096,7 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
 			<width>1.5</width>
 		</LineStyle>
 		<PolyStyle>
-			<color>7d00ffff</color>
+			<color>7f00ffff</color>
 		</PolyStyle>
 	</Style>
 	<Polygon>
@@ -3141,7 +3155,7 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
 			<width>1.5</width>
 		</LineStyle>
 		<PolyStyle>
-			<color>7d0000ff</color>
+			<color>7f0000ff</color>
 		</PolyStyle>
 	</Style>
 	<MultiGeometry>
@@ -3301,11 +3315,25 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
     </MultiGeometry>
 </Placemark>
 
+//Treatment centre description placemark/balloon//
+<Placemark id="clinicdescription">
+    <name></name>
+	<styleUrl>#raw</styleUrl>
+    <open>1</open>
+    <visibility>0</visibility>
+    <description><![CDATA[
+		These are the treatment centres that were established in Sierra Leone, Liberia, and Guinea during the 2014 epidemic.
+		]]></description>
+    <Point>
+      <coordinates>-5.253072,12.3373167,0</coordinates>
+    </Point>
+</Placemark>
 
 // Ebola Treatment Centres (ETCs) are shown as point features
 
 <Placemark id="guinea_etc">
 	<visibility>0</visibility>
+	<styleUrl>#healthcentericon</styleUrl>
 	<MultiGeometry>
 		<Point id="Macenta">
 			<name>Guinea Ebola Treatment Centres</name>
@@ -3358,6 +3386,7 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
 
 <Placemark id="liberia_etc">
 	<visibility>0</visibility>
+	<styleUrl>#healthcentericon</styleUrl>
 	<MultiGeometry>
 		<Point id="Barclayville">
 		<name>Liberia Ebola Treatment Centres</name>
@@ -3525,6 +3554,7 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
 
 <Placemark id="sierraleone_etc">
         <visibility>0</visibility>
+		<styleUrl>#healthcentericon</styleUrl>
         <MultiGeometry>
             <Point id="Goderich">
 				<name>Sierra Leone Ebola Treatment Centres</name>
@@ -3674,17 +3704,25 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
 // Kerry town clinic in Sierra Leone //
 
 <Placemark id="kerrytownclinic">
-    <name/>
-    <StyleUrl>#raw</StyleUrl>
+    <name></name>
+	<styleUrl>#healthcentericon</styleUrl>
+    <open>1</open>
     <visibility>0</visibility>
-    <description>Kerry Town Clinic<br/><![CDATA[<img src="http://i.telegraph.co.uk/multimedia/archive/03097/ebola-britain-kerr_3097258b.jpg"/>]]>   </description>
+    <description><![CDATA[
+		<table>
+			<tr>
+				<th align="center">Kerry Town Clinic, Sierra Leone</th>
+			</tr>
+			<tr>
+				<td align="left"><br/><img src="http://i.telegraph.co.uk/multimedia/archive/03097/ebola-britain-kerr_3097258b.jpg" width="350"></td>
+			</tr>
+		</table>
+		<br/>
+		]]></description>
     <Point>
-        <coordinates>
-            -13.086370684999906,8.25709548399999
-        </coordinates>
+      <coordinates>-13.086370684999906,8.25709548399999,0</coordinates>
     </Point>
 </Placemark>
-
 
 // Mashup of a chart showing ebola cases and deaths - Created by Rachel//
 
@@ -3696,7 +3734,7 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
     <Snippet>Ebola Cases and deaths in West Africa 2015</Snippet>
     <description><![CDATA[<img src="http://chart.apis.google.com/chart?cht=bvg&chs=350x300&chd=t:2871,8471,10340|1876,3605,3145&chxr=1,0,12000&chds=1,12000&chco=0A8C8A,EBB671,DE091A&chbh=15,0,20&chxt=x,y&chxl=0:|Guinea|Liberia|Sierra%20Leone|Salad&chdl=Cases|Deaths&chg=0,8.3,5,5"/>]]></description>
     <Point>
-      <coordinates>-8.374023,5.512997,0</coordinates>
+      <coordinates>-9,12.45,0</coordinates>
     </Point>
 </Placemark>
 
