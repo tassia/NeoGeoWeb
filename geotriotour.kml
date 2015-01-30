@@ -3495,11 +3495,11 @@ chtt=Deaths%20and|Cases%20in%20West%20Africa"/>]]></description>
         </gx:AnimatedUpdate>
 
 	//open 1977 congo//
-		<gx:Wait>
+		<!--<gx:Wait>
 			<gx:duration>2.0</gx:duration>
-		</gx:Wait>
+		</gx:Wait>-->
 		
-		<gx:AnimatedUpdate>
+		<!--<gx:AnimatedUpdate>
           <gx:duration>2.0</gx:duration>
           <Update>
             <targetHref/>
@@ -3513,13 +3513,13 @@ chtt=Deaths%20and|Cases%20in%20West%20Africa"/>]]></description>
               </Placemark>
             </Change>
           </Update>
-        </gx:AnimatedUpdate>	
+        </gx:AnimatedUpdate>-->	
 
-		<gx:Wait>
+		<!--<gx:Wait>
 			<gx:duration>2.0</gx:duration>
-		</gx:Wait>
+		</gx:Wait>-->
 		
-		<gx:AnimatedUpdate>
+		<!--<gx:AnimatedUpdate>
           <gx:duration>2.0</gx:duration>
           <Update>
             <targetHref/>
@@ -3530,7 +3530,7 @@ chtt=Deaths%20and|Cases%20in%20West%20Africa"/>]]></description>
               </Placemark>
             </Change>
           </Update>
-        </gx:AnimatedUpdate>
+        </gx:AnimatedUpdate>-->
 		
 	//open 1979 sudan//
 		<gx:Wait>
@@ -3575,7 +3575,7 @@ chtt=Deaths%20and|Cases%20in%20West%20Africa"/>]]></description>
 			<gx:duration>2.0</gx:duration>
 		</gx:Wait>
 		
-		<gx:AnimatedUpdate>
+		<!--<gx:AnimatedUpdate>
           <gx:duration>2.0</gx:duration>
           <Update>
             <targetHref/>
@@ -3589,13 +3589,13 @@ chtt=Deaths%20and|Cases%20in%20West%20Africa"/>]]></description>
               </Placemark>
             </Change>
           </Update>
-        </gx:AnimatedUpdate>	
+        </gx:AnimatedUpdate>-->	
 
-		<gx:Wait>
+		<!--<gx:Wait>
 			<gx:duration>2.0</gx:duration>
-		</gx:Wait>
+		</gx:Wait>-->
 		
-		<gx:AnimatedUpdate>
+		<!--<gx:AnimatedUpdate>
           <gx:duration>2.0</gx:duration>
           <Update>
             <targetHref/>
@@ -3606,14 +3606,14 @@ chtt=Deaths%20and|Cases%20in%20West%20Africa"/>]]></description>
               </Placemark>
             </Change>
           </Update>
-        </gx:AnimatedUpdate>
+        </gx:AnimatedUpdate>-->
 	
 	//open 1994 cotedivoire//
-		<gx:Wait>
+		<!--<gx:Wait>
 			<gx:duration>2.0</gx:duration>
-		</gx:Wait>
+		</gx:Wait>-->
 		
-		<gx:AnimatedUpdate>
+		<!--<gx:AnimatedUpdate>
           <gx:duration>2.0</gx:duration>
           <Update>
             <targetHref/>
@@ -3627,13 +3627,13 @@ chtt=Deaths%20and|Cases%20in%20West%20Africa"/>]]></description>
               </Placemark>
             </Change>
           </Update>
-        </gx:AnimatedUpdate>	
+        </gx:AnimatedUpdate>-->	
 		
-		<gx:Wait>
+		<!--<gx:Wait>
 			<gx:duration>2.0</gx:duration>
-		</gx:Wait>
+		</gx:Wait>-->
 		
-		<gx:AnimatedUpdate>
+		<!--<gx:AnimatedUpdate>
           <gx:duration>2.0</gx:duration>
           <Update>
             <targetHref/>
@@ -3644,7 +3644,7 @@ chtt=Deaths%20and|Cases%20in%20West%20Africa"/>]]></description>
               </Placemark>
             </Change>
           </Update>
-        </gx:AnimatedUpdate>
+        </gx:AnimatedUpdate>-->
 	
 	//open 1995 congo//
 		<gx:Wait>
@@ -3689,7 +3689,7 @@ chtt=Deaths%20and|Cases%20in%20West%20Africa"/>]]></description>
         </gx:Wait>
         
         //open south africa 1996
-        <gx:AnimatedUpdate>
+        <!--<gx:AnimatedUpdate>
           <gx:duration>2.0</gx:duration>
           <Update>
             <targetHref/>
@@ -3700,28 +3700,28 @@ chtt=Deaths%20and|Cases%20in%20West%20Africa"/>]]></description>
               </Placemark>
             </Change>
           </Update>
-        </gx:AnimatedUpdate>
+        </gx:AnimatedUpdate>-->
         
-        <gx:Wait>
+        <!--<gx:Wait>
             <gx:duration> 2.0 </gx:duration>
-        </gx:Wait>
+        </gx:Wait>-->
         
-        <gx:AnimatedUpdate>
+        <!--<gx:AnimatedUpdate>
           <gx:duration>2.0</gx:duration>
           <Update>
             <targetHref/>
             <Change>
-              <Placemark targetId="#southafrica1996">
+              //<Placemark targetId="#southafrica1996">//
                 <visibility>1</visibility>
                 <gx:balloonVisibility>0</gx:balloonVisibility>
               </Placemark>
             </Change>
           </Update>
-        </gx:AnimatedUpdate>
+        </gx:AnimatedUpdate>-->
         
-        <gx:Wait>
+        <!--<gx:Wait>
             <gx:duration> 2.0 </gx:duration>
-        </gx:Wait>
+        </gx:Wait>-->
         
         // open gabon 1996
         <gx:AnimatedUpdate>
@@ -3991,11 +3991,11 @@ chtt=Deaths%20and|Cases%20in%20West%20Africa"/>]]></description>
           </Update>
         </gx:AnimatedUpdate>
 
-        <gx:Wait>
+        <!--<gx:Wait>
           <gx:duration>2.0</gx:duration>
-        </gx:Wait>
+        </gx:Wait>-->
 
-        <gx:AnimatedUpdate>
+        <!--<gx:AnimatedUpdate>
           <gx:duration>2.0</gx:duration>
           <Update>
             <targetHref/>
@@ -4006,13 +4006,13 @@ chtt=Deaths%20and|Cases%20in%20West%20Africa"/>]]></description>
               </Placemark>
             </Change>
           </Update>
-        </gx:AnimatedUpdate>
+        </gx:AnimatedUpdate>-->
 
-        <gx:Wait>
+        <!--<gx:Wait>
           <gx:duration>2.0</gx:duration>
-        </gx:Wait>
+        </gx:Wait>-->
 
-        <gx:AnimatedUpdate>
+        <!--<gx:AnimatedUpdate>
           <gx:duration>2.0</gx:duration>
           <Update>
             <targetHref/>
@@ -4023,7 +4023,7 @@ chtt=Deaths%20and|Cases%20in%20West%20Africa"/>]]></description>
               </Placemark>
             </Change>
           </Update>
-        </gx:AnimatedUpdate>
+        </gx:AnimatedUpdate>-->
 
         <gx:Wait>
           <gx:duration>2.0</gx:duration>
@@ -4179,7 +4179,7 @@ chtt=Deaths%20and|Cases%20in%20West%20Africa"/>]]></description>
           <gx:duration>2.0</gx:duration>
         </gx:Wait>
 
-        <gx:AnimatedUpdate>
+        <!--<gx:AnimatedUpdate>
           <gx:duration>2.0</gx:duration>
           <Update>
             <targetHref/>
@@ -4190,13 +4190,13 @@ chtt=Deaths%20and|Cases%20in%20West%20Africa"/>]]></description>
               </Placemark>
             </Change>
           </Update>
-        </gx:AnimatedUpdate>
+        </gx:AnimatedUpdate>-->
 
         <gx:Wait>
           <gx:duration>2.0</gx:duration>
         </gx:Wait>
 
-        <gx:AnimatedUpdate>
+        <!--<gx:AnimatedUpdate>
           <gx:duration>2.0</gx:duration>
           <Update>
             <targetHref/>
@@ -4207,7 +4207,7 @@ chtt=Deaths%20and|Cases%20in%20West%20Africa"/>]]></description>
               </Placemark>
             </Change>
           </Update>
-        </gx:AnimatedUpdate>
+        </gx:AnimatedUpdate>-->
 		
         <gx:Wait>
           <gx:duration>2.0</gx:duration>
