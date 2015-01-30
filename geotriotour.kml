@@ -3323,6 +3323,64 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
     </MultiGeometry>
 </Placemark>
 
+<Folder><name>Guinea Health Centres</name>
+	<Placemark>
+		<name/>
+		<visibility>0</visibility>
+		<MultiGeometry>
+			<Point id="Macenta">
+				<coordinates>
+					-9.465582004999931,8.51824
+				</coordinates>
+			</Point>
+			<Point id="Gueckedou">
+				<coordinates>
+					-10.120963604999929,8.552846
+				</coordinates>
+			</Point>
+			<Point id="Conarky Donka Hospital">
+				<coordinates>
+					-13.683193,9.535421
+				</coordinates>
+			</Point>
+			<Point id="Coyah">
+				<coordinates>
+					-13.420806149999976,9.730112226000074
+				</coordinates>
+			</Point>
+			<Point id="Beyla">
+				<coordinates>
+					-8.648371163999968,8.689988011000025
+				</coordinates>
+			</Point>
+			<Point id="Nzerekore">
+				<coordinates>
+					-8.819621349999977,7.755827287000045
+				</coordinates>
+			</Point>
+			<Point id="Kerouane">
+				<coordinates>
+					-9.00967686,9.27113866
+				</coordinates>
+			</Point>
+			<Point id="Wonkifong">
+				<coordinates>
+					-13.420806149999919,9.730112226000188
+				</coordinates>
+			</Point>
+			<Point id="Kankan">
+				<coordinates>
+					-9.305,10.383
+				</coordinates>
+			</Point>
+				<coordinates>
+					-13.683193,9.535421
+				</coordinates>
+			</Point>
+		</MultiGeometry>
+	</Placemark>
+</Folder>
+
 <Placemark id="chartapi">
     <name>West African Ebola Epidemic</name>
     <open>1</open>
