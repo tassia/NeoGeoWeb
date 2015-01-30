@@ -3732,7 +3732,7 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
     <open>1</open>
     <visibility>0</visibility>
     <Snippet>Ebola Cases and deaths in West Africa 2015</Snippet>
-    <description><![CDATA[<img src="http://chart.apis.google.com/chart?cht=bvg&chs=350x300&chd=t:2871,8471,10340|1876,3605,3145&chxr=1,0,12000&chds=1,12000&chco=0A8C8A,EBB671,DE091A&chbh=15,0,20&chxt=x,y&chxl=0:|Guinea|Liberia|Sierra%20Leone|Salad&chdl=Cases|Deaths&chg=0,8.3,5,5"/>]]></description>
+    <description><![CDATA[<img src="http://chart.apis.google.com/chart?cht=bvg&chs=300x300&chd=t:2871,8471,10340|1876,3605,3145&chxr=1,0,12000&chds=1,12000&chco=0A8C8A,EBB671,DE091A&chbh=15,0,20&chxt=x,y&chxl=0:|Guinea|Liberia|Sierra%20Leone|Salad&chdl=Cases|Deaths&chg=0,8.3,5,5"/>]]></description>
     <Point>
       <coordinates>-9,12.45,0</coordinates>
     </Point>
@@ -3917,7 +3917,7 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
           </Update>
         </gx:AnimatedUpdate>	
         <gx:Wait>
-        	<gx:duration>2.0</gx:duration>
+        	<gx:duration>4.0</gx:duration>
         </gx:Wait>
 		
         <gx:AnimatedUpdate>
@@ -3965,7 +3965,7 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
           </Update>
         </gx:AnimatedUpdate>	
         <gx:Wait>
-        	<gx:duration>2.0</gx:duration>
+        	<gx:duration>4.0</gx:duration>
         </gx:Wait>
 				
          <gx:AnimatedUpdate>
@@ -4052,7 +4052,7 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
           </Update>
         </gx:AnimatedUpdate>
         <gx:Wait>
-        	<gx:duration>2.0</gx:duration>
+        	<gx:duration>4.0</gx:duration>
         </gx:Wait>
 		
         <gx:AnimatedUpdate>
@@ -4136,7 +4136,7 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
 		</gx:Wait>-->
 		
 		<!--<gx:AnimatedUpdate>
-          <gx:duration>2.0</gx:duration>
+          <gx:duration>4.0</gx:duration>
           <Update>
             <targetHref/>
             <Change>
@@ -4177,7 +4177,7 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
           </Update>
         </gx:AnimatedUpdate>	
         <gx:Wait>
-        	<gx:duration>2.0</gx:duration>
+        	<gx:duration>4.0</gx:duration>
         </gx:Wait>
 		
         <gx:AnimatedUpdate>
@@ -4198,7 +4198,7 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
         
         // South Africa 1996 - omitted //
         <!--<gx:AnimatedUpdate>
-          <gx:duration>2.0</gx:duration>
+          <gx:duration>4.0</gx:duration>
           <Update>
             <targetHref/>
             <Change>
@@ -4259,7 +4259,7 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
           </Update>
         </gx:AnimatedUpdate>
         <gx:Wait>
-            <gx:duration> 2.0 </gx:duration>
+            <gx:duration> 4.0 </gx:duration>
         </gx:Wait>
         
         <gx:AnimatedUpdate>
@@ -4305,7 +4305,7 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
           </Update>
         </gx:AnimatedUpdate>
         <gx:Wait>
-            <gx:duration> 2.0 </gx:duration>
+            <gx:duration> 4.0 </gx:duration>
         </gx:Wait>
         
         <gx:AnimatedUpdate>
@@ -4351,7 +4351,7 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
           </Update>
         </gx:AnimatedUpdate>
         <gx:Wait>
-            <gx:duration> 2.0 </gx:duration>
+            <gx:duration> 4.0 </gx:duration>
         </gx:Wait>
         
         <gx:AnimatedUpdate>
@@ -4397,7 +4397,7 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
           </Update>
         </gx:AnimatedUpdate>        
         <gx:Wait>
-            <gx:duration> 2.0 </gx:duration>
+            <gx:duration> 4.0 </gx:duration>
          </gx:Wait>
         
         <gx:AnimatedUpdate>
@@ -4443,7 +4443,7 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
           </Update>
         </gx:AnimatedUpdate>        
         <gx:Wait>
-            <gx:duration> 2.0 </gx:duration>
+            <gx:duration> 4.0 </gx:duration>
          </gx:Wait>
         
         <gx:AnimatedUpdate>
@@ -4489,7 +4489,7 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
           </Update>
         </gx:AnimatedUpdate>        
         <gx:Wait>
-            <gx:duration> 2.0 </gx:duration>
+            <gx:duration> 4.0 </gx:duration>
          </gx:Wait>
         
         <gx:AnimatedUpdate>
@@ -4535,7 +4535,7 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
           </Update>
         </gx:AnimatedUpdate>
         <gx:Wait>
-          <gx:duration>2.0</gx:duration>
+          <gx:duration>4.0</gx:duration>
         </gx:Wait>
 		
         <gx:AnimatedUpdate>
@@ -4587,7 +4587,7 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
           </Update>
         </gx:AnimatedUpdate>  
         <gx:Wait>
-          <gx:duration>2.0</gx:duration>
+          <gx:duration>4.0</gx:duration>
         </gx:Wait>
 
         <gx:AnimatedUpdate>
@@ -4633,7 +4633,7 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
           </Update>
         </gx:AnimatedUpdate>		
         <gx:Wait>
-          <gx:duration>2.0</gx:duration>
+          <gx:duration>4.0</gx:duration>
         </gx:Wait>
 		
         <gx:AnimatedUpdate>
@@ -4679,7 +4679,7 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
           </Update>
         </gx:AnimatedUpdate>
         <gx:Wait>
-          <gx:duration>2.0</gx:duration>
+          <gx:duration>4.0</gx:duration>
         </gx:Wait>
 
         <gx:AnimatedUpdate>
@@ -4715,7 +4715,7 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
         </gx:AnimatedUpdate>-->
 
         <!--<gx:Wait>
-          <gx:duration>2.0</gx:duration>
+          <gx:duration>4.0</gx:duration>
         </gx:Wait>-->
 
         <!--<gx:AnimatedUpdate>
@@ -4759,7 +4759,7 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
           </Update>
         </gx:AnimatedUpdate>		
         <gx:Wait>
-          <gx:duration>2.0</gx:duration>
+          <gx:duration>4.0</gx:duration>
         </gx:Wait>
 
         <gx:AnimatedUpdate>
@@ -4805,7 +4805,7 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
           </Update>
         </gx:AnimatedUpdate>
         <gx:Wait>
-          <gx:duration>2.0</gx:duration>
+          <gx:duration>4.0</gx:duration>
         </gx:Wait>
 
         <gx:AnimatedUpdate>
