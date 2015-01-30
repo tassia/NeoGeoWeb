@@ -46,36 +46,41 @@
     <BalloonStyle>
         <bgColor>503C0014</bgColor>
         <text>
-            <![CDATA[
+            <![CDATA[<table width="250" border="0" cellpadding="10" cellspacing="0">
+					<tr>
+						<th align="left" ><font size="4">$[year]<br/></font><font size="3">$[name]</font></th>
+						<th><font color="white"></font></th>
+						<th rowspan="2"><img src=$[flag] alt="picture" width="60"</th>
+                        <th><font color="white">d</font></th>
+					</tr>
+					<tr>
+						<td colspan="2"><font size="2">Strain: $[strain]<br/></font></td>
+				        <td/>
+                        <td/>
+                    </tr>
+                    <tr align="left">
+                        <td colspan="4"><font size="3">$[description]</font></td>
+                    </tr>    
+                    <tr align="center">
+                    <br/>
+				        <td colspan="4">
+                            <table width="235" border="0" cellpadding="3" cellspacing="0" bgcolor="#bebebe">
+                               <tr align="center">
+                                    <td><font size="2">Cases</font></td>
+                                    <td><font size="2">Deaths</font></td>
+                                    <td><font size="2">Fatality</font></td>
+                                </tr>
+                                <tr align="center">
+                                    <td><font size="3"><b>$[cases]</b></font></td>
+                                    <td><font size="3"><b>$[deaths]</b></font></td>
+                                    <td><font size="3"><b>$[fatality]</b></font></td>
+                                </tr>
+				            </table>
+                        </td>
+				    <br/>
+                    </tr>
+				</table>
                 <br/>
-				<table width="100" border="0" cellpadding="10" cellspacing="0">
-					<tr>
-						<th align="left" ><font size="4">$[name]</font></th>
-						<th>dsfdsfd</th>
-						<th rowspan="2"><img src=$[flag] alt="picture" width="50"</th>
-					</tr>
-					<tr>
-						<td><b><font size="3">$[year]</font></b></td>
-						<td></td>
-					</tr>
-					<tr align="justify">
-						<td colspan="3"><font size="2">Strain: $[strain]<br/></br>$[description]</font></td>
-					</tr>
-				</table>
-				<br/>
-				<table width="290" border="0" cellpadding="3" cellspacing="0" bgcolor="#bebebe">
-					<tr align="center">
-						<td><font size="3">Cases</font></td>
-						<td><font size="3">Deaths</font></td>
-						<td><font size="3">Fatality</font></td>
-					</tr>
-					<tr align="center">
-						<td><font size="2"><b>$[cases]</b></font></td>
-						<td><font size="2"><b>$[deaths]</b></font></td>
-						<td><font size="2"><b>$[fatality]</b></font></td>
-					</tr>
-				</table>
-				<br/>
             ]]>
         </text> 
     </BalloonStyle>
@@ -147,7 +152,7 @@ Sudan, Sudan strain, 284 cases, 151 deaths, 53% fatality//
 	<visibility>0</visibility>
 	<styleUrl>#annastyle</styleUrl>
 	<name>Democratic Republic of the Congo</name>
-	<description>Occurred in Yambuku and surrounding areas in August. Spread by personal contact and use of contaminated needles and syringes in hospitals.</description>
+	<description>Spread by personal contact and use of contaminated needles and syringes in hospitals.</description>
 	<ExtendedData>
 		<Data name="year">
 			<value>1976</value>
@@ -180,7 +185,7 @@ Sudan, Sudan strain, 284 cases, 151 deaths, 53% fatality//
 		<fill>1</fill>
 	</PolyStyle>
 	<name>Democratic Republic of the Congo</name>
-	<description>Occurred in Yambuku and surrounding areas in August. Spread by personal contact and use of contaminated needles and syringes in hospitals.</description>
+	<description>Spread by personal contact and use of contaminated needles and syringes in hospitals.</description>
 	<ExtendedData>
 		<Data name="year">
 			<value>1976</value>
@@ -860,7 +865,7 @@ Cote d’Ivoire, Tai Forest strain, 1 case, 0 deaths, 0% fatality//
 	<name>Cote d'Ivoire</name>
 	<visibility>0</visibility>
 	<description>descriptionwoop</description>
-	<description>Approximately one week after conducting necropsies on infected western chimpanzees in Taï National Park, a scientist contracted the virus and developed symptoms similar to those of dengue fever. She was discharged from a Swiss hospital two weeks later, and fully recovered after six weeks.</description>
+	<description> After conducting necropsies on infected chimpanzees, a scientist contracted the virus. She recovered discharged from a Swiss hospital two weeks later.</description>
 		<ExtendedData>
 		<Data name="year">
 			<value>1994</value>
@@ -892,7 +897,7 @@ Cote d’Ivoire, Tai Forest strain, 1 case, 0 deaths, 0% fatality//
 	<name>Cote d'Ivoire</name>
 	<visibility>0</visibility>
 	<description>descriptionwoop</description>
-	<description>Approximately one week after conducting necropsies on infected western chimpanzees in Taï National Park, a scientist contracted the virus and developed symptoms similar to those of dengue fever. She was discharged from a Swiss hospital two weeks later, and fully recovered after six weeks.</description>
+	<description>After conducting necropsies on infected chimpanzees, a scientist contracted the virus. She recovered discharged from a Swiss hospital two weeks later.</description>
 		<ExtendedData>
 		<Data name="year">
 			<value>1994</value>
@@ -3575,11 +3580,6 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
                     -13.125850928999967,8.382704501000092
                 </coordinates>
             </Point>
-            <Point id="Kerry Town">
-                <coordinates>
-                    -13.086370684999906,8.25709548399999
-                </coordinates>
-            </Point>
             <Point id="Port Loko">
                 <coordinates>
                     -12.76239,8.776650000000132
@@ -3704,6 +3704,19 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
     </Placemark>
 </Folder>
 
+//Kerry town clinic in Sierra Leone//
+<Placemark id="kerrytownclinic">
+    <name/>
+    <visibility>0</visibility>
+    <description>Kerry Town Clinic<br/><![CDATA[<img src="http://i.telegraph.co.uk/multimedia/archive/03097/ebola-britain-kerr_3097258b.jpg"/>]]   </description>
+    <Point>
+        <coordinates>
+            -13.086370684999906,8.25709548399999
+        </coordinates>
+    </Point>
+</Placemark>
+
+//bar plot for cases/mortality
 <Placemark id="chartapi">
     <name>West African Ebola Epidemic</name>
 	<styleUrl>#raw</styleUrl>
@@ -4684,7 +4697,7 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
           </Update>
         </gx:AnimatedUpdate>
 
-//fly closer to east africa to show clinics//
+//fly closer to east africa to show clinics placemarks//
         <gx:FlyTo>
           <gx:duration>2.0</gx:duration>
           <gx:flyToMode>smooth</gx:flyToMode>
@@ -4700,7 +4713,7 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
         </gx:FlyTo>
         
         <gx:AnimatedUpdate>
-          <gx:duration>2.0</gx:duration>
+          <gx:duration>0</gx:duration>
           <Update>
             <targetHref/>
             <Change>
@@ -4718,18 +4731,13 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
         </gx:AnimatedUpdate>
 
 //show clinics//
-        <gx:Wait>
-            <gx:duration>5.0</gx:duration>
-        </gx:Wait>
-
 	    <gx:AnimatedUpdate>
-          <gx:duration>2.0</gx:duration>
+          <gx:duration>5.0</gx:duration>
           <Update>
             <targetHref/>
             <Change>
               <Placemark targetId="#liberia_etc">
 			  	<visibility>1</visibility>
-                <gx:balloonVisibility>1</gx:balloonVisibility>
               </Placemark>
               <Placemark targetId="#guinea_etc">
 			  	<visibility>1</visibility>
@@ -4737,9 +4745,46 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
               <Placemark targetId="#sierraleone_etc">
 			  	<visibility>1</visibility>
               </Placemark>
+              <Placemark targetId="kerrytownclinic">
+                <visibility>1</visibility>
+              </Placemark>
             </Change>
           </Update>
         </gx:AnimatedUpdate>
+        <gx:Wait>
+            <gx:duration>5.0</gx:duration>
+        </gx:Wait>
+        
+//zoom to sierra leone//
+        <gx:FlyTo>
+          <gx:duration>2.0</gx:duration>
+          <gx:flyToMode>smooth</gx:flyToMode>
+          <LookAt>
+		    <longitude>-11.96672</longitude>
+            <latitude>8.46219</latitude>
+			<altitude>387000</altitude>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<range>1500</range>
+            <heading>0</heading>
+            <tilt>0</tilt>
+          </LookAt>  
+        </gx:FlyTo>
+
+//show images//
+        <gx:AnimatedUpdate>
+          <gx:duration>0</gx:duration>
+          <Update>
+            <targetHref/>
+            <Change>
+              <Placemark targetId="kerrytownclinic">
+                <visibility>1</visibility>
+              </Placemark>
+            </Change>
+          </Update>
+        </gx:AnimatedUpdate>
+        <gx:Wait>
+            <gx:duration>5.0</gx:duration>
+        </gx:Wait>
     
 		
 <!--
