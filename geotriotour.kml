@@ -3373,9 +3373,173 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
 					-9.305,10.383
 				</coordinates>
 			</Point>
-			<Point>
+		</MultiGeometry>
+	</Placemark>
+</Folder>
+
+<Folder><name>Liberia Health Centres</name>
+	<Placemark>
+		<name/>
+		<visibility>0</visibility>
+		<MultiGeometry>
+			<Point id="Barclayville">
 				<coordinates>
-					-13.683193,9.535421
+					-8.234894946337647,4.676541494899709
+				</coordinates>
+			</Point>
+			<Point id="Bopulu">
+				<coordinates>
+					-10.490690797999946,7.063901776000023
+				</coordinates>
+			</Point>
+			<Point id="Buchanan">
+				<coordinates>
+					-10.033222554436634,5.888103365665643
+				</coordinates>
+			</Point>
+			<Point id="Tappita">
+				<coordinates>
+					-8.859992908999914,6.489959099000089
+				</coordinates>
+			</Point>
+			<Point id="Greenville">
+				<coordinates>
+					-9.033332999999857,5.016667
+				</coordinates>
+			</Point>
+			<Point id="Harper">
+				<coordinates>
+					-7.692520015999946,4.393410511000127
+				</coordinates>
+			</Point>
+			<Point id="Fish Town">
+				<coordinates>
+					-7.75556,5.196390000000122
+				</coordinates>
+			</Point>
+			<Point id="Sinje">
+				<coordinates>
+					-11.133826269999872,6.816054550000047
+				</coordinates>
+			</Point>
+			<Point id="Zwedru">
+				<coordinates>
+					-8.138060197999948,6.064957047000064
+				</coordinates>
+			</Point>
+			<Point id="Voinjama">
+				<coordinates>
+					-9.749968121999871,8.416583628000126
+				</coordinates>
+			</Point>
+			<Point id="JFK hospital">
+				<coordinates>
+					-10.77325,6.28723
+				</coordinates>
+			</Point>
+			<Point id="SKD 1">
+				<coordinates>
+					-10.700455938999937,6.256756063000125
+				</coordinates>
+			</Point>
+			<Point id="SKD 2">
+				<coordinates>
+					-10.700525704999961,6.257445946000075
+				</coordinates>
+			</Point>
+			<Point id="Congo Town 2 (old MoD 2)">
+				<coordinates>
+					-10.731190999999853,6.268152
+				</coordinates>
+			</Point>
+			<Point id="Kakata II">
+				<coordinates>
+					-10.342221360999929,6.53993904400005
+				</coordinates>
+			</Point>
+			<Point id="Robertsport">
+				<coordinates>
+					-11.364704647999929,6.75201231
+				</coordinates>
+			</Point>
+			<Point id="Ganta">
+				<coordinates>
+					-8.9777,7.235110000000134
+				</coordinates>
+			</Point>
+			<Point id="ELWA 3">
+				<coordinates>
+					-10.70028,6.244439994000118
+				</coordinates>
+			</Point>
+			<Point id="ELWA 2">
+				<coordinates>
+					-10.695999998999923,6.239650002000076
+				</coordinates>
+			</Point>
+			<Point id="SKD 3 - Chinese">
+				<coordinates>
+					-10.703363224695579,6.258009053209321
+				</coordinates>
+			</Point>
+			<Point id="Firestone">
+				<coordinates>
+					-10.469719989999874,6.353059977000157
+				</coordinates>
+			</Point>
+			<Point id="Tubmanburg">
+				<coordinates>
+					-10.820409883999957,6.868750729000169
+				</coordinates>
+			</Point>
+			<Point id="Unity Conference Centre">
+				<coordinates>
+					-10.792832569999916,6.389035218
+				</coordinates>
+			</Point>
+			<Point id="Suakoko / Gbarnga">
+				<coordinates>
+					-9.555143999999871,7.004669
+				</coordinates>
+			</Point>
+			<Point id="Island Clinic">
+				<coordinates>
+					-10.787113499999919,6.384371600000179
+				</coordinates>
+			</Point>
+			<Point id="Monrovia Medical Unit">
+				<coordinates>
+					-10.801389,6.31333300000017
+				</coordinates>
+			</Point>
+			<Point id="Foya">
+				<coordinates>
+					-10.205756652999867,8.378911296000069
+				</coordinates>
+			</Point>
+			<Point id="Congo Town 1 (old MoD)">
+				<coordinates>
+					-10.734170003999964,6.27027999500018
+				</coordinates>
+			</Point>
+			<Point id="Kakata 1">
+				<coordinates>
+					-10.360384231999944,6.527523558000041
+				</coordinates>
+			</Point>
+			<Point id="Ganta United Methodist Hospital">
+				<coordinates>
+					-8.981322865999914,7.237326592000045
+				</coordinates>
+			</Point>
+			<Point id="Gbediah Town">
+				<coordinates>
+					-9.648,5.687
+				</coordinates>
+			</Point>
+			<Point id="Zorzor">
+				<coordinates>
+					-9.428165700000022,7.7787995
 				</coordinates>
 			</Point>
 		</MultiGeometry>
@@ -3397,6 +3561,7 @@ chtt=Deaths%20and|Cases%20in%20West%20Africa"/>]]></description>
   </Placemark>
   
 </Folder>
+
 <gx:Tour>
     <name>Play me!</name>
     <gx:Playlist>
