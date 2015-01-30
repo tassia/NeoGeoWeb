@@ -5,77 +5,43 @@
 <Document id="NeoGeoWebTouring">
 <name>Ebola Outbreaks along time</name>
 <open>1</open>
-<description>Touring over Ebola outbreaks since 1976. Ballons show details on each epidemics.</description>
+<description>Touring over Ebola outbreaks since 1976</description>
 
-<Style id="tassiastyle">
-	<open>1</open>
-	<LineStyle>
-		<color>ff0000ff</color>
-	</LineStyle>
-	<BalloonStyle>
-		<bgColor>#dddddd</bgColor>
-		<text>
-			<![CDATA[
-				<table width="250" border="0" cellpadding="5" cellspacing="0" bgcolor="#ffffff">
-				<tr>
-					<td>
-						<img src=$[flag_src] alt="picture" width="60" align="left" />
-					</td>
-					<td>
-						<h3><font color="#006600">$[country]</font></h3>
-					</td>
-				</tr>
-				<tr>
-					<td></td><td align="center" ><b>$[year]</b></td>
-				</tr>				
-				<tr>
-					<td colspan="2">
-						<p>$[info]</p>
-					</td>
-				</tr>
-				<table border="0.5" cellpadding="5">
-					<tr><td>Cases</td><td>Deaths</td><td>Fatality</td></tr>
-					<tr align="center"><td><b>$[cases]</b></td><td><b>$[deaths]</b></td><td><b>$[fatality]</b></td></tr>
-				</table>
-			]]>
-		</text>
-	</BalloonStyle>
-</Style>
-
+// Ballon style authored by Anna
 <Style id="annastyle">
     <BalloonStyle>
         <bgColor>503C0014</bgColor>
         <text>
             <![CDATA[
                 <br/>
-				<table width="100" border="0" cellpadding="10" cellspacing="0">
-					<tr>
-						<th align="left" ><font size="4">$[name]</font></th>
-						<th>dsfdsfd</th>
-						<th rowspan="2"><img src=$[flag] alt="picture" width="50"</th>
-					</tr>
-					<tr>
-						<td><b><font size="3">$[year]</font></b></td>
-						<td></td>
-					</tr>
-					<tr align="justify">
-						<td colspan="3"><font size="2">Strain: $[strain]<br/></br>$[description]</font></td>
-					</tr>
-				</table>
-				<br/>
-				<table width="290" border="0" cellpadding="3" cellspacing="0" bgcolor="#bebebe">
-					<tr align="center">
-						<td><font size="3">Cases</font></td>
-						<td><font size="3">Deaths</font></td>
-						<td><font size="3">Fatality</font></td>
-					</tr>
-					<tr align="center">
-						<td><font size="2"><b>$[cases]</b></font></td>
-						<td><font size="2"><b>$[deaths]</b></font></td>
-						<td><font size="2"><b>$[fatality]</b></font></td>
-					</tr>
-				</table>
-				<br/>
+			<table width="100" border="0" cellpadding="10" cellspacing="0">
+				<tr>
+					<th align="left" ><font size="4">$[name]</font></th>
+					<th>dsfdsfd</th>
+					<th rowspan="2"><img src=$[flag] alt="picture" width="50"</th>
+				</tr>
+				<tr>
+					<td><b><font size="3">$[year]</font></b></td>
+					<td></td>
+				</tr>
+				<tr align="justify">
+					<td colspan="3"><font size="2">Strain: $[strain]<br/></br>$[description]</font></td>
+				</tr>
+			</table>
+			<br/>
+			<table width="290" border="0" cellpadding="3" cellspacing="0" bgcolor="#bebebe">
+				<tr align="center">
+					<td><font size="3">Cases</font></td>
+					<td><font size="3">Deaths</font></td>
+					<td><font size="3">Fatality</font></td>
+				</tr>
+				<tr align="center">
+					<td><font size="2"><b>$[cases]</b></font></td>
+					<td><font size="2"><b>$[deaths]</b></font></td>
+					<td><font size="2"><b>$[fatality]</b></font></td>
+				</tr>
+			</table>
+			<br/>
             ]]>
         </text> 
     </BalloonStyle>
@@ -87,6 +53,7 @@
     </LineStyle>
 </Style>
 
+// Ballon style authored by Rachel
 <Style id="rachelstyle">
     <BalloonStyle>
       <!-- a background color for the balloon -->
@@ -94,30 +61,65 @@
       <!-- styling of the balloon text -->
       <text>
         <![CDATA[
-        <b><font color="#CC0000" size="+3">$[name]</font></b>
-        <br/><br/>
-        <td>
-        <img src=$[flag] alt="picture" width="60" align="left" />
-        </td>
-        <font face="Courier">$[description]</font>
-        <br/><br/>
-        <br/><br/>
-        <table border="0.5" cellpadding="5">
-					<tr><td>Cases</td><td>Deaths</td><td>Fatality</td></tr>
-                    <tr align="center"><td><b>$[cases]</b></td><td><b>$[deaths]</b></td><td><b>$[fatality]</b></td></tr>
-				</table>
-        <!-- insert the to/from hyperlinks -->
+        	<b><font color="#CC0000" size="+3">$[name]</font></b>
+        	<br/><br/>
+        	<td>
+        	<img src=$[flag] alt="picture" width="60" align="left" />
+        	</td>
+        	<font face="Courier">$[description]</font>
+        	<br/><br/>
+        	<br/><br/>
+        	<table border="0.5" cellpadding="5">
+						<tr><td>Cases</td><td>Deaths</td><td>Fatality</td></tr>
+        	            <tr align="center"><td><b>$[cases]</b></td><td><b>$[deaths]</b></td><td><b>$[fatality]</b></td></tr>
+					</table>
+        	<!-- insert the to/from hyperlinks -->
         ]]>
       </text>
-    </BalloonStyle>
-    <LineStyle>
-       <color>ff0000ff</color>
-    </LineStyle>
-    <Polystyle>
-            <fill>1</fill>
-        </Polystyle>
-  </Style>
-  
+	</BalloonStyle>
+	<LineStyle>
+	   <color>ff0000ff</color>
+	</LineStyle>
+	<Polystyle>
+	        <fill>1</fill>
+	</Polystyle>
+</Style>
+ 
+// Ballon style authored by Tassia 
+<Style id="tassiastyle">
+	<BalloonStyle>
+		<bgColor>#dddddd</bgColor>
+		<text>
+			<![CDATA[
+				<table width="250" border="0" cellpadding="5" cellspacing="0" bgcolor="#ffffff">
+				<tr>
+					<td><img src=$[flag_src] alt="picture" width="60" align="left" /></td>
+					<td><h3><font color="#006600">$[country]</font></h3></td>
+				</tr>
+				<tr>
+					<td></td><td align="center" ><b>$[year]</b></td>
+				</tr>				
+				<tr>
+					<td colspan="2"><p>$[info]</p></td>
+				</tr>
+				<tr>
+					<table border="0.5" cellpadding="5">
+					<tr><td>Cases</td><td>Deaths</td><td>Fatality</td></tr>
+					<tr align="center"><td><b>$[cases]</b></td><td><b>$[deaths]</b></td><td><b>$[fatality]</b></td></tr>
+				</tr>
+				</table>
+			]]>
+		</text>
+	</BalloonStyle>
+	<LineStyle>
+		<color>ff0000ff</color>
+	</LineStyle>
+	<PolyStyle>
+		<fill>1<fill>
+	</PolySyle>
+</Style>
+
+// A general clean style 
 <Style id="raw">
     <BalloonStyle>
       <text>
@@ -129,20 +131,12 @@
 <Folder>
 <name>Geo Trio Placemarks</name>
 
-<Placemark id="mcgill">
-	<name>McGill University</name>
-	<styleUrl>#raw</styleUrl>
-	<description> Please give me a proper description!</description>
-	<Point>
-      <coordinates>-73.575220,45.504086,0</coordinates>
-    </Point>
-</Placemark>
-
 // Anna: early epidemics 1976-1995 //
 
 // 1976:
 Democratic Republic of Congo, Zaire strain, 318 cases, 280 deaths, 88% fatality
 Sudan, Sudan strain, 284 cases, 151 deaths, 53% fatality//
+
 <Placemark id="xcongo1976">
 	<visibility>0</visibility>
 	<styleUrl>#annastyle</styleUrl>
@@ -150,24 +144,24 @@ Sudan, Sudan strain, 284 cases, 151 deaths, 53% fatality//
 	<description>Occurred in Yambuku and surrounding areas in August. Spread by personal contact and use of contaminated needles and syringes in hospitals.</description>
 	<ExtendedData>
 		<Data name="year">
-			<value>1976</value>
-        </Data>
-        <Data name="flag">
-			<value>http://upload.wikimedia.org/wikipedia/commons/6/6f/Flag_of_the_Democratic_Republic_of_the_Congo.svg</value>
-        </Data>
-        <Data name="cases">
-			<value>318</value>
-        </Data>
-        <Data name="deaths">
-			<value>280</value>
-        </Data>
-        <Data name="fatality">
-			<value>88%</value>
-        </Data>
-        <Data name="strain">
-			<value>Zaire</value>
-        </Data>
-    </ExtendedData>
+				<value>1976</value>
+	        </Data>
+	        <Data name="flag">
+				<value>http://upload.wikimedia.org/wikipedia/commons/6/6f/Flag_of_the_Democratic_Republic_of_the_Congo.svg</value>
+	        </Data>
+	        <Data name="cases">
+				<value>318</value>
+	        </Data>
+	        <Data name="deaths">
+				<value>280</value>
+	        </Data>
+	        <Data name="fatality">
+				<value>88%</value>
+	        </Data>
+	        <Data name="strain">
+				<value>Zaire</value>
+	        </Data>
+    	</ExtendedData>
 	<Point>
 		<coordinates>
 			12.458496,-5.987607
@@ -176,31 +170,28 @@ Sudan, Sudan strain, 284 cases, 151 deaths, 53% fatality//
 </Placemark>
 <Placemark id="congo1976">
 	<visibility>0</visibility>
-	<PolyStyle>
-		<fill>1</fill>
-	</PolyStyle>
 	<name>Democratic Republic of the Congo</name>
 	<description>Occurred in Yambuku and surrounding areas in August. Spread by personal contact and use of contaminated needles and syringes in hospitals.</description>
 	<ExtendedData>
 		<Data name="year">
 			<value>1976</value>
-        </Data>
-        <Data name="flag">
-			<value>http://upload.wikimedia.org/wikipedia/commons/6/6f/Flag_of_the_Democratic_Republic_of_the_Congo.svg</value>
-        </Data>
-        <Data name="cases">
-			<value>318</value>
-        </Data>
-        <Data name="deaths">
-			<value>280</value>
-        </Data>
-        <Data name="fatality">
-			<value>88%</value>
-        </Data>
-        <Data name="strain">
-			<value>Zaire</value>
-        </Data>
-    </ExtendedData>
+        	</Data>
+        	<Data name="flag">
+				<value>http://upload.wikimedia.org/wikipedia/commons/6/6f/Flag_of_the_Democratic_Republic_of_the_Congo.svg</value>
+        	</Data>
+        	<Data name="cases">
+				<value>318</value>
+        	</Data>
+        	<Data name="deaths">
+				<value>280</value>
+        	</Data>
+        	<Data name="fatality">
+				<value>88%</value>
+        	</Data>
+        	<Data name="strain">
+				<value>Zaire</value>
+        	</Data>
+	</ExtendedData>
 	<Polygon>
 		<altitudeMode>lockToGround</altitudeMode>
 		<outerBoundaryIs>
@@ -307,23 +298,23 @@ Sudan, Sudan strain, 284 cases, 151 deaths, 53% fatality//
 	<ExtendedData>
 		<Data name="year">
 			<value>1976</value>
-        </Data>
-        <Data name="flag">
-			<value>http://upload.wikimedia.org/wikipedia/commons/7/7a/Flag_of_South_Sudan.svg</value>
-        </Data>
-        <Data name="cases">
-			<value>284</value>
-        </Data>
-        <Data name="deaths">
-			<value>151</value>
-        </Data>
-        <Data name="fatality">
-			<value>53%</value>
-        </Data>
-        <Data name="strain">
-			<value>Sudan</value>
-        </Data>
-    </ExtendedData>
+        	</Data>
+        	<Data name="flag">
+				<value>http://upload.wikimedia.org/wikipedia/commons/7/7a/Flag_of_South_Sudan.svg</value>
+        	</Data>
+        	<Data name="cases">
+				<value>284</value>
+        	</Data>
+        	<Data name="deaths">
+				<value>151</value>
+        	</Data>
+        	<Data name="fatality">
+				<value>53%</value>
+        	</Data>
+        	<Data name="strain">
+				<value>Sudan</value>
+        	</Data>
+    	</ExtendedData>
 	<Point>
 		<coordinates>
 			31.794434,3.932760
@@ -339,22 +330,22 @@ Sudan, Sudan strain, 284 cases, 151 deaths, 53% fatality//
 	<ExtendedData>
 		<Data name="year">
 			<value>1976</value>
-        </Data>
-        <Data name="flag">
-			<value>http://upload.wikimedia.org/wikipedia/commons/7/7a/Flag_of_South_Sudan.svg</value>
-        </Data>
-        <Data name="cases">
-			<value>284</value>
-        </Data>
-        <Data name="deaths">
-			<value>151</value>
-        </Data>
-        <Data name="fatality">
-			<value>53%</value>
-        </Data>
-        <Data name="strain">
-			<value>Sudan</value>
-        </Data>
+        	</Data>
+        	<Data name="flag">
+				<value>http://upload.wikimedia.org/wikipedia/commons/7/7a/Flag_of_South_Sudan.svg</value>
+        	</Data>
+        	<Data name="cases">
+				<value>284</value>
+        	</Data>
+        	<Data name="deaths">
+				<value>151</value>
+        	</Data>
+        	<Data name="fatality">
+				<value>53%</value>
+        	</Data>
+        	<Data name="strain">
+				<value>Sudan</value>
+        	</Data>
     </ExtendedData>
     <MultiGeometry>
         <Polygon>
@@ -441,23 +432,23 @@ Democratic Republic of Congo, Zaire strain, 1 case, 1 death, 100% fatality//
 	<ExtendedData>
 		<Data name="year">
 			<value>1977</value>
-        </Data>
-        <Data name="flag">
-			<value>http://upload.wikimedia.org/wikipedia/commons/6/6f/Flag_of_the_Democratic_Republic_of_the_Congo.svg</value>
-        </Data>
-        <Data name="cases">
-			<value>1</value>
-        </Data>
-        <Data name="deaths">
-			<value>1</value>
-        </Data>
-        <Data name="fatality">
-			<value>100%</value>
-        </Data>
-        <Data name="strain">
-			<value>Zaire</value>
-        </Data>
-    </ExtendedData>
+	        </Data>
+	        <Data name="flag">
+				<value>http://upload.wikimedia.org/wikipedia/commons/6/6f/Flag_of_the_Democratic_Republic_of_the_Congo.svg</value>
+	        </Data>
+	        <Data name="cases">
+				<value>1</value>
+	        </Data>
+	        <Data name="deaths">
+				<value>1</value>
+	        </Data>
+	        <Data name="fatality">
+				<value>100%</value>
+	        </Data>
+	        <Data name="strain">
+				<value>Zaire</value>
+	        </Data>
+    	</ExtendedData>
 	<Point>
 		<coordinates>
 			12.458496,-5.987607
@@ -473,23 +464,23 @@ Democratic Republic of Congo, Zaire strain, 1 case, 1 death, 100% fatality//
 	<ExtendedData>
 		<Data name="year">
 			<value>1977</value>
-        </Data>
-        <Data name="flag">
-			<value>http://upload.wikimedia.org/wikipedia/commons/6/6f/Flag_of_the_Democratic_Republic_of_the_Congo.svg</value>
-        </Data>
-        <Data name="cases">
-			<value>1</value>
-        </Data>
-        <Data name="deaths">
-			<value>1</value>
-        </Data>
-        <Data name="fatality">
-			<value>100%</value>
-        </Data>
-        <Data name="strain">
-			<value>Zaire</value>
-        </Data>
-    </ExtendedData>
+        	</Data>
+        	<Data name="flag">
+				<value>http://upload.wikimedia.org/wikipedia/commons/6/6f/Flag_of_the_Democratic_Republic_of_the_Congo.svg</value>
+        	</Data>
+        	<Data name="cases">
+				<value>1</value>
+        	</Data>
+        	<Data name="deaths">
+				<value>1</value>
+        	</Data>
+        	<Data name="fatality">
+				<value>100%</value>
+        	</Data>
+        	<Data name="strain">
+				<value>Zaire</value>
+        	</Data>
+	</ExtendedData>
 	<Polygon>
 		<altitudeMode>lockToGround</altitudeMode>
 		<outerBoundaryIs>
@@ -589,6 +580,7 @@ Democratic Republic of Congo, Zaire strain, 1 case, 1 death, 100% fatality//
 
 // 1979:
 Sudan, Sudan strain, 34 cases, 22 deaths, 65% fatality//
+
 <Placemark id="xsouthsudan1979">
 	<styleUrl>#annastyle</styleUrl>
 	<name>South Sudan</name>
@@ -598,23 +590,23 @@ Sudan, Sudan strain, 34 cases, 22 deaths, 65% fatality//
 	<ExtendedData>
 		<Data name="year">
 			<value>1979</value>
-        </Data>
-        <Data name="flag">
-			<value>http://upload.wikimedia.org/wikipedia/commons/7/7a/Flag_of_South_Sudan.svg</value>
-        </Data>
-        <Data name="cases">
-			<value>34</value>
-        </Data>
-        <Data name="deaths">
-			<value>22</value>
-        </Data>
-        <Data name="fatality">
-			<value>65%</value>
-        </Data>
-        <Data name="strain">
-			<value>Sudan</value>
-        </Data>
-    </ExtendedData>
+        	</Data>
+        	<Data name="flag">
+				<value>http://upload.wikimedia.org/wikipedia/commons/7/7a/Flag_of_South_Sudan.svg</value>
+        	</Data>
+        	<Data name="cases">
+				<value>34</value>
+        	</Data>
+        	<Data name="deaths">
+				<value>22</value>
+        	</Data>
+        	<Data name="fatality">
+				<value>65%</value>
+        	</Data>
+        	<Data name="strain">
+				<value>Sudan</value>
+        	</Data>
+	</ExtendedData>
 	<Point>
 		<coordinates>
 			31.794434,3.932760
@@ -630,24 +622,24 @@ Sudan, Sudan strain, 34 cases, 22 deaths, 65% fatality//
 	<ExtendedData>
 		<Data name="year">
 			<value>1979</value>
-        </Data>
-        <Data name="flag">
-			<value>http://upload.wikimedia.org/wikipedia/commons/7/7a/Flag_of_South_Sudan.svg</value>
-        </Data>
-        <Data name="cases">
-			<value>34</value>
-        </Data>
-        <Data name="deaths">
-			<value>22</value>
-        </Data>
-        <Data name="fatality">
-			<value>65%</value>
-        </Data>
-        <Data name="strain">
-			<value>Sudan</value>
-        </Data>
-    </ExtendedData>
-    <MultiGeometry>
+        	</Data>
+        	<Data name="flag">
+				<value>http://upload.wikimedia.org/wikipedia/commons/7/7a/Flag_of_South_Sudan.svg</value>
+        	</Data>
+        	<Data name="cases">
+				<value>34</value>
+        	</Data>
+        	<Data name="deaths">
+				<value>22</value>
+        	</Data>
+        	<Data name="fatality">
+				<value>65%</value>
+        	</Data>
+        	<Data name="strain">
+				<value>Sudan</value>
+        	</Data>
+    	</ExtendedData>
+	<MultiGeometry>
         <Polygon>
             <altitudeMode>lockToGround</altitudeMode>
             <outerBoundaryIs>
@@ -723,6 +715,7 @@ Sudan, Sudan strain, 34 cases, 22 deaths, 65% fatality//
 // 1994:
 Gabon, Zaire strain, 52 cases, 31 deaths, 60% fatality
 Cote d’Ivoire, Tai Forest strain, 1 case, 0 deaths, 0% fatality//
+
 <Placemark id="xgabon1994">
 	<styleUrl>#annastyle</styleUrl>
 	<name>Gabon</name>
@@ -732,23 +725,23 @@ Cote d’Ivoire, Tai Forest strain, 1 case, 0 deaths, 0% fatality//
 	<ExtendedData>
 		<Data name="year">
 			<value>1994</value>
-        </Data>
-        <Data name="flag">
-			<value>http://upload.wikimedia.org/wikipedia/commons/0/04/Flag_of_Gabon.svg</value>
-        </Data>
-        <Data name="cases">
-			<value>52</value>
-        </Data>
-        <Data name="deaths">
-			<value>31</value>
-        </Data>
-        <Data name="fatality">
-			<value>60%</value>
-        </Data>
-        <Data name="strain">
-			<value>Zaire</value>
-        </Data>
-    </ExtendedData>
+        	</Data>
+        	<Data name="flag">
+				<value>http://upload.wikimedia.org/wikipedia/commons/0/04/Flag_of_Gabon.svg</value>
+        	</Data>
+        	<Data name="cases">
+				<value>52</value>
+        	</Data>
+        	<Data name="deaths">
+				<value>31</value>
+        	</Data>
+        	<Data name="fatality">
+				<value>60%</value>
+        	</Data>
+        	<Data name="strain">
+				<value>Zaire</value>
+        	</Data>
+	</ExtendedData>
 	<Point>
 		<coordinates>
 			11.513672,2.287295
@@ -764,23 +757,23 @@ Cote d’Ivoire, Tai Forest strain, 1 case, 0 deaths, 0% fatality//
 	<ExtendedData>
 		<Data name="year">
 			<value>1994</value>
-        </Data>
-        <Data name="flag">
-			<value>http://upload.wikimedia.org/wikipedia/commons/0/04/Flag_of_Gabon.svg</value>
-        </Data>
-        <Data name="cases">
-			<value>52</value>
-        </Data>
-        <Data name="deaths">
-			<value>31</value>
-        </Data>
-        <Data name="fatality">
-			<value>60%</value>
-        </Data>
-        <Data name="strain">
-			<value>Zaire</value>
-        </Data>
-    </ExtendedData>
+        	</Data>
+        	<Data name="flag">
+				<value>http://upload.wikimedia.org/wikipedia/commons/0/04/Flag_of_Gabon.svg</value>
+        	</Data>
+        	<Data name="cases">
+				<value>52</value>
+        	</Data>
+        	<Data name="deaths">
+				<value>31</value>
+        	</Data>
+        	<Data name="fatality">
+				<value>60%</value>
+        	</Data>
+        	<Data name="strain">
+				<value>Zaire</value>
+        	</Data>
+	</ExtendedData>
 	<MultiGeometry>
 		<Polygon>
 			<altitudeMode>lockToGround</altitudeMode>
@@ -861,26 +854,26 @@ Cote d’Ivoire, Tai Forest strain, 1 case, 0 deaths, 0% fatality//
 	<visibility>0</visibility>
 	<description>descriptionwoop</description>
 	<description>Approximately one week after conducting necropsies on infected western chimpanzees in Taï National Park, a scientist contracted the virus and developed symptoms similar to those of dengue fever. She was discharged from a Swiss hospital two weeks later, and fully recovered after six weeks.</description>
-		<ExtendedData>
+	<ExtendedData>
 		<Data name="year">
 			<value>1994</value>
-        </Data>
-        <Data name="flag">
-			<value>http://upload.wikimedia.org/wikipedia/commons/f/fe/Flag_of_C%C3%B4te_d%27Ivoire.svg</value>
-        </Data>
-        <Data name="cases">
-			<value>1</value>
-        </Data>
-        <Data name="deaths">
-			<value>0</value>
-        </Data>
-        <Data name="fatality">
-			<value>0%</value>
-        </Data>
-        <Data name="strain">
-			<value>Tai Forest</value>
-        </Data>
-    </ExtendedData>
+		</Data>
+		<Data name="flag">
+				<value>http://upload.wikimedia.org/wikipedia/commons/f/fe/Flag_of_C%C3%B4te_d%27Ivoire.svg</value>
+		</Data>
+		<Data name="cases">
+				<value>1</value>
+		</Data>
+		<Data name="deaths">
+				<value>0</value>
+		</Data>
+		<Data name="fatality">
+				<value>0%</value>
+		</Data>
+		<Data name="strain">
+				<value>Tai Forest</value>
+		</Data>
+	</ExtendedData>
 	<Point>
 		<coordinates>
 			-7.301788,4.506607
@@ -893,26 +886,26 @@ Cote d’Ivoire, Tai Forest strain, 1 case, 0 deaths, 0% fatality//
 	<visibility>0</visibility>
 	<description>descriptionwoop</description>
 	<description>Approximately one week after conducting necropsies on infected western chimpanzees in Taï National Park, a scientist contracted the virus and developed symptoms similar to those of dengue fever. She was discharged from a Swiss hospital two weeks later, and fully recovered after six weeks.</description>
-		<ExtendedData>
+	<ExtendedData>
 		<Data name="year">
 			<value>1994</value>
-        </Data>
-        <Data name="flag">
-			<value>http://upload.wikimedia.org/wikipedia/commons/f/fe/Flag_of_C%C3%B4te_d%27Ivoire.svg</value>
-        </Data>
-        <Data name="cases">
-			<value>1</value>
-        </Data>
-        <Data name="deaths">
-			<value>0</value>
-        </Data>
-        <Data name="fatality">
-			<value>0%</value>
-        </Data>
-        <Data name="strain">
-			<value>Tai Forest</value>
-        </Data>
-    </ExtendedData>
+        	</Data>
+        	<Data name="flag">
+				<value>http://upload.wikimedia.org/wikipedia/commons/f/fe/Flag_of_C%C3%B4te_d%27Ivoire.svg</value>
+        	</Data>
+        	<Data name="cases">
+				<value>1</value>
+        	</Data>
+        	<Data name="deaths">
+				<value>0</value>
+        	</Data>
+        	<Data name="fatality">
+				<value>0%</value>
+        	</Data>
+        	<Data name="strain">
+				<value>Tai Forest</value>
+        	</Data>
+    	</ExtendedData>
 	<MultiGeometry>
 		<Polygon>
 			<altitudeMode>lockToGround</altitudeMode>
@@ -989,6 +982,7 @@ Cote d’Ivoire, Tai Forest strain, 1 case, 0 deaths, 0% fatality//
 
 // 1995:
 Democratic Republic of Congo, Zaire strain, 315 cases, 254 deaths, 81% fatality rate//
+
 <Placemark id="xcongo1995">
     <styleUrl>#annastyle</styleUrl>
 	<name>Democratic Republic of the Congo</name>
@@ -998,23 +992,23 @@ Democratic Republic of Congo, Zaire strain, 315 cases, 254 deaths, 81% fatality 
 	<ExtendedData>
 		<Data name="year">
 			<value>1995</value>
-        </Data>
-        <Data name="flag">
-			<value>http://upload.wikimedia.org/wikipedia/commons/6/6f/Flag_of_the_Democratic_Republic_of_the_Congo.svg</value>
-        </Data>
-        <Data name="cases">
-			<value>315</value>
-        </Data>
-        <Data name="deaths">
-			<value>254</value>
-        </Data>
-        <Data name="fatality">
-			<value>81%</value>
-        </Data>
-        <Data name="strain">
-			<value>Zaire</value>
-        </Data>
-    </ExtendedData>
+	        </Data>
+	        <Data name="flag">
+				<value>http://upload.wikimedia.org/wikipedia/commons/6/6f/Flag_of_the_Democratic_Republic_of_the_Congo.svg</value>
+	        </Data>
+	        <Data name="cases">
+				<value>315</value>
+	        </Data>
+	        <Data name="deaths">
+				<value>254</value>
+	        </Data>
+	        <Data name="fatality">
+				<value>81%</value>
+	        </Data>
+	        <Data name="strain">
+				<value>Zaire</value>
+	        </Data>
+	</ExtendedData>
 	<Point>
 		<coordinates>
 			12.458496,-5.987607
@@ -1030,23 +1024,23 @@ Democratic Republic of Congo, Zaire strain, 315 cases, 254 deaths, 81% fatality 
 	<ExtendedData>
 		<Data name="year">
 			<value>1995</value>
-        </Data>
-        <Data name="flag">
-			<value>http://upload.wikimedia.org/wikipedia/commons/6/6f/Flag_of_the_Democratic_Republic_of_the_Congo.svg</value>
-        </Data>
-        <Data name="cases">
-			<value>315</value>
-        </Data>
-        <Data name="deaths">
-			<value>254</value>
-        </Data>
-        <Data name="fatality">
-			<value>81%</value>
-        </Data>
-        <Data name="strain">
-			<value>Zaire</value>
-        </Data>
-    </ExtendedData>
+	        </Data>
+	        <Data name="flag">
+				<value>http://upload.wikimedia.org/wikipedia/commons/6/6f/Flag_of_the_Democratic_Republic_of_the_Congo.svg</value>
+	        </Data>
+	        <Data name="cases">
+				<value>315</value>
+	        </Data>
+	        <Data name="deaths">
+				<value>254</value>
+	        </Data>
+	        <Data name="fatality">
+				<value>81%</value>
+	        </Data>
+	        <Data name="strain">
+				<value>Zaire</value>
+	        </Data>
+	</ExtendedData>
 	<Polygon>
 		<altitudeMode>lockToGround</altitudeMode>
 		<outerBoundaryIs>
@@ -1148,19 +1142,18 @@ Democratic Republic of Congo, Zaire strain, 315 cases, 254 deaths, 81% fatality 
 
 // 1996:
 Gabon, Zaire Strain strain, 91 cases, 66 deaths, 72% fatality
-South Africa, Zaire strain, 1 case, 1 death, 100% fatality
-//
-
+South Africa, Zaire strain, 1 case, 1 death, 100% fatality//
 
 <Placemark id="southafrica1996">
 	<name>South Africa 1997</name>
+	<styleUrl>#rachelstyle</styleUrl>
 	<visibility>0</visibility>
 	<description> A medical professional traveled from Gabon to Johannesburg, South Africa, in October 1996 after having treated Ebola virus-infected patients. He was hospitalized, and the nurse that took care of him became infected and died. </description>
-    <ExtendedData>
+	<ExtendedData>
 		<Data name="flag">
 			<value>http://upload.wikimedia.org/wikipedia/commons/a/af/Flag_of_South_Africa.svg</value>
 		</Data>
-        <Data name="cases">
+	        <Data name="cases">
 			<value>1</value>
 		</Data>
 		<Data name="deaths">
@@ -1169,147 +1162,130 @@ South Africa, Zaire strain, 1 case, 1 death, 100% fatality
 		<Data name="fatality">
 			<value>100%</value>
 		</Data>
-    </ExtendedData>
-    <styleUrl>#rachelstyle</styleUrl>
-    <Style>
-        <LineStyle>
-        </LineStyle>
-        <PolyStyle>
-            <color></color>
-            <fill>1</fill>
-        </PolyStyle>
-    </Style>
+	</ExtendedData>
 	<MultiGeometry>          
         <Polygon>
             <altitudeMode>lockToGround</altitudeMode>
             <outerBoundaryIs>
                 <LinearRing>
-					<altitudeMode>lockToGround</altitudeMode>
-					<coordinates>
-						37.85083,-46.956947 
-						37.576385000000215,-46.909447 
-						37.781944,-46.83223 
-						37.85083,-46.956947
-					</coordinates>
-				</LinearRing>
-			</outerBoundaryIs>
-		</Polygon>
-		<Polygon>
 			<altitudeMode>lockToGround</altitudeMode>
-			<outerBoundaryIs>
-				<LinearRing>
-					<altitudeMode>lockToGround</altitudeMode>
-					<coordinates>
-						37.959442000000166,-46.658615
-						37.856941,-46.626945 
-						37.942772,-46.60334 
-						37.959442000000166,-46.658615
-					</coordinates>
-				</LinearRing>
-			</outerBoundaryIs>
-		</Polygon>
-		<Polygon>
-			<altitudeMode>lockToGround</altitudeMode>
-			<outerBoundaryIs>
-				<LinearRing>
-					<altitudeMode>lockToGround</altitudeMode>
-                    <coordinates>
-						29.893887,-22.194447
-						31.297504000000146,-22.414764 
-						32.016106,-24.459446 
-						31.96851,-25.95784 
-						31.33083,-25.751392 
-						30.902048,-26.305254 
-						30.818886000000106,-26.810558 
-						31.161663,-27.203056 
-						31.987499,-27.316113 
-						32.1334,-26.839626 
-						32.890427,-26.847145 
-						32.390274000000119,-28.537781 
-						31.325832,-29.390835 
-						30.023888000000198,-31.281113 
-						27.899998,-33.040558 
-						26.530552000000171,-33.753334 
-						25.724998,-33.767227 
-						25.701942,-34.031952 
-						22.544998,-34.005005 
-						20.0,-34.822002 
-						18.817776,-34.377785 
-						18.793331,-34.08667 
-						18.404720000000111,-34.30278 
-						18.441109,-33.706673 
-						17.8475,-32.830833 
-						18.292221,-32.624451 
-						18.278610000000128,-31.89278 
-						16.48959,-28.578178 
-						17.06361,-28.028614 
-						17.40472,-28.713612 
-						18.175831,-28.908611 
-						19.123055000000107,-28.962223 
-						19.99612,-28.421448 
-						20.000942,-24.765408 
-						20.811386,-25.883335 
-						20.642498,-26.828056 
-						21.667221,-26.864445 
-						22.624809000000113,-26.111565 
-						23.014832000000126,-25.299725 
-						24.6772,-25.827824 
-						25.50972,-25.67778 
-						25.871387,-24.744446 
-						26.845276,-24.264446 
-						26.95919,-23.752075 
-						28.29833200000013,-22.609447 
-						29.373623,-22.19241 
-						29.893887,-22.194447
-					</coordinates>
-				</LinearRing>
-			</outerBoundaryIs>
-			<innerBoundaryIs>
-				<LinearRing>
-					<altitudeMode>lockToGround</altitudeMode>
-					<coordinates>
-						28.565552,-28.610001
-						27.011108,-29.625278 
-						27.564617,-30.404911 
-						28.079937,-30.650528 
-						28.377777,-30.16028 
-						29.168888,-29.913891 
-						29.430832,-29.278614 
-						28.565552,-28.610001
-					</coordinates>
-				</LinearRing>
-			</innerBoundaryIs>
-		</Polygon>
+			<coordinates>
+				37.85083,-46.956947 
+				37.576385000000215,-46.909447 
+				37.781944,-46.83223 
+				37.85083,-46.956947
+			</coordinates>
+		</LinearRing>
+	    </outerBoundaryIs>
+	</Polygon>
+	<Polygon>
+		<altitudeMode>lockToGround</altitudeMode>
+		<outerBoundaryIs>
+			<LinearRing>
+				<altitudeMode>lockToGround</altitudeMode>
+				<coordinates>
+					37.959442000000166,-46.658615
+					37.856941,-46.626945 
+					37.942772,-46.60334 
+					37.959442000000166,-46.658615
+				</coordinates>
+			</LinearRing>
+		</outerBoundaryIs>
+	</Polygon>
+	<Polygon>
+		<altitudeMode>lockToGround</altitudeMode>
+		<outerBoundaryIs>
+			<LinearRing>
+				<altitudeMode>lockToGround</altitudeMode>
+        			<coordinates>
+					29.893887,-22.194447
+					31.297504000000146,-22.414764 
+					32.016106,-24.459446 
+					31.96851,-25.95784 
+					31.33083,-25.751392 
+					30.902048,-26.305254 
+					30.818886000000106,-26.810558 
+					31.161663,-27.203056 
+					31.987499,-27.316113 
+					32.1334,-26.839626 
+					32.890427,-26.847145 
+					32.390274000000119,-28.537781 
+					31.325832,-29.390835 
+					30.023888000000198,-31.281113 
+					27.899998,-33.040558 
+					26.530552000000171,-33.753334 
+					25.724998,-33.767227 
+					25.701942,-34.031952 
+					22.544998,-34.005005 
+					20.0,-34.822002 
+					18.817776,-34.377785 
+					18.793331,-34.08667 
+					18.404720000000111,-34.30278 
+					18.441109,-33.706673 
+					17.8475,-32.830833 
+					18.292221,-32.624451 
+					18.278610000000128,-31.89278 
+					16.48959,-28.578178 
+					17.06361,-28.028614 
+					17.40472,-28.713612 
+					18.175831,-28.908611 
+					19.123055000000107,-28.962223 
+					19.99612,-28.421448 
+					20.000942,-24.765408 
+					20.811386,-25.883335 
+					20.642498,-26.828056 
+					21.667221,-26.864445 
+					22.624809000000113,-26.111565 
+					23.014832000000126,-25.299725 
+					24.6772,-25.827824 
+					25.50972,-25.67778 
+					25.871387,-24.744446 
+					26.845276,-24.264446 
+					26.95919,-23.752075 
+					28.29833200000013,-22.609447 
+					29.373623,-22.19241 
+					29.893887,-22.194447
+				</coordinates>
+			</LinearRing>
+		</outerBoundaryIs>
+		<innerBoundaryIs>
+			<LinearRing>
+				<altitudeMode>lockToGround</altitudeMode>
+				<coordinates>
+					28.565552,-28.610001
+					27.011108,-29.625278 
+					27.564617,-30.404911 
+					28.079937,-30.650528 
+					28.377777,-30.16028 
+					29.168888,-29.913891 
+					29.430832,-29.278614 
+					28.565552,-28.610001
+				</coordinates>
+			</LinearRing>
+		</innerBoundaryIs>
+	</Polygon>
 	</MultiGeometry>
 </Placemark>
 
 <Placemark id="gabon1996">
 	<name>Gabon 1996</name>
+    	<styleUrl>#rachelstyle</styleUrl>
 	<visibility>0</visibility>
 	<description>Occurred in Booué area with transport of patients to Libreville. Index case-patient was a hunter who lived in a forest camp. Disease was spread by close contact with infected persons. </description>
-    <ExtendedData>
-    <Data name="flag">
-		<value>http://upload.wikimedia.org/wikipedia/commons/0/04/Flag_of_Gabon.svg</value>
-    </Data>
-    <Data name="cases">
-		<value>91</value>
-	</Data>
-	<Data name="deaths">
-		<value>66</value>
-	</Data>
-	<Data name="fatality">
-		<value>72%</value>
-	</Data>
-    </ExtendedData>
-    <styleUrl>#rachelstyle</styleUrl>
-    <Style>
-        <LineStyle>
-        </LineStyle>
-        <PolyStyle>
-        <color></color>
-        <fill>1</fill>
-        </PolyStyle>
-    </Style>
+	<ExtendedData>
+	    <Data name="flag">
+	        	<value>http://upload.wikimedia.org/wikipedia/commons/0/04/Flag_of_Gabon.svg</value>
+	    </Data>
+	    <Data name="cases">
+	    	<value>91</value>
+	    </Data>
+	    <Data name="deaths">
+	    	<value>66</value>
+	    </Data>
+	    <Data name="fatality">
+	    	<value>72%</value>
+	    </Data>
+	</ExtendedData>
 	<MultiGeometry>
 		<Polygon>
 			<altitudeMode>lockToGround</altitudeMode>
@@ -1385,19 +1361,19 @@ South Africa, Zaire strain, 1 case, 1 death, 100% fatality
 </Placemark>
   
 // 2000:
-Uganda, Zaire strain, 425 cases, 224 deaths, 53% fatality rate
-//
+Uganda, Zaire strain, 425 cases, 224 deaths, 53% fatality rate//
  
 <Placemark id="uganda2000">
     <name>Uganda 2000</name>
-	<visibility>0</visibility>
+    <styleUrl>#rachelstyle</styleUrl>
+    <visibility>0</visibility>
     <description> The three greatest risks associated with Sudan virus infection were attending funerals of case-patients, having contact with case-patients in one's family, and providing medical care to case-patients without using adequate personal protective measures.</description>
     <styleUrl>#rachelstyle</styleUrl>
     <ExtendedData>
-    <Data name="flag">
-		<value>http://upload.wikimedia.org/wikipedia/commons/4/4e/Flag_of_Uganda.svg</value>
-    </Data>
-    <Data name="cases">
+        <Data name="flag">
+            	<value>http://upload.wikimedia.org/wikipedia/commons/4/4e/Flag_of_Uganda.svg</value>
+        </Data>
+        <Data name="cases">
 		<value>425</value>
 	</Data>
 	<Data name="deaths">
@@ -1407,12 +1383,6 @@ Uganda, Zaire strain, 425 cases, 224 deaths, 53% fatality rate
 		<value>53%</value>
 	</Data>
     </ExtendedData>
-    <Style>
-        <PolyStyle>
-            <color></color>
-            <fill>1</fill>
-        </PolyStyle>
-    </Style>
     <Polygon>
 		<extrude>0</extrude>
 		<tessellate>1</tessellate>
@@ -1446,57 +1416,48 @@ Uganda, Zaire strain, 425 cases, 224 deaths, 53% fatality rate
 
 // 2001:
 Gabon, 65 cases, 53 deaths, 82% fatality rate
-Congo, 59 cases, 44 deaths, 75% fatality rate
-//
+Congo, 59 cases, 44 deaths, 75% fatality rate//
 
 <Placemark id="gabon2001">
 	<name>Gabon 2001</name>
+    	<styleUrl>#rachelstyle</styleUrl>
 	<visibility>0</visibility>
 	<description> Occurred over the border of Gabon and the Republic of the Congo between October 2001 and July 2002.</description>
-    <ExtendedData>
-    <Data name="flag">
-		<value>http://upload.wikimedia.org/wikipedia/commons/0/04/Flag_of_Gabon.svg</value>
-    </Data>
-    <Data name="cases">
-		<value>65</value>
-	</Data>
-	<Data name="deaths">
-		<value>53</value>
-	</Data>
-	<Data name="fatality">
-		<value>82%</value>
-	</Data>
-    </ExtendedData>
-    <styleUrl>#rachelstyle</styleUrl>
-    <Style>
-        <LineStyle>
-        </LineStyle>
-        <PolyStyle>
-        <color></color>
-        <fill>1</fill>
-        </PolyStyle>
-    </Style>
-      <MultiGeometry>
-      <Polygon>
-      <altitudeMode>lockToGround</altitudeMode>
-      <outerBoundaryIs>
-        <LinearRing>
-        <altitudeMode>lockToGround</altitudeMode>
-		<coordinates>
-			9.007776260375977,-0.767778396606445
-			8.946664810180664,-0.658332824707031
-			9.00666618347168,-0.598888397216797 
-			9.007776260375977,-0.767778396606445
-            </coordinates>
-        </LinearRing>
-    </outerBoundaryIs>
-</Polygon>
-<Polygon>
-    <altitudeMode>lockToGround</altitudeMode>
-        <outerBoundaryIs>
-            <LinearRing>
-                <altitudeMode>lockToGround</altitudeMode>
-                    <coordinates>
+	<ExtendedData>
+		<Data name="flag">
+		    	<value>http://upload.wikimedia.org/wikipedia/commons/0/04/Flag_of_Gabon.svg</value>
+		</Data>
+		<Data name="cases">
+			<value>65</value>
+		</Data>
+		<Data name="deaths">
+			<value>53</value>
+		</Data>
+		<Data name="fatality">
+			<value>82%</value>
+		</Data>
+	</ExtendedData>
+        <MultiGeometry>
+        	<Polygon>
+	        	<altitudeMode>lockToGround</altitudeMode>
+	      		<outerBoundaryIs>
+        			<LinearRing>
+				        <altitudeMode>lockToGround</altitudeMode>
+						<coordinates>
+							9.007776260375977,-0.767778396606445
+							8.946664810180664,-0.658332824707031
+							9.00666618347168,-0.598888397216797 
+							9.007776260375977,-0.767778396606445
+						</coordinates>
+        			</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+		<Polygon>
+			<altitudeMode>lockToGround</altitudeMode>
+			        <outerBoundaryIs>
+			            <LinearRing>
+			                <altitudeMode>lockToGround</altitudeMode>
+			                    <coordinates>
 						12.523611068725586,2.283334732055664
 						13.293889999389648,2.163610458374023 
 						13.186784744262695,1.222475051879883
@@ -1551,14 +1512,15 @@ Congo, 59 cases, 44 deaths, 75% fatality rate
 </Placemark>
 
 <Placemark id="congo2001">
-<name> Republic of the Congo 2001</name>
-<visibility>0</visibility>
-<description> Occurred over the border of Gabon and the Republic of the Congo between October 2001 and July 2002. First reported occurrence of Ebola virus disease in the Republic of the Congo. </description>
+    <name> Republic of the Congo 2001</name>
+    <styleUrl>#rachelstyle</styleUrl>
+    <visibility>0</visibility>
+    <description> Occurred over the border of Gabon and the Republic of the Congo between October 2001 and July 2002. First reported occurrence of Ebola virus disease in the Republic of the Congo. </description>
     <ExtendedData>
-    <Data name="flag">
-		<value>http://upload.wikimedia.org/wikipedia/commons/9/92/Flag_of_the_Republic_of_the_Congo.svg</value>
-    </Data>
-    <Data name="cases">
+        <Data name="flag">
+    		<value>http://upload.wikimedia.org/wikipedia/commons/9/92/Flag_of_the_Republic_of_the_Congo.svg</value>
+        </Data>
+        <Data name="cases">
 		<value>59</value>
 	</Data>
 	<Data name="deaths">
@@ -1568,15 +1530,6 @@ Congo, 59 cases, 44 deaths, 75% fatality rate
 		<value>75%</value>
 	</Data>
     </ExtendedData>
-    <styleUrl>#rachelstyle</styleUrl>
-    <Style>
-        <LineStyle>
-        </LineStyle>
-        <PolyStyle>
-        <color></color>
-        <fill>1</fill>
-        </PolyStyle>
-    </Style>
 	<Polygon>
 		<altitudeMode>lockToGround</altitudeMode>
 		<outerBoundaryIs>
@@ -1627,18 +1580,18 @@ Congo, 59 cases, 44 deaths, 75% fatality rate
 </Placemark>
 
 // 2003;
-Republic of Congo, 178 cases, 157 deaths, 88% fatality rate
-//
+Republic of Congo, 178 cases, 157 deaths, 88% fatality rate//
 
 <Placemark id="congo2003">
-<name> Republic of the Congo 2003 </name>
+	<name> Republic of the Congo 2003 </name>
+    	<styleUrl>#rachelstyle</styleUrl>
 	<visibility>0</visibility>
-<description> Occurred in Mbomo and Mbandza villages located in Mbomo district, Cuvette Ouest Département, between November and December 2003.</description>
-    <ExtendedData>
-    <Data name="flag">
+	<description> Occurred in Mbomo and Mbandza villages located in Mbomo district, Cuvette Ouest Département, between November and December 2003.</description>
+    	<ExtendedData>
+    		<Data name="flag">
 			<value>http://upload.wikimedia.org/wikipedia/commons/9/92/Flag_of_the_Republic_of_the_Congo.svg</value>
-            </Data>
-        <Data name="cases">
+            	</Data>
+	        <Data name="cases">
 			<value>178</value>
 		</Data>
 		<Data name="deaths">
@@ -1647,16 +1600,7 @@ Republic of Congo, 178 cases, 157 deaths, 88% fatality rate
 		<Data name="fatality">
 			<value>88%</value>
 		</Data>
-    </ExtendedData>
-    <styleUrl>#rachelstyle</styleUrl>
-    <Style>
-        <LineStyle>
-        </LineStyle>
-        <PolyStyle>
-        <color></color>
-        <fill>1</fill>
-        </PolyStyle>
-    </Style>
+    	</ExtendedData>
 	<Polygon>
 		<altitudeMode>lockToGround</altitudeMode>
 		<outerBoundaryIs>
@@ -1707,35 +1651,27 @@ Republic of Congo, 178 cases, 157 deaths, 88% fatality rate
 </Placemark>
 
 // 2004:
-Sudan, 17 cases, 7 death, 41% fatality rate
-//
+Sudan, 17 cases, 7 death, 41% fatality rate//
+
 <Placemark id="sudan2004">
 	<name>Sudan 2004</name>
+    	<styleUrl>#rachelstyle</styleUrl>
 	<visibility>0</visibility>
 	<description> This outbreak was concurrent with an outbreak of measles in the same area, and several suspected EVD cases were later reclassified as measles cases.</description>
-    <ExtendedData>
-    <Data name="flag">
-		<value>http://upload.wikimedia.org/wikipedia/commons/7/7a/Flag_of_South_Sudan.svg</value>
-    </Data>
-    <Data name="cases">
-		<value>17</value>
-	</Data>
-	<Data name="deaths">
-		<value>7</value>
-	</Data>
-	<Data name="fatality">
-		<value>41%</value>
-	</Data>
-    </ExtendedData>
-    <styleUrl>#rachelstyle</styleUrl>
-    <Style>
-        <LineStyle>
-        </LineStyle>
-        <PolyStyle>
-        <color></color>
-        <fill>1</fill>
-        </PolyStyle>
-    </Style>
+    	<ExtendedData>
+    		<Data name="flag">
+    		    	<value>http://upload.wikimedia.org/wikipedia/commons/7/7a/Flag_of_South_Sudan.svg</value>
+    		</Data>
+    		<Data name="cases">
+			<value>17</value>
+		</Data>
+		<Data name="deaths">
+			<value>7</value>
+		</Data>
+		<Data name="fatality">
+			<value>41%</value>
+		</Data>
+	</ExtendedData>
 	<MultiGeometry>
         <Polygon>
             <altitudeMode>lockToGround</altitudeMode>
@@ -1818,7 +1754,7 @@ Republic of the Congo, Zaire strain, 12 cases, 10 deaths, 83% fatality //
 	<name>2005: Republic of the Congo</name>
 	<visibility>0</visibility>
 	<styleUrl>#tassiastyle</styleUrl>
-    <ExtendedData>
+	<ExtendedData>
 		<Data name="year">
 			<value>2005</value>
 		</Data>
@@ -1840,8 +1776,8 @@ Republic of the Congo, Zaire strain, 12 cases, 10 deaths, 83% fatality //
 		<Data name="fatality">
 			<value>83</value>
 		</Data>
-    </ExtendedData>
-    <Polygon>
+	</ExtendedData>
+	<Polygon>
 		<altitudeMode>lockToGround</altitudeMode>
 		<outerBoundaryIs>
 			<LinearRing>
@@ -1898,7 +1834,7 @@ Uganda, Bundibugyo strain, 149 cases, 37 deaths, 25% fatality//
 	<name>2007: Democratic Republic of the Congo</name>
 	<visibility>0</visibility>
 	<styleUrl>#tassiastyle</styleUrl>
-    <ExtendedData>
+	<ExtendedData>
 		<Data name="year">
 			<value>2007</value>
 		</Data>
@@ -1920,89 +1856,89 @@ Uganda, Bundibugyo strain, 149 cases, 37 deaths, 25% fatality//
 		<Data name="fatality">
 			<value>88</value>
 		</Data>
-    </ExtendedData>
+	</ExtendedData>
 	<MultiGeometry>
 		<Polygon>
 		<altitudeMode>lockToGround</altitudeMode>
-            <outerBoundaryIs>
-                <LinearRing>
-                    <altitudeMode>lockToGround</altitudeMode>
-                    <coordinates>
-                        25.891668319702148,5.192499160766602,66000
-                        27.455278396606445,5.016389846801758,66000
-                        28.363054275512695,4.290002822875977,66000
-                        29.643331527709961,4.643613815307617,66000
-                        30.858819961547852,3.49339485168457,66000
-                        30.72972297668457,2.448057174682617,66000
-                        31.302778244018555,2.121389389038086,66000
-                        29.960554122924805,0.825555801391602,66000
-                        29.596944808959961,-1.385833740234375,66000
-                        28.86833381652832,-2.394443511962891,66000
-                        29.024442672729492,-2.744722366333008,66000
-                        29.229898452758789,-3.75096321105957,66000
-                        29.423887252807617,-4.448055267333984,66000
-                        29.55027961730957,-6.295278549194336,66000
-                        30.771242141723633,-8.19224739074707,66000
-                        28.901666641235352,-8.478612899780273,66000
-                        28.372220993041992,-9.260833740234375,66000
-                        28.69972038269043,-10.65333366394043,66000
-                        28.363332748413086,-11.550834655761719,66000
-                        29.031389236450195,-12.383056640625,66000
-                        29.493612289428711,-12.458057403564453,66000
-                        29.805051803588867,-12.155246734619141,66000
-                        29.801389694213867,-13.454168319702148,66000
-                        29.589445114135742,-13.221944808959961,66000
-                        29.015832901000977,-13.39777946472168,66000
-                        28.441946029663086,-12.519723892211914,66000
-                        27.660001754760742,-12.296667098999023,66000
-                        27.199251174926758,-11.567905426025391,66000
-                        26.868612289428711,-11.973611831665039,66000
-                        26.004720687866211,-11.902500152587891,66000
-                        25.359724044799805,-11.641668319702148,66000
-                        25.332223892211914,-11.193334579467773,66000
-                        24.448331832885742,-11.463611602783203,66000
-                        23.986207962036133,-10.870460510253906,66000
-                        22.253889083862305,-11.209722518920898,66000
-                        22.312223434448242,-10.364444732666016,66000
-                        21.790555953979492,-9.405555725097656,66000
-                        21.782960891723633,-7.280841827392578,66000
-                        20.548715591430664,-7.283615112304688,66000
-                        20.62974739074707,-6.913881301879883,66000
-                        19.538949966430664,-6.996614456176758,66000
-                        19.373056411743164,-7.996110916137695,66000
-                        17.624166488647461,-8.098056793212891,66000
-                        16.941667556762695,-7.198610305786133,66000
-                        16.579721450805664,-5.900833129882812,66000
-                        13.997499465942383,-5.848611831665039,66000
-                        13.17888069152832,-5.856328964233398,66000
-                        12.435834884643555,-6.016666412353516,66000
-                        12.21455192565918,-5.7685546875,66000
-                        12.526666641235352,-5.724166870117188,66000
-                        12.565553665161133,-5.025554656982422,66000
-                        13.088888168334961,-4.662500381469727,66000
-                        13.091390609741211,-4.633054733276367,66000
-                        13.413888931274414,-4.882499694824219,66000
-                        13.72944450378418,-4.445833206176758,66000
-                        14.400835037231445,-4.277500152587891,66000
-                        14.418889999389648,-4.887222290039062,66000
-                        14.66139030456543,-4.909444808959961,66000
-                        15.890504837036133,-3.943008422851562,66000
-                        16.226945877075195,-3.328332901000977,66000
-                        16.195833206176758,-2.175832748413086,66000
-                        17.714998245239258,-0.537221908569336,66000
-                        18.091943740844727,2.22416877746582,66000
-                        18.624959945678711,3.47944450378418,66000
-                        18.54194450378418,4.335554122924805,66000
-                        19.421388626098633,5.13416862487793,66000
-                        20.585554122924805,4.410001754760742,66000
-                        22.379167556762695,4.127500534057617,66000
-                        22.895833969116211,4.821111679077148,66000
-                        23.420278549194336,4.59111213684082,66000
-                        24.394166946411133,5.115556716918945,66000
-                        24.734445571899414,4.910833358764648,66000
-                        25.54222297668457,5.381391525268555,66000
-                        25.891668319702148,5.192499160766602,66000
-                    </coordinates>
+        	<outerBoundaryIs>
+              	     <LinearRing>
+                    	<altitudeMode>lockToGround</altitudeMode>
+                    	<coordinates>
+                    	    25.891668319702148,5.192499160766602,66000
+                    	    27.455278396606445,5.016389846801758,66000
+                    	    28.363054275512695,4.290002822875977,66000
+                    	    29.643331527709961,4.643613815307617,66000
+                    	    30.858819961547852,3.49339485168457,66000
+                    	    30.72972297668457,2.448057174682617,66000
+                    	    31.302778244018555,2.121389389038086,66000
+                    	    29.960554122924805,0.825555801391602,66000
+                    	    29.596944808959961,-1.385833740234375,66000
+                    	    28.86833381652832,-2.394443511962891,66000
+                    	    29.024442672729492,-2.744722366333008,66000
+                    	    29.229898452758789,-3.75096321105957,66000
+                    	    29.423887252807617,-4.448055267333984,66000
+                    	    29.55027961730957,-6.295278549194336,66000
+                    	    30.771242141723633,-8.19224739074707,66000
+                    	    28.901666641235352,-8.478612899780273,66000
+                    	    28.372220993041992,-9.260833740234375,66000
+                    	    28.69972038269043,-10.65333366394043,66000
+                    	    28.363332748413086,-11.550834655761719,66000
+                    	    29.031389236450195,-12.383056640625,66000
+                    	    29.493612289428711,-12.458057403564453,66000
+                    	    29.805051803588867,-12.155246734619141,66000
+                    	    29.801389694213867,-13.454168319702148,66000
+                    	    29.589445114135742,-13.221944808959961,66000
+                    	    29.015832901000977,-13.39777946472168,66000
+                    	    28.441946029663086,-12.519723892211914,66000
+                    	    27.660001754760742,-12.296667098999023,66000
+                    	    27.199251174926758,-11.567905426025391,66000
+                    	    26.868612289428711,-11.973611831665039,66000
+                    	    26.004720687866211,-11.902500152587891,66000
+                    	    25.359724044799805,-11.641668319702148,66000
+                    	    25.332223892211914,-11.193334579467773,66000
+                    	    24.448331832885742,-11.463611602783203,66000
+                    	    23.986207962036133,-10.870460510253906,66000
+                    	    22.253889083862305,-11.209722518920898,66000
+                    	    22.312223434448242,-10.364444732666016,66000
+                    	    21.790555953979492,-9.405555725097656,66000
+                    	    21.782960891723633,-7.280841827392578,66000
+                    	    20.548715591430664,-7.283615112304688,66000
+                    	    20.62974739074707,-6.913881301879883,66000
+                    	    19.538949966430664,-6.996614456176758,66000
+                    	    19.373056411743164,-7.996110916137695,66000
+                    	    17.624166488647461,-8.098056793212891,66000
+                    	    16.941667556762695,-7.198610305786133,66000
+                    	    16.579721450805664,-5.900833129882812,66000
+                    	    13.997499465942383,-5.848611831665039,66000
+                    	    13.17888069152832,-5.856328964233398,66000
+                    	    12.435834884643555,-6.016666412353516,66000
+                    	    12.21455192565918,-5.7685546875,66000
+                    	    12.526666641235352,-5.724166870117188,66000
+                    	    12.565553665161133,-5.025554656982422,66000
+                    	    13.088888168334961,-4.662500381469727,66000
+                    	    13.091390609741211,-4.633054733276367,66000
+                    	    13.413888931274414,-4.882499694824219,66000
+                    	    13.72944450378418,-4.445833206176758,66000
+                    	    14.400835037231445,-4.277500152587891,66000
+                    	    14.418889999389648,-4.887222290039062,66000
+                    	    14.66139030456543,-4.909444808959961,66000
+                    	    15.890504837036133,-3.943008422851562,66000
+                    	    16.226945877075195,-3.328332901000977,66000
+                    	    16.195833206176758,-2.175832748413086,66000
+                    	    17.714998245239258,-0.537221908569336,66000
+                    	    18.091943740844727,2.22416877746582,66000
+                    	    18.624959945678711,3.47944450378418,66000
+                    	    18.54194450378418,4.335554122924805,66000
+                    	    19.421388626098633,5.13416862487793,66000
+                    	    20.585554122924805,4.410001754760742,66000
+                    	    22.379167556762695,4.127500534057617,66000
+                    	    22.895833969116211,4.821111679077148,66000
+                    	    23.420278549194336,4.59111213684082,66000
+                    	    24.394166946411133,5.115556716918945,66000
+                    	    24.734445571899414,4.910833358764648,66000
+                    	    25.54222297668457,5.381391525268555,66000
+                    	    25.891668319702148,5.192499160766602,66000
+                    	</coordinates>
                 </LinearRing>
             </outerBoundaryIs>
             <innerBoundaryIs>
@@ -2024,7 +1960,7 @@ Uganda, Bundibugyo strain, 149 cases, 37 deaths, 25% fatality//
 	<name>2007: Uganda</name>
 	<visibility>0</visibility>
 	<styleUrl>#tassiastyle</styleUrl>
-    <ExtendedData>
+	<ExtendedData>
 		<Data name="year">
 			<value>2007</value>
 		</Data>
@@ -2046,8 +1982,8 @@ Uganda, Bundibugyo strain, 149 cases, 37 deaths, 25% fatality//
 		<Data name="fatality">
 			<value>25</value>
 		</Data>
-    </ExtendedData>
-    <Polygon>
+	</ExtendedData>
+	<Polygon>
 		<altitudeMode>lockToGround</altitudeMode>
 		<outerBoundaryIs>
 			<LinearRing>
@@ -2079,11 +2015,12 @@ Uganda, Bundibugyo strain, 149 cases, 37 deaths, 25% fatality//
 
 // 2008:
 Democratic Republic of Congo, Zaire strain, 32 cases, 14 deaths, 44% fatality//
+
 <Placemark id="demcongo2008">
 	<name>2008: Democratic Republic of the Congo</name>
 	<visibility>0</visibility>
 	<styleUrl>#tassiastyle</styleUrl>
-    <ExtendedData>
+	<ExtendedData>
 		<Data name="year">
 			<value>2008</value>
 		</Data>
@@ -2105,11 +2042,11 @@ Democratic Republic of Congo, Zaire strain, 32 cases, 14 deaths, 44% fatality//
 		<Data name="fatality">
 			<value>44</value>
 		</Data>
-    </ExtendedData>
+	</ExtendedData>
 	<MultiGeometry>
-		<Polygon>
+	    <Polygon>
 		<altitudeMode>lcokToGround</altitudeMode>
-            <outerBoundaryIs>
+                <outerBoundaryIs>
                 <LinearRing>
                     <altitudeMode>lockToGround</altitudeMode>
                     <coordinates>
@@ -2212,7 +2149,7 @@ Uganda, Sudan strain, 1 cases, 1 deaths, 100% fatality//
 	<name>2011: Uganda</name>
 	<visibility>0</visibility>
 	<styleUrl>#tassiastyle</styleUrl>
-    <ExtendedData>
+	<ExtendedData>
 		<Data name="year">
 			<value>2007</value>
 		</Data>
@@ -2234,8 +2171,8 @@ Uganda, Sudan strain, 1 cases, 1 deaths, 100% fatality//
 		<Data name="fatality">
 			<value>100</value>
 		</Data>
-    </ExtendedData>
-    <Polygon>
+	</ExtendedData>
+	<Polygon>
 		<altitudeMode>lockToGround</altitudeMode>
 		<outerBoundaryIs>
 			<LinearRing>
@@ -2272,9 +2209,8 @@ Democratic Republic of Congo, Bundibugyo strain, 57 cases, 29 deaths, 51% fatali
 <Placemark id="uganda2012">
 	<name>2012: Uganda</name>
 	<visibility>0</visibility>
-	<open>1</open>
 	<styleUrl>#tassiastyle</styleUrl>
-    <ExtendedData>
+	<ExtendedData>
 		<Data name="year">
 			<value>2012</value>
 		</Data>
@@ -2296,8 +2232,8 @@ Democratic Republic of Congo, Bundibugyo strain, 57 cases, 29 deaths, 51% fatali
 		<Data name="fatality">
 			<value>68</value>
 		</Data>
-    </ExtendedData>
-    <Polygon>
+	</ExtendedData>
+	<Polygon>
 		<altitudeMode>lockToGround</altitudeMode>
 		<outerBoundaryIs>
 			<LinearRing>
@@ -2331,7 +2267,7 @@ Democratic Republic of Congo, Bundibugyo strain, 57 cases, 29 deaths, 51% fatali
 	<visibility>0</visibility>
 	<open>1</open>
 	<styleUrl>#tassiastyle</styleUrl>
-    <ExtendedData>
+	<ExtendedData>
 		<Data name="year">
 			<value>2012</value>
 		</Data>
@@ -2353,11 +2289,11 @@ Democratic Republic of Congo, Bundibugyo strain, 57 cases, 29 deaths, 51% fatali
 		<Data name="fatality">
 			<value>51</value>
 		</Data>
-    </ExtendedData>
+	</ExtendedData>
 	<MultiGeometry>
 		<Polygon>
 		<altitudeMode>lockToGround</altitudeMode>
-            <outerBoundaryIs>
+                <outerBoundaryIs>
                 <LinearRing>
                     <altitudeMode>lockToGround</altitudeMode>
                     <coordinates>
@@ -2453,6 +2389,7 @@ Democratic Republic of Congo, Bundibugyo strain, 57 cases, 29 deaths, 51% fatali
     </MultiGeometry>
 </Placemark>
 
+
 //2014 Ebola Outbreak
 
 Data up to 18 January 2015
@@ -2460,24 +2397,26 @@ Data up to 18 January 2015
 Guinea: 2871 cases, 1876 deaths
 Sierra Leone: 10340 cases, 3145 deaths
 Liberia: 8478 cases, 3605 deaths
-Nigeria: 20 cases, 8 deaths
-Senegal: 1 cases, 0 deaths
-United States of America: 4 cases, 1 deaths
-Spain: 1 cases, 0 deaths
-Inited Kingdom: 1 cases, 0 deaths
-Mali: 8 cases, 6 deaths
+Nigeria: 20 cases, 8 deaths				
+Senegal: 1 cases, 0 deaths 				
+United States of America: 4 cases, 1 deaths		
+Spain: 1 cases, 0 deaths				
+Inited Kingdom: 1 cases, 0 deaths			
+Mali: 8 cases, 6 deaths					
 Democratic Republic of Congo: 66 cases, 49 deaths //
-//non-extruded 2014 polygons//
+
+// Regular polygons (non-extruded) to show 2014 outbreak locations //
+
 <Placemark id="noexguinea2014">
 	<name>Guinea</name>
 	<visibility>0</visibility>
 	<Style>
 		<LineStyle>
         	<width>1.5</width>
-			<color>ff0000ff</color>
-      	</LineStyle>
-      	<PolyStyle>
-        	<fill>1</fill>
+		<color>ff0000ff</color>
+      		</LineStyle>
+	      	<PolyStyle>
+        		<fill>1</fill>
 		</PolyStyle>
 	</Style>
 	<Polygon>
@@ -2538,11 +2477,11 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
 	<visibility>0</visibility>
 	<Style>
 		<LineStyle>
-        	<width>1.5</width>
+		       	<width>1.5</width>
 			<color>ff0000ff</color>
-      	</LineStyle>
-      	<PolyStyle>
-        	<fill>1</fill>
+	      	</LineStyle>
+      		<PolyStyle>
+        		<fill>1</fill>
 		</PolyStyle>
 	</Style>
 	<Polygon>
@@ -2578,11 +2517,11 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
 	<visibility>0</visibility>
 	<Style>
 		<LineStyle>
-        	<width>1.5</width>
+	        	<width>1.5</width>
 			<color>ff0000ff</color>
-      	</LineStyle>
-      	<PolyStyle>
-        	<fill>1</fill>
+      		</LineStyle>
+	      	<PolyStyle>
+        		<fill>1</fill>
 		</PolyStyle>
 	</Style>
 	<Polygon>
@@ -2659,11 +2598,11 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
 	<visibility>0</visibility>
 	<Style>
 		<LineStyle>
-        	<width>1.5</width>
+        		<width>1.5</width>
 			<color>ff0000ff</color>
-      	</LineStyle>
-      	<PolyStyle>
-        	<fill>1</fill>
+	      	</LineStyle>
+      		<PolyStyle>
+        		<fill>1</fill>
 		</PolyStyle>
 	</Style>
 	<Polygon>
@@ -2732,11 +2671,11 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
 	<visibility>0</visibility>
 	<Style>
 		<LineStyle>
-        	<width>1.5</width>
+	        	<width>1.5</width>
 			<color>ff0000ff</color>
-      	</LineStyle>
-      	<PolyStyle>
-        	<fill>1</fill>
+      		</LineStyle>
+	      	<PolyStyle>
+        		<fill>1</fill>
 		</PolyStyle>
 	</Style>
 	<Polygon>
@@ -2792,11 +2731,11 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
 	<visibility>0</visibility>
 	<Style>
 		<LineStyle>
-        	<width>1.5</width>
+        		<width>1.5</width>
 			<color>ff0000ff</color>
-      	</LineStyle>
-      	<PolyStyle>
-        	<fill>1</fill>
+	      	</LineStyle>
+      		<PolyStyle>
+        		<fill>1</fill>
 		</PolyStyle>
 	</Style>
 	<MultiGeometry>
@@ -2846,7 +2785,9 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
 	</MultiGeometry>
 </Placemark>
 
-//extruded 2014 polygons//
+
+// Extruded polygons with height proportional to number of cases //
+
 <Placemark id="guinea2014">
 	<name>Guinea</name>
 	<visibility>0</visibility>
@@ -3031,11 +2972,10 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
 	</Polygon>
 </Placemark>
 
-
 <Placemark id="nigeria2014">
 	<name>Nigeria</name>
 	<visibility>0</visibility>
-	<description>Mali</description>
+	<description>Nigeria</description>
 	<Style id="transBluePoly">
 		<LineStyle>
 			<width>1.5</width>
@@ -3236,7 +3176,7 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
 	<MultiGeometry>
 		<Polygon>
 		<altitudeMode>relativeToGround</altitudeMode>
-            <outerBoundaryIs>
+           	<outerBoundaryIs>
                 <LinearRing>
                     <altitudeMode>relativeToGround</altitudeMode>
                     <coordinates>
@@ -3332,248 +3272,413 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
     </MultiGeometry>
 </Placemark>
 
-<Folder><name>Guinea Ebola Treatment Centres</name>
-	<Placemark id="guinea_etc">
-		<name/>
-		<visibility>0</visibility>
-		<MultiGeometry>
-			<Point id="Macenta">
-				<coordinates>
-					-9.465582004999931,8.51824
-				</coordinates>
-			</Point>
-			<Point id="Gueckedou">
-				<coordinates>
-					-10.120963604999929,8.552846
-				</coordinates>
-			</Point>
-			<Point id="Conarky Donka Hospital">
-				<coordinates>
-					-13.683193,9.535421
-				</coordinates>
-			</Point>
-			<Point id="Coyah">
-				<coordinates>
-					-13.420806149999976,9.730112226000074
-				</coordinates>
-			</Point>
-			<Point id="Beyla">
-				<coordinates>
-					-8.648371163999968,8.689988011000025
-				</coordinates>
-			</Point>
-			<Point id="Nzerekore">
-				<coordinates>
-					-8.819621349999977,7.755827287000045
-				</coordinates>
-			</Point>
-			<Point id="Kerouane">
-				<coordinates>
-					-9.00967686,9.27113866
-				</coordinates>
-			</Point>
-			<Point id="Wonkifong">
-				<coordinates>
-					-13.420806149999919,9.730112226000188
-				</coordinates>
-			</Point>
-			<Point id="Kankan">
-				<coordinates>
-					-9.305,10.383
-				</coordinates>
-			</Point>
-		</MultiGeometry>
-	</Placemark>
-</Folder>
 
-<Folder><name>Liberia Ebola Treatment Centres</name>
-	<Placemark id="liberia_etc">
-		<name/>
-		<visibility>0</visibility>
-		<MultiGeometry>
-			<Point id="Barclayville">
-				<coordinates>
-					-8.234894946337647,4.676541494899709
-				</coordinates>
-			</Point>
-			<Point id="Bopulu">
-				<coordinates>
-					-10.490690797999946,7.063901776000023
-				</coordinates>
-			</Point>
-			<Point id="Buchanan">
-				<coordinates>
-					-10.033222554436634,5.888103365665643
-				</coordinates>
-			</Point>
-			<Point id="Tappita">
-				<coordinates>
-					-8.859992908999914,6.489959099000089
-				</coordinates>
-			</Point>
-			<Point id="Greenville">
-				<coordinates>
-					-9.033332999999857,5.016667
-				</coordinates>
-			</Point>
-			<Point id="Harper">
-				<coordinates>
-					-7.692520015999946,4.393410511000127
-				</coordinates>
-			</Point>
-			<Point id="Fish Town">
-				<coordinates>
-					-7.75556,5.196390000000122
-				</coordinates>
-			</Point>
-			<Point id="Sinje">
-				<coordinates>
-					-11.133826269999872,6.816054550000047
-				</coordinates>
-			</Point>
-			<Point id="Zwedru">
-				<coordinates>
-					-8.138060197999948,6.064957047000064
-				</coordinates>
-			</Point>
-			<Point id="Voinjama">
-				<coordinates>
-					-9.749968121999871,8.416583628000126
-				</coordinates>
-			</Point>
-			<Point id="JFK hospital">
-				<coordinates>
-					-10.77325,6.28723
-				</coordinates>
-			</Point>
-			<Point id="SKD 1">
-				<coordinates>
-					-10.700455938999937,6.256756063000125
-				</coordinates>
-			</Point>
-			<Point id="SKD 2">
-				<coordinates>
-					-10.700525704999961,6.257445946000075
-				</coordinates>
-			</Point>
-			<Point id="Congo Town 2 (old MoD 2)">
-				<coordinates>
-					-10.731190999999853,6.268152
-				</coordinates>
-			</Point>
-			<Point id="Kakata II">
-				<coordinates>
-					-10.342221360999929,6.53993904400005
-				</coordinates>
-			</Point>
-			<Point id="Robertsport">
-				<coordinates>
-					-11.364704647999929,6.75201231
-				</coordinates>
-			</Point>
-			<Point id="Ganta">
-				<coordinates>
-					-8.9777,7.235110000000134
-				</coordinates>
-			</Point>
-			<Point id="ELWA 3">
-				<coordinates>
-					-10.70028,6.244439994000118
-				</coordinates>
-			</Point>
-			<Point id="ELWA 2">
-				<coordinates>
-					-10.695999998999923,6.239650002000076
-				</coordinates>
-			</Point>
-			<Point id="SKD 3 - Chinese">
-				<coordinates>
-					-10.703363224695579,6.258009053209321
-				</coordinates>
-			</Point>
-			<Point id="Firestone">
-				<coordinates>
-					-10.469719989999874,6.353059977000157
-				</coordinates>
-			</Point>
-			<Point id="Tubmanburg">
-				<coordinates>
-					-10.820409883999957,6.868750729000169
-				</coordinates>
-			</Point>
-			<Point id="Unity Conference Centre">
-				<coordinates>
-					-10.792832569999916,6.389035218
-				</coordinates>
-			</Point>
-			<Point id="Suakoko / Gbarnga">
-				<coordinates>
-					-9.555143999999871,7.004669
-				</coordinates>
-			</Point>
-			<Point id="Island Clinic">
-				<coordinates>
-					-10.787113499999919,6.384371600000179
-				</coordinates>
-			</Point>
-			<Point id="Monrovia Medical Unit">
-				<coordinates>
-					-10.801389,6.31333300000017
-				</coordinates>
-			</Point>
-			<Point id="Foya">
-				<coordinates>
-					-10.205756652999867,8.378911296000069
-				</coordinates>
-			</Point>
-			<Point id="Congo Town 1 (old MoD)">
-				<coordinates>
-					-10.734170003999964,6.27027999500018
-				</coordinates>
-			</Point>
-			<Point id="Kakata 1">
-				<coordinates>
-					-10.360384231999944,6.527523558000041
-				</coordinates>
-			</Point>
-			<Point id="Ganta United Methodist Hospital">
-				<coordinates>
-					-8.981322865999914,7.237326592000045
-				</coordinates>
-			</Point>
-			<Point id="Gbediah Town">
-				<coordinates>
-					-9.648,5.687
-				</coordinates>
-			</Point>
-			<Point id="Zorzor">
-				<coordinates>
-					-9.428165700000022,7.7787995
-				</coordinates>
-			</Point>
-		</MultiGeometry>
-	</Placemark>
-</Folder>
+// Ebola Treatment Centres (ETCs) are shown as point features
+
+<Placemark id="guinea_etc">
+	<name>Guinea Ebola Treatment Centres</name>
+	<visibility>0</visibility>
+	<MultiGeometry>
+		<Point id="Macenta">
+			<coordinates>
+				-9.465582004999931,8.51824
+			</coordinates>
+		</Point>
+		<Point id="Gueckedou">
+			<coordinates>
+				-10.120963604999929,8.552846
+			</coordinates>
+		</Point>
+		<Point id="Conarky Donka Hospital">
+			<coordinates>
+				-13.683193,9.535421
+			</coordinates>
+		</Point>
+		<Point id="Coyah">
+			<coordinates>
+				-13.420806149999976,9.730112226000074
+			</coordinates>
+		</Point>
+		<Point id="Beyla">
+			<coordinates>
+				-8.648371163999968,8.689988011000025
+			</coordinates>
+		</Point>
+		<Point id="Nzerekore">
+			<coordinates>
+				-8.819621349999977,7.755827287000045
+			</coordinates>
+		</Point>
+		<Point id="Kerouane">
+			<coordinates>
+				-9.00967686,9.27113866
+			</coordinates>
+		</Point>
+		<Point id="Wonkifong">
+			<coordinates>
+				-13.420806149999919,9.730112226000188
+			</coordinates>
+		</Point>
+		<Point id="Kankan">
+			<coordinates>
+				-9.305,10.383
+			</coordinates>
+		</Point>
+	</MultiGeometry>
+</Placemark>
+
+<Placemark id="liberia_etc">
+	<name>Liberia Ebola Treatment Centres</name>
+	<visibility>0</visibility>
+	<MultiGeometry>
+		<Point id="Barclayville">
+			<coordinates>
+				-8.234894946337647,4.676541494899709
+			</coordinates>
+		</Point>
+		<Point id="Bopulu">
+			<coordinates>
+				-10.490690797999946,7.063901776000023
+			</coordinates>
+		</Point>
+		<Point id="Buchanan">
+			<coordinates>
+				-10.033222554436634,5.888103365665643
+			</coordinates>
+		</Point>
+		<Point id="Tappita">
+			<coordinates>
+				-8.859992908999914,6.489959099000089
+			</coordinates>
+		</Point>
+		<Point id="Greenville">
+			<coordinates>
+				-9.033332999999857,5.016667
+			</coordinates>
+		</Point>
+		<Point id="Harper">
+			<coordinates>
+				-7.692520015999946,4.393410511000127
+			</coordinates>
+		</Point>
+		<Point id="Fish Town">
+			<coordinates>
+				-7.75556,5.196390000000122
+			</coordinates>
+		</Point>
+		<Point id="Sinje">
+			<coordinates>
+				-11.133826269999872,6.816054550000047
+			</coordinates>
+		</Point>
+		<Point id="Zwedru">
+			<coordinates>
+				-8.138060197999948,6.064957047000064
+			</coordinates>
+		</Point>
+		<Point id="Voinjama">
+			<coordinates>
+				-9.749968121999871,8.416583628000126
+			</coordinates>
+		</Point>
+		<Point id="JFK hospital">
+			<coordinates>
+				-10.77325,6.28723
+			</coordinates>
+		</Point>
+		<Point id="SKD 1">
+			<coordinates>
+				-10.700455938999937,6.256756063000125
+			</coordinates>
+		</Point>
+		<Point id="SKD 2">
+			<coordinates>
+				-10.700525704999961,6.257445946000075
+			</coordinates>
+		</Point>
+		<Point id="Congo Town 2 (old MoD 2)">
+			<coordinates>
+				-10.731190999999853,6.268152
+			</coordinates>
+		</Point>
+		<Point id="Kakata II">
+			<coordinates>
+				-10.342221360999929,6.53993904400005
+			</coordinates>
+		</Point>
+		<Point id="Robertsport">
+			<coordinates>
+				-11.364704647999929,6.75201231
+			</coordinates>
+		</Point>
+		<Point id="Ganta">
+			<coordinates>
+				-8.9777,7.235110000000134
+			</coordinates>
+		</Point>
+		<Point id="ELWA 3">
+			<coordinates>
+				-10.70028,6.244439994000118
+			</coordinates>
+		</Point>
+		<Point id="ELWA 2">
+			<coordinates>
+				-10.695999998999923,6.239650002000076
+			</coordinates>
+		</Point>
+		<Point id="SKD 3 - Chinese">
+			<coordinates>
+				-10.703363224695579,6.258009053209321
+			</coordinates>
+		</Point>
+		<Point id="Firestone">
+			<coordinates>
+				-10.469719989999874,6.353059977000157
+			</coordinates>
+		</Point>
+		<Point id="Tubmanburg">
+			<coordinates>
+				-10.820409883999957,6.868750729000169
+			</coordinates>
+		</Point>
+		<Point id="Unity Conference Centre">
+			<coordinates>
+				-10.792832569999916,6.389035218
+			</coordinates>
+		</Point>
+		<Point id="Suakoko / Gbarnga">
+			<coordinates>
+				-9.555143999999871,7.004669
+			</coordinates>
+		</Point>
+		<Point id="Island Clinic">
+			<coordinates>
+				-10.787113499999919,6.384371600000179
+			</coordinates>
+		</Point>
+		<Point id="Monrovia Medical Unit">
+			<coordinates>
+				-10.801389,6.31333300000017
+			</coordinates>
+		</Point>
+		<Point id="Foya">
+			<coordinates>
+				-10.205756652999867,8.378911296000069
+			</coordinates>
+		</Point>
+		<Point id="Congo Town 1 (old MoD)">
+			<coordinates>
+				-10.734170003999964,6.27027999500018
+			</coordinates>
+		</Point>
+		<Point id="Kakata 1">
+			<coordinates>
+				-10.360384231999944,6.527523558000041
+			</coordinates>
+		</Point>
+		<Point id="Ganta United Methodist Hospital">
+			<coordinates>
+				-8.981322865999914,7.237326592000045
+			</coordinates>
+		</Point>
+		<Point id="Gbediah Town">
+			<coordinates>
+				-9.648,5.687
+			</coordinates>
+		</Point>
+		<Point id="Zorzor">
+			<coordinates>
+				-9.428165700000022,7.7787995
+			</coordinates>
+		</Point>
+	</MultiGeometry>
+</Placemark>
+
+<Placemark id="sierraleone_etc">
+	<name>Sierra Leone Ebola Treatment Centres</name>
+        <visibility>0</visibility>
+        <MultiGeometry>
+            <Point id="Goderich">
+                <coordinates>
+                    -13.280407348999859,8.424321007000174
+                </coordinates>
+            </Point>
+            <Point id="Hastings Eastside">
+                <coordinates>
+                    -13.140651562999949,8.382141677999982
+                </coordinates>
+            </Point>
+            <Point id="Police Training Sch-Hastings 1">
+                <coordinates>
+                    -13.125850928999967,8.382704501000092
+                </coordinates>
+            </Point>
+            <Point id="Kerry Town">
+                <coordinates>
+                    -13.086370684999906,8.25709548399999
+                </coordinates>
+            </Point>
+            <Point id="Port Loko">
+                <coordinates>
+                    -12.76239,8.776650000000132
+                </coordinates>
+            </Point>
+            <Point id="Port Loko">
+                <coordinates>
+                    -12.76239,8.776650000000132
+                </coordinates>
+            </Point>
+            <Point id="Lunsar, Port Loko">
+                <coordinates>
+                    -12.57656,8.69854
+                </coordinates>
+            </Point>
+            <Point id="Moyamba">
+                <coordinates>
+                    -12.412037406999957,8.176575114000116
+                </coordinates>
+            </Point>
+            <Point id="Makeni">
+                <coordinates>
+                    -12.030972037999845,8.798044033000053
+                </coordinates>
+            </Point>
+            <Point id="Jui Hospital - Freetown">
+                <coordinates>
+                   -13.149548493999873,8.386860908000187
+                </coordinates>
+            </Point>
+            <Point id="Lakka Hospital ETU">
+                <coordinates>
+                    -13.265,8.403
+                </coordinates>
+            </Point>
+            <Point id="Kailahun MSF">
+                <coordinates>
+                    -10.5576,8.29846
+                </coordinates>
+            </Point>
+            <Point id="Rural Kenema Field Hospital">
+                <coordinates>
+                    -11.1156,8.005088
+                </coordinates>
+            </Point>
+            <Point id="Kono - Koidu Town">
+                <coordinates>
+                    -10.95946423,8.633899242000041
+                </coordinates>
+            </Point>
+            <Point id="Bo Town SLRA">
+                <coordinates>
+                    -11.6697,7.9410400000001
+                </coordinates>
+            </Point>
+            <Point id="AHS - Waterloo Hospital">
+                <coordinates>
+                    -13.073548,8.335621
+                </coordinates>
+            </Point>
+            <Point id="Magbenteh Hospital">
+                <coordinates>
+                    -12.058447,8.84611
+                </coordinates>
+            </Point>
+            <Point id="HIM - Newton">
+                <coordinates>
+                    -13.008915,8.335112
+                </coordinates>
+            </Point>
+            <Point id="Police Training Sch-Hastings 2">
+                <coordinates>
+                    -13.125850928999967,8.382704501000092
+                </coordinates>
+            </Point>
+            <Point id="Maforki ETU">
+                <coordinates>
+                    -12.7724,8.74984
+                </coordinates>
+            </Point>
+            <Point id="34 Military Hospital">
+                <coordinates>
+                    -13.261241999999868,8.464217
+                </coordinates>
+            </Point>
+            <Point id="Kerry Town - Section for Health Care Workers">
+                <coordinates>
+                    -13.086370684999906,8.25709548399999
+                </coordinates>
+            </Point>
+            <Point id="Freetown - SA Build">
+                <coordinates>
+                    -13.223,8.481
+                </coordinates>
+            </Point>
+            <Point id="Freetown - UK Build">
+                <coordinates>
+                    -13.217,8.483
+                </coordinates>
+            </Point>
+            <Point id="Prince of Wales School">
+                <coordinates>
+                    -13.245,8.489
+                </coordinates>
+            </Point>
+            <Point id="Methodist Boys High School">
+                <coordinates>
+                    -13.186,8.462
+                </coordinates>
+            </Point>
+            <Point id="Hastings Airfield">
+                <coordinates>
+                    -13.178610999999876,8.61611100000016
+                </coordinates>
+            </Point>
+            <Point id="Makeni">
+                <coordinates>
+                    -12.030972037999845,8.798044033000053
+                </coordinates>
+            </Point>
+        </MultiGeometry>
+</Placemark>
+
+
+// Mashup of a chart showing ebola cases and deaths
 
 <Placemark id="chartapi">
     <name>West African Ebola Epidemic</name>
 	<styleUrl>#raw</styleUrl>
     <open>1</open>
     <visibility>0</visibility>
-    <Snippet>Death and Cases in West Africa 2015</Snippet>
+    <Snippet>Ebola Cases and deaths in West Africa 2015</Snippet>
     <description><![CDATA[<img src="http://chart.apis.google.com/chart?cht=bvg&chs=350x300&chd=t:2871,8471,10340|1876,3605,3145&chxr=1,0,12000&chds=1,12000&chco=0A8C8A,EBB671,DE091A&chbh=15,0,20&chxt=x,y&chxl=0:|Guinea|Liberia|Sierra%20Leone|Salad&chdl=Cases|Deaths&chg=0,8.3,5,5"/>]]></description>
     <Point>
       <coordinates>-8.374023,5.512997,0</coordinates>
     </Point>
-  </Placemark>
+</Placemark>
+
   
+// Introductory placemark
+
+<Placemark id="mcgill">
+	<name>McGill University</name>
+	<styleUrl>#raw</styleUrl>
+	<description>Get ready for a tough trip! This tour will take you over locations of Ebola outbreaks since 1976. <br />
+                     Isolated cases (less than 10 in a particular year/location) were omitted for the sake of clearness.</description>
+	<Point>
+      <coordinates>-73.575220,45.504086,0</coordinates>
+    </Point>
+</Placemark>
+
 </Folder>
+
+
+// Chronology of ebola outbreaks (omitted outbreaks with less than 10 cases)
 
 <gx:Tour>
     <name>Play me!</name>
     <gx:Playlist>
 
-		// Starting the tour at McGill University
+	// Starting poing at McGill University
         <gx:FlyTo>
           <gx:duration>2.0</gx:duration>
           <gx:flyToMode>smooth</gx:flyToMode>
@@ -4530,6 +4635,7 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
             </Change>
           </Update>
         </gx:AnimatedUpdate>
+        
 //trying to get the camera to fly to see the extrusion better, but I've been very unsuccessful//
 	<!--<gx:FlyTo>
 		<gx:duration>3</gx:duration>
