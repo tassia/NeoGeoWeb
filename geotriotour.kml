@@ -117,13 +117,22 @@
             <fill>1</fill>
         </Polystyle>
   </Style>
-
+  
+<Style id="raw">
+    <BalloonStyle>
+      <text>
+        <![CDATA[$[description]]]>
+      </text>
+    </BalloonStyle>
+</Style>
+  
 <Folder>
 <name>Geo Trio Placemarks</name>
 
 <Placemark id="mcgill">
 	<name>McGill University</name>
-	<description>Please give me a proper description!</description>
+	<styleUrl>#raw</styleUrl>
+	<description> Please give me a proper description!</description>
 	<Point>
       <coordinates>-73.575220,45.504086,0</coordinates>
     </Point>
@@ -3548,6 +3557,7 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
 
 <Placemark id="chartapi">
     <name>West African Ebola Epidemic</name>
+	<styleUrl>#raw</styleUrl>
     <open>1</open>
     <visibility>0</visibility>
     <Snippet>Death and Cases in West Africa 2015</Snippet>
@@ -4074,7 +4084,7 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
         </gx:Wait>
         
         <gx:AnimatedUpdate>
-          <gx:duration>2.0</gx:duration>
+          <gx:duration>0</gx:duration>
           <Update>
             <targetHref/>
             <Change>
@@ -4084,14 +4094,13 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
               </Placemark>
             </Change>
           </Update>
-        </gx:AnimatedUpdate>
-        
+        </gx:AnimatedUpdate>        
         <gx:Wait>
             <gx:duration> 2.0 </gx:duration>
          </gx:Wait>
         
         <gx:AnimatedUpdate>
-          <gx:duration>2.0</gx:duration>
+          <gx:duration>0</gx:duration>
           <Update>
             <targetHref/>
             <Change>
@@ -4101,14 +4110,13 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
               </Placemark>
             </Change>
           </Update>
-        </gx:AnimatedUpdate>
-        
+        </gx:AnimatedUpdate>        
         <gx:Wait>
             <gx:duration> 2.0 </gx:duration>
          </gx:Wait>
         
         <gx:AnimatedUpdate>
-          <gx:duration>2.0</gx:duration>
+          <gx:duration>0</gx:duration>
           <Update>
             <targetHref/>
             <Change>
@@ -4118,14 +4126,13 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
               </Placemark>
             </Change>
           </Update>
-        </gx:AnimatedUpdate>
-		
+        </gx:AnimatedUpdate>		
         <gx:Wait>
           <gx:duration>2.0</gx:duration>
         </gx:Wait>
 		
 		<gx:AnimatedUpdate>
-          <gx:duration>2.0</gx:duration>
+          <gx:duration>0</gx:duration>
           <Update>
             <targetHref/>
             <Change>
@@ -4136,13 +4143,12 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
             </Change>
           </Update>
         </gx:AnimatedUpdate>
-
         <gx:Wait>
           <gx:duration>2.0</gx:duration>
         </gx:Wait>
 		
         <gx:AnimatedUpdate>
-          <gx:duration>2.0</gx:duration>
+          <gx:duration>0</gx:duration>
           <Update>
             <targetHref/>
             <Change>
@@ -4153,13 +4159,12 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
             </Change>
           </Update>
         </gx:AnimatedUpdate>
-
 		<gx:Wait>
           <gx:duration>2.0</gx:duration>
         </gx:Wait>
 		
         <gx:AnimatedUpdate>
-          <gx:duration>2.0</gx:duration>
+          <gx:duration>0</gx:duration>
           <Update>
             <targetHref/>
             <Change>
@@ -4169,14 +4174,13 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
               </Placemark>
             </Change>
           </Update>
-        </gx:AnimatedUpdate>
-  
+        </gx:AnimatedUpdate>  
 		<gx:Wait>
           <gx:duration>2.0</gx:duration>
         </gx:Wait>
 
         <gx:AnimatedUpdate>
-          <gx:duration>2.0</gx:duration>
+          <gx:duration>0</gx:duration>
           <Update>
             <targetHref/>
             <Change>
@@ -4187,13 +4191,12 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
             </Change>
           </Update>
         </gx:AnimatedUpdate>
-
         <gx:Wait>
           <gx:duration>2.0</gx:duration>
         </gx:Wait>
 
 		<gx:AnimatedUpdate>
-          <gx:duration>2.0</gx:duration>
+          <gx:duration>0</gx:duration>
           <Update>
             <targetHref/>
             <Change>
@@ -4203,13 +4206,13 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
               </Placemark>
             </Change>
           </Update>
-        </gx:AnimatedUpdate>
-		
+        </gx:AnimatedUpdate>		
         <gx:Wait>
           <gx:duration>2.0</gx:duration>
         </gx:Wait>
+		
         <gx:AnimatedUpdate>
-          <gx:duration>2.0</gx:duration>
+          <gx:duration>0</gx:duration>
           <Update>
             <targetHref/>
             <Change>
@@ -4220,13 +4223,12 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
             </Change>
           </Update>
         </gx:AnimatedUpdate>
-
         <gx:Wait>
           <gx:duration>2.0</gx:duration>
         </gx:Wait>
 		
         <gx:AnimatedUpdate>
-          <gx:duration>2.0</gx:duration>
+          <gx:duration>0</gx:duration>
           <Update>
             <targetHref/>
             <Change>
@@ -4237,13 +4239,12 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
             </Change>
           </Update>
         </gx:AnimatedUpdate>
-
         <gx:Wait>
           <gx:duration>2.0</gx:duration>
         </gx:Wait>
 
         <gx:AnimatedUpdate>
-          <gx:duration>2.0</gx:duration>
+          <gx:duration>0</gx:duration>
           <Update>
             <targetHref/>
             <Change>
@@ -4254,7 +4255,9 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
             </Change>
           </Update>
         </gx:AnimatedUpdate>
-
+        <gx:Wait>
+          <gx:duration>2.0</gx:duration>
+        </gx:Wait>
         <!--<gx:Wait>
           <gx:duration>2.0</gx:duration>
         </gx:Wait>-->
@@ -4289,12 +4292,9 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
           </Update>
         </gx:AnimatedUpdate>-->
 
-        <gx:Wait>
-          <gx:duration>2.0</gx:duration>
-        </gx:Wait>
 
 		<gx:AnimatedUpdate>
-          <gx:duration>2.0</gx:duration>
+          <gx:duration>0</gx:duration>
           <Update>
             <targetHref/>
             <Change>
@@ -4304,14 +4304,13 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
               </Placemark>
             </Change>
           </Update>
-        </gx:AnimatedUpdate>
-		
+        </gx:AnimatedUpdate>		
         <gx:Wait>
           <gx:duration>2.0</gx:duration>
         </gx:Wait>
 
         <gx:AnimatedUpdate>
-          <gx:duration>2.0</gx:duration>
+          <gx:duration>0</gx:duration>
           <Update>
             <targetHref/>
             <Change>
@@ -4322,13 +4321,12 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
             </Change>
           </Update>
         </gx:AnimatedUpdate>
-		
         <gx:Wait>
           <gx:duration>2.0</gx:duration>
         </gx:Wait>
 		
         <gx:AnimatedUpdate>
-          <gx:duration>2.0</gx:duration>
+          <gx:duration>0</gx:duration>
           <Update>
             <targetHref/>
             <Change>
@@ -4339,13 +4337,12 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
             </Change>
           </Update>
         </gx:AnimatedUpdate>
-
         <gx:Wait>
           <gx:duration>2.0</gx:duration>
         </gx:Wait>
 
         <gx:AnimatedUpdate>
-          <gx:duration>2.0</gx:duration>
+          <gx:duration>0</gx:duration>
           <Update>
             <targetHref/>
             <Change>
@@ -4376,7 +4373,7 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
         </gx:Wait>
 
         <gx:AnimatedUpdate>
-          <gx:duration>2.0</gx:duration>
+          <gx:duration>0</gx:duration>
           <Update>
             <targetHref/>
             <Change>
@@ -4387,13 +4384,12 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
             </Change>
           </Update>
         </gx:AnimatedUpdate>
-
         <gx:Wait>
           <gx:duration>2.0</gx:duration>
         </gx:Wait>
 
         <gx:AnimatedUpdate>
-          <gx:duration>2.0</gx:duration>
+          <gx:duration>0</gx:duration>
           <Update>
             <targetHref/>
             <Change>
@@ -4404,13 +4400,12 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
             </Change>
           </Update>
         </gx:AnimatedUpdate>
-
         <gx:Wait>
           <gx:duration>2.0</gx:duration>
         </gx:Wait>
 
         <gx:AnimatedUpdate>
-          <gx:duration>2.0</gx:duration>
+          <gx:duration>0</gx:duration>
           <Update>
             <targetHref/>
             <Change>
@@ -4421,13 +4416,12 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
             </Change>
           </Update>
         </gx:AnimatedUpdate>
-
         <gx:Wait>
           <gx:duration>2.0</gx:duration>
         </gx:Wait>
 
         <gx:AnimatedUpdate>
-          <gx:duration>2.0</gx:duration>
+          <gx:duration>0</gx:duration>
           <Update>
             <targetHref/>
             <Change>
@@ -4438,7 +4432,6 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
             </Change>
           </Update>
         </gx:AnimatedUpdate>
-		
         <gx:Wait>
           <gx:duration>2.0</gx:duration>
         </gx:Wait>
@@ -4454,13 +4447,13 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
               </Placemark>
             </Change>
           </Update>
-        </gx:AnimatedUpdate>-->
+        </gx:AnimatedUpdate>
 
         <gx:Wait>
           <gx:duration>2.0</gx:duration>
         </gx:Wait>
 
-        <!--<gx:AnimatedUpdate>
+        <gx:AnimatedUpdate>
           <gx:duration>2.0</gx:duration>
           <Update>
             <targetHref/>
@@ -4471,12 +4464,13 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
               </Placemark>
             </Change>
           </Update>
-        </gx:AnimatedUpdate>-->
+        </gx:AnimatedUpdate>
 		
         <gx:Wait>
           <gx:duration>2.0</gx:duration>
         </gx:Wait>
-
+		-->
+		
         <gx:AnimatedUpdate>
           <gx:duration>2.0</gx:duration>
           <Update>
@@ -4509,7 +4503,7 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
         </gx:Wait>
         
         <gx:AnimatedUpdate>
-          <gx:duration>2.0</gx:duration>
+          <gx:duration>0</gx:duration>
           <Update>
             <targetHref/>
             <Change>
@@ -4521,11 +4515,23 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
           </Update>
         </gx:AnimatedUpdate>
         <gx:Wait>
-          <gx:duration>2.0</gx:duration>
+          <gx:duration>4.0</gx:duration>
         </gx:Wait>
-
+		
+       <gx:AnimatedUpdate>
+          <gx:duration>0</gx:duration>
+          <Update>
+            <targetHref/>
+            <Change>
+              <Placemark targetId="#chartapi">
+			  	<visibility>0</visibility>
+                <gx:balloonVisibility>0</gx:balloonVisibility>
+              </Placemark>
+            </Change>
+          </Update>
+        </gx:AnimatedUpdate>
 //trying to get the camera to fly to see the extrusion better, but I've been very unsuccessful//
-	<gx:FlyTo>
+	<!--<gx:FlyTo>
 		<gx:duration>3</gx:duration>
 		<gx:flyToMode>smooth</gx:flyToMode>
 		<LookAt>
@@ -4540,11 +4546,9 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
 			</Camera>
 		</LookAt>
 	</gx:FlyTo>
-	
-			   
-
+	-->
 	    <gx:AnimatedUpdate>
-          <gx:duration>2.0</gx:duration>
+          <gx:duration>0</gx:duration>
           <Update>
             <targetHref/>
             <Change>
@@ -4555,27 +4559,25 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
             </Change>
           </Update>
         </gx:AnimatedUpdate>
-			
-		   
         <gx:Wait>
-          <gx:duration>2.0</gx:duration>
+          <gx:duration>3.0</gx:duration>
         </gx:Wait>
+		
 	      <gx:AnimatedUpdate>
-          <gx:duration>2.0</gx:duration>
+          <gx:duration>0</gx:duration>
           <Update>
             <targetHref/>
             <Change>
               <Placemark targetId="#guinea_etc">
 			  	<visibility>1</visibility>
-                <gx:balloonVisibility>1</gx:balloonVisibility>
               </Placemark>
             </Change>
           </Update>
         </gx:AnimatedUpdate>
-		   
         <gx:Wait>
-          <gx:duration>2.0</gx:duration>
+          <gx:duration>3.0</gx:duration>
         </gx:Wait>
+		
 <!--I think that we should leave out the DRC 2014 outbreak because it's hard to show on the map
         <gx:Wait>
           <gx:duration>2.0</gx:duration>
@@ -4612,7 +4614,7 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
         </gx:AnimatedUpdate>	
 -->	
         <gx:Wait>
-          <gx:duration>2.0</gx:duration>
+          <gx:duration>5.0</gx:duration>
         </gx:Wait>	
 	
         <gx:FlyTo>
