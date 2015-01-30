@@ -3555,6 +3555,155 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
 	</Placemark>
 </Folder>
 
+<Folder><name>Sierra Leone health centres</name>
+    <Placemark id="sierraleone_etc">
+        <name/>
+        <visibility>0</visibility>
+        <MultiGeometry>
+            <Point id="Goderich">
+                <coordinates>
+                    -13.280407348999859,8.424321007000174
+                </coordinates>
+            </Point>
+            <Point id="Hastings Eastside">
+                <coordinates>
+                    -13.140651562999949,8.382141677999982
+                </coordinates>
+            </Point>
+            <Point id="Police Training Sch-Hastings 1">
+                <coordinates>
+                    -13.125850928999967,8.382704501000092
+                </coordinates>
+            </Point>
+            <Point id="Kerry Town">
+                <coordinates>
+                    -13.086370684999906,8.25709548399999
+                </coordinates>
+            </Point>
+            <Point id="Port Loko">
+                <coordinates>
+                    -12.76239,8.776650000000132
+                </coordinates>
+            </Point>
+            <Point id="Port Loko">
+                <coordinates>
+                    -12.76239,8.776650000000132
+                </coordinates>
+            </Point>
+            <Point id="Lunsar, Port Loko">
+                <coordinates>
+                    -12.57656,8.69854
+                </coordinates>
+            </Point>
+            <Point id="Moyamba">
+                <coordinates>
+                    -12.412037406999957,8.176575114000116
+                </coordinates>
+            </Point>
+            <Point id="Makeni">
+                <coordinates>
+                    -12.030972037999845,8.798044033000053
+                </coordinates>
+            </Point>
+            <Point id="Jui Hospital - Freetown">
+                <coordinates>
+                   -13.149548493999873,8.386860908000187
+                </coordinates>
+            </Point>
+            <Point id="Lakka Hospital ETU">
+                <coordinates>
+                    -13.265,8.403
+                </coordinates>
+            </Point>
+            <Point id="Kailahun MSF">
+                <coordinates>
+                    -10.5576,8.29846
+                </coordinates>
+            </Point>
+            <Point id="Rural Kenema Field Hospital">
+                <coordinates>
+                    -11.1156,8.005088
+                </coordinates>
+            </Point>
+            <Point id="Kono - Koidu Town">
+                <coordinates>
+                    -10.95946423,8.633899242000041
+                </coordinates>
+            </Point>
+            <Point id="Bo Town SLRA">
+                <coordinates>
+                    -11.6697,7.9410400000001
+                </coordinates>
+            </Point>
+            <Point id="AHS - Waterloo Hospital">
+                <coordinates>
+                    -13.073548,8.335621
+                </coordinates>
+            </Point>
+            <Point id="Magbenteh Hospital">
+                <coordinates>
+                    -12.058447,8.84611
+                </coordinates>
+            </Point>
+            <Point id="HIM - Newton">
+                <coordinates>
+                    -13.008915,8.335112
+                </coordinates>
+            </Point>
+            <Point id="Police Training Sch-Hastings 2">
+                <coordinates>
+                    -13.125850928999967,8.382704501000092
+                </coordinates>
+            </Point>
+            <Point id="Maforki ETU">
+                <coordinates>
+                    -12.7724,8.74984
+                </coordinates>
+            </Point>
+            <Point id="34 Military Hospital">
+                <coordinates>
+                    -13.261241999999868,8.464217
+                </coordinates>
+            </Point>
+            <Point id="Kerry Town - Section for Health Care Workers">
+                <coordinates>
+                    -13.086370684999906,8.25709548399999
+                </coordinates>
+            </Point>
+            <Point id="Freetown - SA Build">
+                <coordinates>
+                    -13.223,8.481
+                </coordinates>
+            </Point>
+            <Point id="Freetown - UK Build">
+                <coordinates>
+                    -13.217,8.483
+                </coordinates>
+            </Point>
+            <Point id="Prince of Wales School">
+                <coordinates>
+                    -13.245,8.489
+                </coordinates>
+            </Point>
+            <Point id="Methodist Boys High School">
+                <coordinates>
+                    -13.186,8.462
+                </coordinates>
+            </Point>
+            <Point id="Hastings Airfield">
+                <coordinates>
+                    -13.178610999999876,8.61611100000016
+                </coordinates>
+            </Point>
+            <Point id="Makeni">
+                <coordinates>
+                    -12.030972037999845,8.798044033000053
+                </coordinates>
+            </Point>
+        </MultiGeometry>
+    </Placemark>
+</Folder>
+
 <Placemark id="chartapi">
     <name>West African Ebola Epidemic</name>
 	<styleUrl>#raw</styleUrl>
@@ -4530,6 +4679,7 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
             </Change>
           </Update>
         </gx:AnimatedUpdate>
+        
 //trying to get the camera to fly to see the extrusion better, but I've been very unsuccessful//
 	<!--<gx:FlyTo>
 		<gx:duration>3</gx:duration>
