@@ -132,6 +132,32 @@
       </text>
     </BalloonStyle>
 </Style>
+
+//style for intro//
+
+// A crazy cool style// 
+<Style id="intro">
+    <BalloonStyle>
+      <bgColor>#660066</bgColor>
+      <text>
+        <![CDATA[<table width="250" border="0" cellpadding="5" cellspacing="0" bgcolor="#FFFFFF">
+				<tr>
+					<h3><font color="#660033">McGill University</font></h3></td>
+				</tr>
+				<tr>
+					<td></td><td align="center" ><b>Get ready for a tough trip! This tour will take you over locations of Ebola outbreaks since 1976.</b></td>
+				</tr>				
+				<tr>
+					<td colspan="2"><p>**Isolated cases (less than 10 in a particular year/location) were omitted for the sake of clearness.</p></td>
+				</tr>
+				<tr>
+					<table border="0.5" cellpadding="5">
+				</tr>
+				</table>               
+        ]]>
+      </text>
+    </BalloonStyle>
+</Style>
   
 <Folder>
 <name>Geo Trio Placemarks</name>
@@ -3681,9 +3707,8 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
 
 <Placemark id="mcgill">
 	<name>McGill University</name>
-	<styleUrl>#raw</styleUrl>
-	<description>Get ready for a tough trip! This tour will take you over locations of Ebola outbreaks since 1976. <br />
-                     Isolated cases (less than 10 in a particular year/location) were omitted for the sake of clearness.</description>
+	<styleUrl>#intro</styleUrl>
+	<description></description>
 	<Point>
       <coordinates>-73.575220,45.504086,0</coordinates>
     </Point>
