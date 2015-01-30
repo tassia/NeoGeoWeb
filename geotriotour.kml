@@ -3661,7 +3661,7 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
 </Placemark>
 
 
-// Mashup of a chart showing ebola cases and deaths //
+// Mashup of a chart showing ebola cases and deaths - Created by Rachel//
 
 <Placemark id="chartapi">
     <name>West African Ebola Epidemic</name>
@@ -3685,6 +3685,29 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
                      Isolated cases (less than 10 in a particular year/location) were omitted for the sake of clearness.</description>
 	<Point>
       <coordinates>-73.575220,45.504086,0</coordinates>
+    </Point>
+</Placemark>
+
+//Final Place Mark with Bibliography//
+
+<Placemark id="bibliography">
+	<name>Bibliography</name>
+	<visibility>0</visibility>
+    <styleUrl>#raw</styleUrl>
+	<description>Bibliography:
+    <br/>
+    "Ebola Response Roadmap - Situation Report." Who. N.p. 2015 Web.25 Jan.2015.
+    <br />
+                    "Ebola Virus Epidemic in West Africa." Wikipedia. Wikimedia Foundation, 2015. Web. 29 Jan. 2015.
+    <br />
+                    Martinez, Ramon. "Chronology of Ebola Virus Disease Outbreaks, 1976-2014." Chronology of Ebola Virus Disease Outbreaks, 1976-2014. Health Intelligence, 10 June 2014. Web. 23 Jan. 2015. 
+    <br />
+    "Ebola Treatment Centers or Units (ETCs or ETUs)." - Humanitarian Data Exchange. Humanitarian Data Exchange, 2015. Web. 26 Jan. 2015.
+    <br />
+    "Google Fusion Tables." Google Fusion Tables. N.p., 9 Jan. 2012. Web. 24 Jan. 2015.
+                    </description>
+	<Point>
+      <coordinates>-9.714355,6.299807,0</coordinates>
     </Point>
 </Placemark>
 
@@ -4713,7 +4736,7 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
           <gx:duration>1.0</gx:duration>
         </gx:Wait>
 
-	// Flying to east Africa
+	// Flying to west Africa
 	<gx:FlyTo>
           <gx:duration>3</gx:duration>
           <gx:flyToMode>smooth</gx:flyToMode>
@@ -4810,7 +4833,6 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
             </Change>
           </Update>
         </gx:AnimatedUpdate>
-
         <gx:Wait>
           <gx:duration>2.0</gx:duration>
         </gx:Wait>
@@ -4827,7 +4849,6 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
             </Change>
           </Update>
         </gx:AnimatedUpdate>
-		
         <gx:Wait>
           <gx:duration>2.0</gx:duration>
         </gx:Wait>
@@ -4985,6 +5006,18 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
             <gx:duration>5.0</gx:duration>
         </gx:Wait>
     
+    <gx:AnimatedUpdate>
+          <gx:duration>0</gx:duration>
+          <Update>
+            <targetHref/>
+            <Change>
+              <Placemark targetId="#bibliography">
+			  	<visibility>1</visibility>
+                <gx:balloonVisibility>1</gx:balloonVisibility>
+              </Placemark>
+            </Change>
+          </Update>
+        </gx:AnimatedUpdate>
 		
 <!--
         <gx:Wait>
