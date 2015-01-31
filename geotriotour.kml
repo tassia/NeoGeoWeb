@@ -144,6 +144,14 @@
     </BalloonStyle>
 </Style>
 
+// Red lines for strain paths 
+<Style id="strain_path">
+    <LineStyle>
+      <color>ff0000ff</color>
+	  <width>5</width>
+    </LineStyle>
+</Style>
+ 
 // Introducing Tour// 
 <Style id="intro">
     <BalloonStyle>
@@ -333,7 +341,6 @@ Sudan, Sudan strain, 284 cases, 151 deaths, 53% fatality//
 	<styleUrl>#annastyle</styleUrl>
 	<name>South Sudan</name>
 	<visibility>0</visibility>
-	<description></description>
 	<description>Mainly spread by personal contact in hospitals. Many medical care personnel were infected.</description>
 	<ExtendedData>
 		<Data name="year">
@@ -788,6 +795,27 @@ Cote d’Ivoire, Tai Forest strain, 1 case, 0 deaths, 0% fatality//
 		</coordinates>
 	</Point>
 </Placemark>
+
+// Starting "spread path" for Zaire strain //
+<Placemark id="zaire_path_1">
+	<name>Zaire strain</name>
+	<!--<StyleUrl>#strain_path</StyleUrl>-->
+	<visibility>0</visibility>
+	<LineString> 
+		<altitudeMode>lockToGround</altitudeMode>
+		<coordinates>
+			25.620117,-6.731440,0    // demcongo //
+			12.128906,-1.473379,0     // gabon //
+		</coordinates>
+	</LineString>
+ <Style> 
+  <LineStyle>  
+   <color>#ff0000ff</color>
+   <width>5</width>
+  </LineStyle> 
+ </Style>
+</Placemark>
+
 <Placemark id="gabon1994">
 	<styleUrl>#annastyle</styleUrl>
 	<name>Gabon</name>
@@ -1055,6 +1083,27 @@ Democratic Republic of Congo, Zaire strain, 315 cases, 254 deaths, 81% fatality 
 		</coordinates>
 	</Point>
 </Placemark>
+
+// Zaire strain //
+<Placemark id="zaire_path_2">
+	<!--<StyleUrl>#strain_path</StyleUrl>-->
+	<visibility>0</visibility>
+	<LineString> 
+	    <altitudeMode>lockToGround</altitudeMode>
+		<coordinates>
+			12.128906,-1.473379,0     // gabon //
+			22.741699,-0.429149,0    // demcongo //
+		</coordinates>
+	</LineString>
+	 
+ <Style> 
+  <LineStyle>  
+   <color>#ff0000ff</color>
+   <width>5</width>
+  </LineStyle> 
+ </Style>
+</Placemark>
+
 <Placemark id="congo1995">
     <styleUrl>#annastyle</styleUrl>
 	<name>Democratic Republic of the Congo</name>
@@ -1399,7 +1448,28 @@ South Africa, Zaire strain, 1 case, 1 death, 100% fatality//
 		</Polygon>
     </MultiGeometry>
 </Placemark>
-  
+
+
+// Zaire strain //
+<Placemark id="zaire_path_3">
+	<!--<StyleUrl>#strain_path</StyleUrl>-->
+	<visibility>0</visibility>
+	<LineString> 
+		<altitudeMode>lockToGround</altitudeMode>
+		<coordinates>
+			22.741699,-0.429149,0    // demcongo //
+			12.480469,0.460048,0    // gabon //
+		</coordinates>
+	</LineString>
+ 
+ <Style> 
+  <LineStyle>  
+   <color>#ff0000ff</color>
+   <width>5</width>
+  </LineStyle> 
+ </Style>
+</Placemark>
+
 // 2000:
 Uganda, Zaire strain, 425 cases, 224 deaths, 53% fatality rate//
  
@@ -4106,10 +4176,23 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
         </gx:Wait>
           
 	
-	// Gabon 1994 - omitted //
-		<!--<gx:Wait>
-			<gx:duration>2.0</gx:duration>
-		</gx:Wait>
+	// Gabon 1994 //
+    <!-- Commenting the following, code we couldn't make it work
+	<gx:AnimatedUpdate>
+          <gx:duration>0</gx:duration>
+          <Update>
+            <targetHref/>
+            <Change>
+              <Placemark targetId="#zaire_path_1">
+                <visibility>1</visibility>
+			  </Placemark>
+            </Change>
+          </Update>
+        </gx:AnimatedUpdate>
+		
+		<gx:Wait>
+			<gx:duration>1.0</gx:duration>
+		</gx:Wait> -->
 		
 		<gx:AnimatedUpdate>
           <gx:duration>2.0</gx:duration>
@@ -4119,19 +4202,31 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
               <Placemark targetId="#gabon1994">
                 <visibility>1</visibility>
 				</Placemark>
+				</Change>
+          </Update>
+        </gx:AnimatedUpdate>	
+        <gx:Wait>
+        	<gx:duration>1.0</gx:duration>
+        </gx:Wait>
+		
+        <gx:AnimatedUpdate>
+          <gx:duration>0</gx:duration>
+          <Update>
+            <targetHref/>
+            <Change>
 			  <Placemark targetId="#xgabon1994">
 				<visibility>1</visibility>
 				<gx:balloonVisibility>1</gx:balloonVisibility>
               </Placemark>
             </Change>
           </Update>
-        </gx:AnimatedUpdate>-->	
+        </gx:AnimatedUpdate>
 
-		<!--<gx:Wait>
+		<gx:Wait>
 			<gx:duration>2.0</gx:duration>
-		</gx:Wait>-->
+		</gx:Wait>
 		
-		<!--<gx:AnimatedUpdate>
+		<gx:AnimatedUpdate>
           <gx:duration>2.0</gx:duration>
           <Update>
             <targetHref/>
@@ -4142,7 +4237,10 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
               </Placemark>
             </Change>
           </Update>
-        </gx:AnimatedUpdate>-->
+        </gx:AnimatedUpdate>
+        <gx:Wait>
+            <gx:duration> 1.0 </gx:duration>
+        </gx:Wait>
 	
 	// Cote d'Ivoire 1994 - omitted //
 		<!--<gx:Wait>
@@ -4183,6 +4281,23 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
         </gx:AnimatedUpdate>-->
 	
 	// Congo 1995 //
+	<!--
+		<gx:AnimatedUpdate>
+          <gx:duration>0</gx:duration>
+          <Update>
+            <targetHref/>
+            <Change>
+              <Placemark targetId="#zaire_path_2">
+                <visibility>1</visibility>
+			  </Placemark>
+            </Change>
+          </Update>
+        </gx:AnimatedUpdate>
+		
+		<gx:Wait>
+			<gx:duration>1.0</gx:duration>
+		</gx:Wait>
+		-->
         <gx:AnimatedUpdate>
           <gx:duration>0</gx:duration>
           <Update>
@@ -4266,6 +4381,22 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
         </gx:Wait>-->
         
         // Gabon 1996 //
+		<!--
+		<gx:AnimatedUpdate>
+          <gx:duration>0</gx:duration>
+          <Update>
+            <targetHref/>
+            <Change>
+              <Placemark targetId="#zaire_path_3">
+                <visibility>1</visibility>
+			  </Placemark>
+            </Change>
+          </Update>
+        </gx:AnimatedUpdate>
+		-->
+		<gx:Wait>
+			<gx:duration>1.0</gx:duration>
+		</gx:Wait>
         <gx:AnimatedUpdate>
           <gx:duration>0</gx:duration>
           <Update>
@@ -5215,25 +5346,6 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
           </Update>
         </gx:AnimatedUpdate>
 		
-<!--
-        <gx:Wait>
-          <gx:duration>5.0</gx:duration>
-        </gx:Wait>	
-	
-        <gx:FlyTo>
-          <gx:duration>3</gx:duration>
-          <gx:flyToMode>smooth</gx:flyToMode>
-          <LookAt>
-            <longitude>-1.849578</longitude>
-            <latitude>5.968515</latitude>
-            <altitude>0</altitude>
-            <heading>-173.948935</heading>
-            <tilt>23.063392</tilt>
-            <range>3733.666023</range>
-            <altitudeMode>relativeToGround</altitudeMode>
-          </LookAt>
-        </gx:FlyTo>
--->	
       </gx:Playlist>
     </gx:Tour>
 
