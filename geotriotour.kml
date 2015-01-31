@@ -1234,7 +1234,8 @@ Gabon, Zaire Strain strain, 91 cases, 66 deaths, 72% fatality
 South Africa, Zaire strain, 1 case, 1 death, 100% fatality//
 
 <Placemark id="southafrica1996">
-	<name>South Africa 1997</name>
+	<name>1996
+        South Africa</name>
 	<styleUrl>#rachelstyle</styleUrl>
 	<visibility>0</visibility>
 	<description> A medical professional traveled from Gabon to Johannesburg, South Africa, in October 1996 after having treated Ebola virus-infected patients. He was hospitalized, and the nurse that took care of him became infected and died. </description>
@@ -1357,7 +1358,8 @@ South Africa, Zaire strain, 1 case, 1 death, 100% fatality//
 </Placemark>
 
 <Placemark id="gabon1996">
-	<name>Gabon 1996</name>
+	<name>1996 
+        Gabon</name>
     	<styleUrl>#rachelstyle</styleUrl>
 	<visibility>0</visibility>
 	<description>Index case-patient was a hunter who lived in a forest camp. Disease was spread by close contact with infected persons. </description>
@@ -1474,7 +1476,8 @@ South Africa, Zaire strain, 1 case, 1 death, 100% fatality//
 Uganda, Zaire strain, 425 cases, 224 deaths, 53% fatality rate//
  
 <Placemark id="uganda2000">
-    <name>Uganda 2000</name>
+    <name>2000
+        Uganda</name>
     <styleUrl>#rachelstyle</styleUrl>
     <visibility>0</visibility>
     <description> The greatest risks associated with Sudan virus infection were attending funerals of case-patients, having contact with case-patients in one's family.</description>
@@ -1529,7 +1532,8 @@ Gabon, 65 cases, 53 deaths, 82% fatality rate
 Congo, 59 cases, 44 deaths, 75% fatality rate//
 
 <Placemark id="gabon2001">
-	<name>Gabon 2001</name>
+	<name>2001
+        Gabon</name>
     	<styleUrl>#rachelstyle</styleUrl>
 	<visibility>0</visibility>
 	<description> Occurred over the border of Gabon and the Republic of the Congo between October 2001 and July 2002.</description>
@@ -1622,7 +1626,8 @@ Congo, 59 cases, 44 deaths, 75% fatality rate//
 </Placemark>
 
 <Placemark id="congo2001">
-    <name> Republic of the Congo 2001</name>
+    <name> 2001
+    Republic of the Congo</name>
     <styleUrl>#rachelstyle</styleUrl>
     <visibility>0</visibility>
     <description> Occurred over the border of Gabon and the Republic of the Congo between October 2001 and July 2002. </description>
@@ -1693,7 +1698,8 @@ Congo, 59 cases, 44 deaths, 75% fatality rate//
 Republic of Congo, 178 cases, 157 deaths, 88% fatality rate//
 
 <Placemark id="congo2003">
-	<name> Republic of the Congo 2003 </name>
+	<name> 2003
+    Republic of the Congo </name>
     	<styleUrl>#rachelstyle</styleUrl>
 	<visibility>0</visibility>
 	<description> Occurred in Mbomo and Mbandza villages located in Mbomo district, Cuvette Ouest Département, between November and December 2003.</description>
@@ -1764,7 +1770,8 @@ Republic of Congo, 178 cases, 157 deaths, 88% fatality rate//
 Sudan, 17 cases, 7 death, 41% fatality rate//
 
 <Placemark id="sudan2004">
-	<name>Sudan 2004</name>
+	<name>2004
+    Sudan </name>
     	<styleUrl>#rachelstyle</styleUrl>
 	<visibility>0</visibility>
 	<description> This outbreak was concurrent with an outbreak of measles in the same area, and several suspected EVD cases were later reclassified as measles cases.</description>
