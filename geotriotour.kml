@@ -3915,7 +3915,7 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
 	// Music
     <gx:SoundCue>
       <href>
-        music/TP2.2.mp3
+        http://www.acaia.ca/~tassia/TP2.2.mp3
       </href> 
     </gx:SoundCue>
 	
@@ -4513,7 +4513,7 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
     
     <gx:SoundCue>
       <href>
-        music/TP2.2.mp3
+        http://www.acaia.ca/~tassia/TP2.2.mp3
       </href> 
 </gx:SoundCue>
 
@@ -4999,7 +4999,7 @@ Democratic Republic of Congo: 66 cases, 49 deaths //
 
 <gx:SoundCue>
       <href>
-        music/TP2.2.mp3
+        http://www.acaia.ca/~tassia/TP2.2.mp3
       </href> 
 </gx:SoundCue>
 
