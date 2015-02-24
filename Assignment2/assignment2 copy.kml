@@ -1,0 +1,707 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2"
+ xmlns:gx="http://www.google.com/kml/ext/2.2">
+ 
+<Document id="Calgary Craigslist">
+
+<Style id="style">
+    <BalloonStyle>
+        <text>
+            <![CDATA[<img src=$[image] alt="picture" width="300"/><br/><br/>address: $[outputaddress]<br/>bed: $[bed] bath: $[bath] sqfoot: $[sqfoot] price: $$[price]<br/> URL: $[URL]
+            ]]>
+        </text> 
+    </BalloonStyle>
+</Style>
+
+<Style id="style2">
+    <BalloonStyle>
+          <bgColor>ffffffbb</bgColor>
+        <text>
+            <![CDATA[<img src=$[image] alt="picture" width="300"/><br/><br/>address: $[outputaddress]<br/>bed: $[bed] bath: $[bath] sqfoot: $[sqfoot] price: $$[price]<br/> URL: $[URL]
+            ]]>
+        </text> 
+    </BalloonStyle>
+</Style>
+
+<Placemark>
+    <name/>
+    <styleUrl>#style2</styleUrl>
+    <description/>
+    <ExtendedData>
+        <Data name='price'>
+            <value>995</value>
+        </Data>
+        <Data name='bed'>
+            <value>2</value>
+        </Data>
+        <Data name='bath'>
+            <value>1</value>
+        </Data>
+        <Data name='sqfoot'>
+            <value>800</value>
+        </Data>
+        <Data name='image'>
+            <value>http://images.craigslist.org/00d0d_2HZKuV0Wcdo_600x450.jpg</value>
+        </Data>
+        <Data name='outputaddress'>
+            <value>733 44 Avenue Northwest, Calgary, AB T2K 0J5, Canada</value>
+        </Data>
+        <Data name='URL'>
+            <value>http://calgary.craigslist.ca/apa/4880574756.html</value>
+        </Data>
+    </ExtendedData>
+    <Point>
+        <coordinates>
+            -114.078845,51.09335
+        </coordinates>
+    </Point>
+</Placemark>
+
+<Placemark>
+    <name/>
+    <styleUrl>#style2</styleUrl>
+    <description/>
+    <ExtendedData>
+        <Data name='price'>
+            <value>2000</value>
+        </Data>
+        <Data name='bed'>
+            <value>2</value>
+        </Data>
+        <Data name='bath'>
+            <value>2</value>
+        </Data>
+        <Data name='sqfoot'>
+            <value>933</value>
+        </Data>
+        <Data name='image'>
+            <value>http://images.craigslist.org/00s0s_1tURpPPtnL2_600x450.jpg</value>
+        </Data>
+        <Data name='outputaddress'>
+            <value>10 Avenue Southwest & 10 Street Southwest, Calgary, AB T2R, Canada</value>
+        </Data>
+        <Data name='URL'>
+            <value>http://calgary.craigslist.ca/apa/4896337258.html</value>
+        </Data>
+    </ExtendedData>
+    <Point>
+        <coordinates>
+            -114.086277,51.043999
+        </coordinates>
+    </Point>
+</Placemark>
+
+<Placemark>
+    <name/>
+    <styleUrl>#style2</styleUrl>
+    <description/>
+    <ExtendedData>
+        <Data name='price'>
+            <value>1000</value>
+        </Data>
+        <Data name='bed'>
+            <value>2</value>
+        </Data>
+        <Data name='bath'>
+            <value>2</value>
+        </Data>
+        <Data name='sqfoot'>
+            <value>#N/A</value>
+        </Data>
+        <Data name='image'>
+            <value>#N/A</value>
+        </Data>
+        <Data name='outputaddress'>
+            <value>Calgary, AB, Canada</value>
+        </Data>
+        <Data name='URL'>
+            <value>http://calgary.craigslist.ca/apa/4858217028.html</value>
+        </Data>
+    </ExtendedData>
+    <Point>
+        <coordinates>
+            -114.070846,51.048615
+        </coordinates>
+    </Point>
+</Placemark>
+
+<Placemark>
+    <name/>
+    <styleUrl>#style2</styleUrl>
+    <description/>
+    <ExtendedData>
+        <Data name='price'>
+            <value>1000</value>
+        </Data>
+        <Data name='bed'>
+            <value>2</value>
+        </Data>
+        <Data name='bath'>
+            <value>1</value>
+        </Data>
+        <Data name='sqfoot'>
+            <value>#N/A</value>
+        </Data>
+        <Data name='image'>
+            <value>http://images.craigslist.org/01717_jGpBTeG5uJt_600x450.jpg</value>
+        </Data>
+        <Data name='outputaddress'>
+            <value>Whitehorn, Calgary, AB T1Y, Canada</value>
+        </Data>
+        <Data name='URL'>
+            <value>http://calgary.craigslist.ca/apa/4896073434.html</value>
+        </Data>
+    </ExtendedData>
+    <Point>
+        <coordinates>
+            -113.972077,51.088949
+        </coordinates>
+    </Point>
+</Placemark>
+
+<Placemark>
+    <name/>
+    <styleUrl>#style2</styleUrl>
+    <description/>
+    <ExtendedData>
+        <Data name='price'>
+            <value>1195</value>
+        </Data>
+        <Data name='bed'>
+            <value>2</value>
+        </Data>
+        <Data name='bath'>
+            <value>1</value>
+        </Data>
+        <Data name='sqfoot'>
+            <value>#N/A</value>
+        </Data>
+        <Data name='image'>
+            <value>#N/A</value>
+        </Data>
+        <Data name='outputaddress'>
+            <value>Calgary, AB, Canada</value>
+        </Data>
+        <Data name='URL'>
+            <value>http://calgary.craigslist.ca/apa/4896063043.html</value>
+        </Data>
+    </ExtendedData>
+    <Point>
+        <coordinates>
+            -114.070846,51.048615
+        </coordinates>
+    </Point>
+</Placemark>
+
+<Placemark>
+    <name/>
+    <styleUrl>#style2</styleUrl>
+    <description/>
+    <ExtendedData>
+        <Data name='price'>
+            <value>1395</value>
+        </Data>
+        <Data name='bed'>
+            <value>2</value>
+        </Data>
+        <Data name='bath'>
+            <value>1</value>
+        </Data>
+        <Data name='sqfoot'>
+            <value>1200</value>
+        </Data>
+        <Data name='image'>
+            <value>http://images.craigslist.org/00Z0Z_ly4Lj8Y7cjf_600x450.jpg</value>
+        </Data>
+        <Data name='outputaddress'>
+            <value>6 Street Northeast & 15 Avenue Northeast, Calgary, AB T2E, Canada</value>
+        </Data>
+        <Data name='URL'>
+            <value>http://calgary.craigslist.ca/apa/4895911642.html</value>
+        </Data>
+    </ExtendedData>
+    <Point>
+        <coordinates>
+            -114.048335,51.065961
+        </coordinates>
+    </Point>
+</Placemark>
+
+<Placemark>
+    <name/>
+    <styleUrl>#style2</styleUrl>
+    <description/>
+    <ExtendedData>
+        <Data name='price'>
+            <value>1500</value>
+        </Data>
+        <Data name='bed'>
+            <value>3</value>
+        </Data>
+        <Data name='bath'>
+            <value>1</value>
+        </Data>
+        <Data name='sqfoot'>
+            <value>#N/A</value>
+        </Data>
+        <Data name='image'>
+            <value>#N/A</value>
+        </Data>
+        <Data name='outputaddress'>
+            <value>22 Celtic Road Northwest, Calgary, AB T2K 1S6, Canada</value>
+        </Data>
+        <Data name='URL'>
+            <value>http://calgary.craigslist.ca/apa/4895900817.html</value>
+        </Data>
+    </ExtendedData>
+    <Point>
+        <coordinates>
+            -114.08605,51.084734
+        </coordinates>
+    </Point>
+</Placemark>
+
+<Placemark>
+    <name/>
+    <styleUrl>#style2</styleUrl>
+    <description/>
+    <ExtendedData>
+        <Data name='price'>
+            <value>2500</value>
+        </Data>
+        <Data name='bed'>
+            <value>2</value>
+        </Data>
+        <Data name='bath'>
+            <value>2</value>
+        </Data>
+        <Data name='sqfoot'>
+            <value>1000</value>
+        </Data>
+        <Data name='image'>
+            <value>http://images.craigslist.org/01010_av1wDxUbUIy_600x450.jpg</value>
+        </Data>
+        <Data name='outputaddress'>
+            <value>Calgary, AB, Canada</value>
+        </Data>
+        <Data name='URL'>
+            <value>http://calgary.craigslist.ca/apa/4895764223.html</value>
+        </Data>
+    </ExtendedData>
+    <Point>
+        <coordinates>
+            -114.070846,51.048615
+        </coordinates>
+    </Point>
+</Placemark>
+
+<Placemark>
+    <name/>
+    <styleUrl>#style2</styleUrl>
+    <description/>
+    <ExtendedData>
+        <Data name='price'>
+            <value>1180</value>
+        </Data>
+        <Data name='bed'>
+            <value>2</value>
+        </Data>
+        <Data name='bath'>
+            <value>1</value>
+        </Data>
+        <Data name='sqfoot'>
+            <value>#N/A</value>
+        </Data>
+        <Data name='image'>
+            <value>#N/A</value>
+        </Data>
+        <Data name='outputaddress'>
+            <value>Renfrew, Calgary, AB, Canada</value>
+        </Data>
+        <Data name='URL'>
+            <value>http://calgary.craigslist.ca/apa/4895709946.html</value>
+        </Data>
+    </ExtendedData>
+    <Point>
+        <coordinates>
+            -114.037977,51.063529
+        </coordinates>
+    </Point>
+</Placemark>
+
+<Placemark>
+    <name/>
+    <styleUrl>#style2</styleUrl>
+    <description/>
+    <ExtendedData>
+        <Data name='price'>
+            <value>1790</value>
+        </Data>
+        <Data name='bed'>
+            <value>3</value>
+        </Data>
+        <Data name='bath'>
+            <value>2.5</value>
+        </Data>
+        <Data name='sqfoot'>
+            <value>#N/A</value>
+        </Data>
+        <Data name='image'>
+            <value>#N/A</value>
+        </Data>
+        <Data name='outputaddress'>
+            <value>Calgary, AB, Canada</value>
+        </Data>
+        <Data name='URL'>
+            <value>http://calgary.craigslist.ca/apa/4854245200.html</value>
+        </Data>
+    </ExtendedData>
+    <Point>
+        <coordinates>
+            -114.070846,51.048615
+        </coordinates>
+    </Point>
+</Placemark>
+
+<Placemark>
+    <name/>
+    <styleUrl>#style2</styleUrl>
+    <description/>
+    <ExtendedData>
+        <Data name='price'>
+            <value>1850</value>
+        </Data>
+        <Data name='bed'>
+            <value>1</value>
+        </Data>
+        <Data name='bath'>
+            <value>1</value>
+        </Data>
+        <Data name='sqfoot'>
+            <value>#N/A</value>
+        </Data>
+        <Data name='image'>
+            <value>http://images.craigslist.org/00R0R_e0sbzotIjBJ_600x450.jpg</value>
+        </Data>
+        <Data name='outputaddress'>
+            <value>30 Discovery Ridge Close Southwest, Calgary, AB T3H 4Y3, Canada</value>
+        </Data>
+        <Data name='URL'>
+            <value>http://calgary.craigslist.ca/apa/4895545417.html</value>
+        </Data>
+    </ExtendedData>
+    <Point>
+        <coordinates>
+            -114.214808,51.013752
+        </coordinates>
+    </Point>
+</Placemark>
+
+<Placemark>
+    <name/>
+    <styleUrl>#style2</styleUrl>
+    <description/>
+    <ExtendedData>
+        <Data name='price'>
+            <value>2900</value>
+        </Data>
+        <Data name='bed'>
+            <value>1</value>
+        </Data>
+        <Data name='bath'>
+            <value>1</value>
+        </Data>
+        <Data name='sqfoot'>
+            <value>#N/A</value>
+        </Data>
+        <Data name='image'>
+            <value>http://images.craigslist.org/00r0r_eHvWdJ3hZvz_600x450.jpg</value>
+        </Data>
+        <Data name='outputaddress'>
+            <value>188 15 Avenue Southwest, Calgary, AB T2R 0P5, Canada</value>
+        </Data>
+        <Data name='URL'>
+            <value>http://calgary.craigslist.ca/apa/4854297018.html</value>
+        </Data>
+    </ExtendedData>
+    <Point>
+        <coordinates>
+            -114.065895,51.038663
+        </coordinates>
+    </Point>
+</Placemark>
+
+<Placemark>
+    <name/>
+    <styleUrl>#style2</styleUrl>
+    <description/>
+    <ExtendedData>
+        <Data name='price'>
+            <value>2200</value>
+        </Data>
+        <Data name='bed'>
+            <value>2</value>
+        </Data>
+        <Data name='bath'>
+            <value>1</value>
+        </Data>
+        <Data name='sqfoot'>
+            <value>#N/A</value>
+        </Data>
+        <Data name='image'>
+            <value>http://images.craigslist.org/00q0q_8ndaxtFvEiS_600x450.jpg</value>
+        </Data>
+        <Data name='outputaddress'>
+            <value>Calgary, AB, Canada</value>
+        </Data>
+        <Data name='URL'>
+            <value>http://calgary.craigslist.ca/apa/4854357105.html</value>
+        </Data>
+    </ExtendedData>
+    <Point>
+        <coordinates>
+            -114.070846,51.048615
+        </coordinates>
+    </Point>
+</Placemark>
+
+<Placemark>
+    <name/>
+    <styleUrl>#style2</styleUrl>
+    <description/>
+    <ExtendedData>
+        <Data name='price'>
+            <value>925</value>
+        </Data>
+        <Data name='bed'>
+            <value>1</value>
+        </Data>
+        <Data name='bath'>
+            <value>1</value>
+        </Data>
+        <Data name='sqfoot'>
+            <value>#N/A</value>
+        </Data>
+        <Data name='image'>
+            <value>#N/A</value>
+        </Data>
+        <Data name='outputaddress'>
+            <value>University Heights, Calgary, AB T2N, Canada</value>
+        </Data>
+        <Data name='URL'>
+            <value>http://calgary.craigslist.ca/apa/4882529721.html</value>
+        </Data>
+    </ExtendedData>
+    <Point>
+        <coordinates>
+            -114.140033,51.070306
+        </coordinates>
+    </Point>
+</Placemark>
+
+<Placemark>
+    <name/>
+    <styleUrl>#style2</styleUrl>
+    <description/>
+    <ExtendedData>
+        <Data name='price'>
+            <value>800</value>
+        </Data>
+        <Data name='bed'>
+            <value>2</value>
+        </Data>
+        <Data name='bath'>
+            <value>2</value>
+        </Data>
+        <Data name='sqfoot'>
+            <value>#N/A</value>
+        </Data>
+        <Data name='image'>
+            <value>http://images.craigslist.org/00t0t_k84gz6m9R2x_600x450.jpg</value>
+        </Data>
+        <Data name='outputaddress'>
+            <value>Calgary, AB, Canada</value>
+        </Data>
+        <Data name='URL'>
+            <value>http://calgary.craigslist.ca/apa/4895190123.html</value>
+        </Data>
+    </ExtendedData>
+    <Point>
+        <coordinates>
+            -114.070846,51.048615
+        </coordinates>
+    </Point>
+</Placemark>
+
+<Placemark>
+    <name/>
+    <styleUrl>#style2</styleUrl>
+    <description/>
+    <ExtendedData>
+        <Data name='price'>
+            <value>1500</value>
+        </Data>
+        <Data name='bed'>
+            <value>2</value>
+        </Data>
+        <Data name='bath'>
+            <value>2</value>
+        </Data>
+        <Data name='sqfoot'>
+            <value>#N/A</value>
+        </Data>
+        <Data name='image'>
+            <value>http://images.craigslist.org/00N0N_ldWjh2R9P6m_600x450.jpg</value>
+        </Data>
+        <Data name='outputaddress'>
+            <value>Canterbury Drive Southwest, Calgary, AB T2W, Canada</value>
+        </Data>
+        <Data name='URL'>
+            <value>http://calgary.craigslist.ca/apa/4895153895.html</value>
+        </Data>
+    </ExtendedData>
+    <Point>
+        <coordinates>
+            -114.085548,50.941621
+        </coordinates>
+    </Point>
+</Placemark>
+
+<Placemark>
+    <name/>
+    <styleUrl>#style2</styleUrl>
+    <description/>
+    <ExtendedData>
+        <Data name='price'>
+            <value>1400</value>
+        </Data>
+        <Data name='bed'>
+            <value>2</value>
+        </Data>
+        <Data name='bath'>
+            <value>1</value>
+        </Data>
+        <Data name='sqfoot'>
+            <value>#N/A</value>
+        </Data>
+        <Data name='image'>
+            <value>http://images.craigslist.org/01717_gkwqcK3xSzE_600x450.jpg</value>
+        </Data>
+        <Data name='outputaddress'>
+            <value>3408 23 Avenue Southwest, Calgary, AB T3E 0J5, Canada</value>
+        </Data>
+        <Data name='URL'>
+            <value>http://calgary.craigslist.ca/apa/4895100362.html</value>
+        </Data>
+    </ExtendedData>
+    <Point>
+        <coordinates>
+            -114.135963,51.033296
+        </coordinates>
+    </Point>
+</Placemark>
+
+<Placemark>
+    <name/>
+    <styleUrl>#style2</styleUrl>
+    <description/>
+    <ExtendedData>
+        <Data name='price'>
+            <value>1500</value>
+        </Data>
+        <Data name='bed'>
+            <value>2</value>
+        </Data>
+        <Data name='bath'>
+            <value>1</value>
+        </Data>
+        <Data name='sqfoot'>
+            <value>#N/A</value>
+        </Data>
+        <Data name='image'>
+            <value>http://images.craigslist.org/00606_cJi7RfaI5kd_600x450.jpg</value>
+        </Data>
+        <Data name='outputaddress'>
+            <value>1305 15 Avenue Southwest, Calgary, AB T3C 3V9, Canada</value>
+        </Data>
+        <Data name='URL'>
+            <value>http://calgary.craigslist.ca/apa/4867425097.html</value>
+        </Data>
+    </ExtendedData>
+    <Point>
+        <coordinates>
+            -114.091887,51.039263
+        </coordinates>
+    </Point>
+</Placemark>
+
+<Placemark>
+    <name/>
+    <styleUrl>#style2</styleUrl>
+    <description/>
+    <ExtendedData>
+        <Data name='price'>
+            <value>1300</value>
+        </Data>
+        <Data name='bed'>
+            <value>1</value>
+        </Data>
+        <Data name='bath'>
+            <value>1</value>
+        </Data>
+        <Data name='sqfoot'>
+            <value>#N/A</value>
+        </Data>
+        <Data name='image'>
+            <value>http://images.craigslist.org/00v0v_hKu1CNfjded_600x450.jpg</value>
+        </Data>
+        <Data name='outputaddress'>
+            <value>1711 25 Avenue Southwest, Calgary, AB T2T, Canada</value>
+        </Data>
+        <Data name='URL'>
+            <value>http://calgary.craigslist.ca/apa/4867514942.html</value>
+        </Data>
+    </ExtendedData>
+    <Point>
+        <coordinates>
+            -114.100193,51.031325
+        </coordinates>
+    </Point>
+</Placemark>
+
+<Placemark>
+    <name/>
+    <styleUrl>#style2</styleUrl>
+    <description/>
+    <ExtendedData>
+        <Data name='price'>
+            <value>1650</value>
+        </Data>
+        <Data name='bed'>
+            <value>2</value>
+        </Data>
+        <Data name='bath'>
+            <value>1</value>
+        </Data>
+        <Data name='sqfoot'>
+            <value>#N/A</value>
+        </Data>
+        <Data name='image'>
+            <value>http://images.craigslist.org/00E0E_a666AL58GZ5_600x450.jpg</value>
+        </Data>
+        <Data name='outputaddress'>
+            <value>815 4 Avenue Southwest, Calgary, AB T2P 0K5, Canada</value>
+        </Data>
+        <Data name='URL'>
+            <value>http://calgary.craigslist.ca/apa/4867381600.html</value>
+        </Data>
+    </ExtendedData>
+    <Point>
+        <coordinates>
+            -114.079351,51.049613
+        </coordinates>
+    </Point>
+</Placemark>
+
+</Document>
+</kml>
