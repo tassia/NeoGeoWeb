@@ -1,0 +1,21 @@
+<html>
+	<head>
+	   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>
+            var coordarray = []
+            $.getJSON("https://maps.googleapis.com/maps/api/geocode/json?address=McGill+University,+Montreal&key=AIzaSyBQxZxP8b2J8t7UHbERdOjCJE__rHXTu6Y", function(data){
+			var lat = data.results[0].geometry.location.lat;
+            var lng = data.results[0].geometry.location.lng;
+            var coord = [lat,lng];
+            coordarray = coordarray.concat(coord);
+            console.log(coordarray);
+            });
+            
+            
+        </script>
+	</head>
+	<body>
+		
+	</body>
+	
+</html>
