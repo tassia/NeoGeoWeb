@@ -2,16 +2,22 @@
 	<head>
 	   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>
-            
+            //get a JSON version of the Google spread sheet
             $.getJSON("https://spreadsheets.google.com/feeds/list/1zSs1ZF0Ba5gPjIv-XrR_rS6td4jP54lUedSk9mdpstk/od6/public/basic?hl=en_US&alt=json", function(data){
+                //create a blank array into which the coordinates can be put
                 var coordarray = [];
+                //this is a JQuery loop that performs a function on each item in the array data.feed.entry[]
                 $.each(data.feed.entry, function(index, value) {
-				    var location = value.title.$t;
+				    //location variable takes on the value of the .title.$t for each item of the array (this is the location to be geocoded)
+                    var location = value.title.$t;
+                    //use the Google geocoder API with each location
                     $.getJSON(("https://maps.googleapis.com/maps/api/geocode/json?address="+location+"&key=AIzaSyBQxZxP8b2J8t7UHbERdOjCJE__rHXTu6Y"), function(data){
+                        //create variables for lat and long from the Object created by the geocoder such that they can be input into the arry called coordarray
                         var lat = data.results[0].geometry.location.lat;
                         var lng = data.results[0].geometry.location.lng;
                         var coord = [lat,lng];
                         coordarray = coordarray.concat([coord]); 
+                        //Voila! It prints each run as each entry gets added to the array
                         console.log(coordarray)
                     });  
 				});
