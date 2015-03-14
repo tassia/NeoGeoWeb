@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <meta charset=utf-8 />
+        <title>Geotrio 2.0</title>
+        <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+        <script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.5/mapbox.js'></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.5/mapbox.css' rel='stylesheet' />
+        <style>
+            body { margin:0; padding:0; }
+            #map { position:absolute; top:0; bottom:0; width:100%; }
+        </style>
+    </head>
+    <body>
+        <div id='map'></div>
+        <script>
+            L.mapbox.accessToken = 'pk.eyJ1IjoiYW5uYWNoaW5uIiwiYSI6Il9FWFVaX3MifQ.LWyZpBRxnoARXldAE_ilcQ';
+            var map = L.mapbox.map('map', 'examples.map-i86nkdio')
+            .setView([45.5217, -73.6673], 11);
+            var featureLayer = $.getJSON("https://spreadsheets.google.com/feeds/list/1KKokEwa3R7GceOlX-k0tQ2yxpN-OA263b4nL1BJ5mJk/o6575gq/public/values?alt=json", function(data){  
+                $.each(data.feed.entry, function(index, value) {
+                    if (value.gsx$lat.$t === ""){
+                        return true;
+                    } else if (value.gsx$long.$t === ""){
+                        return true;
+                    } else {
+                        var lat = Number(value.gsx$lat.$t);
+                        var lng = Number(value.gsx$long.$t);
+                        var time = value.gsx$timestamp.$t;
+                        var location = value.gsx$location.$t;
+                        
+                        L.mapbox.featureLayer({
+                             type: 'Feature',
+                            geometry: {
+                            type: 'Point',
+                                coordinates: [lng,lat]
+                            },
+                            properties: {
+                                title: location,
+                                description: time,
+                                'marker-size': 'medium',
+                                'marker-color': '#FF9900',
+                                'marker-symbol': 'bicycle'
+                            }
+                        }).addTo(map);
+                    };
+                });
+            });
+        featureLayer.on('ready', function() {
+        map.fitBounds(featureLayer.getBounds());
+});
+        </script>
+    </body>
+</html>
+

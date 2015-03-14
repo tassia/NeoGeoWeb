@@ -1,0 +1,26 @@
+<html>
+	<head>
+	   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>
+            $.getJSON("https://spreadsheets.google.com/feeds/list/1KKokEwa3R7GceOlX-k0tQ2yxpN-OA263b4nL1BJ5mJk/o6575gq/public/values?alt=json", function(data){
+                console.log(data)
+                
+
+//                $.each(data.feed.entry, function(index, value) {
+//                    if (value.gsx$lat.$t === ""){
+//                        return true;
+//                    } else if (value.gsx$long.$t === ""){
+//                        return true;
+//                    } else {
+//                        var lat = Number(value.gsx$lat.$t)
+//                        var lng = Number(value.gsx$long.$t)
+//                        var coord = [lat,lng]
+//                        L.marker(coord).addTo(map);
+//                    };
+//                });
+            });
+        </script>
+	</head>
+	<body>
+	</body>	
+</html>
