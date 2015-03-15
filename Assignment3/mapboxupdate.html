@@ -30,6 +30,29 @@
                         var location = value.gsx$streetintersectionorapproximatestreetaddressoftheaccident.$t;
                         var city =  value.gsx$cityofbikeaccident.$t;
 						
+                        var colour = function() {
+                            var cause = value.gsx$causeofthebikingaccident.$t;
+                                switch (cause) {
+                                    case 'Obstruction in bike path':
+                                        return '#FFCCFF'
+                                        break;
+                                    case 'Traffic altercation':
+                                        return '#FFCC66'
+                                        break;
+                                    case 'Missing traffic sign or signal':
+                                        return '#FF66CC'
+                                        break;
+                                    case 'Poor weather conditions':
+                                        return '#CC66FF'
+                                        break;
+                                    case 'No bike path':
+                                        return '#FFFF66'
+                                        break;
+                                    default:
+                                        return '#FF3333'
+                                };
+                            };
+                        
                         L.mapbox.featureLayer({
                             type: 'Feature',
                             geometry: {
@@ -40,21 +63,17 @@
                                 title: location,
                                 description: time,
                                 'marker-size': 'medium',
-                                'marker-color': '#FF9900',
+                                'marker-color': colour(),
                                 'marker-symbol': 'bicycle'
                             }
                         }).addTo(map);
                     };
                 });
             });
-        featureLayer.on('ready', function() {
-        map.fitBounds(featureLayer.getBounds());
-		
-		
-});
-setTimeout(function(){
-   window.location.reload(1);
-}, 5000);
+
+//setTimeout(function(){
+//   window.location.reload(1);
+//}, 5000);
         </script>
     </body>
 </html>
