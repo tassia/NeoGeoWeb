@@ -32,9 +32,10 @@
                         var location = value.gsx$streetintersectionorapproximatestreetaddressoftheaccident.$t;
                         var city =  value.gsx$cityofbikeaccident.$t;
                         var injuries= value.gsx$provideabriefdescriptionofthebikeaccidentandanyinjuriesresultingfromit.$t;
+                        
+                        var cause = value.gsx$causeofthebikingaccident.$t;
 						
                         var colour = function() {
-                            var cause = value.gsx$causeofthebikingaccident.$t;
                                 switch (cause) {
                                     case 'Obstruction in bike path':
                                         return '#FFCCFF'
@@ -55,15 +56,18 @@
                                         return '#FF3333'
                                 };
                             };
-  L.mapbox.featureLayer({
+
+                        
+                        L.mapbox.featureLayer({
                             type: 'Feature',
                             geometry: {
                                 type: 'Point',
                                 coordinates: [lng,lat]
                             },
                             properties: {
-                                title: location,
-                                description: injuries,
+                                title: '<b>' + location + ', ' + city + '</br>',
+                                
+                                description: 'Cause: ' + cause + '<br>Description: ' + injuries + '<br>When it happened: ' + time,
                                 'marker-size': 'medium',
                                 'marker-color': colour(),
                                 'marker-symbol': 'bicycle'
