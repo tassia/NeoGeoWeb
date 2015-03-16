@@ -29,6 +29,7 @@
                         var time = value.gsx$timestamp.$t;
                         var location = value.gsx$streetintersectionorapproximatestreetaddressoftheaccident.$t;
                         var city =  value.gsx$cityofbikeaccident.$t;
+                        var injuries= value.gsx$provideabriefdescriptionofthebikeaccidentandanyinjuriesresultingfromit.$t;
 						
                         var colour = function() {
                             var cause = value.gsx$causeofthebikingaccident.$t;
@@ -52,7 +53,7 @@
                                         return '#FF3333'
                                 };
                             };
-                        
+                            
                         L.mapbox.featureLayer({
                             type: 'Feature',
                             geometry: {
@@ -61,7 +62,7 @@
                             },
                             properties: {
                                 title: location,
-                                description: time,
+                                description: injuries,
                                 'marker-size': 'medium',
                                 'marker-color': colour(),
                                 'marker-symbol': 'bicycle'
@@ -70,11 +71,50 @@
                     };
                 });
             });
+</script>
+   
+<style>
+.legend label,
+.legend span {
+  display:block;
+  float:left;
+  height:20px;
+  width:20%;
+  text-align:center;
+  font-size:10px;
+  color:#808080;
+  }
+</style>
 
+<!-- Set the display of this container to none so we can
+     add it programmatically to `legendControl` -->
+<div id='legend' style='display:none;'>
+    <strong>Cause of Bike Accident:</strong>
+  <nav class='legend clearfix'>
+    <span style='background:#FFCCFF;'></span>
+    <span style='background:#FFCC66;'></span>
+    <span style='background:#FF66CC;'></span>
+    <span style='background:#CC66FF;'></span>
+    <span style='background:#FFFF66;'></span>
+    <label>Obstruction in Path</label>
+    <label>Traffic Altercation</label>
+    <label>Missing Sign</label>
+    <label>Bad Weather</label>
+    <label>No bike path</label>
+    <br></br>
+    <br></br>
+    <span style='background:#FF3333;'></span>
+    <label>Other</label>
+        <br></br>
+</div>
+ </body>
+        
 //setTimeout(function(){
 //   window.location.reload(1);
 //}, 5000);
-        </script>
-    </body>
+        
+<script>
+    map.legendControl.addLegend(document.getElementById('legend').innerHTML);
+</script>
 </html>
 
