@@ -71,6 +71,10 @@
                     };
                 });
             });
+
+            L.mapbox.featureLayer()
+                .loadURL('bikePath.geojson')
+                .addTo(map);
 </script>
    
 <style>
@@ -79,7 +83,7 @@
   display:block;
   float:left;
   height:20px;
-  width:20%;
+  width:16.6%;
   text-align:center;
   font-size:10px;
   color:#808080;
@@ -88,22 +92,30 @@
 
 <div id='legend' style='display:none;'>
     <strong>Cause of Bike Accident:</strong>
+    <br></br>
   <nav class='legend clearfix'>
     <span style='background:#FFCCFF;'></span>
     <span style='background:#FFCC66;'></span>
     <span style='background:#FF66CC;'></span>
     <span style='background:#CC66FF;'></span>
     <span style='background:#FFFF66;'></span>
+<<<<<<< Updated upstream
     <label>Obstruction in path</label>
     <label>Traffic altercation</label>
     <label>Missing sign</label>
     <label>Bad weather</label>
-    <label>No bike path</label>
-    <br></br>
-    <br></br>
+=======
     <span style='background:#FF3333;'></span>
+    <label>Obstruction in Path</label>
+    <label>Traffic Altercation</label>
+    <label>Missing Sign</label>
+    <label>Bad Weather</label>
+>>>>>>> Stashed changes
+    <label>No bike path</label>
     <label>Other</label>
         <br></br>
+        <br></br>
+        </nav>
 </div>
  </body>
         

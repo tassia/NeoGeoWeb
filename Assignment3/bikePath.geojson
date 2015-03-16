@@ -2,38 +2,7 @@
     "type": "FeatureCollection",
     "features": [
         {
-            "type": "Feature",
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -73.612232,
-                        45.519119,
-                        0
-                    ],
-                    [
-                        -73.611372,
-                        45.52006,
-                        0
-                    ],
-                    [
-                        -73.610769,
-                        45.520704,
-                        0
-                    ],
-                    [
-                        -73.610157,
-                        45.521348,
-                        0
-                    ]
-                ]
-            },
-            "properties": {
-                "stroke": "0000ff",
-                "stroke-opacity": 1,
-                "fill-opacity": 0,
-                "FID": "0"
-            }
+            
         },
         {
             "type": "Feature",
