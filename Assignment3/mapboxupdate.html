@@ -61,7 +61,7 @@
             //create a Mapbox map centred on Montreal
             L.mapbox.accessToken = 'pk.eyJ1IjoiYW5uYWNoaW5uIiwiYSI6Il9FWFVaX3MifQ.LWyZpBRxnoARXldAE_ilcQ';
             var map = L.mapbox.map('map', 'examples.map-i86nkdio')
-            .setView([45.5217, -73.6673], 11);
+            .setView([45.44217, -73.6673], 11);
            
             //JQuery getJSON accesses JSON objects from our the Google Spreadsheet 
 $.getJSON("https://spreadsheets.google.com/feeds/list/1QaPb_Hnnq3WozVeMHaq0t1k0_nIr3XuFyEf4Pyrza4U/ov3895y/public/values?alt=json", function(data){  
@@ -118,7 +118,7 @@ $.getJSON("https://spreadsheets.google.com/feeds/list/1QaPb_Hnnq3WozVeMHaq0t1k0_
                             properties: {
                                 title: '<b>' + location + ', ' + city + '</br>',
                                 
-                                description: 'Cause: ' + cause + '<br>Description: ' + injuries + '<br>When it happened: ' + time,
+                                description: '<b>Cause: </b>' + cause + '<br><b>Description: </b>' + injuries + '<br><b>When it happened: </b>' + time,
                                 'marker-size': 'medium',
                                 'marker-color': colour(),
                                 'marker-symbol': 'bicycle'
