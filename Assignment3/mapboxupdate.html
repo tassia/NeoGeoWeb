@@ -3,6 +3,8 @@
         <meta charset=utf-8 />
         <title>Geotrio 2.0</title>
         <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+        
+        <!--import scripts to use Mapbox and JQuery-->
         <script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.5/mapbox.js'></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.5/mapbox.css' rel='stylesheet' />
@@ -12,29 +14,78 @@
         </style>
     </head>
     <body>
+        
+        <!--import Omnivore script to turn kml in GeoJSON to use in Mapbox-->
         <script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.2.0/leaflet-omnivore.min.js'></script>
         
+        <!--this is the legend style-->   
+        <style>
+        .legend label,
+        .legend span {
+          display:block;
+          float:left;
+          height:20px;
+          width:16.6%;
+          text-align:center;
+          font-size:10px;
+          color:#808080;
+          }
+        </style>
+
+        <!--the legend's parameters with defined colours and labels-->
+        <div id='legend' style='display:none;'>
+            <strong>Cause of Bike Accident:</strong>
+            <br></br>
+          <nav class='legend clearfix'>
+            <span style='background:#FFCCFF;'></span>
+            <span style='background:#FFCC66;'></span>
+            <span style='background:#FF66CC;'></span>
+            <span style='background:#CC66FF;'></span>
+            <span style='background:#FFFF66;'></span>
+            <span style='background:#FF3333;'></span>
+            <label>Obstruction in Path</label>
+            <label>Traffic Altercation</label>
+            <label>Missing Sign</label>
+            <label>Bad Weather</label>
+            <label>No bike path</label>
+            <label>Other</label>
+                <br></br>
+                <br></br>
+            </nav>
+        </div>
+        
+        <!--the map starts here!-->
         <div id='map'></div>
         <script>
+            
+            //create a Mapbox map centred on Montreal
             L.mapbox.accessToken = 'pk.eyJ1IjoiYW5uYWNoaW5uIiwiYSI6Il9FWFVaX3MifQ.LWyZpBRxnoARXldAE_ilcQ';
             var map = L.mapbox.map('map', 'examples.map-i86nkdio')
             .setView([45.5217, -73.6673], 11);
-            $.getJSON("https://spreadsheets.google.com/feeds/list/1QaPb_Hnnq3WozVeMHaq0t1k0_nIr3XuFyEf4Pyrza4U/ov3895y/public/values?alt=json", function(data){  
+           
+            //JQuery getJSON accesses JSON objects from our the Google Spreadsheet 
+$.getJSON("https://spreadsheets.google.com/feeds/list/1QaPb_Hnnq3WozVeMHaq0t1k0_nIr3XuFyEf4Pyrza4U/ov3895y/public/values?alt=json", function(data){  
+                //JQuery $.each loop calls a specified function for each element of the JSON array called data.feed.entry[] 
                 $.each(data.feed.entry, function(index, value) {
+                    //if the latitude in the spreadsheet is blank, skip this point
                     if (value.gsx$latitude.$t === ""){
                         return true;
+                    //if the longitude in the spreadsheet is blank, skip this point
                     } else if (value.gsx$longitude.$t === ""){
                         return true;
+                    //otherwise perform this function (create a point)
                     } else {
+                        //we need to turn the lat/long strings into numbers
                         var lat = Number(value.gsx$latitude.$t);
                         var lng = Number(value.gsx$longitude.$t);
+                        //next we simplify our other variables
                         var time = value.gsx$timestamp.$t;
                         var location = value.gsx$streetintersectionorapproximatestreetaddressoftheaccident.$t;
                         var city =  value.gsx$cityofbikeaccident.$t;
                         var injuries= value.gsx$provideabriefdescriptionofthebikeaccidentandanyinjuriesresultingfromit.$t;
                         
+                        //switch statement allows us to colour code our points based on type of accident
                         var cause = value.gsx$causeofthebikingaccident.$t;
-						
                         var colour = function() {
                                 switch (cause) {
                                     case 'Obstruction in bike path':
@@ -57,7 +108,7 @@
                                 };
                             };
 
-                        
+                         //Create a point using the variables we defined above
                         L.mapbox.featureLayer({
                             type: 'Feature',
                             geometry: {
@@ -76,52 +127,9 @@
                     };
                 });
             });
-
-</script>
-   
-        
-        
-<style>
-.legend label,
-.legend span {
-  display:block;
-  float:left;
-  height:20px;
-  width:16.6%;
-  text-align:center;
-  font-size:10px;
-  color:#808080;
-  }
-</style>
-
-<div id='legend' style='display:none;'>
-    <strong>Cause of Bike Accident:</strong>
-    <br></br>
-  <nav class='legend clearfix'>
-    <span style='background:#FFCCFF;'></span>
-    <span style='background:#FFCC66;'></span>
-    <span style='background:#FF66CC;'></span>
-    <span style='background:#CC66FF;'></span>
-    <span style='background:#FFFF66;'></span>
-    <span style='background:#FF3333;'></span>
-    <label>Obstruction in Path</label>
-    <label>Traffic Altercation</label>
-    <label>Missing Sign</label>
-    <label>Bad Weather</label>
-    <label>No bike path</label>
-    <label>Other</label>
-        <br></br>
-        <br></br>
-        </nav>
-</div>
- </body>
-        
-//setTimeout(function(){
-//   window.location.reload(1);
-//}, 5000);
-        
-<script>
-    map.legendControl.addLegend(document.getElementById('legend').innerHTML);
-</script>
+            //adds the legend to the map
+            map.legendControl.addLegend(document.getElementById('legend').innerHTML);
+        </script>
+    </body>
 </html>
 
