@@ -13,6 +13,7 @@
     </head>
     <body>
         <script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.2.0/leaflet-omnivore.min.js'></script>
+        
         <div id='map'></div>
         <script>
             L.mapbox.accessToken = 'pk.eyJ1IjoiYW5uYWNoaW5uIiwiYSI6Il9FWFVaX3MifQ.LWyZpBRxnoARXldAE_ilcQ';
@@ -73,12 +74,6 @@
                 });
             });
 
-var runLayer = omnivore.kml('bikePaths.kml')
-    .on('ready', function() {
-        map.fitBounds(runLayer.getBounds());
-    })
-    .addTo(map);
-            
 </script>
    
 <style>
