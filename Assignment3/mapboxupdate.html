@@ -12,6 +12,7 @@
         </style>
     </head>
     <body>
+        <script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.2.0/leaflet-omnivore.min.js'></script>
         <div id='map'></div>
         <script>
             L.mapbox.accessToken = 'pk.eyJ1IjoiYW5uYWNoaW5uIiwiYSI6Il9FWFVaX3MifQ.LWyZpBRxnoARXldAE_ilcQ';
@@ -72,9 +73,12 @@
                 });
             });
 
-            L.mapbox.featureLayer()
-                .loadURL('bikePath.geojson')
-                .addTo(map);
+var runLayer = omnivore.kml('bikePaths.kml')
+    .on('ready', function() {
+        map.fitBounds(runLayer.getBounds());
+    })
+    .addTo(map);
+            
 </script>
    
 <style>
@@ -99,18 +103,11 @@
     <span style='background:#FF66CC;'></span>
     <span style='background:#CC66FF;'></span>
     <span style='background:#FFFF66;'></span>
-<<<<<<< Updated upstream
-    <label>Obstruction in path</label>
-    <label>Traffic altercation</label>
-    <label>Missing sign</label>
-    <label>Bad weather</label>
-=======
     <span style='background:#FF3333;'></span>
     <label>Obstruction in Path</label>
     <label>Traffic Altercation</label>
     <label>Missing Sign</label>
     <label>Bad Weather</label>
->>>>>>> Stashed changes
     <label>No bike path</label>
     <label>Other</label>
         <br></br>
