@@ -17,7 +17,7 @@
             L.mapbox.accessToken = 'pk.eyJ1IjoiYW5uYWNoaW5uIiwiYSI6Il9FWFVaX3MifQ.LWyZpBRxnoARXldAE_ilcQ';
             var map = L.mapbox.map('map', 'examples.map-i86nkdio')
             .setView([45.5217, -73.6673], 11);
-            var featureLayer = $.getJSON("https://spreadsheets.google.com/feeds/list/1QaPb_Hnnq3WozVeMHaq0t1k0_nIr3XuFyEf4Pyrza4U/ov3895y/public/values?alt=json", function(data){  
+            $.getJSON("https://spreadsheets.google.com/feeds/list/1QaPb_Hnnq3WozVeMHaq0t1k0_nIr3XuFyEf4Pyrza4U/ov3895y/public/values?alt=json", function(data){  
                 $.each(data.feed.entry, function(index, value) {
                     if (value.gsx$latitude.$t === ""){
                         return true;
