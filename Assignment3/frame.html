@@ -2,30 +2,26 @@
     <head>
     </head>
     <body>
-        <table>
+        <table border="1" width="100%">
             <tr>
-                <th>Hey now</th>
-                <th></th>
-                <th></th>
-            </tr>
+                <th>Hey now you're an allstar get your game on go play</th>
+				<th></th>
+            </tr>			
             <tr>
-                <td><iframe 
+                <th width = "450"><iframe 
 				src="https://docs.google.com/forms/d/1HaHsuMNt61DiDo5pfHVWKz204NkS8MChJDXHzehYeiY/viewform?embedded=true" 
 				width="450" 
-				height="1090" 
+				height="1050" 
 				frameborder="0" 
 				marginheight="0" 
 				marginwidth="0"
-				></iframe></td>
-                <td>
-                </td>
-                <td><iframe src='mapboxupdate.html' width=200% height=100%></iframe></td>
+				></iframe></th>
+                <th><iframe name="map" src='mapboxupdate.html' width=99.5% height=100%></iframe></th>
             </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
+			<tr>
+			<th></th>
+			<th><button onclick="var ifr=document.getElementsByName('Right')[0]; ifr.src=ifr.src;">Refresh Map</button></th>
+			</tr>
 </table>
     </body>
 </html>
