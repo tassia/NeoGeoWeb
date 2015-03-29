@@ -1,0 +1,99 @@
+<html>
+    <head>
+        <head>
+        <meta charset=utf-8 />
+        <title>Geotrio 2.0</title>
+        <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+        <script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.5/mapbox.js'></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.5/mapbox.css' rel='stylesheet' />
+        <style>
+            body { margin:0; padding:0; }
+            #map { position:absolute; top:0; bottom:0; width:100%; }
+        </style>
+    </head>
+    
+    <body>
+        <div id='map'></div>
+        <script>
+            L.mapbox.accessToken = 'pk.eyJ1IjoiYW5uYWNoaW5uIiwiYSI6Il9FWFVaX3MifQ.LWyZpBRxnoARXldAE_ilcQ';
+            var map = L.mapbox.map('map', 'examples.map-i86nkdio')
+                .setView([45.608, -73.7155], 11);
+
+            var coordinates = document.getElementById('coordinates');
+            //bus marker tester in green
+            var bus = L.marker([45.6197,-73.648], {
+                icon: L.mapbox.marker.icon({
+                    'marker-color': '#00ff00',
+                    'marker-symbol': 'bus'
+                }),
+                draggable: false
+            }).addTo(map);
+            
+            var bc = bus.getLatLng();
+
+            var marker = L.marker([45.608, -73.7155], {
+                icon: L.mapbox.marker.icon({
+                  'marker-color': '#f86767'
+                }),
+                draggable: true
+            }).addTo(map);
+
+            // every time the marker is dragged, update the coordinates container
+            marker.on('dragend', ondragend);
+
+            function ondragend() {
+                var m = marker.getLatLng();
+                var distance = (m.distanceTo(bc)).toFixed();
+                console.log("The bus stop is "+distance/1000+" km away.");
+
+                //from this tutorial: http://webtutsdepot.com/2009/12/16/how-to-read-xml-with-javascript/
+                $.ajax({
+                    url: 'http://webservices.nextbus.com/service/publicXMLFeed?command=predictions&a=stl&stopId=46337',
+                    dataType: 'xml',
+                    success: parse,
+                        error: function(){alert('Error: Something went wrong');}
+                });
+                //tests the distance between the tester bus marker and the red moveable marker and prints stuff out in the console
+                function parse(document){
+                    $(document).find('prediction').each(function(){
+                        var time = $(this).attr('seconds');
+                        var maxDist = time*1.4;
+                        console.log("The bus is "+time/60+" minutes away from the bus stop.");
+                        if (maxDist >= distance){
+                            console.log("You can make the bus.");
+                        } else {
+                            console.log("You will miss the bus.");
+                        };
+                    });
+                };
+            };
+            //gets the data from the fusion table
+            function getData() {
+                var queryUrlHead = 'https://www.googleapis.com/fusiontables/v1/query?sql=';
+                var queryUrlTail = '&key=AIzaSyBk1qCGnNqiO5VQNKZXXCZ6_FkRwBgZHSI';
+                var tableId = '1xneKE6utpOo8rTGs_lKvvgb17gvY5_E2erqgb90c';
+
+                //SQL with a limit of the first 100 of the entries
+                var query = "SELECT 'stop_code', 'stop_lon', 'stop_lat' FROM " + tableId + " ORDER BY 'stop_code' LIMIT 100";
+                var queryurl = encodeURI(queryUrlHead + query + queryUrlTail);
+
+                var jqxhr = $.get(queryurl, function(data){
+                    //creates a point for each entry
+                    $.each(data.rows, function(index, value) {
+                        var lat = value[2]
+                        var lng = value[1]
+                        var stopID = value[0]
+                        L.marker([lat,lng], {
+                            icon: L.mapbox.marker.icon({
+                                'marker-color': '#00ccff',
+                                'marker-symbol': 'bus'
+                            })
+                        }).addTo(map);
+                    });
+                });
+            };
+            getData();
+        </script>
+    </body>
+</html>

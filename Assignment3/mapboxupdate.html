@@ -60,7 +60,11 @@
             
             //create a Mapbox map centred on Montreal
             L.mapbox.accessToken = 'pk.eyJ1IjoiYW5uYWNoaW5uIiwiYSI6Il9FWFVaX3MifQ.LWyZpBRxnoARXldAE_ilcQ';
-            var map = L.mapbox.map('map', 'examples.map-i86nkdio')
+            var map = L.mapbox.map('map', 'examples.map-i86nkdio', {
+                legendControl: {
+                    position: 'topright'
+                }
+            })
             .setView([45.44217, -73.6673], 11);
            
             //JQuery getJSON accesses JSON objects from our the Google Spreadsheet 
