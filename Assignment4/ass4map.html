@@ -49,7 +49,7 @@
 
                 //from this tutorial: http://webtutsdepot.com/2009/12/16/how-to-read-xml-with-javascript/
                 $.ajax({
-                    url: 'http://webservices.nextbus.com/service/publicXMLFeed?command=predictions&a=stl&stopId=46337',
+                    url: 'http://webservices.nextbus.com/service/publicXMLFeed?command=predictions&a=stl&stopId='+selectedStop,
                     dataType: 'xml',
                     success: parse,
                         error: function(){alert('Error: Something went wrong');}
@@ -64,32 +64,45 @@
                             console.log("You can make the bus.");
                         } else {
                             console.log("You will miss the bus.");
+						console.log(selectedStop)
                         };
                     });
                 };
             };
-            //gets the data from the fusion table
-            function getData() {
+            
+			//gets the data from the fusion table
+			var selectedStop = 0
+			function getData() {
                 var queryUrlHead = 'https://www.googleapis.com/fusiontables/v1/query?sql=';
                 var queryUrlTail = '&key=AIzaSyBk1qCGnNqiO5VQNKZXXCZ6_FkRwBgZHSI';
                 var tableId = '1xneKE6utpOo8rTGs_lKvvgb17gvY5_E2erqgb90c';
 
-                //SQL with a limit of the first 100 of the entries
+                //create SQL query
                 var query = "SELECT 'stop_code', 'stop_lon', 'stop_lat' FROM " + tableId + " ORDER BY 'stop_code' LIMIT 100";
                 var queryurl = encodeURI(queryUrlHead + query + queryUrlTail);
+				//console.log(queryurl);
+				var counter = 0;
 
-                var jqxhr = $.get(queryurl, function(data){
+                $.get(queryurl, function(data){
                     //creates a point for each entry
                     $.each(data.rows, function(index, value) {
                         var lat = value[2]
                         var lng = value[1]
-                        var stopID = value[0]
-                        L.marker([lat,lng], {
+                        var stopID = parseInt(value[0])
+						var distance = 999999
+						counter++;
+						
+						var marker = L.marker([lat,lng], {
                             icon: L.mapbox.marker.icon({
                                 'marker-color': '#00ccff',
                                 'marker-symbol': 'bus'
-                            })
-                        }).addTo(map);
+								})
+                			})
+							.on('click', function(){
+								selectedStop=(stopID)
+								console.log(selectedStop)
+							})
+							.addTo(map);
                     });
                 });
             };
