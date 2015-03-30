@@ -20,65 +20,76 @@
             var map = L.mapbox.map('map', 'examples.map-i86nkdio')
                 .setView([45.608, -73.7155], 11);
 
-            var coordinates = document.getElementById('coordinates');
-            //bus marker tester in green
-            var bus = L.marker([45.6197,-73.648], {
-                icon: L.mapbox.marker.icon({
-                    'marker-color': '#00ff00',
-                    'marker-symbol': 'bus'
-                }),
-                draggable: false
-            }).addTo(map);
-            
-            var bc = bus.getLatLng();
+			//marker for the location of the user
+			var marker = L.marker([0,0],{
+				icon: L.mapbox.marker.icon({
+					'marker-color': '#ff3300',
+					//'marker-symbol': 'marker-stroked'
+					'marker-symbol': '1'
+				}),
+				draggable: true
+			}).addTo(map);
 
-            var marker = L.marker([45.608, -73.7155], {
-                icon: L.mapbox.marker.icon({
-                  'marker-color': '#f86767'
-                }),
-                draggable: true
-            }).addTo(map);
+			//repositions marker on click
+			map.on('click', function(e) {
+				var latitude = e.latlng.lat;
+				var longitude = e.latlng.lng;
+				marker.setLatLng([latitude,longitude]);
+				marker.update();
+			});
 
             // every time the marker is dragged, update the coordinates container
             marker.on('dragend', ondragend);
-
+			
+			var bc = 0
             function ondragend() {
                 var m = marker.getLatLng();
-                var distance = (m.distanceTo(bc)).toFixed();
-                console.log("The bus stop is "+distance/1000+" km away.");
+				
+				for(var i = 0; i<stops.length; i++){
+					if (stops[i].stopID == selectedStop){
+						bc = stops[i].latlng;
+					};
+				};
+				if (bc == 0){
+					console.log("Select a bus stop")
+				} else {
+					var distance = (m.distanceTo(bc)).toFixed();
+					console.log("The bus stop is "+distance/1000+" km away.");
 
-                //from this tutorial: http://webtutsdepot.com/2009/12/16/how-to-read-xml-with-javascript/
-                $.ajax({
-                    url: 'http://webservices.nextbus.com/service/publicXMLFeed?command=predictions&a=stl&stopId='+selectedStop,
-                    dataType: 'xml',
-                    success: parse,
-                        error: function(){alert('Error: Something went wrong');}
-                });
-                //tests the distance between the tester bus marker and the red moveable marker and prints stuff out in the console
-                function parse(document){
-                    $(document).find('prediction').each(function(){
-                        var time = $(this).attr('seconds');
-                        var maxDist = time*1.4;
-                        console.log("The bus is "+time/60+" minutes away from the bus stop.");
-                        if (maxDist >= distance){
-                            console.log("You can make the bus.");
-                        } else {
-                            console.log("You will miss the bus.");
-						console.log(selectedStop)
-                        };
-                    });
-                };
-            };
+					//from this tutorial: http://webtutsdepot.com/2009/12/16/how-to-read-xml-with-javascript/
+					$.ajax({
+						url: 'http://webservices.nextbus.com/service/publicXMLFeed?command=predictions&a=stl&stopId='+selectedStop,
+						dataType: 'xml',
+						success: parse,
+							error: function(){alert('Error: Something went wrong');}
+					});
+					//tests the distance between the tester bus marker and the red moveable marker and prints stuff out in the console
+					function parse(document){
+						$(document).find('prediction').each(function(){
+							var time = $(this).attr('seconds');
+							var maxDist = time*1.4;
+							console.log((time/60).toFixed()+" minutes");
+							if (maxDist >= distance){
+								console.log("You can make the bus.");
+							} else {
+								console.log("You will miss the bus.");
+							console.log(selectedStop)
+							};
+						});
+					};
+				};
+			};
             
 			//gets the data from the fusion table
-			var selectedStop = 0
+			var stops = [];
+			var selectedStop = 0;
 			function getData() {
                 var queryUrlHead = 'https://www.googleapis.com/fusiontables/v1/query?sql=';
                 var queryUrlTail = '&key=AIzaSyBk1qCGnNqiO5VQNKZXXCZ6_FkRwBgZHSI';
                 var tableId = '1xneKE6utpOo8rTGs_lKvvgb17gvY5_E2erqgb90c';
 
                 //create SQL query
-                var query = "SELECT 'stop_code', 'stop_lon', 'stop_lat' FROM " + tableId + " ORDER BY 'stop_code' LIMIT 100";
+                var query = "SELECT 'stop_code', 'stop_lon', 'stop_lat' FROM " + tableId + " ORDER BY 'stop_code'";
                 var queryurl = encodeURI(queryUrlHead + query + queryUrlTail);
 				//console.log(queryurl);
 				var counter = 0;
@@ -86,10 +97,9 @@
                 $.get(queryurl, function(data){
                     //creates a point for each entry
                     $.each(data.rows, function(index, value) {
-                        var lat = value[2]
-                        var lng = value[1]
-                        var stopID = parseInt(value[0])
-						var distance = 999999
+                        var lat = value[2];
+                        var lng = value[1];
+                        var stopID = parseInt(value[0]);
 						counter++;
 						
 						var marker = L.marker([lat,lng], {
@@ -98,11 +108,14 @@
                                 'marker-symbol': 'bus'
 								})
                 			})
+							//click functionality
 							.on('click', function(){
-								selectedStop=(stopID)
-								console.log(selectedStop)
+								selectedStop = (stopID);
+								console.log(selectedStop);
 							})
 							.addTo(map);
+						var temp = {stopID: value[0], latlng: marker.getLatLng()}
+						stops.push(temp);
                     });
                 });
             };
