@@ -14,19 +14,20 @@
     </head>
     
     <body>
-        <!-- cluster scripts -->
+		<!-- cluster scripts -->
         <script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/leaflet.markercluster.js'></script>
-<link href='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.css' rel='stylesheet' />
-<link href='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.Default.css' rel='stylesheet' />
-        
+		<link href='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.css' rel='stylesheet' />
+		<link href='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.Default.css' rel='stylesheet' />
+	
         <div id='map'></div>
+        
        <style>
         .legend label,
         .legend span {
           display:block;
           float:left;
-          height:10px;
-          width:9%;
+          height:15px;
+          width:10%;
           text-align:left;
           font-size:10px;
           color:#808080;
@@ -38,7 +39,7 @@
         <div id='legend' style='display:none;'>
             <strong></strong>
             <nav class='legend clearfix'>
-            <span style='background:#b300ff;'></span>&nbsp Closest Bus Stops &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+            <span style='background:#b300ff;'></span>&nbsp Closest Bus Stops &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
             <span style='background:#ff3300;'></span>&nbsp Your Location<br>
             </nav>		
         </div>
@@ -66,8 +67,16 @@
 				placemarker.setLatLng([latitude,longitude]);
 				placemarker.update();
 				updateDistances(latitude, longitude);
+				updateStops();
 				createMarkers(20);
 			});
+			
+            // every time the marker is dragged, update the coordinates container
+            placemarker.on('dragend', function ondragend() {
+                updateDistances(placemarker.getLatLng().lat, placemarker.getLatLng().lng);
+				updateStops();
+				createMarkers(20);
+            });
 			
 			// function for converting degress to radians
 			function degreesToRadians(deg) {
@@ -91,43 +100,38 @@
 				//print();
 			}
 			
-			
-            // every time the marker is dragged, update the coordinates container
-            placemarker.on('dragend', function ondragend() {
-                updateDistances(placemarker.getLatLng().lat, placemarker.getLatLng().lng);
-				createMarkers(20);
-            });
-			
 			//creates markers for stops closest to user's location
+			var markerLayer = L.mapbox.featureLayer();
 			function createMarkers(numStops){
 				map.removeLayer(markerLayer);
 				markerLayer = L.mapbox.featureLayer();
 				for (var i = 0; i < numStops; i++) {
+				//***********
 					markerLayer.addLayer(L.marker([stops[i].lat,stops[i].lng], {
                         icon: L.mapbox.marker.icon({
-                            'marker-color': '#ffb300',
+                            'marker-color': '#b300ff',
                             'marker-symbol': 'bus'
                         })
                     }).bindPopup(
-						'<b>' + "Stop Number: </b>" + stops[i].stopID + '<br>' + '<b> Time of Arrival: </b>' + stops[i].time + '<br> <b> Distance to Stop: </b>' + stops[i].dist + ' km'
+						'<b>' + stops[i].routes[0].stopName + '</b>'+'</br>' +"<b> Stop Number: </b>" + stops[i].stopID + '<br>' + '<b> Time of Arrival: </b>' + stops[i].routes + '<br> <b> Distance to Stop: </b>' + stops[i].dist + ' km'
 						
+						
+						//put this for loop above, where the comment with stars is, because you
+						//need to build the html outside of the bindPopup function
+						
+						/*for (var j = 0; j < stops[i].routes.length; j++) {
+							
+						}*/
 					//ADD BALLOON HTML HERE	
-						
-						
-						
-						
 						
 					)).addTo(map);
 				}
+			
 			}
 			
 			
 			var stops = [];
-			var currentStops = [];
-			var markerLayer = L.mapbox.featureLayer();
-            //bus cluster layer
-            var busLayer = new L.MarkerClusterGroup();
-            
+			var allStopsLayer = new L.MarkerClusterGroup();
             //gets the data from the fusion table			
             function getData() {
                 var queryUrlHead = 'https://www.googleapis.com/fusiontables/v1/query?sql=';
@@ -141,60 +145,88 @@
 				var counter = 0;
 				
                 $.get(queryurl, function(data){
-                    
-
-                
                     //creates a point for each entry
 					$.each(data.rows, function(index, value) {
                         var lat = value[2]
                         var lng = value[1]
                         var stopID = parseInt(value[0])
 						var distance = 999999
+						var routes = [];
 						counter++;
 						
-                        //loop and create points representing each bus stop
+						
 						var marker = L.marker(new L.LatLng(lat,lng), {
                             icon: L.mapbox.marker.icon({
                                 'marker-color': '#00ccff',
                                 'marker-symbol': 'bus'
                             })
                         });
-                        //store the bus point in the bus cluster layer
-                        busLayer.addLayer(marker);
+						//store the bus point in the bus cluster layer
+                        allStopsLayer.addLayer(marker);
 						
-						var temp = {stopID: value[0], lat: value[2], lng: value[1], dist: distance}
+						var temp = {stopID: value[0], lat: value[2], lng: value[1], latlng: marker.getLatLng(), dist: distance, routes: routes}
 						stops.push(temp);
                     });
-                    //add bus clusters to the map
-                    map.addLayer(busLayer);
-                    });
-                };
-
+					//add clusters for all stops to the map
+					map.addLayer(allStopsLayer);
+                });
+				
+            };
             getData();
 			
-			//retrieves the time until the next bus arrives at a stop, and prints it to the console.
+			//adds live route data to the 20 stops closest to the user's location
 			function updateStops(){
-			    
-				for (var i = 0; i < stops.length; i++) {
+				for (var i = 0; i < 20; i++) {
 					var stop = stops[i].stopID;
-					//console.log(stop);
+					var stopname;
+					var routes = [];
+					
 					//from this tutorial: http://webtutsdepot.com/2009/12/16/how-to-read-xml-with-javascript/
 					$.ajax({
 						url: 'http://webservices.nextbus.com/service/publicXMLFeed?command=predictions&a=stl&stopId=' + stop,
 						dataType: 'xml',
+						async: false,
 						success: parse,
 							error: function(){alert('Error: Something went wrong');}
 					});
 					
 					function parse(document){
-						$(document).find('prediction').each(function(){
-				            var time = $(this).attr('seconds');
-							//stops[i].time = time;
-							console.log("Stop ID: " + stop + ", Time until next bus (seconds): " + time);
+						$(document).find('predictions').each(function(){
+							stopname = $(this).attr('stopTitle');
+							var routename = $(this).attr('routeTitle');
+							var buses = [];
+							$(this).find('prediction').each(function(){
+								var minutes = $(this).attr('minutes');
+								var seconds = $(this).attr('seconds');
+								var isDeparture = $(this).attr('isDeparture');
+								var busnumber = $(this).attr('vehicle');
+								var tempbus = {
+									stop: stopname, 
+									route: routename, 
+									bus: busnumber, 
+									isDeparture: isDeparture, 
+									minutes: minutes, 
+									seconds: seconds
+								};
+								buses.push(tempbus);
+							});
+							var route = {
+								stopName: stopname, 
+								routeName: routename, 
+								buses: buses
+							};
+							stops[i].routes.push(route);
 						});
+						
+						//prints each new stop object in the console and its route data
+						console.log("Stop name: " + stops[i].routes[0].stopName + " , Distance from user: " + stops[i].dist + " kilometers");
+						console.log(stops[i]);
+						console.log(stops[i].routes);
+						console.log("");
 					};
 				}
 			}
+			
 
 			//used to print stuff to console
 			function print(){
@@ -203,7 +235,7 @@
 				}
 			}
 			
-			//sort function used with the library tool
+			//sort function used with the javascript sort tool
 			var customSort = function(a,b) {
 				if (a.dist === b.dist) return 0;
 				if (a.dist > b.dist) return 1;
