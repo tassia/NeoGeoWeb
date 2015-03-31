@@ -1,0 +1,215 @@
+<html>
+    <head>
+        <head>
+        <meta charset=utf-8 />
+        <title>Geotrio 2.0</title>
+        <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+        <script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.5/mapbox.js'></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.5/mapbox.css' rel='stylesheet' />
+        <style>
+            body { margin:0; padding:0; }
+            #map { position:absolute; top:0; bottom:0; width:100%; }
+        </style>
+    </head>
+    
+    <body>
+        <!-- cluster scripts -->
+        <script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/leaflet.markercluster.js'></script>
+<link href='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.css' rel='stylesheet' />
+<link href='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.Default.css' rel='stylesheet' />
+        
+        <div id='map'></div>
+       <style>
+        .legend label,
+        .legend span {
+          display:block;
+          float:left;
+          height:10px;
+          width:9%;
+          text-align:left;
+          font-size:10px;
+          color:#808080;
+		  opacity:1;
+          }
+        </style>
+
+        <!--the legend's parameters with defined colours and labels-->
+        <div id='legend' style='display:none;'>
+            <strong></strong>
+            <nav class='legend clearfix'>
+            <span style='background:#b300ff;'></span>&nbsp Closest Bus Stops<br>
+            <span style='background:#ff3300;'></span>&nbsp Your Location<br>
+            </nav>		
+        </div>
+        
+        <script>
+            L.mapbox.accessToken = 'pk.eyJ1IjoiYW5uYWNoaW5uIiwiYSI6Il9FWFVaX3MifQ.LWyZpBRxnoARXldAE_ilcQ';
+            var map = L.mapbox.map('map', 'examples.map-i86nkdio')
+                .setView([45.608, -73.7155], 11);
+			
+			//marker for the location of the user
+			var placemarker = L.marker([0,0],{
+				icon: L.mapbox.marker.icon({
+					'marker-color': '#ff3300',
+					//'marker-symbol': 'marker-stroked'
+					'marker-symbol': 'star'
+				}),
+				title: 'Your location',
+				draggable: true
+			}).addTo(map);
+
+			//repositions marker on click
+			map.on('click', function(e) {
+				var latitude = e.latlng.lat;
+				var longitude = e.latlng.lng;
+				placemarker.setLatLng([latitude,longitude]);
+				placemarker.update();
+				updateDistances(latitude, longitude);
+				createMarkers(20);
+			});
+			
+			// function for converting degress to radians
+			function degreesToRadians(deg) {
+				return deg * Math.PI / 180;
+			}
+
+			//calculates distance between two points (equirectangular approximation)
+			function busDist(markerlat, markerlng, stoplat, stoplng){
+				var ydist = degreesToRadians(markerlat - stoplat);
+				var xdist = degreesToRadians(markerlng - stoplng);
+				var distance = Math.sqrt(xdist*xdist + ydist*ydist) * 6371;
+				return distance;
+			}
+			
+			//updates distance key for every bus stop to be the distance between that stop and the user's current location
+			function updateDistances(lat, lng){
+				for (var i = 0; i < stops.length; i++) {
+					stops[i].dist = busDist(lat, lng, stops[i].lat, stops[i].lng);
+				}
+				stops.sort(customSort);
+				//print();
+			}
+			
+			
+            // every time the marker is dragged, update the coordinates container
+            placemarker.on('dragend', function ondragend() {
+                updateDistances(placemarker.getLatLng().lat, placemarker.getLatLng().lng);
+				createMarkers(20);
+            });
+			
+			//creates markers for stops closest to user's location
+			function createMarkers(numStops){
+				map.removeLayer(markerLayer);
+				markerLayer = L.mapbox.featureLayer();
+				for (var i = 0; i < numStops; i++) {
+					markerLayer.addLayer(L.marker([stops[i].lat,stops[i].lng], {
+                        icon: L.mapbox.marker.icon({
+                            'marker-color': '#ffb300',
+                            'marker-symbol': 'bus'
+                        })
+                    }).bindPopup(
+						'<b>' + "Stop Number: </b>" + stops[i].stopID + '<br>' + '<b> Time of Arrival: </b>' + stops[i].time + '<br> <b> Distance to Stop: </b>' + stops[i].dist + ' km'
+						
+					//ADD BALLOON HTML HERE	
+						
+						
+						
+						
+						
+					)).addTo(map);
+				}
+			}
+			
+			
+			var stops = [];
+			var currentStops = [];
+			var markerLayer = L.mapbox.featureLayer();
+            //bus cluster layer
+            var busLayer = new L.MarkerClusterGroup();
+            
+            //gets the data from the fusion table			
+            function getData() {
+                var queryUrlHead = 'https://www.googleapis.com/fusiontables/v1/query?sql=';
+                var queryUrlTail = '&key=AIzaSyBk1qCGnNqiO5VQNKZXXCZ6_FkRwBgZHSI';
+                var tableId = '1xneKE6utpOo8rTGs_lKvvgb17gvY5_E2erqgb90c';
+
+                //create SQL query
+                var query = "SELECT 'stop_code', 'stop_lon', 'stop_lat' FROM " + tableId + " ORDER BY 'stop_code' LIMIT 100000";
+                var queryurl = encodeURI(queryUrlHead + query + queryUrlTail);
+				//console.log(queryurl);
+				var counter = 0;
+				
+                $.get(queryurl, function(data){
+                    
+
+                
+                    //creates a point for each entry
+					$.each(data.rows, function(index, value) {
+                        var lat = value[2]
+                        var lng = value[1]
+                        var stopID = parseInt(value[0])
+						var distance = 999999
+						counter++;
+						
+                        //loop and create points representing each bus stop
+						var marker = L.marker(new L.LatLng(lat,lng), {
+                            icon: L.mapbox.marker.icon({
+                                'marker-color': '#00ccff',
+                                'marker-symbol': 'bus'
+                            })
+                        });
+                        //store the bus point in the bus cluster layer
+                        busLayer.addLayer(marker);
+						
+						var temp = {stopID: value[0], lat: value[2], lng: value[1], dist: distance}
+						stops.push(temp);
+                    });
+                    //add bus clusters to the map
+                    map.addLayer(busLayer);
+                    });
+                };
+
+            getData();
+			
+			//retrieves the time until the next bus arrives at a stop, and prints it to the console.
+			function updateStops(){
+			    
+				for (var i = 0; i < stops.length; i++) {
+					var stop = stops[i].stopID;
+					//console.log(stop);
+					//from this tutorial: http://webtutsdepot.com/2009/12/16/how-to-read-xml-with-javascript/
+					$.ajax({
+						url: 'http://webservices.nextbus.com/service/publicXMLFeed?command=predictions&a=stl&stopId=' + stop,
+						dataType: 'xml',
+						success: parse,
+							error: function(){alert('Error: Something went wrong');}
+					});
+					
+					function parse(document){
+						$(document).find('prediction').each(function(){
+				            var time = $(this).attr('seconds');
+							//stops[i].time = time;
+							console.log("Stop ID: " + stop + ", Time until next bus (seconds): " + time);
+						});
+					};
+				}
+			}
+
+			//used to print stuff to console
+			function print(){
+				for (var i = 0; i < stops.length; i++) {
+					console.log(String(i) + ": " + stops[i].dist);
+				}
+			}
+			
+			//sort function used with the library tool
+			var customSort = function(a,b) {
+				if (a.dist === b.dist) return 0;
+				if (a.dist > b.dist) return 1;
+				return -1;
+			};
+            map.legendControl.addLegend(document.getElementById('legend').innerHTML);
+        </script>
+    </body>
+</html>

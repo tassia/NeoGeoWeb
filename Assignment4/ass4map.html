@@ -10,15 +10,35 @@
         <style>
             body { margin:0; padding:0; }
             #map { position:absolute; top:0; bottom:0; width:100%; }
+            
+
         </style>
     </head>
     
     <body>
+        
+        <style>
+        pre.ui-coordinates {
+  position:absolute;
+  bottom:10px;
+  left:10px;
+  padding:5px 10px;
+  background:rgba(0,0,0,0.5);
+  color:#fff;
+  font-size:11px;
+  line-height:18px;
+  border-radius:3px;
+  }
+        </style>
         <div id='map'></div>
+<pre id='coordinates' class='ui-coordinates'></pre>
+        
         <script>
             L.mapbox.accessToken = 'pk.eyJ1IjoiYW5uYWNoaW5uIiwiYSI6Il9FWFVaX3MifQ.LWyZpBRxnoARXldAE_ilcQ';
             var map = L.mapbox.map('map', 'examples.map-i86nkdio')
                 .setView([45.608, -73.7155], 11);
+
+            var coordinates = document.getElementById('coordinates');
 
 			//marker for the location of the user
 			var marker = L.marker([0,0],{
@@ -44,11 +64,12 @@
 			var bc = 0
             function ondragend() {
                 var m = marker.getLatLng();
-				
 				for(var i = 0; i<stops.length; i++){
 					if (stops[i].stopID == selectedStop){
 						bc = stops[i].latlng;
-					};
+
+                    };
+                    coordinates.innerHTML = 'Latitude: ' + m.lat + '<br />Longitude: ' + m.lng;
 				};
 				if (bc == 0){
 					console.log("Select a bus stop")
