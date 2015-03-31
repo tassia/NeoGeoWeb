@@ -16,6 +16,7 @@
     </head>
     
     <body>
+<<<<<<< HEAD
         
         <style>
         pre.ui-coordinates {
@@ -30,12 +31,49 @@
   border-radius:3px;
   }
         </style>
+=======
+	
+ 
+        <style>
+        .legend label,
+        .legend span {
+          display:block;
+          float:left;
+          height:20px;
+          width:15.0%;
+          text-align:center;
+          font-size:10px;
+          color:#808080;
+          }
+        </style>
+
+        <!--the legend's parameters with defined colours and labels-->
+        <div id='legend' style='display:none;'>
+			<table>
+				<strong><font size='2' align='justify'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Laval Bus Locator (STL)</font></strong><br/>
+				This application uses live STL bus schedules to help you figure out whether or not you can catch a bus from a bus stop near you.<br/>
+				Given that people walk on average 1.4 m/s, we will calculate if it is likely that you can walk to the stop on time to catch the next bus.
+				<br/><br/>
+				<nav class='legend clearfix'><font size='2'>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Choose your location on the map <br/>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Select the your bus stop of choice<br/>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Will you make the bus?<br/>
+				</font></nav>
+				</br>
+			</table>
+        </div>
+>>>>>>> origin/master
         <div id='map'></div>
 <pre id='coordinates' class='ui-coordinates'></pre>
         
         <script>
             L.mapbox.accessToken = 'pk.eyJ1IjoiYW5uYWNoaW5uIiwiYSI6Il9FWFVaX3MifQ.LWyZpBRxnoARXldAE_ilcQ';
-            var map = L.mapbox.map('map', 'examples.map-i86nkdio')
+            var map = L.mapbox.map('map', 'examples.map-i86nkdio',{
+                legendControl: {
+                    position: 'topleft'
+                },
+				zoomControl: false
+            })
                 .setView([45.608, -73.7155], 11);
 
             var coordinates = document.getElementById('coordinates');
@@ -135,12 +173,15 @@
 								console.log(selectedStop);
 							})
 							.addTo(map);
-						var temp = {stopID: value[0], latlng: marker.getLatLng()}
+						var temp = {stopID: value[0], lat: value[2], lng: value[1], latlng: marker.getLatLng()}
 						stops.push(temp);
                     });
                 });
             };
             getData();
+			
+			map.legendControl.addLegend(document.getElementById('legend').innerHTML);
+			new L.Control.Zoom({ position: 'topright' }).addTo(map);
         </script>
     </body>
 </html>
