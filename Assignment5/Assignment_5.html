@@ -12,14 +12,6 @@
 					.attr("width", 1000)
 					.attr("height", 3000)
 					
-				//canvas.selectAll("circle")
-				//	.data(data)
-				//	.enter()
-				//		.append("circle")
-				//		.attr("r", function(d){return (d.mcd_count/d.population)*1000000;})
-				//		.attr("cx", function(d,i) {return 150})
-				//		.attr("cy", function(d,i) {return i*100})
-				//		.attr("fill","orange");
 				
 				canvas.selectAll("path")
 					.data(data)
@@ -33,6 +25,7 @@
 						.attr("x", function(d,i) {return 150})
 						.attr("y", function(d,i) {return i*100000});
 	
+
 				canvas.selectAll("text")
 					.data(data)
 					.enter()
