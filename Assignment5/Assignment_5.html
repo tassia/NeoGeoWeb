@@ -4,29 +4,42 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	</head>
     
-    <body>
-        <script type="text/javascript">
+	<body>
+		<script type="text/javascript">
 			d3.csv("https://docs.google.com/spreadsheets/d/1KMw1_x9Z8hCXwB2GA8WhjlQ5r5IhhU28ayMPVZONQxo/export?format=csv&id=1KMw1_x9Z8hCXwB2GA8WhjlQ5r5IhhU28ayMPVZONQxo", function(data) {
 				
 				var canvas = d3.select("body").append("svg")
 					.attr("width", 1000)
 					.attr("height", 3000)
 					
-				canvas.selectAll("rect")
+				//canvas.selectAll("circle")
+				//	.data(data)
+				//	.enter()
+				//		.append("circle")
+				//		.attr("r", function(d){return (d.mcd_count/d.population)*1000000;})
+				//		.attr("cx", function(d,i) {return 150})
+				//		.attr("cy", function(d,i) {return i*100})
+				//		.attr("fill","orange");
+				
+				canvas.selectAll("path")
 					.data(data)
 					.enter()
-						.append("rect")
-						.attr("width", function(d){return (d.mcd_count/d.population)*10000000;})
-						.attr("height", 48)
-						.attr("y", function(d,i) {return i*50})
-						.attr("fill","orange");
-				
+						.append("path")
+						.attr("xmlns","http://www.w3.org/2000/svg")
+						.attr("fill","#FFC300")
+						.attr("d","M196.489,18.773c23.334,0,42.252,98.376,42.252,219.73h33.81c0-130.692-34.059-236.635-76.062-236.635  c-23.9,0-45.221,31.84-59.164,81.629C123.388,33.708,102.059,1.868,78.162,1.868c-42.003,0-76.066,105.943-76.066,236.635H35.91  c0-121.354,18.921-219.73,42.252-219.73c23.338,0,42.264,90.809,42.264,202.835h33.802  C154.229,109.582,173.149,18.773,196.489,18.773")
+						.attr("width", function(d){return 271*(d.mcd_count/d.population)*1000000;})
+						.attr("height", function(d) {return 238*(d.mcd_count/d.population)*1000000;})
+						.attr("x", function(d,i) {return 150})
+						.attr("y", function(d,i) {return i*100});
+	
 				canvas.selectAll("text")
 					.data(data)
 					.enter()
 						.append("text")
 						.attr("fill", "blue")
-						.attr("y", function(d,i) {return i*50+24})
+						.attr("y", function(d,i) {return i*100})
+						.attr("x", function(d,i) {return 120})
 						.text(function(d){return d.name;})
 			});
         </script>
