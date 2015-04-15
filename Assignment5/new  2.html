@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<script src="http://tomsisk.com/ondemand/js/jquery-2.1.1.min.js"></script>
+<script src="http://tomsisk.com/ondemand/js/d3.v3.min.js"></script>
+<script src="http://tomsisk.com/ondemand/js/bootstrap.min.js"></script>
+<script src="http://tomsisk.com/ondemand/js/underscore.min.js"></script>
+<script src="http://tomsisk.com/ondemand/js/jsonp.js"></script>
+<style>
+
+text {
+  font: 10px sans-serif;
+}
+html, body {
+        overflow:hidden;
+      }
+circle {
+        stroke: #555;
+        stroke-width: 2px;
+        opacity: .8;
+      }
+      html, body {
+        overflow:hidden;
+      }
+      circle {
+        stroke: #555;
+        stroke-width: 2px;
+        opacity: .8;
+      }
+      circle:hover {
+        stroke:#000;
+        opacity:1;
+      }
+      .btn-group {
+        margin-left: 330px;
+      }
+      .label {
+        font-size: 20px;
+      }
+      .color-legend {
+        min-height: 100%; 
+        min-height: 100vh; 
+
+        display: flex;
+        align-items: center;
+
+        height:34px; font-weight:bold; text-align:center; color:white;
+        text-shadow: 2px 2px #333;
+      }
+    </style>
+    <link rel="stylesheet" href="http://tomsisk.com/ondemand/css/bootstrap.min.css" type="text/css" />
+
+
+</style>
+<body>
+<script>
+
+var diameter = 960,
+    format = d3.format(",d"),
+    color = d3.scale.category20c();
+
+var bubble = d3.layout.pack()
+    .sort(null)
+    .size([diameter, diameter])
+    .padding(1.5);
+
+var svg = d3.select("body").append("svg")
+    .attr("width", diameter)
+    .attr("height", diameter)
+    .attr("class", "bubble");
+//**HERE new JSON
+d3.json("https://api.myjson.com/bins/27tlt", function(error, root) {
+  var node = svg.selectAll(".node")
+      .data(bubble.nodes(classes(root))
+      .filter(function(d) { return !d.children; }))
+    .enter().append("g")
+      .attr("class", "node")
+      .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
+
+  node.append("title")
+      .text(function(d) { return d.className + ": " + format(d.value); });
+
+  node.append("circle")
+      .attr("r", function(d) { return d.r; })
+      .style("fill", function(d) { return color(d.packageName); })
+	  .on("mouseover", function (d) { showPopover.call(this, d); })
+      .on("mouseout", function (d) { removePopovers(); });
+    
+  //node.append("text")
+  //    .attr("dy", ".3em")
+  //    .style("text-anchor", "middle")
+  //    .text(function(d) { return d.className.substring(0, d.r / 3); });
+});
+
+// Returns a flattened hierarchy containing all leaf nodes under the root.
+function classes(root) {
+  var classes = [];
+//*********************HERE (line 100)
+  function recurse(name, node) {
+    if (node.children) node.children.forEach(function(child) { recurse(node.name, child); });
+    else classes.push({packageName: name, className: node.state, value: node.count});
+  }
+
+  recurse(null, root);
+  return {children: classes};
+}
+
+function showPopover (d) {
+    $(this).popover({
+        placement: 'autotop',
+        container: 'body',
+        trigger: 'manual',
+        html : true,
+        content: function() { 
+            return d.className.substring(0, d.r / 3);
+        }
+    });
+	$(this).popover('show')
+}
+
+function removePopovers () {
+    $('.popover').each(function() {
+        $(this).remove();
+    }); 
+}
+
+d3.select(self.frameElement).style("height", diameter + "px");
+
+</script>

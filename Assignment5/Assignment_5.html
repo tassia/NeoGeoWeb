@@ -5,7 +5,66 @@
 	</head>
     
 	<body>
-		<script type="text/javascript">
+       <script type="text/javascript">
+            
+            var dataset = [];
+            function getJSON() {
+                    $.getJSON("https://spreadsheets.google.com/feeds/list/1KMw1_x9Z8hCXwB2GA8WhjlQ5r5IhhU28ayMPVZONQxo/oj0ui2k/public/values?alt=json", function(data){
+                    $.each(data.feed.entry, function(index, value) {
+                        var state = value.gsx$name.$t;
+                        var type = value.gsx$type.$t;
+                        var count = Number(value.gsx$count.$t);
+                        var div = Number(value.gsx$division.$t);
+                        var percap = Number(value.gsx$percap.$t);
+
+                        var object = {
+                            state: state,
+                            type: type,
+                            count: count,
+                            percap: percap,
+                            div: div
+                        };
+
+                        dataset.push(object);
+                    });
+                
+                var newData = { name :"root", children : [] },
+                    levels = ["type", "div"];
+
+                // For each data row, loop through the expected levels traversing the output tree
+                dataset.forEach(function(d){
+                    // Keep this as a reference to the current level
+                    var depthCursor = newData.children;
+                    // Go down one level at a time
+                    levels.forEach(function( property, depth ){
+
+                        // Look to see if a branch has already been created
+                        var index;
+                        depthCursor.forEach(function(child,i){
+                            if ( d[property] == child.name ) index = i;
+                        });
+                        // Add a branch if it isn't there
+                        if ( isNaN(index) ) {
+                            depthCursor.push({ name : d[property], children : []});
+                            index = depthCursor.length - 1;
+                        }
+                        // Now reference the new child array as we go deeper into the tree
+                        depthCursor = depthCursor[index].children;
+                        // This is a leaf, so add the last element to the specified branch
+                        if ( depth === levels.length - 1 ) depthCursor.push({ state : d.state, count : d.count, percap : d.percap});
+                    });
+                });
+                console.log(newData)
+//            var nest = d3.nest()
+//                .key(function(d){ return d.mcd; })
+//                .entries(dataset);
+                });
+            };
+        getJSON()
+
+        </script>
+
+   <!--<script type="text/javascript">
 			d3.csv("https://docs.google.com/spreadsheets/d/1KMw1_x9Z8hCXwB2GA8WhjlQ5r5IhhU28ayMPVZONQxo/export?format=csv&id=1KMw1_x9Z8hCXwB2GA8WhjlQ5r5IhhU28ayMPVZONQxo", function(data) {
 				
 				var canvas = d3.select("body").append("svg")
@@ -32,9 +91,9 @@
 						.append("text")
 						.attr("fill", "blue")
 						.attr("y", function(d,i) {return i*100})
-						.attr("x", function(d,i) {return 120})
+						.attr("x", function(d,i) {return i*120})
 						.text(function(d){return d.name;})
 			});
-        </script>
+        </script> -->
     </body>
 </html>
